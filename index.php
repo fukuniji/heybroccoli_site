@@ -437,7 +437,7 @@
 
   <!-- ---------------------SERTIFICATES--------------------------->
 
-  <div class="container">
+  < class="container">
     <h2 class="sertificates__title title"> Мои сертификаты </h2>
     <div class="sertificates__text">
       <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. На данный момент я заканчиваю обучение, но у меня уже есть право на практику. Здесь обучают коучей по питанию с 2005 года, это диплом международного образца, признанный во всех странах. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
@@ -457,35 +457,42 @@
     <!-- ---------------------SERTIFICATES END--------------------------->
 
     <!-- ---------------------FORM--------------------------->
-    <h2 class="form__title title"> Мои сертификаты </h2>
-    <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
-    <form action="">
 
+  <div class="form">
+    <div class="form__wrapper">
+      <h2 class="form__title title"> Напишите мне </h2>
+      <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
+      <form class="form__forma forma" action="#">
+        <input class="forma__input" type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2}"
+          required>
+        <input class="forma__input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required>
+        <input class="forma__input" type="tel" placeholder="Телефон" pattern="(\+7[0-9]{10}|8[0-9]{10})"
+          required>
+        <input class="forma__input" type="checkbox" value="1">нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с 
+          <a href="#">Политикой конфиденциальности</a>
+      </form>
 
-      <!-- доделать форму -->
-
-    </form>
-
-    <button class="button-long_white">
-      Отправить
-    </button>
-
-    <div class="form__btn">
-      <button class="button-long">
-        <a href="https://t.me/heybroccoli">
-          Telegram
-          <img src="./assets/image/form/telegram.png" alt="иконка Telegram" />
-        </a>
+      <button class="button-long_white">
+        Отправить
       </button>
-      <button class="button-long">
-        <a href="#">
-          <!-- ADD WATSAPP LINK -->
-          WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp" />
-        </a>
-      </button>
+
+      <div class="form__btn">
+        <button class="button-long">
+          <a href="https://t.me/ffemme">
+            Telegram
+            <img src="./assets/image/form/telegram.png" alt="иконка Telegram" />
+          </a>
+        </button>
+        <button class="button-long">
+          <a href="https://wa.me/351912780199">
+            WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp" />
+          </a>
+        </button>
+      </div>
+      <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
     </div>
-
-    <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
+  </div>
 
     <!-- ---------------------FORM END--------------------------->
 
