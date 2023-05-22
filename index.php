@@ -240,14 +240,13 @@
 
       <div class="task__btn">
         <button class="button-long">
-          <a href="https://t.me/heybroccoli">
+          <a href="https://t.me/ffemme">
             Telegram
             <img src="./assets/image/task/telegram.png" alt="иконка Telegram" />
           </a>
         </button>
         <button class="button-long">
-          <a href="#">
-            <!-- ADD WATSAPP LINK -->
+          <a href="https://wa.me/351912780199">
             WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp" />
           </a>
         </button>
