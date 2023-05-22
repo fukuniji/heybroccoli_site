@@ -24,8 +24,7 @@
     общий класс .button-round для круглых кнопок
     общий класс .button-long для длинных кнопок
     общий класс .line для линий декора
-   общий класс .bluetext  для синего поинт-текста 
-
+    общий класс .bluetext  для синего поинт-текста 
   -->
 
   <!-- ---------------------HEADER--------------------------->
@@ -36,22 +35,22 @@
 
       <ul class="header__nav nav">
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Обо мне </a>
+          <a href="#about" class="nav__link"> Обо мне </a>
         </li>
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Подход к работе</a>
+          <a href="#approach" class="nav__link"> Подход к работе</a>
         </li>
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Чем могу помочь </a>
+          <a href="#task" class="nav__link"> Чем могу помочь </a>
         </li>
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Услуги </a>
+          <a href="#services" class="nav__link"> Услуги </a>
         </li>
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Отзывы </a>
+          <a href="#rewiew" class="nav__link"> Отзывы </a>
         </li>
         <li class="nav__item nav__item_activ">
-          <a href="#" class="nav__link"> Сертификаты</a>
+          <a href="#sertificates" class="nav__link"> Сертификаты</a>
         </li>
       </ul>
     </div>
@@ -61,7 +60,7 @@
 
   <!-- ---------------------ABOUT--------------------------->
 
-  <div class="about">
+  <div class="about" id="about">
     <div class="about__wrapper">
       <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo" />
       <div class="about__section section">
@@ -109,7 +108,7 @@
 
   <!-- ---------------------APPROACH--------------------------->
 
-  <div class="approach">
+  <div class="approach" id="approach">
     <div class="container">
       <h2 class="approach__title title">Подход к работе </h2>
 
@@ -171,7 +170,7 @@
 
   <!-- ---------------------TASK--------------------------->
 
-  <div class="task">
+  <div class="task" id="task">
     <div class="container">
       <h2 class="task__title title">С какими задачами я могу помочь </h2>
       <div class="task__row row">
@@ -260,7 +259,7 @@
 
   <!-- ---------------------SERVICES--------------------------->
 
-  <div class="services">
+  <div class="services" id="services">
     <div class="container">
       <h2 class="services__title title">Услуги </h2>
       <div class="services__cards card">
@@ -424,7 +423,7 @@
   <!-- ---------------------SERVICES-FOR-BUSINESS END--------------------------->
 
   <!-- ---------------------REWIEW--------------------------->
-  <div class="container">
+  <div class="container" id="rewiew">
     <h2 class="rewiew__title title"> Отзывы </h2>
     <div class="rewiew__photo">
       <img src="#" alt="">
@@ -437,7 +436,7 @@
 
   <!-- ---------------------SERTIFICATES--------------------------->
 
-  < class="container">
+  <div class="container" id="sertificates">
     <h2 class="sertificates__title title"> Мои сертификаты </h2>
     <div class="sertificates__text">
       <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. На данный момент я заканчиваю обучение, но у меня уже есть право на практику. Здесь обучают коучей по питанию с 2005 года, это диплом международного образца, признанный во всех странах. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
@@ -497,7 +496,22 @@
     <!-- ---------------------FORM END--------------------------->
 
     <!-- ---------------------FOOTER--------------------------->
-
+  <footer class="footer">
+    <div class="container">
+      <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
+      <div class="footer__text">@nutrition2023</div>
+      <nav class="footer__nav nav">
+        <h6>Меню</h6>
+        <a href="#about">Обо мне</a>
+        <a href="#approach">Подход к работе</a>
+        <a href="#task">Чем могу помочь</a>
+        <a href="#services">Услуги</a>
+        <a href="#rewiew">Отзывы</a>
+      </nav>
+      <div></div>
+    
+    </div>
+  </footer>
     <!-- ---------------------FOOTER END--------------------------->
 
 
