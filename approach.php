@@ -27,10 +27,10 @@
             <div class="content-aproach__col-2">
                 <ul class="col-2__list list">
                     <h4 class="list__title">Мы не будем:</h4>
-                    <li list_item><img src="./assets/image/approach/krestik.svg" alt="нет" />считать калории</li>
-                    <li list_item><img src="./assets/image/approach/krestik.svg" alt="нет" />взвешивать порции</li>
-                    <li list_item><img src="./assets/image/approach/krestik.svg" alt="нет" /> питаться по расписанию</li>
-                    <li list_item>
+                    <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" />считать калории</li>
+                    <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" />взвешивать порции</li>
+                    <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" /> питаться по расписанию</li>
+                    <li class="list_item">
                         <img src="./assets/image/approach/krestik.svg" alt="нет" />отказываться от тортов и пиццы
                     </li>
                 </ul>
