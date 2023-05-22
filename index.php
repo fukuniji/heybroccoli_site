@@ -176,34 +176,61 @@
       <h2 class="task__title title">С какими задачами я могу помочь </h2>
       <div class="task__row row">
         <div class="row__item">
-          <img src="./assets/image/task/1.svg" alt="иконка" надоело есть одно и то же />
+          <div class="row__icon">
+            <img src="./assets/image/task/1.svg" alt="иконка" />
+          </div>
+          <div class="row__text">надоело есть одно и то же</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/2.svg" alt="иконка" постоянно ем, но не наедаюсь />
+          <div class="row__icon">
+            <img src="./assets/image/task/2.svg" alt="иконка" />
+          </div>
+          <div class="row__text">постоянно ем, но не наедаюсь</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/3.svg" alt="иконка" хочу перестать есть сладкое />
+          <div class="row__icon">
+            <img src="./assets/image/task/3.svg" alt="иконка" />
+          </div>
+          <div class="row__text">хочу перестать есть сладкое</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/4.svg" alt="иконка" хочу научиться есть овощи />
+          <div class="row__icon">
+            <img src="./assets/image/task/4.svg" alt="иконка" />
+          </div>
+          <div class="row__text">хочу научиться есть овощи</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/5.svg" alt="иконка" я не ем мясо, где брать белок />
+          <div class="row__icon">
+            <img src="./assets/image/task/5.svg" alt="иконка" />
+          </div>
+          <div class="row__text">я не ем мясо, где брать белок</div>
         </div>
       </div>
 
       <div class="task__row row">
         <div class="row__item">
-          <img src="./assets/image/task/6.svg" alt="иконка" я переехал(а) в новую страну и не понимаю, что есть />
+          <div class="row__icon">
+            <img src="./assets/image/task/6.svg" alt="иконка" />
+          </div>
+          <div class="row__text">я переехал(а) в новую страну и не понимаю, что есть</div> 
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/7.svg" alt="иконка" хочу питаться разнообразно и не проводить жизнь на кухне />
+          <div class="row__icon">
+            <img src="./assets/image/task/7.svg" alt="иконка" />
+          </div>
+          <div class="row__text">хочу питаться разнообразно и не проводить жизнь на кухне</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/8.svg" alt="иконка" я не чувствую голод и ем потому, что надо />
+          <div class="row__icon">
+            <img src="./assets/image/task/8.svg" alt="иконка" />
+          </div>
+          <div class="row__text">я не чувствую голод и ем потому, что надо</div>
         </div>
         <div class="row__item">
-          <img src="./assets/image/task/9.svg" alt="иконка" у меня жесткий график, я не успеваю нормально есть />
+          <div class="row__icon">
+            <img src="./assets/image/task/9.svg" alt="иконка" />
+          </div>
+          <div class="row__text">у меня жесткий график, я не успеваю нормально есть</div>
         </div>
       </div>
 
