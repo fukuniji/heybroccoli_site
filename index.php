@@ -393,14 +393,74 @@
 
       <img src="./assets/image/services-business/2people.png" alt="Елена с коллегой" class="services-business__img-1" />
       <div class="services-business__text-1"> Если вы <span class="bluetext"> подрядчик</span>, который способен организовать вкусный и сбалансированный <span class="bluetext "> кейтеринг</span>, тоже напишите мне, найдем возможности для сотрудничества.</div>
-
-
-
-      <img src=" ./assets/image/services-business/4people.png" alt="Елена с коллегами" />
-      <div class="services-business__text-1">Если вы хотите придумать классные и полезные закуски на <span class="bluetext ">вечеринку, детский праздник, пресс-конференцию</span>, танцевальный <span class="bluetext ">фестиваль</span> или провести <span class="bluetext ">лекцию</span> для своих сотрудников по теме питания, подобрать меню для столовой или ретрита — я могу вам помочь.</div>
+      <div class="services-business__text-2">Если вы хотите придумать классные и полезные закуски на <span class="bluetext ">вечеринку, детский праздник, пресс-конференцию</span>, танцевальный <span class="bluetext ">фестиваль</span> или провести <span class="bluetext ">лекцию</span> для своих сотрудников по теме питания, подобрать меню для столовой или ретрита — я могу вам помочь.</div>
+      <img src="./assets/image/services-business/4people.png" alt="Елена с коллегами" class="services-business__img-2" />
+      <img src="./assets/image/services-business/food.jpg" alt="еда" class="services-business__img-3" />
     </div>
   </div>
   <!-- ---------------------SERVICES-FOR-BUSINESS END--------------------------->
+
+  <!-- ---------------------REWIEW--------------------------->
+  <div class="container">
+    <h2 class="rewiew__title title"> Отзывы </h2>
+
+  </div>
+
+
+
+  <!-- ---------------------REWIEW END--------------------------->
+
+  <!-- ---------------------SERTIFICATES--------------------------->
+
+  <div class="container">
+    <h2 class="sertificates__title title"> Мои сертификаты </h2>
+    <div class="sertificates__text">
+      <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. На данный момент я заканчиваю обучение, но у меня уже есть право на практику. Здесь обучают коучей по питанию с 2005 года, это диплом международного образца, признанный во всех странах. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
+
+
+
+    </div>
+
+    <!-- ---------------------SERTIFICATES END--------------------------->
+
+
+    <!-- ---------------------FORM--------------------------->
+    <h2 class="form__title title"> Мои сертификаты </h2>
+    <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
+    <form action="">
+
+
+      <!-- доделать форму -->
+
+    </form>
+
+    <button class="button-long_white">
+      Отправить
+    </button>
+
+    <div class="form__btn">
+      <button class="button-long">
+        <a href="https://t.me/heybroccoli">
+          Telegram
+          <img src="./assets/image/form/telegram.png" alt="иконка Telegram" />
+        </a>
+      </button>
+      <button class="button-long">
+        <a href="#">
+          <!-- ADD WATSAPP LINK -->
+          WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp" />
+        </a>
+      </button>
+    </div>
+
+    <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
+
+    <!-- ---------------------FORM END--------------------------->
+
+    <!-- ---------------------FOOTER--------------------------->
+
+    <!-- ---------------------FOOTER END--------------------------->
+
 
 </body>
 
