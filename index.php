@@ -284,13 +284,12 @@
         </div>
         <div class="card__btn">
           <button class="button-round">
-            <a href="https://t.me/heybroccoli">
+            <a href="https://t.me/ffemme">
               <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
             </a>
           </button>
           <button class="button-round">
-            <a href="#">
-              <!-- ADD WATSAPP LINK -->
+            <a href="https://wa.me/351912780199">
               <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
             </a>
           </button>
@@ -321,13 +320,12 @@
         </div>
         <div class="card__btn">
           <button class="button-round">
-            <a href="https://t.me/heybroccoli">
+            <a href="https://t.me/ffemme">
               <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
             </a>
           </button>
           <button class="button-round">
-            <a href="#">
-              <!-- ADD WATSAPP LINK -->
+            <a href="https://wa.me/351912780199">
               <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
             </a>
           </button>
@@ -357,13 +355,12 @@
         </div>
         <div class="card__btn">
           <button class="button-round">
-            <a href="https://t.me/heybroccoli">
+            <a href="https://t.me/ffemme">
               <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
             </a>
           </button>
           <button class="button-round">
-            <a href="#">
-              <!-- ADD WATSAPP LINK -->
+            <a href="https://wa.me/351912780199">
               <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
             </a>
           </button>
@@ -395,13 +392,12 @@
         </div>
         <div class="card__btn">
           <button class="button-round">
-            <a href="https://t.me/heybroccoli">
+            <a href="https://t.me/ffemme">
               <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
             </a>
           </button>
           <button class="button-round">
-            <a href="#">
-              <!-- ADD WATSAPP LINK -->
+            <a href="https://wa.me/351912780199">
               <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
             </a>
           </button>
@@ -459,7 +455,6 @@
     </div>
   </div>
     <!-- ---------------------SERTIFICATES END--------------------------->
-
 
     <!-- ---------------------FORM--------------------------->
     <h2 class="form__title title"> Мои сертификаты </h2>
