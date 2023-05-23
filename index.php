@@ -31,7 +31,7 @@
 
   <header class="header">
     <div class="container">
-      <a href="#"><img src="" alt="logo" class="header__logo" /></a>
+      <a href="#"><img src="./assets/image/footer/logo.svg" alt="logo" class="header__logo"></a>
 
       <ul class="header__nav nav">
         <li class="nav__item nav__item_activ">
@@ -62,12 +62,12 @@
 
   <div class="about" id="about">
     <div class="about__wrapper">
-      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo" />
+      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
       <div class="about__section section">
         <h3 class="section__slogan slogan">Привычки, а не диеты!</h3>
         <div class="section__img">
-          <img src="./assets/image/about/line.png" alt="line" class="line" />
-          <img src="./assets/image/about/broccoli.svg" alt="broccoli" class="section__img_second" />
+          <img src="./assets/image/about/line.png" alt="line" class="line">
+          <img src="./assets/image/about/broccoli.svg" alt="broccoli" class="section__img_second">
         </div>
         <h2 class="section__title">Куликова Елена</h2>
         <div class="section__subtitle">нутрициолог</div>
@@ -116,7 +116,7 @@
         <div class="content-aproach__col-1 col-1">
           <h3 class="col-1__slogan slogan">К себе и еде — с любовью</h3>
           <div class="col-1__img">
-            <img src="./assets/image/approach/line.png" alt="line" class="line" />
+            <img src="./assets/image/approach/line.png" alt="line" class="line">
           </div>
           <div class="col-1__text-1">
             Пожалуй, так я бы описала главный принцип, которым руководствуюсь
@@ -135,33 +135,33 @@
           </div>
         </div>
         <div class="content-aproach__col-2">
-          <ul class="col-2__list list">
-            <h4 class="list__title">Мы не будем:</h4>
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" />считать калории</li>
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" />взвешивать порции</li>
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет" /> питаться по расписанию</li>
+          <h4 class="list__title">Мы не будем:</h4>
+          <ul class="content-aproach__list list">
+            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет">считать калории</li>
+            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет">взвешивать порции</li>
+            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет"> питаться по расписанию</li>
             <li class="list_item">
-              <img src="./assets/image/approach/krestik.svg" alt="нет" />отказываться от тортов и пиццы
+              <img src="./assets/image/approach/krestik.svg" alt="нет">отказываться от тортов и пиццы
             </li>
           </ul>
 
-          <ul class="col-2__list list">
-            <h4 class="list__title_green">Мы будем:</h4>
-            <li list_item>
-              <img src="./assets/image/approach/galochka.svg" alt="да" />анализировать ваш образ жизни
+          <h4 class="list__title_green">Мы будем:</h4>
+          <ul class="content-aproach__list list">
+            <li class="list_item">
+              <img src="./assets/image/approach/galochka.svg" alt="да">анализировать ваш образ жизни
             </li>
-            <li list_item>
-              <img src="./assets/image/approach/galochka.svg" alt="да" />находить моменты, которые можно улучшить
+            <li class="list_item">
+              <img src="./assets/image/approach/galochka.svg" alt="да">находить моменты, которые можно улучшить
             </li>
-            <li list_item>
-              <img src="./assets/image/approach/galochka.svg" alt="да" /> шаг за шагом, бережно идти к цели
+            <li class="list_item">
+              <img src="./assets/image/approach/galochka.svg" alt="да"> шаг за шагом, бережно идти к цели
             </li>
           </ul>
         </div>
       </div>
 
       <div class="approach__img">
-        <img src="./assets/image/approach/food.jpg" alt="food" />
+        <img src="./assets/image/approach/food.jpg" alt="food">
       </div>
     </div>
   </div>
@@ -176,31 +176,31 @@
       <div class="task__row row">
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/1.svg" alt="иконка" />
+            <img src="./assets/image/task/1.svg" alt="иконка">
           </div>
           <div class="row__text">надоело есть одно и то же</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/2.svg" alt="иконка" />
+            <img src="./assets/image/task/2.svg" alt="иконка">
           </div>
           <div class="row__text">постоянно ем, но не наедаюсь</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/3.svg" alt="иконка" />
+            <img src="./assets/image/task/3.svg" alt="иконка">
           </div>
           <div class="row__text">хочу перестать есть сладкое</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/4.svg" alt="иконка" />
+            <img src="./assets/image/task/4.svg" alt="иконка">
           </div>
           <div class="row__text">хочу научиться есть овощи</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/5.svg" alt="иконка" />
+            <img src="./assets/image/task/5.svg" alt="иконка">
           </div>
           <div class="row__text">я не ем мясо, где брать белок</div>
         </div>
@@ -209,25 +209,25 @@
       <div class="task__row row">
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/6.svg" alt="иконка" />
+            <img src="./assets/image/task/6.svg" alt="иконка">
           </div>
           <div class="row__text">я переехал(а) в новую страну и не понимаю, что есть</div> 
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/7.svg" alt="иконка" />
+            <img src="./assets/image/task/7.svg" alt="иконка">
           </div>
           <div class="row__text">хочу питаться разнообразно и не проводить жизнь на кухне</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/8.svg" alt="иконка" />
+            <img src="./assets/image/task/8.svg" alt="иконка">
           </div>
           <div class="row__text">я не чувствую голод и ем потому, что надо</div>
         </div>
         <div class="row__item">
           <div class="row__icon">
-            <img src="./assets/image/task/9.svg" alt="иконка" />
+            <img src="./assets/image/task/9.svg" alt="иконка">
           </div>
           <div class="row__text">у меня жесткий график, я не успеваю нормально есть</div>
         </div>
@@ -242,12 +242,12 @@
         <button class="button-long">
           <a href="https://t.me/ffemme">
             Telegram
-            <img src="./assets/image/task/telegram.png" alt="иконка Telegram" />
+            <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
           </a>
         </button>
         <button class="button-long">
           <a href="https://wa.me/351912780199">
-            WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp" />
+            WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
           </a>
         </button>
       </div>
@@ -267,7 +267,7 @@
           <div class="card__title_green">1 час</div>
         </div>
         <div class="card__subtitle">2 000 ₽ / 25 €</div>
-        <img src="./assets/image/services/linecard.png" alt="line" class="line" />
+        <img src="./assets/image/services/linecard.png" alt="line" class="line">
         <div class="card__text">
           Если у вас есть конкретная задача или вопрос, это оптимальный способ
           начать двигаться в его разрешении. После записи вы заполните
@@ -283,12 +283,12 @@
         <div class="card__btn">
           <button class="button-round">
             <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
+              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
             </a>
           </button>
           <button class="button-round">
             <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
+              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
             </a>
           </button>
         </div>
@@ -300,7 +300,7 @@
           <div class="card__title_green">1 месяц</div>
         </div>
         <div class="card__subtitle">400 ₽ / 5 €</div>
-        <img src="./assets/image/services/linecard.png" alt="line" class="line" />
+        <img src="./assets/image/services/linecard.png" alt="line" class="line">
         <div class="card__text">
           Одна голова хорошо, а две — лучше. С детства верю в это, а после
           многочисленных креативных- и бизнес-штурмов точно знаю. Закрытый чат
@@ -319,12 +319,12 @@
         <div class="card__btn">
           <button class="button-round">
             <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
+              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
             </a>
           </button>
           <button class="button-round">
             <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
+              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
             </a>
           </button>
         </div>
@@ -336,7 +336,7 @@
           <div class="card__title_green">1 месяц</div>
         </div>
         <div class="card__subtitle">7 000 ₽ / 85 €</div>
-        <img src="./assets/image/services/linecard.png" alt="line" class="line" />
+        <img src="./assets/image/services/linecard.png" alt="line" class="line">
         <div class="card__text">
           Если вы хотите посвятить время своему здоровью и самочувствию и вам
           нужна поддержка специалиста, то для вас идеально подойдет формат
@@ -354,12 +354,12 @@
         <div class="card__btn">
           <button class="button-round">
             <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
+              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
             </a>
           </button>
           <button class="button-round">
             <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
+              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
             </a>
           </button>
         </div>
@@ -371,7 +371,7 @@
           <div class="card__title_green">3 месяца</div>
         </div>
         <div class="card__subtitle">18 000 ₽ / 210 €</div>
-        <img src="./assets/image/services/linecard.png" alt="line" class="line" />
+        <img src="./assets/image/services/linecard.png" alt="line" class="line">
         <div class="card__text">
           Если вы понимаете, что вам нужны большие изменения, если вы хотите
           разобраться во всех аспектах питания, избавиться от страхов,
@@ -391,12 +391,12 @@
         <div class="card__btn">
           <button class="button-round">
             <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram" />
+              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
             </a>
           </button>
           <button class="button-round">
             <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp" />
+              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
             </a>
           </button>
         </div>
@@ -412,11 +412,11 @@
       <h2 class="services-business__title title">Услуги для бизнеса </h2>
 
 
-      <img src="./assets/image/services-business/2people.png" alt="Елена с коллегой" class="services-business__img-1" />
+      <img src="./assets/image/services-business/2people.png" alt="Елена с коллегой" class="services-business__img-1">
       <div class="services-business__text-1"> Если вы <span class="bluetext"> подрядчик</span>, который способен организовать вкусный и сбалансированный <span class="bluetext "> кейтеринг</span>, тоже напишите мне, найдем возможности для сотрудничества.</div>
       <div class="services-business__text-2">Если вы хотите придумать классные и полезные закуски на <span class="bluetext ">вечеринку, детский праздник, пресс-конференцию</span>, танцевальный <span class="bluetext ">фестиваль</span> или провести <span class="bluetext ">лекцию</span> для своих сотрудников по теме питания, подобрать меню для столовой или ретрита — я могу вам помочь.</div>
-      <img src="./assets/image/services-business/4people.png" alt="Елена с коллегами" class="services-business__img-2" />
-      <img src="./assets/image/services-business/food.jpg" alt="еда" class="services-business__img-3" />
+      <img src="./assets/image/services-business/4people.png" alt="Елена с коллегами" class="services-business__img-2">
+      <img src="./assets/image/services-business/food.jpg" alt="еда" class="services-business__img-3">
     </div>
   </div>
   <!-- ---------------------SERVICES-FOR-BUSINESS END--------------------------->
@@ -439,6 +439,7 @@
     <h2 class="sertificates__title title"> Мои сертификаты </h2>
     <div class="sertificates__text">
       <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. На данный момент я заканчиваю обучение, но у меня уже есть право на практику. Здесь обучают коучей по питанию с 2005 года, это диплом международного образца, признанный во всех странах. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
+    </div>
     <div class="sertificates__photo">
       <img src="#" alt="">
     </div>
@@ -479,16 +480,16 @@
         <button class="button-long">
           <a href="https://t.me/ffemme">
             Telegram
-            <img src="./assets/image/form/telegram.png" alt="иконка Telegram" />
+            <img src="./assets/image/form/telegram.png" alt="иконка Telegram">
           </a>
         </button>
         <button class="button-long">
           <a href="https://wa.me/351912780199">
-            WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp" />
+            WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp">
           </a>
         </button>
       </div>
-      <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
+      <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img">
     </div>
   </div>
 
