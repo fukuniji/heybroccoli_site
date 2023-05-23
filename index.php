@@ -239,17 +239,15 @@
       </div>
 
       <div class="task__btn">
-        <button class="button-long">
-          <a href="https://t.me/ffemme">
-            Telegram
-            <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
-          </a>
+        <button onclick="window.location.href ='https://t.me/ffemme';" class="button-long">
+          Telegram
+          <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
         </button>
-        <button class="button-long">
-          <a href="https://wa.me/351912780199">
-            WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
-          </a>
+        <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
+          WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
         </button>
+
+
       </div>
     </div>
   </div>
@@ -281,15 +279,11 @@
           информацией.
         </div>
         <div class="card__btn">
-          <button class="button-round">
-            <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
-            </a>
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
           </button>
-          <button class="button-round">
-            <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
-            </a>
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
+            <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
           </button>
         </div>
       </div>
@@ -317,15 +311,11 @@
           фитнес-тренерами, шеф-поварами.
         </div>
         <div class="card__btn">
-          <button class="button-round">
-            <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
-            </a>
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
           </button>
-          <button class="button-round">
-            <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
-            </a>
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
+            <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
           </button>
         </div>
       </div>
@@ -352,15 +342,11 @@
           много про себя и свою еду.
         </div>
         <div class="card__btn">
-          <button class="button-round">
-            <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
-            </a>
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
           </button>
-          <button class="button-round">
-            <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
-            </a>
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
+            <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
           </button>
         </div>
       </div>
@@ -389,15 +375,11 @@
           пан, зафиксировать результаты и разобрать сложные моменты.
         </div>
         <div class="card__btn">
-          <button class="button-round">
-            <a href="https://t.me/ffemme">
-              <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
-            </a>
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <img src="./assets/image/services/telegramm.png" alt="иконка Telegram">
           </button>
-          <button class="button-round">
-            <a href="https://wa.me/351912780199">
-              <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
-            </a>
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
+            <img src="./assets/image/services/watsapp.png" alt="иконка WhatsApp">
           </button>
         </div>
       </div>
@@ -472,49 +454,44 @@
           Отправить
         </button>
 
-        <div class="form__btn">
-          <button class="button-long">
-            <a href="https://t.me/ffemme">
-              Telegram
-              <img src="./assets/image/form/telegram.png" alt="иконка Telegram" />
-            </a>
+        <div class="task__btn">
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-long">
+            Telegram
+            <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
           </button>
-          <button class="button-long">
-            <a href="https://wa.me/351912780199">
-              WhatsApp <img src="./assets/image/form/watsapp.png" alt="иконка WhatsApp" />
-            </a>
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
+            WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
           </button>
+          <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
         </div>
-        <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
       </div>
-    </div>
 
-    <!-- ---------------------FORM END--------------------------->
+      <!-- ---------------------FORM END--------------------------->
 
-    <!-- ---------------------FOOTER--------------------------->
-    <footer class="footer">
-      <div class="container">
-        <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
-        <div class="footer__text">@nutrition2023</div>
-        <nav class="footer__nav nav">
-          <h6>Меню</h6>
-          <a href="#about" class="nav__link">Обо мне</a>
-          <a href="#approach" class="nav__link">Подход к работе</a>
-          <a href="#task" class="nav__link">Чем могу помочь</a>
-          <a href="#services" class="nav__link">Услуги</a>
-          <a href="#rewiew" class="nav__link">Отзывы</a>
-        </nav>
-        <div class="footer__socials">
-          <h6>Подписывайтесь</h6>
-          <a href="#" class="footer__link">Instagram</a>
-          <!-- ADD INSTAGRAM LINK -->
-          <a href="https://t.me/heybroccoli" class="footer__link">Мой блог об изменении привычек "А как же брокколи"</a>
-          <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
+      <!-- ---------------------FOOTER--------------------------->
+      <footer class="footer">
+        <div class="container">
+          <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
+          <div class="footer__text">@nutrition2023</div>
+          <nav class="footer__nav nav">
+            <h6>Меню</h6>
+            <a href="#about" class="nav__link">Обо мне</a>
+            <a href="#approach" class="nav__link">Подход к работе</a>
+            <a href="#task" class="nav__link">Чем могу помочь</a>
+            <a href="#services" class="nav__link">Услуги</a>
+            <a href="#rewiew" class="nav__link">Отзывы</a>
+          </nav>
+          <div class="footer__socials">
+            <h6>Подписывайтесь</h6>
+            <a href="#" class="footer__link">Instagram</a>
+            <!-- ADD INSTAGRAM LINK -->
+            <a href="https://t.me/heybroccoli" class="footer__link">Мой блог об изменении привычек "А как же брокколи"</a>
+            <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
+          </div>
+          <div></div>
         </div>
-        <div></div>
-      </div>
-    </footer>
-    <!-- ---------------------FOOTER END--------------------------->
+      </footer>
+      <!-- ---------------------FOOTER END--------------------------->
 
 
 </body>
