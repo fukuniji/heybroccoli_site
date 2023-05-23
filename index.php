@@ -25,6 +25,7 @@
     общий класс .button-long для длинных кнопок
     общий класс .line для линий декора
     общий класс .bluetext  для синего поинт-текста 
+    общий класс .group-img для линии с броколли
   -->
 
   <!-- ---------------------HEADER--------------------------->
@@ -58,117 +59,110 @@
 
   <!-- ---------------------HEADER END--------------------------->
 
-  <!-- ---------------------ABOUT--------------------------->
+  <!-- ---------------------ABOUT-1--------------------------->
 
   <div class="about" id="about">
     <div class="about__wrapper">
       <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
       <div class="about__section section">
         <h3 class="section__slogan slogan">Привычки, а не диеты!</h3>
-        <div class="section__img">
+        <div class="section__img group-img">
           <img src="./assets/image/about/line.png" alt="line" class="line">
-          <img src="./assets/image/about/broccoli.svg" alt="broccoli" class="section__img_second">
+          <img src="./assets/image/about/broccoli.svg" alt="broccoli" class="group-img__img">
         </div>
         <h2 class="section__title">Куликова Елена</h2>
-        <div class="section__subtitle">нутрициолог</div>
-      </div>
-
-      <div class="about__content content-about">
-        <div class="content__subtitle">
-          Привет! Меня зовут Лена и я помогаю людям внедрять полезные пищевые
-          привычки
-        </div>
-        <div class="content-about__text-1">
-          Тема еды и питания, которое делает нас счастливее, продуктивнее и
-          здоровее, интересует меня давно. С 14 лет я работала журналистом,
-          редактором, пресс-секретарем на больших и очень больших
-          мероприятиях, и не могла не заметить: то, что и как мы едим, очень
-          сильно влияет на самочувствие и работоспособность. В какой-то момент
-          при подписании контракта на пиар-сопровождение мероприятий я начала
-          прописывать заказчику, чем кормить меня и мою команду.
-        </div>
-        <div class="content-about__text-2">
-          Ведь все знают, что надо есть больше овощей, меньше сладкого, не
-          «кусочничать» и убирать телефон на время обеда. Но как это сделать?
-        </div>
-        <div class="content-about__text-3">
-          Чтобы разобраться в этом, я пошла на учебу в одну из самых больших и
-          престижных школ нутрициологии в мире. Это канадская Precision
-          Nutrition, которая дает не только тонну знаний, основанных на
-          научных исследованиях, но и инструменты внедрения этих знаний в
-          жизнь. Получился, я настоящий коуч по питанию, который верит в силу
-          маленьких шагов, в неидеальность, в то, что каждый человек, его
-          жизнь и привычки уникальны.
-        </div>
+        <div class="section__subtitle">Нутрициолог, коуч полезных привычек, change maker</div>
       </div>
     </div>
   </div>
 
-  <!-- ---------------------ABOUT END--------------------------->
+  <!-- ---------------------ABOUT-1 END--------------------------->
+  <!-- ---------------------HELLO-2--------------------------->
+  <div class="hello">
+    <div class="hello__wrapper">
+      <h3 class="hello__subtitle">
+        Привет! Меня зовут Лена и я помогаю людям внедрять полезные пищевые
+        привычки
+      </h3>
 
-  <!-- ---------------------APPROACH--------------------------->
+      <p class="hello__text-1">
+        Ведь все знают, что надо есть больше овощей, меньше сладкого, не
+        «кусочничать» и убирать телефон на время обеда. Но как это сделать?
+      </p>
+      <p class="hello__text-2">
+        Чтобы разобраться в этом, я пошла на учебу в одну из самых больших и
+        престижных школ нутрициологии в мире. Это канадская Precision
+        Nutrition, которая дает не только тонну знаний, основанных на
+        научных исследованиях, но и инструменты внедрения этих знаний в
+        жизнь. Получился, я настоящий коуч по питанию, который верит в силу
+        маленьких шагов, в неидеальность, в то, что каждый человек, его
+        жизнь и привычки уникальны.
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- ---------------------HELLO-2 END--------------------------->
+
+  <!-- ---------------------APPROACH-3--------------------------->
 
   <div class="approach" id="approach">
     <div class="container">
       <h2 class="approach__title title">Подход к работе </h2>
 
-      <div class="approach__content content-aproach">
-        <div class="content-aproach__col-1 col-1">
-          <h3 class="col-1__slogan slogan">К себе и еде — с любовью</h3>
-          <div class="col-1__img">
-            <img src="./assets/image/approach/line.png" alt="line" class="line">
-          </div>
-          <div class="col-1__text-1">
-            Пожалуй, так я бы описала главный принцип, которым руководствуюсь
-            в работе.
-          </div>
-          <div class="col-1__text-2">
-            Что и говорить, я тот нутрициолог, которая иногда обедает в
-            Макдоналдсе! Потому что мы живем не в идеальной вселенной, а в
-            той, где есть дедлайны и нервные срывы, отсутствие мотивации
-            готовить, смена страны и адаптация к ее культуре питания и
-            доступным (не всегда привычным) продуктам.
-          </div>
-          <div class="col-1__text-3">
-            <span class="bluetext">Привычки круче диет:</span> вы увидите,
-            как это работает, а приобретенные навыки останутся с вами всегда.
-          </div>
-        </div>
-        <div class="content-aproach__col-2">
-          <h4 class="list__title">Мы не будем:</h4>
-          <ul class="content-aproach__list list">
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет">считать калории</li>
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет">взвешивать порции</li>
-            <li class="list_item"><img src="./assets/image/approach/krestik.svg" alt="нет"> питаться по расписанию</li>
-            <li class="list_item">
-              <img src="./assets/image/approach/krestik.svg" alt="нет">отказываться от тортов и пиццы
-            </li>
-          </ul>
 
-          <h4 class="list__title_green">Мы будем:</h4>
-          <ul class="content-aproach__list list">
-            <li class="list_item">
-              <img src="./assets/image/approach/galochka.svg" alt="да">анализировать ваш образ жизни
-            </li>
-            <li class="list_item">
-              <img src="./assets/image/approach/galochka.svg" alt="да">находить моменты, которые можно улучшить
-            </li>
-            <li class="list_item">
-              <img src="./assets/image/approach/galochka.svg" alt="да"> шаг за шагом, бережно идти к цели
-            </li>
-          </ul>
+      <div class="approach__header header-aproach">
+        <h3 class="header-aproach__slogan slogan">К себе и еде — с любовью</h3>
+        <div class="header-aproach__img group-img ">
+          <img src="./assets/image/approach/line.png" alt="line" class="line">
+          <img src="./assets/image/approach/broccoli.svg" alt="broccoli" class="group-img__img">
+        </div>
+        <div class="header-aproach__text">
+          Пожалуй, так я бы описала главный принцип, которым руководствуюсь
+          в работе.
         </div>
       </div>
 
-      <div class="approach__img">
-        <img src="./assets/image/approach/food.jpg" alt="food">
+      <div class="approach__list list">
+        <h4 class="list__title">Мы не будем:</h4>
+        <ul class="list__container">
+          <li class="list__item"><img src="./assets/image/approach/krestik.svg" alt="нет">считать калории</li>
+          <li class="list__item"><img src="./assets/image/approach/krestik.svg" alt="нет">взвешивать порции</li>
+          <li class="list__item"><img src="./assets/image/approach/krestik.svg" alt="нет"> питаться по расписанию</li>
+          <li class="list__item">
+            <img src="./assets/image/approach/krestik.svg" alt="нет">отказываться от тортов и пиццы
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="approach__list_green list">
+        <h4 class="list__title">Мы будем:</h4>
+        <ul class="list__container">
+          <li class="list__item"><img src="./assets/image/approach/galochka.svg" alt="да">анализировать ваш образ жизни</li>
+          <li class="list__item"><img src="./assets/image/approach/galochka.svg" alt="да">находить моменты, которые можно улучшить</li>
+          <li class="list__item"><img src="./assets/image/approach/galochka.svg" alt="да"> шаг за шагом идти к цели</li>
+          <li class="list__item">
+            <img src="./assets/image/approach/galochka.svg" alt="да">получать удовольствие от новых привычек
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <!-- --------------------APPROACH END--------------------------->
+  <!-- --------------------APPROACH-3 END--------------------------->
 
-  <!-- ---------------------TASK--------------------------->
+  <!-- --------------------PHOTO-4--------------------------->
+
+  <div class="photo__img">
+    <div class="container">
+      <img src="./assets/image/photo/food-4.jpg" alt="еда">
+    </div>
+  </div>
+  <!-- --------------------PHOTO-4 END--------------------------->
+
+  <!-- ---------------------TASK-5--------------------------->
 
   <div class="task" id="task">
     <div class="container">
@@ -252,9 +246,9 @@
     </div>
   </div>
 
-  <!-- --------------------TASK END--------------------------->
+  <!-- --------------------TASK-5 END--------------------------->
 
-  <!-- ---------------------SERVICES--------------------------->
+  <!-- ---------------------SERVICES-6-------------------------->
 
   <div class="services" id="services">
     <div class="container">
@@ -385,9 +379,9 @@
       </div>
     </div>
   </div>
-  <!-- --------------------SERVICES END--------------------------->
+  <!-- --------------------SERVICES-6 END--------------------------->
 
-  <!-- ---------------------SERVICES-FOR-BUSINESS--------------------------->
+  <!-- ---------------------SERVICES-FOR-BUSINESS-7-------------------------->
 
   <div class="services-business">
     <div class="container">
@@ -398,12 +392,20 @@
       <div class="services-business__text-1"> Если вы <span class="bluetext"> подрядчик</span>, который способен организовать вкусный и сбалансированный <span class="bluetext "> кейтеринг</span>, тоже напишите мне, найдем возможности для сотрудничества.</div>
       <div class="services-business__text-2">Если вы хотите придумать классные и полезные закуски на <span class="bluetext ">вечеринку, детский праздник, пресс-конференцию</span>, танцевальный <span class="bluetext ">фестиваль</span> или провести <span class="bluetext ">лекцию</span> для своих сотрудников по теме питания, подобрать меню для столовой или ретрита — я могу вам помочь.</div>
       <img src="./assets/image/services-business/4people.png" alt="Елена с коллегами" class="services-business__img-2">
-      <img src="./assets/image/services-business/food.jpg" alt="еда" class="services-business__img-3">
     </div>
   </div>
-  <!-- ---------------------SERVICES-FOR-BUSINESS END--------------------------->
+  <!-- ---------------------SERVICES-FOR-BUSINESS-7 END-------------------->
 
-  <!-- ---------------------REWIEW--------------------------->
+  <!-- --------------------PHOTO-8--------------------------->
+
+  <div class="photo__img">
+    <div class="container">
+      <img src="./assets/image/photo/food-8.jpg" alt="еда">
+    </div>
+  </div>
+  <!-- --------------------PHOTO-8 END--------------------------->
+
+  <!-- ---------------------REWIEW-9-------------------------->
   <div class="container" id="rewiew">
     <h2 class="rewiew__title title"> Отзывы </h2>
     <div class="rewiew__photo">
@@ -413,9 +415,9 @@
       <img src="#" alt="">
     </div>
   </div>
-  <!-- ---------------------REWIEW END--------------------------->
+  <!-- ---------------------REWIEW-9 END--------------------------->
 
-  <!-- ---------------------SERTIFICATES--------------------------->
+  <!-- ---------------------SERTIFICATES-10-------------------------->
 
   <div class="container" id="sertificates">
     <h2 class="sertificates__title title"> Мои сертификаты </h2>
@@ -436,9 +438,9 @@
     </div>
   </div>
 
-  <!-- ---------------------SERTIFICATES END--------------------------->
+  <!-- ---------------------SERTIFICATES-10 END--------------------------->
 
-  <!-- ---------------------FORM--------------------------->
+  <!-- ---------------------FORM-11-------------------------->
 
   <div class="form">
     <div class="form__wrapper">
@@ -464,11 +466,11 @@
         <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
           WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
         </button>
-        <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
+        <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img">
       </div>
     </div>
   </div>
-  <!-- ---------------------FORM END--------------------------->
+  <!-- ---------------------FORM-11 END--------------------------->
 
   <!-- ---------------------FOOTER--------------------------->
   <footer class="footer">
