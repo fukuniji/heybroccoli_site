@@ -1,10 +1,53 @@
-// %Font-name% для нормального начертания
-// @font-face {
-//     font-family: "Font-name";
-//     src: local("Font-name Regular"),
-//     local("Font-name-Regular"),
-//     url(../assets/fonts/Font-name-Regular.woff2) format("woff2"),
-//     url(../assets/fonts/Font-name-Regular.woff) format("woff"),
-//     url(../assets/fonts/Font-name-Regular.ttf) format("ttf");
-//     font-weight: normal;
-// }
+// Montserrat для нормального начертания (Regular)
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    local("Montserrat-Regular"),
+    url("../assets/fonts/Montserrat-Regular.woff") format("woff"),
+    url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Montserrat для начертания Medium
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat Medium"),
+    local("Montserrat-Medium"),
+    url("../assets/fonts/Montserrat-Medium.woff") format("woff"),
+    url("../assets/fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Montserrat для начертания Semi Bold
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat SemiBold"),
+    local("Montserrat-SemiBold"),
+    url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../assets/fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+// Museo Sans Cyrillic для нормального начертания (Regular)
+@font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: local("Museo_Sans_Cyrillic"),
+    local("Museo Sans Cyrillic "),
+    url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Museo Sans Cyrillic для начертания Medium
+@font-face {
+  font-family: "Museo Sans Cyrillic";
+  src: local("Museo Sans Cyrl"),
+    local("Museo Sans Cyrillic "),
+    url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff"),
+    url("../assets/fonts/Museo_Sans_Cyrillic.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+}
