@@ -496,7 +496,6 @@
         <a href="https://t.me/heybroccoli" class="footer__link">Мой блог об изменении привычек "А как же брокколи"</a>
         <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
       </div>
-      <div></div>
     </div>
   </footer>
   <!-- ---------------------FOOTER END--------------------------->
