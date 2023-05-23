@@ -63,7 +63,7 @@
 
   <!-- ---------------------ABOUT-1--------------------------->
 
-  <div class="about" id="about">
+  <div class="main__about about" id="about">
     <div class="about__wrapper">
       <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
       <div class="about__section section">
@@ -80,7 +80,7 @@
 
   <!-- ---------------------ABOUT-1 END--------------------------->
   <!-- ---------------------HELLO-2--------------------------->
-  <div class="hello">
+  <div class="main__hello hello">
     <div class="hello__wrapper">
       <h3 class="hello__subtitle">
         Привет! Меня зовут Лена и я помогаю людям внедрять полезные пищевые
@@ -109,7 +109,7 @@
 
   <!-- ---------------------APPROACH-3--------------------------->
 
-  <div class="approach" id="approach">
+  <div class="main__approach approach" id="approach">
     <div class="container">
       <h2 class="approach__title title">Подход к работе </h2>
 
@@ -157,7 +157,7 @@
 
   <!-- --------------------PHOTO-4--------------------------->
 
-  <div class="photo__img">
+  <div class="main__photo photo">
     <div class="container">
       <img src="./assets/image/photo/food-4.jpg" alt="еда">
     </div>
@@ -166,7 +166,7 @@
 
   <!-- ---------------------TASK-5--------------------------->
 
-  <div class="task" id="task">
+  <div class="main__task task" id="task">
     <div class="container">
       <h2 class="task__title title">С какими задачами я могу помочь </h2>
       <div class="task__row row">
@@ -252,7 +252,7 @@
 
   <!-- ---------------------SERVICES-6-------------------------->
 
-  <div class="services" id="services">
+  <div class="main__services services" id="services">
     <div class="container">
       <h2 class="services__title title">Услуги </h2>
       <div class="services__cards card">
@@ -385,7 +385,7 @@
 
   <!-- ---------------------SERVICES-FOR-BUSINESS-7-------------------------->
 
-  <div class="services-business">
+  <div class="main__services-business services-business">
     <div class="container">
       <h2 class="services-business__title title">Услуги для бизнеса </h2>
 
@@ -400,7 +400,7 @@
 
   <!-- --------------------PHOTO-8--------------------------->
 
-  <div class="photo__img">
+  <div class="main__photo photo">
     <div class="container">
       <img src="./assets/image/photo/food-8.jpg" alt="еда">
     </div>
@@ -408,7 +408,7 @@
   <!-- --------------------PHOTO-8 END--------------------------->
 
   <!-- ---------------------REWIEW-9-------------------------->
-  <div class="container" id="rewiew">
+  <div class="main__rewiew rewiew" id="rewiew">
     <h2 class="rewiew__title title"> Отзывы </h2>
     <div class="rewiew__photo">
       <img src="#" alt="">
@@ -421,7 +421,7 @@
 
   <!-- ---------------------SERTIFICATES-10-------------------------->
 
-  <div class="container" id="sertificates">
+  <div class="main__sertificates sertificates" id="sertificates">
     <h2 class="sertificates__title title"> Мои сертификаты </h2>
     <div class="sertificates__text">
       <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. На данный момент я заканчиваю обучение, но у меня уже есть право на практику. Здесь обучают коучей по питанию с 2005 года, это диплом международного образца, признанный во всех странах. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
@@ -444,7 +444,7 @@
 
   <!-- ---------------------FORM-11-------------------------->
 
-  <div class="form">
+  <div class="main__form form">
     <div class="form__wrapper">
       <h2 class="form__title title"> Напишите мне </h2>
       <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
@@ -456,16 +456,16 @@
         <a href="#">Политикой конфиденциальности</a>
       </form>
 
-      <button class="button-long_white">
+      <button class="form__button-long_white">
         Отправить
       </button>
 
-      <div class="task__btn">
-        <button onclick="window.location.href ='https://t.me/ffemme';" class="button-long">
+      <div class="form__task__btn task__btn">
+        <button onclick="window.location.href ='https://t.me/ffemme';" class="task__btn__button-long">
           Telegram
           <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
         </button>
-        <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
+        <button onclick="window.location.href ='https://wa.me/351912780199';" class="task__btn__button-long">
           WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
         </button>
         <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img">
