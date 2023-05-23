@@ -434,65 +434,66 @@
         <img src="#" alt="">
       </div>
     </div>
-    <!-- ---------------------SERTIFICATES END--------------------------->
+  </div>
 
-    <!-- ---------------------FORM--------------------------->
+  <!-- ---------------------SERTIFICATES END--------------------------->
 
-    <div class="form">
-      <div class="form__wrapper">
-        <h2 class="form__title title"> Напишите мне </h2>
-        <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
-        <form class="form__forma forma" action="#">
-          <input class="forma__input" type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2}" required>
-          <input class="forma__input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-          <input class="forma__input" type="tel" placeholder="Телефон" pattern="(\+7[0-9]{10}|8[0-9]{10})" required>
-          <input class="forma__input" type="checkbox" value="1">нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
-          <a href="#">Политикой конфиденциальности</a>
-        </form>
+  <!-- ---------------------FORM--------------------------->
 
-        <button class="button-long_white">
-          Отправить
+  <div class="form">
+    <div class="form__wrapper">
+      <h2 class="form__title title"> Напишите мне </h2>
+      <div class="form__subtitle">для этого можете заполнить форму или написать в удобный мессенджер</div>
+      <form class="form__forma forma" action="#">
+        <input class="forma__input" type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2}" required>
+        <input class="forma__input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <input class="forma__input" type="tel" placeholder="Телефон" pattern="(\+7[0-9]{10}|8[0-9]{10})" required>
+        <input class="forma__input" type="checkbox" value="1">нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
+        <a href="#">Политикой конфиденциальности</a>
+      </form>
+
+      <button class="button-long_white">
+        Отправить
+      </button>
+
+      <div class="task__btn">
+        <button onclick="window.location.href ='https://t.me/ffemme';" class="button-long">
+          Telegram
+          <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
         </button>
-
-        <div class="task__btn">
-          <button onclick="window.location.href ='https://t.me/ffemme';" class="button-long">
-            Telegram
-            <img src="./assets/image/task/telegram.png" alt="иконка Telegram">
-          </button>
-          <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
-            WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
-          </button>
-          <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
-        </div>
+        <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long">
+          WhatsApp <img src="./assets/image/task/watsapp.png" alt="иконка WhatsApp">
+        </button>
+        <img src="./assets/image/form/elena.jpg" alt="Елена" class="form__img" />
       </div>
+    </div>
+  </div>
+  <!-- ---------------------FORM END--------------------------->
 
-      <!-- ---------------------FORM END--------------------------->
-
-      <!-- ---------------------FOOTER--------------------------->
-      <footer class="footer">
-        <div class="container">
-          <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
-          <div class="footer__text">@nutrition2023</div>
-          <nav class="footer__nav nav">
-            <h6>Меню</h6>
-            <a href="#about" class="nav__link">Обо мне</a>
-            <a href="#approach" class="nav__link">Подход к работе</a>
-            <a href="#task" class="nav__link">Чем могу помочь</a>
-            <a href="#services" class="nav__link">Услуги</a>
-            <a href="#rewiew" class="nav__link">Отзывы</a>
-          </nav>
-          <div class="footer__socials">
-            <h6>Подписывайтесь</h6>
-            <a href="#" class="footer__link">Instagram</a>
-            <!-- ADD INSTAGRAM LINK -->
-            <a href="https://t.me/heybroccoli" class="footer__link">Мой блог об изменении привычек "А как же брокколи"</a>
-            <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
-          </div>
-          <div></div>
-        </div>
-      </footer>
-      <!-- ---------------------FOOTER END--------------------------->
-
+  <!-- ---------------------FOOTER--------------------------->
+  <footer class="footer">
+    <div class="container">
+      <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
+      <div class="footer__text">@nutrition2023</div>
+      <nav class="footer__nav nav">
+        <h6>Меню</h6>
+        <a href="#about" class="nav__link">Обо мне</a>
+        <a href="#approach" class="nav__link">Подход к работе</a>
+        <a href="#task" class="nav__link">Чем могу помочь</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#rewiew" class="nav__link">Отзывы</a>
+      </nav>
+      <div class="footer__socials">
+        <h6>Подписывайтесь</h6>
+        <a href="#" class="footer__link">Instagram</a>
+        <!-- ADD INSTAGRAM LINK -->
+        <a href="https://t.me/heybroccoli" class="footer__link">Мой блог об изменении привычек "А как же брокколи"</a>
+        <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
+      </div>
+      <div></div>
+    </div>
+  </footer>
+  <!-- ---------------------FOOTER END--------------------------->
 
 </body>
 
