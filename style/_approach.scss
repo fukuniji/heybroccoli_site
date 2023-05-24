@@ -1,0 +1,105 @@
+.approach {
+
+  &__title {
+    padding: 9.375rem 0 4.125rem;
+    }
+  
+  &__header { 
+    padding:4.125rem 0 3.44rem;
+  
+  .header-aproach {
+    display: flex;
+  
+  &__slogan { }
+  
+  &__img {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1.5rem;
+  
+  .group-img { 
+  .line { 
+    padding: 0 24px;
+  }
+  &__img { }
+  }
+   }
+  &__text {
+    padding-top: 1.5rem;
+    max-width: 564px;
+     /*   font-family: ;  */
+    /*   font-style: 500; */
+    font-size: 20px; 
+    line-height: 120%;
+    /*   color: ; */
+   }
+   }
+  }
+  
+  &__list { 
+    display: flex;
+    flex-direction: row;
+/*     justify-content:space-between; */
+    flex: 1;
+  margin-bottom: 10rem;
+  
+  .list { 
+
+      &__list-1{
+           flex: 1;
+
+  .list-1{
+    font-size: 20px; 
+  &__title {
+    color:blue;
+  /*   font-family: ; */
+    /*   font-style: 500; */
+    font-size: 32px; 
+    padding-bottom: 1.31rem;
+   }
+  
+  &__item {  
+  
+    .krest {
+      background-image: url(../assets/image/approach/krestik.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 32.5px;
+      height: 32.5px;
+      display: inline-block;
+      margin-right: 1rem;
+          }
+    }
+    }
+  }
+  
+    &__list-2{
+      flex: 1;
+
+      .list-2{
+        font-size: 20px;
+  
+     &__title {
+      color:rgb(4, 111, 0);
+      /*   font-family: ; */
+      /*   font-style: 500; */
+      font-size: 32px; 
+      padding-bottom: 1.31rem;
+    }
+          &__item {  
+      .check {
+        background-image: url(../assets/image/approach/galochka.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    }
+    }
+  }
+        }
+    }
