@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <main></main>
 
   <?php require_once('header.php') ?>
   <?php require_once('about.php') ?>
@@ -35,7 +36,7 @@
     общий класс .bluetext  для синего поинт-текста 
     общий класс .group-img для линии с броколли
   -->
-
+  </main>
 </body>
 
 </html>
