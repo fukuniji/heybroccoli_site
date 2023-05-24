@@ -73,7 +73,7 @@ border-color: $hover;
   padding: 9.375rem 0 4.125rem;
 }
 .approach__header {
-  padding: 4.125rem 0 3.44rem;
+  padding-bottom: 3.44rem;
 }
 .approach__header .header-aproach {
   display: flex;
