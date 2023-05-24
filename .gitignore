@@ -14,3 +14,9 @@
 
 # KDE directory preferences
 .directory
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
