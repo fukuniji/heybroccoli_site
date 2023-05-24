@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"), url("../assets/fonts/Montserrat-Regular.woff") format("woff"), url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
@@ -27,4 +28,49 @@
   src: local("Museo Sans Cyrl"), local("Museo Sans Cyrillic "), url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff"), url("../assets/fonts/Museo_Sans_Cyrillic.otf") format("otf");
   font-weight: 500;
   font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+  padding: 20px 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid;
+}
+.header .hamb,
+.header .popup {
+  display: none;
+}
+.header .container {
+  width: 100%;
+  padding: 0 4.5vw;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header .nav__link {
+  color: #1E2124;
+  text-decoration: none;
+  font-size: 1.17vw;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.header .nav__link:hover {
+  color: #245799;
+}
+
+/* Стиль меню при скролле */
+#header.scrolled {
+  background-color: #245799;
 }/*# sourceMappingURL=style.css.map */
