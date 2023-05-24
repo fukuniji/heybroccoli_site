@@ -15,9 +15,11 @@
   <?php require_once('about.php') ?>
   <?php require_once('hello.php') ?>
   <?php require_once('approach.php') ?>
+  <?php require_once('photo4.php') ?>
   <?php require_once('task.php') ?>
   <?php require_once('services.php') ?>
   <?php require_once('services-business.php') ?>
+  <?php require_once('photo8.php') ?>
   <?php require_once('rewiew.php') ?>
   <?php require_once('sertificates.php') ?>
   <?php require_once('message-me.php') ?>
