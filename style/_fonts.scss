@@ -5,7 +5,7 @@
     local("Montserrat-Regular"),
     url("../assets/fonts/Montserrat-Regular.woff") format("woff"),
     url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -21,25 +21,25 @@
 }
 
 // Montserrat для начертания Semi Bold
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat SemiBold"),
-    local("Montserrat-SemiBold"),
-    url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"),
-    url("../assets/fonts/Montserrat-Medium.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "Montserrat";
+//   src: local("Montserrat SemiBold"),
+//     local("Montserrat-SemiBold"),
+//     url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"),
+//     url("../assets/fonts/Montserrat-Medium.ttf") format("ttf");
+//   font-weight: 600;
+//   font-style: normal;
+// }
 
 // Museo Sans Cyrillic для нормального начертания (Regular)
-@font-face {
-  font-family: "Museo Sans Cyrillic";
-  src: local("Museo_Sans_Cyrillic"),
-    local("Museo Sans Cyrillic "),
-    url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "Museo Sans Cyrillic";
+//   src: local("Museo_Sans_Cyrillic"),
+//     local("Museo Sans Cyrillic "),
+//     url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 // Museo Sans Cyrillic для начертания Medium
 @font-face {
@@ -50,4 +50,5 @@
     url("../assets/fonts/Museo_Sans_Cyrillic.otf") format("otf");
   font-weight: 500;
   font-style: normal;
+
 }
