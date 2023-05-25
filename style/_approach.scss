@@ -3,9 +3,8 @@
   &__title {
     padding: 9.375rem 0 4.125rem;
     font-family: $font-titles;
-    font-size: 4.25rem ;
+    font-size: 4.25rem;
     font-style: 500;
-   
     }
   
   &__header { 
@@ -16,11 +15,11 @@
   
   &__slogan {
     font-family: $font-titles;
-    font-size: 2.625rem ;
+    font-size: 2.625rem;
     font-style: 500;
     color:$color-btn-text-blue;
     line-height: 100%;
-   }
+    }
   
   &__img {
     display: flex;
@@ -32,9 +31,10 @@
   .line { 
     padding: 0 24px;
   }
-  &__img { }
+  // &__img { }
   }
-   }
+  }
+
   &__text {
     padding-top: 1.5rem;
     max-width: 564px;
@@ -42,8 +42,8 @@
     font-size: 1.25rem ;
     font-style: 400; /* regular */
       line-height: 120%;
-     }
-   }
+      }
+    }
   }
   
   &__list { 
@@ -55,17 +55,17 @@
   .list { 
 
       &__list-1{
-           flex: 1;
+          flex: 1;
 
   .list-1{
-   &__title {
-    color:$color-btn-text-blue;
+    &__title {
+    color: $color-btn-text-blue;
     font-family: $font-titles;
     font-size: 2rem ;
     font-style: 500; 
     line-height: 100%;
     padding-bottom: 1.31rem;
-   }
+    }
   
   &__item {  
     font-family: $font-texts;
@@ -90,8 +90,8 @@
       flex: 1;
 
       .list-2{
-       
-     &__title {
+
+      &__title {
       color:#077840;
       font-family:$font-titles;
       font-size: 2rem ;
