@@ -1,46 +1,122 @@
-<div class="approach" id="approach">
-  <div class="container">
-    <h2 class="approach__title title">Подход к работе </h2>
-    <div class="approach__header header-aproach">
-      <h3 class="header-aproach__slogan slogan">
-        К себе и еде — с любовью
-      </h3>
-      <div class="header-aproach__img group-img">
-        <img src="./assets/image/approach/line.png" alt="line" class="line" />
-        <img src="./assets/image/approach/broccoli.svg" alt="broccoli" class="group-img__img" />
-      </div>
-      <div class="header-aproach__text">
-        Пожалуй, так я бы описала главный принцип, которым руководствуюсь в
-        работе.
-      </div>
-    </div>
-    <div class="approach__list list">
-      <div class="list__list-1 list-1">
-        <h4 class="list-1__title">Мы не будем:</h4>
-        <p class="list-1__item"><i class="krest"></i>считать калории</p>
-        <p class="list-1__item"><i class="krest"></i>взвешивать порции</p>
-        <p class="list-1__item">
-          <i class="krest"></i>питаться по расписанию
-        </p>
-        <p class="list-1__item">
-          <i class="krest"></i>отказываться от тортов и пиццы
-        </p>
-      </div>
-      <div class="list__list-2 list-2">
-        <h4 class="list-2__title">Мы будем:</h4>
-        <p class="list-2__item">
-          <i class="check"></i>анализировать ваш образ жизни
-        </p>
-        <p class="list-2__item">
-          <i class="check"></i>находить моменты, которые можно улучшить
-        </p>
-        <p class="list-2__item">
-          <i class="check"></i>шаг за шагом идти к цели
-        </p>
-        <p class="list-2__item">
-          <i class="check"></i>получать удовольствие от новых привычек
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+.approach {
+
+  &__title {
+    padding: 9.375rem 0 4.125rem;
+    font-family: $font-titles;
+    font-size: 4.25rem ;
+    font-style: 500;
+   
+    }
+  
+  &__header { 
+    padding-bottom: 3.44rem;
+  
+  .header-aproach {
+    display: flex;
+  
+  &__slogan {
+    font-family: $font-titles;
+    font-size: 2.625rem ;
+    font-style: 500;
+    color:$color-btn-text-blue;
+    line-height: 100%;
+   }
+  
+  &__img {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1.5rem;
+  
+  .group-img { 
+  .line { 
+    padding: 0 24px;
+  }
+  &__img { }
+  }
+   }
+  &__text {
+    padding-top: 1.5rem;
+    max-width: 564px;
+    font-family: $font-texts;
+    font-size: 1.25rem ;
+    font-style: 400; /* regular */
+      line-height: 120%;
+     }
+   }
+  }
+  
+  &__list { 
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  margin-bottom: 10rem;
+  
+  .list { 
+
+      &__list-1{
+           flex: 1;
+
+  .list-1{
+   &__title {
+    color:$color-btn-text-blue;
+    font-family: $font-titles;
+    font-size: 2rem ;
+    font-style: 500; 
+    line-height: 100%;
+    padding-bottom: 1.31rem;
+   }
+  
+  &__item {  
+    font-family: $font-texts;
+    font-size: 1.25rem ;
+    font-style: 400; 
+    line-height: 120%;
+  
+    .krest {
+      background-image: url(../assets/image/approach/krestik.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 32.5px;
+      height: 32.5px;
+      display: inline-block;
+      margin-right: 1rem;
+          }
+    }
+    }
+  }
+  
+    &__list-2{
+      flex: 1;
+
+      .list-2{
+       
+     &__title {
+      color:#077840;
+      font-family:$font-titles;
+      font-size: 2rem ;
+      font-style: 500; 
+      line-height: 100%;
+      padding-bottom: 1.31rem;
+    }
+          &__item {  
+            font-family: $font-texts;
+            font-size: 1.25rem ;
+            font-style: 400; 
+            line-height: 120%;
+
+      .check {
+        background-image: url(../assets/image/approach/galochka.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    }
+    }
+  }
+        }
+    }
