@@ -44,9 +44,9 @@ color: $color-primary;
   line-height: 100%;
   color: $color-btn-text-blue;
 }
-.button-long {
 
-color: white; 
+.button-long {
+color: $color-btn-text-white; 
 display: flex;
 justify-content: center;
 align-items: center;
@@ -56,17 +56,15 @@ font-family: $font-texts;
 font-size: 1.125rem ;
 font-style: 400; 
 line-height: 122%;
-/* border-color: ; */
+ border-color: transparent; 
 }
 
 .button-long:hover {
 background-color: $color-btn-text-green;
 color: $color-btn-text-white;
-/* border-color: ; */
 } 
 
 .button-long_green:hover {
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
-  /* border-color: ; */
 } 

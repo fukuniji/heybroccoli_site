@@ -138,6 +138,64 @@ body {
   margin-right: 1rem;
 }
 
+.task {
+  margin-top: 9.375rem;
+}
+.task__title {
+  margin-bottom: 5rem;
+}
+.task__row-1 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 7rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  justify-content: center;
+}
+.task__row-1 .row__item {
+  display: flex;
+  max-width: 178px;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400;
+  line-height: 100%;
+}
+.task__subtitle {
+  text-align: center;
+  margin-top: 5.94rem;
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 600;
+  line-height: 120%;
+}
+.task__btn {
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  margin-top: 2.25rem;
+}
+.task__btn .button-long {
+  background-color: #245799;
+  padding: 0.7rem 5.8rem;
+}
+.task__btn .button-long_green {
+  background-color: #077840;
+}
+.task__btn .socialicon {
+  background-image: url(../assets/image/task/watsapp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 0.625rem;
+}
+.task__btn .socialicon_tg {
+  background-image: url(../assets/image/task/telegram.png);
+}
+
 .html {
   font-family: "Montserrat";
   font-size: 1.25rem;
@@ -169,7 +227,7 @@ body {
 }
 
 .button-long {
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,17 +237,15 @@ body {
   font-size: 1.125rem;
   font-style: 400;
   line-height: 122%;
-  /* border-color: ; */
+  border-color: transparent;
 }
 
 .button-long:hover {
   background-color: #077840;
   color: #ffffff;
-  /* border-color: ; */
 }
 
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
-  /* border-color: ; */
 }/*# sourceMappingURL=style.css.map */
