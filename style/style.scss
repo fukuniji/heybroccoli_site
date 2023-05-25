@@ -15,11 +15,6 @@
 @import './message-me';
 @import './footer';
 
-font-family: $font-texts;
-font-size: 1.25rem ;
-font-style: 400; 
-line-height: 100%;
-
 .html{
   font-family: $font-texts;
   font-size: 1.25rem ;
@@ -62,7 +57,6 @@ font-size: 1.125rem ;
 font-style: 400; 
 line-height: 122%;
 /* border-color: ; */
-
 }
 
  .button-long:hover {
