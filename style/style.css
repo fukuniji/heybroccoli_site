@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -12,6 +14,7 @@ body {
   margin: 0 auto;
   max-width: 1160px;
 }
+
 
 @font-face {
   font-family: "Montserrat";
@@ -43,6 +46,130 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+}
+.header .hamb,
+.header .popup,
+.header .header__logo {
+  display: none;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav__link {
+  color: #1E2124;
+  text-decoration: none;
+  font-size: 1.17vw;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.header .nav__link:hover {
+  color: #077840;
+}
+
+/* Стиль меню при скролле */
+#header.scrolled {
+  background-color: #245799;
+  border-radius: 0 0 30px 30px;
+}
+#header.scrolled .nav__link {
+  color: white;
+}
+#header.scrolled .nav__link:hover {
+  color: #6ec69a;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    height: 85px;
+    background-color: #245799;
+  }
+  .header .container {
+    display: none;
+  }
+  .header .hamb {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .header .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .header .hamb .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: white;
+    transition: 0.2s;
+  }
+  .header .popup {
+    position: fixed;
+    top: 85px;
+    left: -100%;
+    width: 100vw;
+    height: 80vh;
+    background-color: #245799;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 0 0 30px 30px;
+  }
+  .header .popup.open {
+    left: 0;
+  }
+  .header .popup .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+  }
+  .header .popup .container .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0;
+    overflow: auto;
+  }
+  .header .popup .container .nav .nav__link:not(.nav__link_first) {
+    border-top: 1px solid white;
+  }
+  .header .popup .container .nav .nav__link {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+  }
+  .header .popup .container .header__logo {
+    display: flex;
+    height: 20vw;
+  }
+  .header body.noscroll {
+    overflow: hidden;
+  }
+  #header.scrolled {
+    background-color: #245799;
+    border-radius: 0;
+  }
+=======
 .approach__title {
   padding: 9.375rem 0 4.125rem;
   font-family: "Museo Sans Cyrillic";
@@ -192,4 +319,5 @@ body {
   background-color: #245799;
   color: #ffffff;
   /* border-color: ; */
+
 }/*# sourceMappingURL=style.css.map */
