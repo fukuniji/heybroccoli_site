@@ -1,4 +1,21 @@
-@charset "UTF-8";
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"), url("../assets/fonts/Montserrat-Regular.woff") format("woff"), url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
@@ -29,6 +46,7 @@
   font-weight: 500;
   font-style: normal;
 }
+
 .header {
   position: fixed;
   left: 0;
@@ -151,4 +169,155 @@
     background-color: #245799;
     border-radius: 0;
   }
+=======
+.approach__title {
+  padding: 9.375rem 0 4.125rem;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 4.25rem;
+  font-style: 500;
+}
+.approach__header {
+  padding-bottom: 3.44rem;
+}
+.approach__header .header-aproach {
+  display: flex;
+}
+.approach__header .header-aproach__slogan {
+  font-family: "Museo Sans Cyrillic";
+  font-size: 2.625rem;
+  font-style: 500;
+  color: #245799;
+  line-height: 100%;
+}
+.approach__header .header-aproach__img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+.approach__header .header-aproach__img .group-img .line {
+  padding: 0 24px;
+}
+.approach__header .header-aproach__text {
+  padding-top: 1.5rem;
+  max-width: 564px;
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400; /* regular */
+  line-height: 120%;
+}
+.approach__list {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 10rem;
+}
+.approach__list .list__list-1 {
+  flex: 1;
+}
+.approach__list .list__list-1 .list-1__title {
+  color: #245799;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 2rem;
+  font-style: 500;
+  line-height: 100%;
+  padding-bottom: 1.31rem;
+}
+.approach__list .list__list-1 .list-1__item {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400;
+  line-height: 120%;
+}
+.approach__list .list__list-1 .list-1__item .krest {
+  background-image: url(../assets/image/approach/krestik.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 32.5px;
+  height: 32.5px;
+  display: inline-block;
+  margin-right: 1rem;
+}
+.approach__list .list__list-2 {
+  flex: 1;
+}
+.approach__list .list__list-2 .list-2__title {
+  color: #077840;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 2rem;
+  font-style: 500;
+  line-height: 100%;
+  padding-bottom: 1.31rem;
+}
+.approach__list .list__list-2 .list-2__item {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400;
+  line-height: 120%;
+}
+.approach__list .list__list-2 .list-2__item .check {
+  background-image: url(../assets/image/approach/galochka.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.html {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400;
+  line-height: 100%;
+  color: #1e2124;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.title {
+  font-family: "Museo Sans Cyrillic";
+  font-size: 4.25rem;
+  font-style: 500;
+  line-height: 100%;
+  text-align: center;
+  color: #1e2124;
+}
+
+.slogan {
+  font-family: "Museo Sans Cyrillic";
+  font-size: 2.625rem;
+  font-style: 500;
+  line-height: 100%;
+  color: #245799;
+}
+
+.button-long {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-size: 1.125rem;
+  font-style: 400;
+  line-height: 122%;
+  /* border-color: ; */
+}
+
+.button-long:hover {
+  background-color: #077840;
+  color: #ffffff;
+  /* border-color: ; */
+}
+
+.button-long_green:hover {
+  background-color: #245799;
+  color: #ffffff;
+  /* border-color: ; */
+
 }/*# sourceMappingURL=style.css.map */

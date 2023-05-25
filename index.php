@@ -18,7 +18,7 @@
   <?php require_once('task.php') ?>
   <?php require_once('services.php') ?>
   <?php require_once('services-business.php') ?>
-  <?php require_once('rewiew.php') ?>
+  <?php require_once('reviews.php') ?>
   <?php require_once('sertificates.php') ?>
   <?php require_once('message-me.php') ?>
   <?php require_once('footer.php') ?>

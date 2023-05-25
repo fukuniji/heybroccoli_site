@@ -1,0 +1,122 @@
+.approach {
+
+  &__title {
+    padding: 9.375rem 0 4.125rem;
+    font-family: $font-titles;
+    font-size: 4.25rem;
+    font-style: 500;
+    }
+  
+  &__header { 
+    padding-bottom: 3.44rem;
+  
+  .header-aproach {
+    display: flex;
+  
+  &__slogan {
+    font-family: $font-titles;
+    font-size: 2.625rem;
+    font-style: 500;
+    color:$color-btn-text-blue;
+    line-height: 100%;
+    }
+  
+  &__img {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1.5rem;
+  
+  .group-img { 
+  .line { 
+    padding: 0 24px;
+  }
+  // &__img { }
+  }
+  }
+
+  &__text {
+    padding-top: 1.5rem;
+    max-width: 564px;
+    font-family: $font-texts;
+    font-size: 1.25rem ;
+    font-style: 400; /* regular */
+      line-height: 120%;
+      }
+    }
+  }
+  
+  &__list { 
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  margin-bottom: 10rem;
+  
+  .list { 
+
+      &__list-1{
+          flex: 1;
+
+  .list-1{
+    &__title {
+    color: $color-btn-text-blue;
+    font-family: $font-titles;
+    font-size: 2rem ;
+    font-style: 500; 
+    line-height: 100%;
+    padding-bottom: 1.31rem;
+    }
+  
+  &__item {  
+    font-family: $font-texts;
+    font-size: 1.25rem ;
+    font-style: 400; 
+    line-height: 120%;
+  
+    .krest {
+      background-image: url(../assets/image/approach/krestik.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 32.5px;
+      height: 32.5px;
+      display: inline-block;
+      margin-right: 1rem;
+          }
+    }
+    }
+  }
+  
+    &__list-2{
+      flex: 1;
+
+      .list-2{
+
+      &__title {
+      color:#077840;
+      font-family:$font-titles;
+      font-size: 2rem ;
+      font-style: 500; 
+      line-height: 100%;
+      padding-bottom: 1.31rem;
+    }
+          &__item {  
+            font-family: $font-texts;
+            font-size: 1.25rem ;
+            font-style: 400; 
+            line-height: 120%;
+
+      .check {
+        background-image: url(../assets/image/approach/galochka.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+    }
+    }
+  }
+        }
+    }
