@@ -3,7 +3,6 @@
 <header>
   <div class="header" id="header">
     <div class="container" id="header__conteiner">
-      <!-- <a href="#"><img src="./assets/image/footer/logo.svg" alt="logo" class="header__logo"></a> -->
       <nav class="nav" id="header__menu">
         <a href="#about" class="nav__link" id="nav__link_first"> Обо мне </a>
         <a href="#approach" class="nav__link"> Подход к работе</a>
@@ -12,6 +11,7 @@
         <a href="#rewiew" class="nav__link"> Отзывы </a>
         <a href="#sertificates" class="nav__link"> Сертификаты</a>
       </nav>
+      <a href="#"><img src="./assets/image/footer/logo.svg" alt="logo" class="header__logo"></a>
     </div>
     <!-- для гамбургера -->
     <div class="hamb">

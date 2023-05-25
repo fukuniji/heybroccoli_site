@@ -29,12 +29,6 @@
   font-weight: 500;
   font-style: normal;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .header {
   position: fixed;
   left: 0;
@@ -47,7 +41,8 @@
   height: 100px;
 }
 .header .hamb,
-.header .popup {
+.header .popup,
+.header .header__logo {
   display: none;
 }
 .header .nav {
@@ -105,18 +100,19 @@
     position: fixed;
     top: 85px;
     left: -100%;
-    width: 100%;
-    height: 700px;
+    width: 100vw;
+    height: 80vh;
     background-color: #245799;
     z-index: 100;
     display: flex;
+    justify-content: center;
     transition: 0.3s;
     border-radius: 0 0 30px 30px;
   }
   .header .popup.open {
     left: 0;
   }
-  .header .popup .header__conteiner {
+  .header .popup .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +120,7 @@
     width: 100%;
     height: 100%;
   }
-  .header .popup .header__conteiner .nav {
+  .header .popup .container .nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,23 +128,27 @@
     padding: 50px 0;
     overflow: auto;
   }
-  .header .popup .header__conteiner .nav .nav__link:not(.nav__link_first) {
+  .header .popup .container .nav .nav__link:not(.nav__link_first) {
     border-top: 1px solid white;
   }
-  .header .popup .header__conteiner .nav .nav__link {
+  .header .popup .container .nav .nav__link {
     width: 70%;
     padding: 20px;
     display: flex;
     justify-content: center;
-    font-size: 34px;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
   }
-  /* Стиль меню при скролле */
+  .header .popup .container .header__logo {
+    display: flex;
+    height: 20vw;
+  }
+  .header body.noscroll {
+    overflow: hidden;
+  }
   #header.scrolled {
     background-color: #245799;
     border-radius: 0;
   }
-}
-.container {
-  width: 100%;
-  margin: 0 5vw;
 }/*# sourceMappingURL=style.css.map */

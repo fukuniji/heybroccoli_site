@@ -14,8 +14,6 @@ function hambHandler(e) {
     e.preventDefault();
     // Переключаем стили элементов при клике
     popup.classList.toggle("open");
-    hamb.classList.toggle("active");
-    body.classList.toggle("noscroll");
     renderPopup();
 }
 
@@ -35,11 +33,9 @@ links.forEach((link) => {
 // Закрытие попапа при клике на меню
 function closeOnClick() {
     popup.classList.remove("open");
-    hamb.classList.remove("active");
-    body.classList.remove("noscroll");
 }
 //конец скрипта для меню
-
+// __________________________________________________________________________________________________________
 // // скрипт для закрашивания фона меню при скроле
 const header = document.getElementById('header');
 window.addEventListener('scroll', function () {
