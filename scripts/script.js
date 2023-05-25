@@ -1,4 +1,4 @@
-// скрипт для меню, чтобы в мобильных версиях был гамбургер
+// // скрипт для меню, чтобы в мобильных версиях был гамбургер
 const hamb = document.querySelector("#hamb");
 const popup = document.querySelector("#popup");
 const body = document.body;
@@ -39,3 +39,13 @@ function closeOnClick() {
     body.classList.remove("noscroll");
 }
 //конец скрипта для меню
+
+// // скрипт для закрашивания фона меню при скроле
+const header = document.getElementById('header');
+window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 0) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});

@@ -2,3 +2,12 @@
 @import './fonts';
 @import './header';
 @import './footer';
+
+
+
+//общие свойства для всех блоков
+//отступы слева и справа по краям экрана
+.container {
+    width: 100%;
+    margin: 0 5vw;
+}
