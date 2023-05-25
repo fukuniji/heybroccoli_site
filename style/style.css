@@ -1,5 +1,4 @@
-
-
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -14,7 +13,6 @@ body {
   margin: 0 auto;
   max-width: 1160px;
 }
-
 
 @font-face {
   font-family: "Montserrat";
@@ -46,7 +44,6 @@ body {
   font-weight: 500;
   font-style: normal;
 }
-
 .header {
   position: fixed;
   left: 0;
@@ -169,7 +166,7 @@ body {
     background-color: #245799;
     border-radius: 0;
   }
-=======
+}
 .approach__title {
   padding: 9.375rem 0 4.125rem;
   font-family: "Museo Sans Cyrillic";
@@ -377,5 +374,4 @@ body {
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
-
 }/*# sourceMappingURL=style.css.map */
