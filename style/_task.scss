@@ -26,11 +26,13 @@ justify-content: center;
 }
 }
 &__subtitle { 
+max-width: 588px;
+ margin: auto;
  text-align: center;
  margin-top: 5.94rem;
  font-family: $font-texts;
  font-size: 1.25rem ;
- font-style: 600; 
+ font-style: 500; 
  line-height: 120%;
  }
 

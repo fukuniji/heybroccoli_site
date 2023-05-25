@@ -163,11 +163,13 @@ body {
   line-height: 100%;
 }
 .task__subtitle {
+  max-width: 588px;
+  margin: auto;
   text-align: center;
   margin-top: 5.94rem;
   font-family: "Montserrat";
   font-size: 1.25rem;
-  font-style: 600;
+  font-style: 500;
   line-height: 120%;
 }
 .task__btn {
