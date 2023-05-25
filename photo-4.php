@@ -5,5 +5,3 @@
       <img src="./assets/image/photo/food-4.jpg" alt="еда">
     </div>
   </div>
-
-  <!-- --------------------PHOTO-4 END--------------------------->
