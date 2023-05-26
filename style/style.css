@@ -279,7 +279,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 100%;
 }
@@ -289,7 +289,7 @@ body {
   text-align: center;
   margin-top: 5.94rem;
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.18vw;
   font-style: 500;
   line-height: 120%;
 }
@@ -319,6 +319,23 @@ body {
   background-image: url(../assets/image/task/telegram.png);
 }
 
+/* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
+@media (min-width: 767px) and (max-width: 1023px) {
+  .task .row__item {
+    font-size: 1.5vw;
+  }
+  .task__subtitle {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 766px) {
+  .task .row__item {
+    font-size: 3.5vw;
+  }
+  .task__subtitle {
+    font-size: 3.5vw;
+  }
+}
 .html {
   font-family: "Montserrat";
   font-size: 1.25rem;
