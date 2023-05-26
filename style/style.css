@@ -262,6 +262,37 @@ body {
   display: inline-block;
   margin-right: 1rem;
 }
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .approach__title {
+    font-size: 3.9vw;
+  }
+  .approach__header {
+    padding-bottom: 3.44rem;
+  }
+  .approach__header .header-aproach__slogan {
+    font-size: 2.9vw;
+  }
+  .approach__header .header-aproach__text {
+    font-size: 1.5vw;
+  }
+  .approach__list {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .approach__list .list__list-1 .list-1__title {
+    font-size: 2.5vw;
+  }
+  .approach__list .list__list-1 .list-1__item {
+    font-size: 1.5vw;
+  }
+  .approach__list .list__list-2 .list-2__title {
+    font-size: 2.5vw;
+  }
+  .approach__list .list__list-2 .list-2__item {
+    font-size: 1.5vw;
+  }
+}
+
 .task {
   margin-top: 9.375rem;
 }
@@ -385,5 +416,8 @@ body {
 @media (min-width: 1024px) and (max-width: 1439px) {
   .container {
     width: 95%;
+  }
+  .title {
+    text-align: start;
   }
 }/*# sourceMappingURL=style.css.map */
