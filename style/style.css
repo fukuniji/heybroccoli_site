@@ -328,7 +328,8 @@ body {
 }
 
 .container {
-  margin: 0 6vw;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 
 .title {
