@@ -327,8 +327,8 @@ body {
   margin-top: 15vw;
   margin-bottom: 5vw;
   text-align: center;
-  font-family: 3.5vw;
-  font-size: 4.25rem;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 3.5vw;
   font-style: 500;
   height: 15vh;
 }
@@ -341,8 +341,8 @@ body {
 .services-business__text-1 {
   width: 21vw;
   padding-top: 10vh;
-  font-family: 1.18vw;
-  font-size: 2.6vh;
+  font-family: "Montserrat";
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
 }
@@ -350,7 +350,7 @@ body {
   width: 24vw;
   padding-top: 10vh;
   font-family: "Montserrat";
-  font-size: 2.6vh;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
 }
@@ -365,6 +365,53 @@ body {
   color: #245799;
 }
 
+@media (min-width: 767px) and (max-width: 1023px) {
+  .services-business {
+    height: 155vh;
+  }
+  .services-business__title {
+    margin-top: 15vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    font-family: "Museo Sans Cyrillic";
+    font-size: 3.9vw;
+    font-style: 500;
+    height: 15vh;
+  }
+  .services-business__info-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .services-business__img-1 {
+    display: none;
+  }
+  .services-business__text-1 {
+    width: 21vw;
+    padding-top: 10vh;
+    font-family: "Montserrat";
+    font-size: 1.5vw;
+    font-style: 400;
+    line-height: 120%;
+  }
+  .services-business__text-2 {
+    width: 24vw;
+    padding-top: 10vh;
+    font-family: "Montserrat";
+    font-size: 1.5vw;
+    font-style: 400;
+    line-height: 120%;
+  }
+  .services-business__img-2 {
+    padding-top: 35vh;
+    padding-left: 26vw;
+    max-width: 400vw;
+  }
+  .bluetext {
+    color: #245799;
+  }
+}
 .html {
   font-family: "Montserrat";
   font-size: 1.25rem;
