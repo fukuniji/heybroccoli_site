@@ -74,25 +74,60 @@
   color: $color-btn-text-white;
 }
 
-@media(min-width:1024px) and (max-width:1439px) {
+ /* --------------   (min-width:1024px) ---------------- */
+
+@media(min-width:1024px) {
+
+.container {
+  width: 95%;
+  margin: 0 auto;}}
+  /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
+
+@media(min-width:767px) and (max-width:1023px) {
 
   .html {
-    $fontsize-tablet-text: 1.5vw;
+    font-size:$fontsize-tablet-text;
   }
 
   .container {
-   width: 95%;}
+   width: 90%;}
 
    .title {
-    $fontsize-tablet-h2: 3.9vw;
+    font-size: $fontsize-tablet-h2;
     text-align:start;
 
    }
 
    .slogan {
-    $fontsize-tablet-h3: 2.9vw;}
+    font-size:$fontsize-tablet-h3;}
 
     .button-long {
-    $fontsize-tablet-text: 1.5vw;
+      font-size: $fontsize-tablet-text;
     }
   }
+
+  /*---------------screen  and (max-width:766px)------------ */
+
+  @media screen  and (max-width:766px) {
+
+    .html {
+      font-size:$fontsize-mobile-text;
+    }
+  
+    .container {
+     width: 90%;}
+  
+     .title {
+      font-size:$fontsize-mobile-h2;
+      text-align:start;
+  
+     }
+  
+     .slogan {
+      font-size: $fontsize-mobile-h3;}
+  
+      .button-long {
+        font-size: $fontsize-mobile-text;
+      }
+    }
+
