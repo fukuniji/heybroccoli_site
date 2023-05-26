@@ -1,0 +1,57 @@
+.services-business {
+  position: relative;
+  height: 155vh;
+
+  //&__business {}
+
+  &__title {
+    margin-top: $gap;
+    margin-bottom: $gap-undertitle;
+    //padding: 0 1.7vw;
+    text-align: center;
+    font-family: $fontsize-desktop-h2;
+    font-size: 4.25rem;
+    font-style: 500;
+    height: 15vh;
+  }
+
+  &__info-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  //&__img-1 {}
+
+  &__text-1 {
+    width: 21vw;
+    padding-top: 10vh;
+    font-family: $fontsize-desktop-text;
+    font-size: 2.6vh;
+    font-style: 400;
+    line-height: 120%;
+  }
+
+  &__text-2 {
+    width: 24vw;
+    padding-top: 10vh;
+    font-family: $font-texts;
+    font-size: 2.6vh;
+    font-style: 400;
+    line-height: 120%;
+  }
+
+  &__img-2 {
+    position: absolute;
+    padding-top: 35vh;
+    padding-left: 26vw;
+    max-width: 400vw;
+  }
+}
+
+//.title {}
+
+.bluetext {
+  color: $color-btn-text-blue;
+}

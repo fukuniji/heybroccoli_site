@@ -319,6 +319,52 @@ body {
   background-image: url(../assets/image/task/telegram.png);
 }
 
+.services-business {
+  position: relative;
+  height: 155vh;
+}
+.services-business__title {
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+  text-align: center;
+  font-family: 3.5vw;
+  font-size: 4.25rem;
+  font-style: 500;
+  height: 15vh;
+}
+.services-business__info-wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.services-business__text-1 {
+  width: 21vw;
+  padding-top: 10vh;
+  font-family: 1.18vw;
+  font-size: 2.6vh;
+  font-style: 400;
+  line-height: 120%;
+}
+.services-business__text-2 {
+  width: 24vw;
+  padding-top: 10vh;
+  font-family: "Montserrat";
+  font-size: 2.6vh;
+  font-style: 400;
+  line-height: 120%;
+}
+.services-business__img-2 {
+  position: absolute;
+  padding-top: 35vh;
+  padding-left: 26vw;
+  max-width: 400vw;
+}
+
+.bluetext {
+  color: #245799;
+}
+
 .html {
   font-family: "Montserrat";
   font-size: 1.25rem;
