@@ -44,7 +44,7 @@ max-width: 588px;
 
 .button-long { 
   background-color:$color-btn-text-blue;
-  padding: 1.2rem 5.8rem;
+  padding: 1.0rem 5.1rem;
 
 }
 .button-long_green {
@@ -79,6 +79,8 @@ background-color:$color-btn-text-green;
 &__subtitle { 
    font-size: $fontsize-tablet-text;
   }
+  .button-long { 
+    padding: 1.0rem 4.4rem;}
   }
 }
 

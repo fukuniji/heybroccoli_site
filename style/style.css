@@ -301,7 +301,7 @@ body {
 }
 .task__btn .button-long {
   background-color: #245799;
-  padding: 1.2rem 5.8rem;
+  padding: 1rem 5.1rem;
 }
 .task__btn .button-long_green {
   background-color: #077840;
@@ -326,6 +326,9 @@ body {
   }
   .task__subtitle {
     font-size: 1.5vw;
+  }
+  .task .button-long {
+    padding: 1rem 4.4rem;
   }
 }
 @media screen and (max-width: 766px) {
@@ -371,7 +374,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.2rem 1rem;
+  padding: 1rem 1rem;
   border-radius: 30px;
   font-family: "Montserrat";
   font-size: 1.125rem;
