@@ -1,3 +1,4 @@
+<!-- ---------------------APPROACH-3--------------------------->
 <div class="approach" id="approach">
   <div class="container">
     <h2 class="approach__title title">Подход к работе </h2>
@@ -44,3 +45,5 @@
     </div>
   </div>
 </div>
+
+<!-- ---------------------APPROACH-3-END-------------------------->
