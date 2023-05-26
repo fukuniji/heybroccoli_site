@@ -73,3 +73,24 @@
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
 }
+
+@media(min-width:1024px) and (max-width:1439px) {
+
+  .html {
+    $fontsize-tablet-text: 1.5vw;
+  }
+
+  .container {
+   width: 95%;}
+
+   .title {
+    $fontsize-tablet-h2: 3.9vw;
+   }
+
+   .slogan {
+    $fontsize-tablet-h3: 2.9vw;}
+
+    .button-long {
+    $fontsize-tablet-text: 1.5vw;
+    }
+  }

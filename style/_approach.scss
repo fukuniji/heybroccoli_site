@@ -34,9 +34,9 @@
             padding: 0 24px;
           }
 
-         &__img { }
+         &__img { 
          max-width: 108px;
-         height: 115px;
+         height: 115px;}
         }
       }
 
@@ -126,4 +126,17 @@
       }
     }
   }
+  @media(min-width:1024px) and (max-width:1439px) {
+    
+
+
+  }
+
 }
+
+//размеры шрифтов для планшета (до 1023px)
+$fontsize-tablet-h2: 3.9vw;
+$fontsize-tablet-h3: 2.9vw;
+$fontsize-tablet-undertitle: 2.5vw; 
+$fontsize-tablet-text: 1.5vw;
+$fontsize-tablet-smalltext: 1.3vw;
