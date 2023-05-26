@@ -15,7 +15,7 @@
 @import './message-me';
 @import './footer';
 
-.html {
+html {
   font-family: $font-texts;
   font-size: 1.25rem;
   font-style: 400;
@@ -28,7 +28,7 @@
   margin: 0 auto;
 }
 
-.img{
+img{
   max-width: 100%;
   width: 100%;
   height: auto;

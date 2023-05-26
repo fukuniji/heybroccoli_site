@@ -387,7 +387,7 @@ body {
   background-image: url(../assets/image/task/telegram.png);
 }
 
-.html {
+html {
   font-family: "Montserrat";
   font-size: 1.25rem;
   font-style: 400;
@@ -400,7 +400,7 @@ body {
   margin: 0 auto;
 }
 
-.img {
+img {
   max-width: 100%;
   width: 100%;
   height: auto;
