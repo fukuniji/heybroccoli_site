@@ -1,13 +1,48 @@
-@mixin card ($grid-template-rows) {
-  border: 2px solid $color-btn-text-blue;
-  border-radius: 50px;
-  max-width: 35vw;
-  height: 125vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: $grid-template-rows;
-  justify-content: center;
+.services {
+  &__title {
+    padding: 0 1.7vw;
+    text-align: center;
+    font-family: $font-titles;
+    font-size: 4.25rem;
+    font-style: 500;
+    height: 15vh;
+  }
+
+  &__wrapper-cards {
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 125vh 125vh;
+    column-gap: 2vw;
+    row-gap: 4vh;
+    padding: 0 1.7vw;
+  }
+
+  &__card-left {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 50px;
+    max-width: 35vw;
+    height: 125vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 7% 3% 25% 25% 1fr;
+    justify-content: center;
+  }
+
+  &__card-right {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 50px;
+    max-width: 35vw;
+    height: 125vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 7% 3% 38% 28% 1fr;
+    justify-content: center;
+  }
 }
+
+//.container {}
+
+//.title {}
 
 .card {
   &__title {
@@ -60,35 +95,6 @@
   }
 }
 
-.services__wrapper-cards {
-  display: grid;
-  grid-template-columns: 35vw 35vw;
-  grid-template-rows: 125vh 125vh;
-  column-gap: 2vw;
-  row-gap: 4vh;
-  padding: 0 1.7vw;
-}
-
-.services {
-
-  &__card-left {
-    @include card(15% 7% 3% 25% 25% 1fr);
-  }
-
-  &__card-right {
-    @include card(15% 7% 3% 38% 28% 1fr);
-  }
-
-  &__title {
-    padding: 0 1.7vw;
-    text-align: center;
-    font-family: $font-titles;
-    font-size: 4.25rem;
-    font-style: 500;
-    height: 15vh;
-  }
-}
-
 .line {
   padding-left: 1vw;
 }
@@ -97,7 +103,6 @@
   height: 5.6vh;
   width: 3vw;
   padding-right: 2vw;
-  //background-image: url(../services/telegramm.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
