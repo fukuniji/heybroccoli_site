@@ -332,6 +332,10 @@ body {
   margin: 0 auto;
 }
 
+.main__photo {
+  margin-top: 15vw;
+}
+
 .title {
   font-family: "Museo Sans Cyrillic";
   font-size: 4.25rem;
