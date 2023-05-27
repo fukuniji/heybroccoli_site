@@ -34,7 +34,9 @@
             padding: 0 24px;
           }
 
-          // &__img { }
+         &__img { 
+         max-width: 108px;
+         height: 115px;}
         }
       }
 
@@ -124,4 +126,107 @@
       }
     }
   }
+
+  /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
+
+  @media(min-width:767px) and (max-width:1023px) {
+    
+    &__title {
+            font-size: $fontsize-tablet-h2;
+ }
+
+ &__header {
+  padding-bottom: 3.44rem;
+
+  .header-aproach {
+     &__slogan {
+      font-size: $fontsize-tablet-h3;
+          }
+     &__text {
+           font-size: $fontsize-tablet-text;
+          }
+  }
+}
+&__list {
+  display: flex;
+  flex-direction: row-reverse;
+  .list {
+    &__list-1 {
+       .list-1 {
+        &__title {
+          font-size: $fontsize-tablet-undertitle;
+            }
+        &__item {
+          font-size: $fontsize-tablet-text;
+                        }
+      }
+    }
+
+    &__list-2 {
+            .list-2 {
+        &__title {
+                 font-size: $fontsize-tablet-undertitle;
+               }
+
+        &__item {
+                font-size: $fontsize-tablet-text;
+                 }
+      }
+    }
+  }
+}
+}
+/*---------------screen  and (max-width:766px)------------ */
+
+@media screen  and (max-width:766px) {
+    
+  &__title {
+          font-size: $fontsize-mobile-h2;
+}
+
+&__header {
+padding-bottom: 3.44rem;
+
+.header-aproach {
+   &__slogan {
+    font-size: $fontsize-mobile-h3;
+        }
+   &__text {
+         font-size: $fontsize-mobile-text;
+        }
+}
+}
+&__list {
+display: flex;
+flex-direction:column-reverse;
+.list {
+  &__list-1 {
+     .list-1 {
+      &__title {
+        font-size: $fontsize-mobile-undertitle;
+          }
+      &__item {
+        font-size: $fontsize-mobile-text;
+                      }
+    }
+  }
+
+  &__list-2 {
+          .list-2 {
+      &__title {
+               font-size: $fontsize-mobile-undertitle;
+             }
+
+      &__item {
+              font-size: $fontsize-mobile-text;
+               }
+    }
+  }
+}
+}
+}
+
+
+
+
 }
