@@ -1,0 +1,11 @@
+.main__about {
+    //отступ для меню
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1023px) {
+    .main__about {
+        //отступ для меню
+        margin-top: 85px;
+    }
+}

@@ -18,55 +18,56 @@
 .html {
   font-family: $font-texts;
   font-size: 1.25rem;
-  font-style: 400; 
+  font-style: 400;
   line-height: 100%;
   color: $color-primary;
 }
 
 .container {
+  max-width:1160px;
   margin: 0 auto;
-  max-width: 1160px;
+}
+.main__photo{
+margin-top: $gap;
 }
 
-.title { 
-font-family: $font-titles;
-font-size: 4.25rem;
-font-style: 500; 
-line-height: 100%;
-text-align: center;
-color: $color-primary;
+.title {
+  font-family: $font-titles;
+  font-size: 4.25rem;
+  font-style: 500;
+  line-height: 100%;
+  text-align: center;
+  color: $color-primary;
 }
 
-.slogan { 
+.slogan {
   font-family: $font-titles;
   font-size: 2.625rem;
-  font-style: 500; 
+  font-style: 500;
   line-height: 100%;
   color: $color-btn-text-blue;
 }
-.button-long {
 
-color: white; 
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 0.7rem 1rem;
-border-radius: 30px;
-font-family: $font-texts;
-font-size: 1.125rem ;
-font-style: 400; 
-line-height: 122%;
-/* border-color: ; */
+.button-long {
+  color: $color-btn-text-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  border-radius: 30px;
+  font-family: $font-texts;
+  font-size: 1.125rem;
+  font-style: 400;
+  line-height: 122%;
+  border-color: transparent;
 }
 
 .button-long:hover {
-background-color: $color-btn-text-green;
-color: $color-btn-text-white;
-/* border-color: ; */
-} 
+  background-color: $color-btn-text-green;
+  color: $color-btn-text-white;
+}
 
 .button-long_green:hover {
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
-  /* border-color: ; */
-} 
+}

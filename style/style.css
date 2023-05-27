@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -8,15 +9,10 @@ body {
   padding: 0;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1160px;
-}
-
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"), url("../assets/fonts/Montserrat-Regular.woff") format("woff"), url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
@@ -26,27 +22,151 @@ body {
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"), url("../assets/fonts/Montserrat-Medium.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Museo Sans Cyrillic";
-  src: local("Museo_Sans_Cyrillic"), local("Museo Sans Cyrillic "), url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Museo Sans Cyrillic";
   src: local("Museo Sans Cyrl"), local("Museo Sans Cyrillic "), url("../assets/fonts/Museo_Sans_Cyrillic.woff") format("woff"), url("../assets/fonts/Museo_Sans_Cyrillic.otf") format("otf");
   font-weight: 500;
   font-style: normal;
 }
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+}
+.header .hamb,
+.header .popup,
+.header .header__logo {
+  display: none;
+}
+.header .container {
+  width: 100%;
+}
+.header .container .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .container .nav__link {
+  color: #1e2124;
+  text-decoration: none;
+  font-size: 1.18vw;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.header .container .nav__link:hover {
+  color: #077840;
+}
+
+/* Стиль меню при скролле */
+#header.scrolled {
+  background-color: #245799;
+  border-radius: 0 0 30px 30px;
+}
+#header.scrolled .nav__link {
+  color: #ffffff;
+}
+#header.scrolled .nav__link:hover {
+  color: #6ec69a;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    height: 85px;
+    background-color: #245799;
+  }
+  .header .container {
+    display: none;
+  }
+  .header .hamb {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .header .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .header .hamb .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: white;
+    transition: 0.2s;
+  }
+  .header .popup {
+    position: fixed;
+    top: 85px;
+    left: -100%;
+    width: 100vw;
+    height: 80vh;
+    background-color: #245799;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 0 0 30px 30px;
+  }
+  .header .popup.open {
+    left: 0;
+  }
+  .header .popup .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100%;
+  }
+  .header .popup .container .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px 0;
+    overflow: auto;
+  }
+  .header .popup .container .nav .nav__link:not(.nav__link_first) {
+    border-top: 1px solid white;
+  }
+  .header .popup .container .nav .nav__link {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+  }
+  .header .popup .container .header__logo {
+    display: flex;
+    height: 20vw;
+  }
+  .header body.noscroll {
+    overflow: hidden;
+  }
+  #header.scrolled {
+    background-color: #245799;
+    border-radius: 0;
+  }
+}
+.main__about {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  .main__about {
+    margin-top: 85px;
+  }
+}
 .approach__title {
-  padding: 9.375rem 0 4.125rem;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
   font-family: "Museo Sans Cyrillic";
-  font-size: 4.25rem;
+  font-size: 3.5vw;
   font-style: 500;
 }
 .approach__header {
@@ -57,7 +177,7 @@ body {
 }
 .approach__header .header-aproach__slogan {
   font-family: "Museo Sans Cyrillic";
-  font-size: 2.625rem;
+  font-size: 2.5vw;
   font-style: 500;
   color: #245799;
   line-height: 100%;
@@ -75,8 +195,9 @@ body {
   padding-top: 1.5rem;
   max-width: 564px;
   font-family: "Montserrat";
-  font-size: 1.25rem;
-  font-style: 400; /* regular */
+  font-size: 1.18vw;
+  font-style: 400;
+  /* regular */
   line-height: 120%;
 }
 .approach__list {
@@ -91,14 +212,14 @@ body {
 .approach__list .list__list-1 .list-1__title {
   color: #245799;
   font-family: "Museo Sans Cyrillic";
-  font-size: 2rem;
+  font-size: 2vw;
   font-style: 500;
   line-height: 100%;
   padding-bottom: 1.31rem;
 }
 .approach__list .list__list-1 .list-1__item {
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
 }
@@ -117,14 +238,14 @@ body {
 .approach__list .list__list-2 .list-2__title {
   color: #077840;
   font-family: "Museo Sans Cyrillic";
-  font-size: 2rem;
+  font-size: 2vw;
   font-style: 500;
   line-height: 100%;
   padding-bottom: 1.31rem;
 }
 .approach__list .list__list-2 .list-2__item {
   font-family: "Montserrat";
-  font-size: 1.25rem;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
 }
@@ -233,6 +354,211 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
+=======
+.task {
+  margin-top: 9.375rem;
+}
+.task__title {
+  margin-bottom: 5rem;
+}
+.task__row-1 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 7rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  justify-content: center;
+}
+.task__row-1 .row__item {
+  display: flex;
+  max-width: 178px;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 400;
+  line-height: 100%;
+}
+.task__subtitle {
+  max-width: 588px;
+  margin: auto;
+  text-align: center;
+  margin-top: 5.94rem;
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-style: 500;
+  line-height: 120%;
+}
+.task__btn {
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  margin-top: 2.25rem;
+}
+.task__btn .button-long {
+  background-color: #245799;
+  padding: 1.2rem 5.8rem;
+}
+.task__btn .button-long_green {
+  background-color: #077840;
+}
+.task__btn .socialicon {
+  background-image: url(../assets/image/task/watsapp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 0.625rem;
+}
+.task__btn .socialicon_tg {
+  background-image: url(../assets/image/task/telegram.png);
+}
+
+.main__message-me {
+  margin-left: 9.72vw;
+}
+
+.message-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .message-me {
+    flex-wrap: wrap;
+  }
+}
+
+.message-me__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 38.89vw;
+}
+@media screen and (max-width: 1023px) {
+  .message-me__wrapper {
+    max-width: 39.1vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__wrapper {
+    max-width: 80.8344vw;
+  }
+}
+
+.message-me__subtitle {
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  line-height: 1.67vw;
+}
+
+.form-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.0417vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625vw;
+}
+.form__input {
+  border: none;
+  border-bottom: 2px solid #557DB0;
+  width: 38.89vw;
+  height: 3.8194vw;
+}
+.form__input::-moz-placeholder {
+  color: #766F6F;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+}
+.form__input::placeholder {
+  color: #766F6F;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+}
+.form__label {
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.39vw;
+}
+.form__link {
+  color: #1e2124;
+}
+
+.message-me__button-long_white {
+  cursor: pointer;
+  background-color: #f9f7f1;
+  border: 2px solid #557db0;
+  border-radius: 30px;
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  width: 38.9583vw;
+  height: 4.17vw;
+}
+
+.form__checkbox {
+  width: 1.7361vw;
+  height: 1.7361vw;
+}
+
+.mm-task__btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.mm-task__btn__button-long {
+  cursor: pointer;
+  background-color: #245799;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  width: 18.4vw;
+  height: 4.17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mm-task__btn__button-long_green {
+  background-color: #077840;
+}
+
+.social-icon {
+  background-image: url(../assets/image/form/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.39vw;
+  height: 1.39vw;
+  display: inline-block;
+  margin-left: 0.6944vw;
+}
+
+.social-icon_whatsapp {
+  background-image: url(../assets/image/form/whatsapp-icon.svg);
+}
+
+.message-me__img {
+  width: 100%;
+  max-width: 700px;
+
 }
 
 .html {
@@ -244,8 +570,12 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1160px;
+  margin: 0 auto;
+}
+
+.main__photo {
+  margin-top: 15vw;
 }
 
 .title {
@@ -266,27 +596,25 @@ body {
 }
 
 .button-long {
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.7rem 1rem;
+  padding: 1.2rem 1rem;
   border-radius: 30px;
   font-family: "Montserrat";
   font-size: 1.125rem;
   font-style: 400;
   line-height: 122%;
-  /* border-color: ; */
+  border-color: transparent;
 }
 
 .button-long:hover {
   background-color: #077840;
   color: #ffffff;
-  /* border-color: ; */
 }
 
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
-  /* border-color: ; */
 }/*# sourceMappingURL=style.css.map */

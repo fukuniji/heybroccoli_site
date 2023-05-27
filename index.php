@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/style.css" type="text/css">
-  <title>Document</title>
+  <title>Куликова Елена Нутрициолог, коуч полезных привычек, change maker</title>
 </head>
 
 <body>
@@ -15,9 +15,11 @@
   <?php require_once('about.php') ?>
   <?php require_once('hello.php') ?>
   <?php require_once('approach.php') ?>
+  <?php require_once('photo-4.php') ?>
   <?php require_once('task.php') ?>
   <?php require_once('services.php') ?>
   <?php require_once('services-business.php') ?>
+  <?php require_once('photo-8.php') ?>
   <?php require_once('reviews.php') ?>
   <?php require_once('sertificates.php') ?>
   <?php require_once('message-me.php') ?>
@@ -33,6 +35,7 @@
     общий класс .bluetext  для синего поинт-текста 
     общий класс .group-img для линии с броколли
   -->
+
 
 </body>
 
