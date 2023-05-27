@@ -813,7 +813,7 @@ body {
   cursor: pointer;
   background-color: #f9f7f1;
   border: 2px solid #557db0;
-  border-radius: 30px;
+  border-radius: 2.083vw;
   color: #1e2124;
   font-family: "Montserrat";
   font-weight: 400;
@@ -838,7 +838,7 @@ body {
   cursor: pointer;
   background-color: #245799;
   border: none;
-  border-radius: 30px;
+  border-radius: 2.083vw;
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 400;
