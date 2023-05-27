@@ -7,7 +7,7 @@
         К себе и еде — с любовью
       </h3>
       <div class="header-aproach__img group-img">
-        <img src="./assets/image/approach/line.png" alt="line" class="line" />
+        <img src="./assets/image/approach/line.svg" alt="line" class="group-imgline" />
         <img src="./assets/image/approach/broccoli.svg" alt="broccoli" class="group-img__img" />
       </div>
       <div class="header-aproach__text">

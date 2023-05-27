@@ -11,9 +11,11 @@
 
   &__header {
     padding-bottom: 3.44rem;
+ 
 
     .header-aproach {
       display: flex;
+  
 
       &__slogan {
         font-family: $font-titles;
@@ -26,14 +28,11 @@
       &__img {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        margin: -2.5vw 0;
         gap: 1.5rem;
 
         .group-img {
-          .line {
-            padding: 0 24px;
-          }
-
+      
           &__img {
             max-width: 108px;
             height: 115px;
@@ -42,7 +41,7 @@
       }
 
       &__text {
-        padding-top: 1.5rem;
+       
         max-width: 564px;
         font-family: $font-texts;
         font-size: $fontsize-desktop-text;
@@ -57,8 +56,7 @@
     display: flex;
     flex-direction: row;
     flex: 1;
-    margin-bottom: 10rem;
-
+  
     .list {
 
       &__list-1 {
@@ -79,6 +77,8 @@
             font-size: $fontsize-desktop-text;
             font-style: 400;
             line-height: 120%;
+            display: flex;
+            align-items: center;
 
             .krest {
               background-image: url(../assets/image/approach/krestik.svg);
@@ -87,7 +87,7 @@
               width: 32.5px;
               height: 32.5px;
               display: inline-block;
-              margin-right: 1rem;
+              margin: 0 0.75vw 0.75vw;
             }
           }
         }
@@ -112,15 +112,17 @@
             font-size: $fontsize-desktop-text;
             font-style: 400;
             line-height: 120%;
+            display: flex;
+            align-items: center;
 
             .check {
               background-image: url(../assets/image/approach/galochka.svg);
               background-repeat: no-repeat;
               background-size: cover;
-              width: 30px;
-              height: 30px;
+              width: 32.5px;
+              height: 32.5px;
               display: inline-block;
-              margin-right: 1rem;
+              margin: 0 0.75vw 0.75vw;
             }
           }
         }
@@ -144,6 +146,10 @@
           font-size: $fontsize-tablet-h3;
         }
 
+        &__img {
+        
+          margin: -3vw 0;
+        }
         &__text {
           font-size: $fontsize-tablet-text;
         }
@@ -163,6 +169,8 @@
 
             &__item {
               font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
             }
           }
         }
@@ -175,6 +183,8 @@
 
             &__item {
               font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
             }
           }
         }
@@ -197,7 +207,10 @@
         &__slogan {
           font-size: $fontsize-mobile-h3;
         }
-
+        &__img {
+          margin: -4.5vw 0;
+        }
+      
         &__text {
           font-size: $fontsize-mobile-text;
         }
@@ -213,6 +226,7 @@
           .list-1 {
             &__title {
               font-size: $fontsize-mobile-undertitle;
+              margin-top: 3.125vw;
             }
 
             &__item {
@@ -225,6 +239,7 @@
           .list-2 {
             &__title {
               font-size: $fontsize-mobile-undertitle;
+              
             }
 
             &__item {
