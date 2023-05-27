@@ -102,32 +102,34 @@
 }
 
 .button-round {
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2vw;
-    border-color: transparent;
-    height: 3vw;
-    width: 3vw;
-    background-color:$color-btn-text-blue;
 
-     .iconsocial{
-      width: 1.5vw;
-      height: 1.5vw;
-         } 
- }
- .button-round_green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  border-color: transparent;
+  height: 3vw;
+  width: 3vw;
+  background-color: $color-btn-text-blue;
+
+  .iconsocial {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+}
+
+.button-round_green {
   background-color: $color-btn-text-green;
- }
+}
 
- .button-round:hover {
+.button-round:hover {
   background-color: $color-btn-text-green;
 }
 
 .button-round_green:hover {
   background-color: $color-btn-text-blue;
 }
+
 //-----------adaptive tablet----------//
 
 @media(min-width:767px) and (max-width:1023px) {

@@ -31,7 +31,7 @@
                 font-family: "Montserrat", Arial, sans-serif;
 
                 &:hover {
-                    color: #077840;
+                    color: $color-lite-green;
                 }
             }
         }
@@ -49,7 +49,7 @@
             color: $color-btn-text-white;
 
             &:hover {
-                color: #6ec69a;
+                color: $color-lite-green;
             }
         }
     }
@@ -87,7 +87,7 @@
                 width: 30px;
                 height: 3px;
                 margin: 6px auto;
-                background-color: white;
+                background-color: $color-btn-text-white;
                 transition: 0.2s;
             }
         }
@@ -99,7 +99,7 @@
             left: -100%;
             width: 100vw;
             height: 80vh;
-            background-color: #245799;
+            background-color: $color-btn-text-blue;
             z-index: 100;
             display: flex;
             justify-content: center;
@@ -131,7 +131,7 @@
 
                 // линии в мобильном меню
                 .nav__link:not(.nav__link_first) {
-                    border-top: 1px solid white;
+                    border-top: 1px solid $color-btn-text-white;
                 }
 
                 //пункты меню
@@ -141,7 +141,7 @@
                     display: flex;
                     justify-content: center;
                     font-size: 1rem;
-                    color: white;
+                    color: $color-btn-text-white;
                     width: 100%;
                 }
 
@@ -160,7 +160,7 @@
     }
 
     #header.scrolled {
-        background-color: #245799;
+        background-color: $color-btn-text-blue;
         border-radius: 0;
     }
 }
