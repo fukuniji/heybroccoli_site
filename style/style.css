@@ -162,6 +162,10 @@ body {
     margin-top: 85px;
   }
 }
+.approach {
+  /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
+  /*---------------screen  and (max-width:766px)------------ */
+}
 .approach__title {
   margin-top: 15vw;
   margin-bottom: 5vw;
@@ -190,6 +194,10 @@ body {
 }
 .approach__header .header-aproach__img .group-img .line {
   padding: 0 24px;
+}
+.approach__header .header-aproach__img .group-img__img {
+  max-width: 108px;
+  height: 115px;
 }
 .approach__header .header-aproach__text {
   padding-top: 1.5rem;
@@ -257,6 +265,66 @@ body {
   height: 30px;
   display: inline-block;
   margin-right: 1rem;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .approach__title {
+    font-size: 3.9vw;
+  }
+  .approach__header {
+    padding-bottom: 3.44rem;
+  }
+  .approach__header .header-aproach__slogan {
+    font-size: 2.9vw;
+  }
+  .approach__header .header-aproach__text {
+    font-size: 1.5vw;
+  }
+  .approach__list {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .approach__list .list__list-1 .list-1__title {
+    font-size: 2.5vw;
+  }
+  .approach__list .list__list-1 .list-1__item {
+    font-size: 1.5vw;
+  }
+  .approach__list .list__list-2 .list-2__title {
+    font-size: 2.5vw;
+  }
+  .approach__list .list__list-2 .list-2__item {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 766px) {
+  .approach__title {
+    font-size: 6vw;
+  }
+  .approach__header {
+    padding-bottom: 3.44rem;
+  }
+  .approach__header .header-aproach__slogan {
+    font-size: 4.5vw;
+  }
+  .approach__header .header-aproach__text {
+    font-size: 3.5vw;
+  }
+  .approach__list {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .approach__list .list__list-1 .list-1__title {
+    font-size: 3vw;
+  }
+  .approach__list .list__list-1 .list-1__item {
+    font-size: 3.5vw;
+  }
+  .approach__list .list__list-2 .list-2__title {
+    font-size: 3vw;
+  }
+  .approach__list .list__list-2 .list-2__item {
+    font-size: 3.5vw;
+  }
 }
 
 .card__title {
@@ -414,6 +482,9 @@ body {
 .task__btn .socialicon_tg {
   background-image: url(../assets/image/task/telegram.png);
 }
+
+
+html {
 
 .main__message-me {
   margin-left: 9.72vw;
@@ -574,13 +645,19 @@ body {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+
 .main__photo {
   margin-top: 15vw;
+
 }
 
 .title {
   font-family: "Museo Sans Cyrillic";
-  font-size: 4.25rem;
+  font-size: 3.5vw;
   font-style: 500;
   line-height: 100%;
   text-align: center;
@@ -589,7 +666,7 @@ body {
 
 .slogan {
   font-family: "Museo Sans Cyrillic";
-  font-size: 2.625rem;
+  font-size: 3.5vw;
   font-style: 500;
   line-height: 100%;
   color: #245799;
@@ -600,10 +677,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.2rem 1rem;
+  padding: 0.1vw 0.8vw;
   border-radius: 30px;
   font-family: "Montserrat";
-  font-size: 1.125rem;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 122%;
   border-color: transparent;
@@ -617,4 +694,42 @@ body {
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
+}
+
+/* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
+@media (min-width: 767px) and (max-width: 1023px) {
+  html {
+    font-size: 1.5vw;
+  }
+  .container {
+    width: 90%;
+  }
+  .title {
+    font-size: 3.9vw;
+  }
+  .slogan {
+    font-size: 2.9vw;
+  }
+  .button-long {
+    font-size: 1.5vw;
+    padding: 1.2rem 0.2rem;
+  }
+}
+/*---------------screen  and (max-width:766px)------------ */
+@media screen and (max-width: 766px) {
+  html {
+    font-size: 3.5vw;
+  }
+  .container {
+    width: 90%;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .slogan {
+    font-size: 4.5vw;
+  }
+  .button-long {
+    font-size: 3.5vw;
+  }
 }/*# sourceMappingURL=style.css.map */
