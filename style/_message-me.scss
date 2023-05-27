@@ -53,6 +53,14 @@
   display: flex;
   flex-direction: column;
   row-gap: 6.0417vw;
+
+  @media(min-width:767px) and (max-width:1023px) {
+    row-gap: 2.6393vw; //27px
+}
+
+  @media screen and (max-width: 767px) {
+    row-gap: 5.6063vw; //43px
+  }
 }
 
 .form {
@@ -120,13 +128,16 @@
 
   flex-direction: row;
   flex-wrap: nowrap;
-  //   @media screen and (max-width: 1023px) {
-  //     flex-wrap: wrap;
-  // }
 
-  // @media screen and (max-width: 767px) {
-  //   flex-wrap: nowrap;
-  // }
+    @media(min-width:767px) and (max-width:1023px) {
+      flex-wrap: wrap;
+      row-gap: 3.6168vw; //37px
+  }
+
+    @media screen and (max-width: 767px) {
+      flex-wrap: nowrap;
+      column-gap: 3.9113vw; //30px
+    }
 
 }
 
@@ -148,6 +159,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media(min-width:767px) and (max-width:1023px) {
+    border-radius: 2.9326vw; //30px
+    font-size: 1.7595vw; //18px
+    width: 39.1vw; //400px
+    height: 5.8651vw; //60px
+  }
+
+  @media screen and (max-width: 767px) {
+    border-radius: 3.9113vw; //30px
+    font-size: 2.2164vw; //17px
+    width: 38.4615vw; //295px
+    height: 7.8227vw; //60px
+  }
+
 }
 
 .mm-task__btn__button-long_green {
@@ -161,7 +187,21 @@
   width: 1.39vw; //20px
   height: 1.39vw; //20px
   display: inline-block;
-  margin-left: 0.6944vw;
+  margin-left: 0.6944vw; //10px
+
+  @media(min-width:767px) and (max-width:1023px) {
+
+    width: 1.955vw; //20px
+    height: 1.955vw; //20px
+    margin-left: 0.9775vw; //10px
+  }
+
+  @media screen and (max-width: 767px) {
+
+    width: 2.6076vw; //20px
+    height: 2.6076vw; //20px
+    margin-left: 1.3038vw; //10px
+  }
 }
 
 .social-icon_whatsapp {

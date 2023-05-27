@@ -774,6 +774,16 @@ body {
   flex-direction: column;
   row-gap: 6.0417vw;
 }
+@media (min-width: 767px) and (max-width: 1023px) {
+  .form-part {
+    row-gap: 2.6393vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-part {
+    row-gap: 5.6063vw;
+  }
+}
 
 .form {
   display: flex;
@@ -833,6 +843,19 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
+@media (min-width: 767px) and (max-width: 1023px) {
+  .mm-task__btn {
+    flex-wrap: wrap;
+    row-gap: 3.6168vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mm-task__btn {
+    flex-wrap: nowrap;
+    -moz-column-gap: 3.9113vw;
+         column-gap: 3.9113vw;
+  }
+}
 
 .mm-task__btn__button-long {
   cursor: pointer;
@@ -849,6 +872,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 767px) and (max-width: 1023px) {
+  .mm-task__btn__button-long {
+    border-radius: 2.9326vw;
+    font-size: 1.7595vw;
+    width: 39.1vw;
+    height: 5.8651vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mm-task__btn__button-long {
+    border-radius: 3.9113vw;
+    font-size: 2.2164vw;
+    width: 38.4615vw;
+    height: 7.8227vw;
+  }
+}
 
 .mm-task__btn__button-long_green {
   background-color: #077840;
@@ -862,6 +901,20 @@ body {
   height: 1.39vw;
   display: inline-block;
   margin-left: 0.6944vw;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .social-icon {
+    width: 1.955vw;
+    height: 1.955vw;
+    margin-left: 0.9775vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .social-icon {
+    width: 2.6076vw;
+    height: 2.6076vw;
+    margin-left: 1.3038vw;
+  }
 }
 
 .social-icon_whatsapp {
