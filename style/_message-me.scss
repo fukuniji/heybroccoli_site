@@ -1,0 +1,183 @@
+.main__message-me {
+  margin-left: 9.72vw; //140px
+
+  // @media screen and (max-width: 1023px) {
+  //   max-width: 9.97vw; //102px
+  // }
+
+  // @media screen and (max-width: 767px) {
+  //   max-width: 9.778vw; //75px
+  // }
+
+}
+
+.message-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+
+}
+
+.message-me__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 38.89vw; //600px-40px
+  
+  @media screen and (max-width: 1023px) {
+    max-width: 39.1vw; //420px-20px
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 80.8344vw; //620px
+  }
+
+}
+
+
+.message-me__subtitle {
+  color: $color-primary;
+  font-family: $font-texts;
+  font-weight: 400;
+  font-size: 1.39vw; //20px
+  line-height: 1.67vw; //24px
+}
+
+
+.form-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.0417vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625vw;
+
+  &__input {
+    border: none;
+    border-bottom: 2px solid #557DB0;
+  
+    width: 38.89vw;
+    height: 3.8194vw;
+  }
+  
+  &__input::placeholder {
+    color: #766F6F;
+    font-family: $font-texts;
+    font-weight: 400;
+    font-size: 1.39vw; //20px
+  }
+  
+  &__label {
+    color: $color-primary;
+    font-family: $font-texts;
+    font-weight: 400;
+    // font-size: 1.1vw; //16px
+    font-size: $fontsize-desktop-smalltext;
+    line-height: 1.39vw; //20px
+  }
+  
+  &__link {
+    color: $color-primary;
+  }
+}
+
+.message-me__button-long_white {
+  cursor: pointer;
+
+  background-color: $clr-bg-frame;
+  border: 2px solid #557db0;
+  border-radius: 30px;
+
+  color: $color-primary;
+  font-family: $font-texts;
+  font-weight: 400;
+  font-size: 1.39vw;
+  // text-align: center;
+
+  width: 38.9583vw; //561px
+  height: 4.17vw; //60px
+}
+
+.form__checkbox {
+  // border: 2px solid #557DB0;
+  width: 1.7361vw; //25px
+  height: 1.7361vw; //25px
+
+}
+
+.mm-task__btn {
+  display: flex;
+  justify-content: space-between;
+  //gap: 2.78vw; //40px
+
+  flex-direction: row;
+  flex-wrap: nowrap;  
+  //   @media screen and (max-width: 1023px) {
+  //     flex-wrap: wrap;
+  // }
+
+  // @media screen and (max-width: 767px) {
+  //   flex-wrap: nowrap;
+  // }
+
+}
+
+.mm-task__btn__button-long {
+  cursor: pointer;
+
+  background-color:$color-btn-text-blue;
+  border: none;
+  border-radius: 30px;
+
+  color: $color-btn-text-white;
+  font-family: $font-texts;
+  font-weight: 400;
+  font-size: 1.39vw; //20px
+
+  width: 18.4vw; //265px
+  height: 4.17vw; //60px
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mm-task__btn__button-long_green {
+  background-color:$color-btn-text-green;
+}
+
+.social-icon{
+  background-image: url(../assets/image/form/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.39vw; //20px
+  height: 1.39vw; //20px
+  display: inline-block;
+  margin-left: 0.6944vw;
+}
+.social-icon_whatsapp{
+  background-image: url(../assets/image/form/whatsapp-icon.svg);
+}
+
+.message-me__img {
+  width: 100%;
+  max-width: 700px;
+//   max-width: 48.61vw; //700px
+
+//   @media screen and (max-width: 1023px) {
+//     max-width: 49.07vw; //502px
+//   }
+
+//   @media screen and (max-width: 767px) {
+//     max-width: 79.9218vw; //613px
+//   }
+
+}
