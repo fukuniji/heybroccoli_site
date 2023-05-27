@@ -327,6 +327,102 @@ body {
   }
 }
 
+.card__title {
+  font-family: "Museo Sans Cyrillic";
+  font-size: 3vh;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 50%;
+  text-align: center;
+  background-color: #245799;
+  border-radius: 50px 50px 0 0;
+  padding-top: 2vh;
+}
+.card__title_green {
+  text-align: center;
+  color: #077840;
+}
+.card__subtitle {
+  font-family: "Museo Sans Cyrillic";
+  font-size: 5vh;
+  font-style: 500;
+  color: #245799;
+  line-height: 100%;
+  text-align: center;
+  padding-top: 2vh;
+}
+.card__text {
+  padding: 0 5vw 0 5vw;
+  font-family: "Montserrat";
+  font-size: 2.6vh;
+  font-style: 400;
+  line-height: 120%;
+}
+.card__btn {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 3vh;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+}
+.card__text_blue {
+  color: #245799;
+}
+
+.services__wrapper-cards {
+  display: grid;
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 125vh 125vh;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+  row-gap: 4vh;
+  padding: 0 1.7vw;
+}
+
+.services__card-left {
+  border: 2px solid #245799;
+  border-radius: 50px;
+  max-width: 35vw;
+  height: 125vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 7% 3% 25% 25% 1fr;
+  justify-content: center;
+}
+.services__card-right {
+  border: 2px solid #245799;
+  border-radius: 50px;
+  max-width: 35vw;
+  height: 125vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15% 7% 3% 38% 28% 1fr;
+  justify-content: center;
+}
+.services__title {
+  padding: 0 1.7vw;
+  text-align: center;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 4.25rem;
+  font-style: 500;
+  height: 15vh;
+}
+
+.line {
+  padding-left: 1vw;
+}
+
+.button-round {
+  height: 5.6vh;
+  width: 3vw;
+  padding-right: 2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+=======
 .task {
   margin-top: 9.375rem;
 }
@@ -387,7 +483,156 @@ body {
   background-image: url(../assets/image/task/telegram.png);
 }
 
+
 html {
+
+.main__message-me {
+  margin-left: 9.72vw;
+}
+
+.message-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .message-me {
+    flex-wrap: wrap;
+  }
+}
+
+.message-me__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 38.89vw;
+}
+@media screen and (max-width: 1023px) {
+  .message-me__wrapper {
+    max-width: 39.1vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__wrapper {
+    max-width: 80.8344vw;
+  }
+}
+
+.message-me__subtitle {
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  line-height: 1.67vw;
+}
+
+.form-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.0417vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625vw;
+}
+.form__input {
+  border: none;
+  border-bottom: 2px solid #557DB0;
+  width: 38.89vw;
+  height: 3.8194vw;
+}
+.form__input::-moz-placeholder {
+  color: #766F6F;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+}
+.form__input::placeholder {
+  color: #766F6F;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+}
+.form__label {
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.39vw;
+}
+.form__link {
+  color: #1e2124;
+}
+
+.message-me__button-long_white {
+  cursor: pointer;
+  background-color: #f9f7f1;
+  border: 2px solid #557db0;
+  border-radius: 30px;
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  width: 38.9583vw;
+  height: 4.17vw;
+}
+
+.form__checkbox {
+  width: 1.7361vw;
+  height: 1.7361vw;
+}
+
+.mm-task__btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.mm-task__btn__button-long {
+  cursor: pointer;
+  background-color: #245799;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  width: 18.4vw;
+  height: 4.17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mm-task__btn__button-long_green {
+  background-color: #077840;
+}
+
+.social-icon {
+  background-image: url(../assets/image/form/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.39vw;
+  height: 1.39vw;
+  display: inline-block;
+  margin-left: 0.6944vw;
+}
+
+.social-icon_whatsapp {
+  background-image: url(../assets/image/form/whatsapp-icon.svg);
+}
+
+.message-me__img {
+  width: 100%;
+  max-width: 700px;
+
+}
+
+.html {
   font-family: "Montserrat";
   font-size: 1.25rem;
   font-style: 400;
@@ -404,6 +649,10 @@ img {
   max-width: 100%;
   width: 100%;
   height: auto;
+
+.main__photo {
+  margin-top: 15vw;
+
 }
 
 .title {
