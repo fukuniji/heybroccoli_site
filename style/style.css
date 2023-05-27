@@ -352,7 +352,7 @@ body {
     font-size: 3.5vw;
   }
 }
-.html {
+html {
   font-family: "Montserrat";
   font-size: 1.25rem;
   font-style: 400;
@@ -365,9 +365,15 @@ body {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
 .title {
   font-family: "Museo Sans Cyrillic";
-  font-size: 4.25rem;
+  font-size: 3.5vw;
   font-style: 500;
   line-height: 100%;
   text-align: center;
@@ -376,7 +382,7 @@ body {
 
 .slogan {
   font-family: "Museo Sans Cyrillic";
-  font-size: 2.625rem;
+  font-size: 3.5vw;
   font-style: 500;
   line-height: 100%;
   color: #245799;
@@ -387,10 +393,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
-  border-radius: 30px;
+  padding: 0.1vw 0.8vw;
+  border-radius: 15vw;
   font-family: "Montserrat";
-  font-size: 1.125rem;
+  font-size: 1.18vw;
   font-style: 400;
   line-height: 122%;
   border-color: transparent;
@@ -404,4 +410,42 @@ body {
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
+}
+
+/* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
+@media (min-width: 767px) and (max-width: 1023px) {
+  html {
+    font-size: 1.5vw;
+  }
+  .container {
+    width: 90%;
+  }
+  .title {
+    font-size: 3.9vw;
+  }
+  .slogan {
+    font-size: 2.9vw;
+  }
+  .button-long {
+    font-size: 1.5vw;
+    padding: 1.2rem 0.2rem;
+  }
+}
+/*---------------screen  and (max-width:766px)------------ */
+@media screen and (max-width: 766px) {
+  html {
+    font-size: 3.5vw;
+  }
+  .container {
+    width: 90%;
+  }
+  .title {
+    font-size: 6vw;
+  }
+  .slogan {
+    font-size: 4.5vw;
+  }
+  .button-long {
+    font-size: 3.5vw;
+  }
 }/*# sourceMappingURL=style.css.map */
