@@ -11,9 +11,11 @@
 
   &__header {
     padding-bottom: 3.44rem;
+ 
 
     .header-aproach {
       display: flex;
+  
 
       &__slogan {
         font-family: $font-titles;
@@ -26,14 +28,11 @@
       &__img {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        margin: -24px 0;
         gap: 1.5rem;
 
         .group-img {
-          .line {
-            padding: 0 24px;
-          }
-
+      
           &__img {
             max-width: 108px;
             height: 115px;
@@ -42,7 +41,7 @@
       }
 
       &__text {
-        padding-top: 1.5rem;
+       
         max-width: 564px;
         font-family: $font-texts;
         font-size: $fontsize-desktop-text;
@@ -197,7 +196,9 @@
         &__slogan {
           font-size: $fontsize-mobile-h3;
         }
-
+        &__img {
+          margin: -15px 0;
+        }
         &__text {
           font-size: $fontsize-mobile-text;
         }
