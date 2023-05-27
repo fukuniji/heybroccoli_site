@@ -80,7 +80,7 @@
         </button>
         <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-long button-long_green">
           WhatsApp
-          <i class="socialicon .socialicon_tg"></i>
+          <i class="socialicon socialicon_wa"></i>
         </button>
       </div>
     </div>

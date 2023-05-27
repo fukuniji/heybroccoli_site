@@ -338,36 +338,41 @@ body {
 }
 
 .task {
-  margin-top: 9.375rem;
+  margin-top: 15vw;
 }
 .task__title {
-  margin-bottom: 5rem;
+  margin-bottom: 5vw;
 }
 .task__row-1 {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 6.44rem;
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
+  row-gap: 6vw;
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
   justify-content: center;
 }
 .task__row-1 .row__item {
   display: flex;
-  max-width: 178px;
+  max-width: 11vw;
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat";
   font-size: 1.18vw;
   font-style: 400;
   line-height: 100%;
+  row-gap: 1.1vw;
+}
+.task__row-1 .row__text {
+  text-align: center;
 }
 .task__subtitle {
-  max-width: 588px;
+  max-width: 36.5vw;
   margin: auto;
   text-align: center;
-  margin-top: 5.94rem;
+  margin-top: 6vw;
   font-family: "Montserrat";
   font-size: 1.18vw;
+  font-weight: 600;
   font-style: 500;
   line-height: 120%;
 }
@@ -375,59 +380,67 @@ body {
   display: flex;
   gap: 3vw;
   justify-content: center;
-  margin-top: 2.25rem;
+  margin-top: 2.25vw;
 }
 .task__btn .button-long {
   background-color: #245799;
-  padding: 1rem 5.1rem;
+  padding: 1vw 5.1vw;
 }
 .task__btn .button-long_green {
   background-color: #077840;
 }
 .task__btn .socialicon {
-  background-image: url(../assets/image/task/watsapp.png);
+  background-image: url(../assets/image/task/telegram.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 20px;
-  height: 20px;
+  /*   background-size: cover; */
+  width: 21px;
+  height: 21px;
   display: inline-block;
-  margin-left: 0.625rem;
+  margin-left: 0.625vw;
 }
-.task__btn .socialicon_tg {
-  background-image: url(../assets/image/task/telegram.png);
+.task__btn .socialicon_wa {
+  background-image: url(../assets/image/task/watsapp.svg);
 }
 
 /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
 @media (min-width: 767px) and (max-width: 1023px) {
   .task__row-1 {
-    row-gap: 5.69rem;
-    -moz-column-gap: 6.2rem;
-         column-gap: 6.2rem;
+    row-gap: 5vw;
+    -moz-column-gap: 14vw;
+         column-gap: 14vw;
   }
   .task__row-1 .row__item {
-    max-width: 200px;
+    max-width: 12.5vw;
     font-size: 1.5vw;
   }
   .task__subtitle {
+    max-width: 43.5vw;
     font-size: 1.5vw;
   }
   .task .button-long {
-    padding: 1rem 4.4rem;
+    padding: 1.8vw 8.6vw;
   }
 }
 /* -------------- (max-width:767px)  ---------------- */
 @media screen and (max-width: 766px) {
   .task__row-1 {
-    row-gap: 4 rem;
-    -moz-column-gap: 5.625rem;
-         column-gap: 5.625rem;
+    row-gap: 5vw;
+    -moz-column-gap: 18vw;
+         column-gap: 18vw;
   }
   .task__row-1 .row__item {
     font-size: 3.5vw;
-    max-width: 150px;
+    max-width: 9.3vw;
   }
   .task__subtitle {
     font-size: 3.5vw;
+    max-width: 100%;
+  }
+  .task__btn {
+    margin-top: 7vw;
+  }
+  .task__btn .button-long {
+    padding: 1.8vw 9vw;
   }
 }
 .services__title {
