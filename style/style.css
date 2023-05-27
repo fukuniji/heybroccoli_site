@@ -504,7 +504,7 @@ body {
 
 .card__title {
   font-family: "Museo Sans Cyrillic";
-  font-size: 2vw;
+  font-size: larger;
   font-weight: normal;
   font-style: normal;
   color: #ffffff;

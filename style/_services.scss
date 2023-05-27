@@ -72,7 +72,8 @@
 .card {
   &__title {
     font-family: $font-titles;
-    font-size: $fontsize-desktop-undertitle;
+    //font-size: $fontsize-desktop-undertitle;
+    font-size: larger;
     font-weight: normal;
     font-style: normal;
     color: $color-btn-text-white;
@@ -118,6 +119,9 @@
     color: $color-btn-text-blue;
   }
 }
+
+
+
 
 .line {
   padding-left: 2vw;
