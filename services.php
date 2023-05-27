@@ -26,10 +26,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.png" alt="">
+              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
-              <img src="./assets/image/services/watsapp.png" alt="">
+            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
+              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -58,10 +58,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.png" alt="">
+              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
-              <img src="./assets/image/services/watsapp.png" alt="">
+            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
+              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -72,7 +72,7 @@
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">7 000 ₽ / 85 €</div>
-          <img src="./assets/image/services/linecard.png" alt="" class="line">
+          <img src="./assets/image/services/linecard.svg" alt="" class="line">
           <div class="card__text">
             Если вы хотите посвятить время своему здоровью и самочувствию и вам
             нужна поддержка специалиста, то для вас идеально подойдет формат
@@ -89,10 +89,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.png" alt="">
+              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
-              <img src="./assets/image/services/watsapp.png" alt="">
+            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
+              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -122,10 +122,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.png" alt="">
+              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round">
-              <img src="./assets/image/services/watsapp.png" alt="">
+            <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
+              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
