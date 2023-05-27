@@ -531,12 +531,30 @@ body {
 }
 
 .button-round {
-  height: 5.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  border-color: transparent;
+  height: 3vw;
   width: 3vw;
-  padding-right: 2vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
+  background-color: #245799;
+}
+.button-round .iconsocial {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.button-round_green {
+  background-color: #077840;
+}
+
+.button-round:hover {
+  background-color: #077840;
+}
+
+.button-round_green:hover {
+  background-color: #245799;
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
