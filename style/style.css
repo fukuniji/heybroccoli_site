@@ -831,6 +831,22 @@ body {
   width: 38.9583vw;
   height: 4.17vw;
 }
+@media (min-width: 767px) and (max-width: 1023px) {
+  .message-me__button-long_white {
+    border-radius: 2.9326vw;
+    font-size: 1.7595vw;
+    width: 39.1vw;
+    height: 5.8651vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__button-long_white {
+    border-radius: 3.9113vw;
+    font-size: 2.6076vw;
+    width: 80.8344vw;
+    height: 7.8227vw;
+  }
+}
 
 .form__checkbox {
   width: 1.7361vw;

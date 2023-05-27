@@ -52,7 +52,7 @@
 .form-part {
   display: flex;
   flex-direction: column;
-  row-gap: 6.0417vw;
+  row-gap: 6.0417vw; //87px
 
   @media(min-width:767px) and (max-width:1023px) {
     row-gap: 2.6393vw; //27px
@@ -112,6 +112,20 @@
 
   width: 38.9583vw; //561px
   height: 4.17vw; //60px
+
+  @media(min-width:767px) and (max-width:1023px) {
+    border-radius: 2.9326vw; //30px
+    font-size: 1.7595vw; //18px
+    width: 39.1vw; //400px
+    height: 5.8651vw; //60px
+  }
+
+  @media screen and (max-width: 767px) {
+    border-radius: 3.9113vw; //30px
+    font-size: 2.6076vw; //20px
+    width: 80.8344vw; //620px
+    height: 7.8227vw; //60px
+  }
 }
 
 .form__checkbox {
