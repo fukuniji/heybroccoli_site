@@ -24,18 +24,20 @@ html {
 }
 
 .container {
-  max-width:1160px;
+  max-width: 1160px;
   margin: 0 auto;
 }
-.main__photo{
-margin-top: $gap;
+
+.main__photo {
+  margin-top: $gap;
 }
 
-img{
+img {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
+
 .title {
   font-family: $font-titles;
   font-size: $fontsize-desktop-h2;
@@ -79,52 +81,55 @@ img{
   color: $color-btn-text-white;
 }
 
-   /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
+/* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
 
 @media(min-width:767px) and (max-width:1023px) {
 
   html {
-    font-size:$fontsize-tablet-text;
+    font-size: $fontsize-tablet-text;
   }
 
   .container {
-   width: 90%;}
-
-   .title {
-    font-size: $fontsize-tablet-h2;
-
-   }
-
-   .slogan {
-    font-size:$fontsize-tablet-h3;}
-
-    .button-long {
-      font-size: $fontsize-tablet-text;
-      padding: 1.2rem 0.2rem;
-    }
+    width: 90%;
   }
 
-  /*---------------screen  and (max-width:766px)------------ */
+  .title {
+    font-size: $fontsize-tablet-h2;
 
-  @media screen  and (max-width:766px) {
+  }
+
+  .slogan {
+    font-size: $fontsize-tablet-h3;
+  }
+
+  .button-long {
+    font-size: $fontsize-tablet-text;
+    padding: 1.2rem 0.2rem;
+  }
+}
+
+/*---------------screen  and (max-width:766px)------------ */
+
+@media screen and (max-width:766px) {
 
   html {
-      font-size:$fontsize-mobile-text;
-    }
-  
-    .container {
-     width: 90%;}
-  
-     .title {
-      font-size:$fontsize-mobile-h2;
-  
-     }
-  
-     .slogan {
-      font-size: $fontsize-mobile-h3;}
-  
-      .button-long {
-        font-size: $fontsize-mobile-text;
-      }
-    }
+    font-size: $fontsize-mobile-text;
+  }
 
+  .container {
+    width: 90%;
+  }
+
+  .title {
+    font-size: $fontsize-mobile-h2;
+
+  }
+
+  .slogan {
+    font-size: $fontsize-mobile-h3;
+  }
+
+  .button-long {
+    font-size: $fontsize-mobile-text;
+  }
+}
