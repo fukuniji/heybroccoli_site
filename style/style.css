@@ -468,7 +468,7 @@ body {
   height: 105vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 21% 18% 1fr;
+  grid-template-rows: 16% 7% 3% 21% 18% 1fr;
   justify-content: center;
 }
 .services__card-2 {
@@ -478,7 +478,7 @@ body {
   height: 105vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 37% 15% 1fr;
+  grid-template-rows: 16% 7% 3% 37% 15% 1fr;
   justify-content: center;
 }
 .services__card-3 {
@@ -488,7 +488,7 @@ body {
   height: 105vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 26% 17% 1fr;
+  grid-template-rows: 16% 7% 3% 26% 17% 1fr;
   justify-content: center;
 }
 .services__card-4 {
@@ -498,7 +498,7 @@ body {
   height: 105vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 34% 15% 1fr;
+  grid-template-rows: 16% 7% 3% 34% 15% 1fr;
   justify-content: center;
 }
 
@@ -508,7 +508,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  line-height: 40%;
+  line-height: 100%;
   text-align: center;
   background-color: #245799;
   border-radius: 50px 50px 0 0;
