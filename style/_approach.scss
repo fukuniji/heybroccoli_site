@@ -28,7 +28,7 @@
       &__img {
         display: flex;
         flex-direction: row;
-        margin: -24px 0;
+        margin: -2.5vw 0;
         gap: 1.5rem;
 
         .group-img {
@@ -56,8 +56,7 @@
     display: flex;
     flex-direction: row;
     flex: 1;
-    margin-bottom: 10rem;
-
+  
     .list {
 
       &__list-1 {
@@ -78,6 +77,8 @@
             font-size: $fontsize-desktop-text;
             font-style: 400;
             line-height: 120%;
+            display: flex;
+            align-items: center;
 
             .krest {
               background-image: url(../assets/image/approach/krestik.svg);
@@ -86,7 +87,7 @@
               width: 32.5px;
               height: 32.5px;
               display: inline-block;
-              margin-right: 1rem;
+              margin: 0 0.75vw 0.75vw;
             }
           }
         }
@@ -111,15 +112,17 @@
             font-size: $fontsize-desktop-text;
             font-style: 400;
             line-height: 120%;
+            display: flex;
+            align-items: center;
 
             .check {
               background-image: url(../assets/image/approach/galochka.svg);
               background-repeat: no-repeat;
               background-size: cover;
-              width: 30px;
-              height: 30px;
+              width: 32.5px;
+              height: 32.5px;
               display: inline-block;
-              margin-right: 1rem;
+              margin: 0 0.75vw 0.75vw;
             }
           }
         }
@@ -143,6 +146,10 @@
           font-size: $fontsize-tablet-h3;
         }
 
+        &__img {
+        
+          margin: -3vw 0;
+        }
         &__text {
           font-size: $fontsize-tablet-text;
         }
@@ -162,6 +169,8 @@
 
             &__item {
               font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
             }
           }
         }
@@ -174,6 +183,8 @@
 
             &__item {
               font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
             }
           }
         }
@@ -197,8 +208,9 @@
           font-size: $fontsize-mobile-h3;
         }
         &__img {
-          margin: -15px 0;
+          margin: -4.5vw 0;
         }
+      
         &__text {
           font-size: $fontsize-mobile-text;
         }
@@ -214,6 +226,7 @@
           .list-1 {
             &__title {
               font-size: $fontsize-mobile-undertitle;
+              margin-top: 3.125vw;
             }
 
             &__item {
@@ -226,6 +239,7 @@
           .list-2 {
             &__title {
               font-size: $fontsize-mobile-undertitle;
+              
             }
 
             &__item {

@@ -1,15 +1,14 @@
 @charset "UTF-8";
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-/* html,
-body {
-  margin: 0;
-  padding: 0;
-} */
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"), url("../assets/fonts/Montserrat-Regular.woff") format("woff"), url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
@@ -190,7 +189,7 @@ body {
 .approach__header .header-aproach__img {
   display: flex;
   flex-direction: row;
-  margin: -24px 0;
+  margin: -2.5vw 0;
   gap: 1.5rem;
 }
 .approach__header .header-aproach__img .group-img__img {
@@ -209,7 +208,6 @@ body {
   display: flex;
   flex-direction: row;
   flex: 1;
-  margin-bottom: 10rem;
 }
 .approach__list .list__list-1 {
   flex: 1;
@@ -227,6 +225,8 @@ body {
   font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
+  display: flex;
+  align-items: center;
 }
 .approach__list .list__list-1 .list-1__item .krest {
   background-image: url(../assets/image/approach/krestik.svg);
@@ -235,7 +235,7 @@ body {
   width: 32.5px;
   height: 32.5px;
   display: inline-block;
-  margin-right: 1rem;
+  margin: 0 0.75vw 0.75vw;
 }
 .approach__list .list__list-2 {
   flex: 1;
@@ -253,15 +253,17 @@ body {
   font-size: 1.18vw;
   font-style: 400;
   line-height: 120%;
+  display: flex;
+  align-items: center;
 }
 .approach__list .list__list-2 .list-2__item .check {
   background-image: url(../assets/image/approach/galochka.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 30px;
+  width: 32.5px;
+  height: 32.5px;
   display: inline-block;
-  margin-right: 1rem;
+  margin: 0 0.75vw 0.75vw;
 }
 @media (min-width: 767px) and (max-width: 1023px) {
   .approach__title {
@@ -272,6 +274,9 @@ body {
   }
   .approach__header .header-aproach__slogan {
     font-size: 2.9vw;
+  }
+  .approach__header .header-aproach__img {
+    margin: -3vw 0;
   }
   .approach__header .header-aproach__text {
     font-size: 1.5vw;
@@ -285,12 +290,16 @@ body {
   }
   .approach__list .list__list-1 .list-1__item {
     font-size: 1.5vw;
+    display: flex;
+    align-items: center;
   }
   .approach__list .list__list-2 .list-2__title {
     font-size: 2.5vw;
   }
   .approach__list .list__list-2 .list-2__item {
     font-size: 1.5vw;
+    display: flex;
+    align-items: center;
   }
 }
 @media screen and (max-width: 766px) {
@@ -304,7 +313,7 @@ body {
     font-size: 4.5vw;
   }
   .approach__header .header-aproach__img {
-    margin: -15px 0;
+    margin: -4.5vw 0;
   }
   .approach__header .header-aproach__text {
     font-size: 3.5vw;
@@ -315,6 +324,7 @@ body {
   }
   .approach__list .list__list-1 .list-1__title {
     font-size: 3vw;
+    margin-top: 3.125vw;
   }
   .approach__list .list__list-1 .list-1__item {
     font-size: 3.5vw;
