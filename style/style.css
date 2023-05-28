@@ -162,6 +162,31 @@ body {
     margin-top: 85px;
   }
 }
+.main {
+  background-color: #f9f7f1;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__photo {
+  width: auto;
+}
+
+.section__slogan {
+  font-weight: 300;
+}
+.section__subtitle {
+  color: #077840;
+  font-size: 2vw;
+}
+
+.group-img__img {
+  position: absolute;
+}
+
 .approach {
   /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
   /*---------------screen  and (max-width:766px)------------ */

@@ -18,23 +18,24 @@
     &__wrapper {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     &__photo {
-        width: 60vw;
+        width: auto;
 
     }
 }
 
 .section {
 
-    & #sloganweight {
+    &__slogan {
         font-weight: 300;
     }
 
     &__subtitle {
         color: $color-btn-text-green;
-        font-size: $font-size;
+        font-size: $fontsize-desktop-undertitle;
     }
 
 
