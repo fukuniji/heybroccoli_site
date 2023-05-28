@@ -209,6 +209,9 @@ body {
   flex-direction: row;
   flex: 1;
 }
+.approach__list .list {
+  align-content: flex-start;
+}
 .approach__list .list__list-1 {
   flex: 1;
 }
@@ -235,7 +238,7 @@ body {
   width: 32.5px;
   height: 32.5px;
   display: inline-block;
-  margin: 0 0.75vw 0.75vw;
+  margin: 0 0.75vw 0.75vw 0;
 }
 .approach__list .list__list-2 {
   flex: 1;
