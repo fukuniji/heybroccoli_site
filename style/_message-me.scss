@@ -251,38 +251,14 @@
 
 
 // Стилизация checkbox
-//   .custom-checkbox input { display: none; /* Прячем исходный переключатель */ }
-//   .custom-checkbox span {
-//     position: relative; /* Относительное позиционирование */
-//     display: inline-block; /* Строчно-блочный элемент */
-//     width: 25px; height: 25px; /* Размеры */
-//     background: #f9f7f1; /* цвет фона */
-
-//     border: 2px solid #557db0;
-//   }
-//   .custom-checkbox input:checked + span { 
-//     background: #f9f7f1; /* цвет фона */
-//   }
-//    /* Добавляем галочку по центру */
-//   .custom-checkbox input:checked + span::before { 
-//     // content: '\2713';
-//     content: url(/assets/image/form/checkbox-tick.svg);
-//     position: absolute;
-//     left: 1px; top: 0px;
-//     background: #f9f7f1;
-//     color: #1e2124;
-//     font-size: 20px;
-// /*     width: 8px; height: 8px; */
-//   }
-
 
 .form__label input { display: none; /* Прячем исходный переключатель */ }
 .form__label span {
   position: relative; /* Относительное позиционирование */
   display: inline-block; /* Строчно-блочный элемент */
-  //width: 25px; height: 25px; /* Размеры */
-  width: 1.7361vw; //25px
-  height: 1.7361vw; //25px
+  /* Размеры */
+  width: 25px;
+  height: 25px;
   background: #f9f7f1; /* цвет фона */
 
   border: 2px solid #557db0;
@@ -294,33 +270,9 @@
 .form__label input:checked + span::before { 
   content: url(/assets/image/form/checkbox-tick.svg);
   position: absolute;
-  left: 0px; top: 1px;
-  background: #f9f7f1;
-  width: 1.1806vw; //17px; 
-  height: 0.9028vw; //13px;
+  left: 0px;
+  bottom: 5px; //для экранов шире 1600 нужно изменить на 7px или больше
+  //или найти другой способ
+  width: 17px; 
+  height: 13px;
 }
-
-
-// .form__checkbox input { display: none; /* Прячем исходный переключатель */ }
-// .form__checkbox span {
-//   position: relative; /* Относительное позиционирование */
-//   display: inline-block; /* Строчно-блочный элемент */
-//   width: 25px; height: 25px; /* Размеры */
-//   background: #f9f7f1; /* цвет фона */
-
-//   border: 2px solid #557db0;
-// }
-// .form__checkbox input:checked + span { 
-//   background: #f9f7f1; /* цвет фона */
-// }
-//  /* Добавляем галочку по центру */
-// .form__checkbox input:checked + span::before { 
-//   // content: '\2713';
-//   content: url(/assets/image/form/checkbox-tick.svg);
-//   position: absolute;
-//   left: 1px; top: 0px;
-//   background: #f9f7f1;
-//   color: #1e2124;
-//   font-size: 20px;
-// /*     width: 8px; height: 8px; */
-// }

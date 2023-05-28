@@ -1000,8 +1000,9 @@ body {
 .form__label span {
   position: relative; /* Относительное позиционирование */
   display: inline-block; /* Строчно-блочный элемент */
-  width: 1.7361vw;
-  height: 1.7361vw;
+  /* Размеры */
+  width: 25px;
+  height: 25px;
   background: #f9f7f1; /* цвет фона */
   border: 2px solid #557db0;
 }
@@ -1015,10 +1016,9 @@ body {
   content: url(/assets/image/form/checkbox-tick.svg);
   position: absolute;
   left: 0px;
-  top: 1px;
-  background: #f9f7f1;
-  width: 1.1806vw;
-  height: 0.9028vw;
+  bottom: 5px;
+  width: 17px;
+  height: 13px;
 }
 
 .footer {
