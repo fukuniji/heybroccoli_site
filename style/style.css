@@ -785,6 +785,17 @@ body {
 }
 .main__message-me {
   margin-left: 9.72vw;
+  margin-top: 0.104167vw;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .main__message-me {
+    margin-top: 9.7752vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main__message-me {
+    margin-top: 10.43025vw;
+  }
 }
 
 .message-me {
@@ -824,6 +835,16 @@ body {
   font-size: 1.39vw;
   line-height: 1.67vw;
 }
+@media screen and (max-width: 1023px) {
+  .message-me__subtitle {
+    margin-top: 0.48876vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__subtitle {
+    margin-top: 0.52151vw;
+  }
+}
 
 .form-part {
   display: flex;
@@ -841,16 +862,48 @@ body {
   }
 }
 
+.message-me__form {
+  margin-top: 3.2639vw;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .message-me__form {
+    margin-top: 0.8798vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__form {
+    margin-top: 4.6936vw;
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  row-gap: 0.625vw;
+  row-gap: 2.2917vw;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .form {
+    row-gap: 0.8798vw;
+  }
 }
 .form__input {
   border: none;
   border-bottom: 2px solid #557DB0;
+  background-color: #f9f7f1;
   width: 38.89vw;
   height: 3.8194vw;
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .form__input {
+    width: 39.1vw;
+    height: 5.3763vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form__input {
+    width: 80.704vw;
+    height: 7.1708vw;
+  }
 }
 .form__input::-moz-placeholder {
   color: #766F6F;
@@ -886,6 +939,7 @@ body {
   font-size: 1.39vw;
   width: 38.9583vw;
   height: 4.17vw;
+  margin-top: 1.7361vw;
 }
 @media (min-width: 767px) and (max-width: 1023px) {
   .message-me__button-long_white {
