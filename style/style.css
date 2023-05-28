@@ -620,7 +620,6 @@ body {
 }
 .services-business {
   position: relative;
-  height: 155vh;
 }
 .services-business__title {
   margin-top: 15vw;
@@ -639,6 +638,7 @@ body {
 .services-business__text-1 {
   width: 21vw;
   padding-top: 10vh;
+  padding-left: 3vw;
   font-family: "Montserrat";
   font-size: 1.18vw;
   font-style: 400;
@@ -654,9 +654,13 @@ body {
 }
 .services-business__img-2 {
   position: absolute;
-  padding-top: 35vh;
-  padding-left: 26vw;
-  max-width: 400vw;
+  padding-left: 30.4vw;
+  padding-top: 40vh;
+}
+
+.img-2 {
+  width: 56vw;
+  height: 82vh;
 }
 
 .bluetext {
