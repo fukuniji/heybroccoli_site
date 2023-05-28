@@ -229,7 +229,7 @@ body {
   align-items: center;
 }
 .approach__list .list__list-1 .list-1__item .krest {
-  background-image: url(../assets/image/approach/krestik.svg);
+  background-image: url(../assets/image/cross.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 32.5px;
@@ -257,7 +257,7 @@ body {
   align-items: center;
 }
 .approach__list .list__list-2 .list-2__item .check {
-  background-image: url(../assets/image/approach/galochka.svg);
+  background-image: url(../assets/image/tick.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 32.5px;
