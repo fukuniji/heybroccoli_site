@@ -29,10 +29,9 @@
         display: flex;
         flex-direction: row;
         margin: -2.5vw 0;
-        gap: 1.5rem;
+        gap: 1.5vw;
 
         .group-img {
-      
           &__img {
             max-width: 108px;
             height: 115px;
@@ -59,8 +58,6 @@
  
   
     .list {
-      align-content: flex-start;
-
       &__list-1 {
         flex: 1;
        
@@ -149,10 +146,9 @@
         &__slogan {
           font-size: $fontsize-tablet-h3;
         }
-
+     
         &__img {
-        
-          margin: -3vw 0;
+                    margin: -3vw 0;
         }
         &__text {
           font-size: $fontsize-tablet-text;
