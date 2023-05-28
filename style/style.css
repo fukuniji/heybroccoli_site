@@ -483,69 +483,60 @@ body {
 }
 .services__wrapper-cards {
   display: grid;
-  grid-template-columns: 35vw 35vw;
-  grid-template-rows: 105vh 105vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 43vw 43vw;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 4vh;
-  padding: 0 1.7vw;
-  justify-content: center;
 }
 .services__card-1 {
   border: 2px solid #245799;
-  border-radius: 50px;
-  width: 35vw;
-  height: 105vh;
+  border-radius: 35px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 16% 7% 3% 21% 18% 1fr;
+  grid-template-rows: 18% 13% 5% 18% 18% 1fr;
   justify-content: center;
 }
 .services__card-2 {
   border: 2px solid #245799;
-  border-radius: 50px;
-  width: 35vw;
-  height: 105vh;
+  border-radius: 35px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 16% 7% 3% 37% 15% 1fr;
+  grid-template-rows: 18% 13% 5% 27% 15% 1fr;
   justify-content: center;
 }
 .services__card-3 {
   border: 2px solid #245799;
-  border-radius: 50px;
-  width: 35vw;
-  height: 105vh;
+  border-radius: 35px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 16% 7% 3% 26% 17% 1fr;
+  grid-template-rows: 18% 13% 5% 21% 17% 1fr;
   justify-content: center;
 }
 .services__card-4 {
   border: 2px solid #245799;
-  border-radius: 50px;
-  width: 35vw;
-  height: 105vh;
+  border-radius: 35px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 16% 7% 3% 34% 15% 1fr;
+  grid-template-rows: 18% 13% 5% 27% 19% 1fr;
   justify-content: center;
 }
 
 .card__title {
   font-family: "Museo Sans Cyrillic";
-  font-size: larger;
+  font-size: 2vw;
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  line-height: 100%;
+  line-height: 38.4%;
   text-align: center;
+  justify-content: center;
   background-color: #245799;
-  border-radius: 50px 50px 0 0;
+  border-radius: 30px 30px 0 0;
 }
 .card__title_green {
   text-align: center;
-  color: #077840;
+  color: #59AA8A;
 }
 .card__subtitle {
   font-family: "Museo Sans Cyrillic";
@@ -554,14 +545,14 @@ body {
   color: #245799;
   line-height: 100%;
   text-align: center;
-  padding-top: 2vh;
+  padding-top: 2vw;
 }
 .card__text {
   padding: 0 5vw 0 5vw;
   font-family: "Montserrat";
-  font-size: 1.18vw;
+  font-size: 1vw;
   font-style: 400;
-  line-height: 120%;
+  text-align: justify;
 }
 .card__btn {
   border-radius: 50%;
