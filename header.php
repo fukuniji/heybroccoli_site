@@ -11,7 +11,7 @@
         <a href="#rewiew" class="nav__link"> Отзывы </a>
         <a href="#sertificates" class="nav__link"> Сертификаты</a>
       </nav>
-      <a href="#"><img src="./assets/image/footer/logo.svg" alt="logo" class="header__logo"></a>
+      <a href="#"><img src="./assets/image/logo.svg" alt="logo" class="header__logo"></a>
     </div>
     <!-- для гамбургера -->
     <div class="hamb">

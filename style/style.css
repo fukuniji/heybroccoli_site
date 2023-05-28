@@ -783,6 +783,111 @@ body {
     grid-row: 1/2;
   }
 }
+.reviews {
+  margin-top: 15vw;
+}
+.reviews__title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 5vw;
+  font-family: "Museo Sans Cyrillic";
+  font-size: 3.5vw;
+  font-style: 500;
+}
+.reviews .certificates_bg {
+  position: relative;
+}
+.reviews .certificates_bg .certificates {
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+.reviews .certificates_bg .certificates__slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: -moz-max-content;
+  height: max-content;
+}
+.reviews .certificates_bg .certificates__slider__pictures {
+  width: 100%;
+  overflow: hidden;
+}
+.reviews .certificates_bg .certificates__slider__slider {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .certificates_bg .certificates__slider__slide {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 50%;
+  padding: 0 2%;
+  border: #245799 2px solid;
+  border-radius: 30px;
+}
+.reviews .certificates_bg .certificates__slider__slide img {
+  height: 100%;
+  border: 2px solid rgb(183, 255, 0);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0;
+     object-position: 0;
+}
+.reviews .certificates_bg .certificates__slider .previous {
+  display: inline-flex;
+  order: 1;
+  animation-name: Appearance;
+  animation-duration: 2s;
+}
+@keyframes Appearance {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.reviews .certificates_bg .certificates__slider .next {
+  display: inline-flex;
+  order: 2;
+  animation-name: Appearance2;
+  animation-duration: 2s;
+}
+@keyframes Appearance2 {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.reviews .certificates_bg .certificates__slider__button-left {
+  position: absolute;
+  left: -6vw;
+  width: 2.5vw;
+}
+.reviews .certificates_bg .certificates__slider__button-left img {
+  width: 100%;
+}
+.reviews .certificates_bg .certificates__slider__button-left:hover, .reviews .certificates_bg .certificates__slider__button-right:hover, .reviews .certificates_bg .certificates__slider .next:hover, .reviews .certificates_bg .certificates__slider .previous:hover {
+  opacity: 0.7;
+}
+.reviews .certificates_bg .certificates__slider__button-right {
+  position: absolute;
+  right: -6vw;
+  transform: rotate(180deg);
+  width: 2.5vw;
+}
+.reviews .certificates_bg .certificates__slider__button-right img {
+  width: 100%;
+}
+
 .main__message-me {
   margin-left: 9.72vw;
 }

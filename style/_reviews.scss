@@ -1,0 +1,151 @@
+// block 9, certificates
+.reviews {
+    margin-top: $gap;
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: $gap-undertitle;
+        font-family: $font-titles;
+        font-size: $fontsize-desktop-h2;
+        font-style: 500;
+    }
+
+    .certificates_bg {
+        position: relative;
+
+        .certificates {
+            margin-left: 6vw;
+            margin-right: 6vw;
+
+            &__slider {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                height: max-content;
+                //width: 90vw;
+                //border: 1px solid orange;
+
+                &__pictures {
+                    width: 100%;
+                    overflow: hidden;
+                }
+
+                &__slider {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    //gap: 1vw;
+                    //height: 600px;
+                    // width: 100%;
+                }
+
+                &__slide {
+                    width: 50%;
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex: 0 0 50%;
+                    padding: 0 2%;
+                    border: $color-btn-text-blue 2px solid;
+                    border-radius: 30px;
+                    //display: none;
+                }
+
+                &__slide img {
+                    //width: 100%;
+                    height: 100%;
+                    border: 2px solid rgb(183, 255, 0);
+                    object-fit: cover;
+                    object-position: 0;
+                }
+
+                // вызов функции js
+                & .previous {
+                    display: inline-flex;
+                    order: 1;
+                    animation-name: Appearance;
+                    animation-duration: 2s;
+                }
+
+                // управление последовательностью кадров
+                @keyframes Appearance {
+                    0% {
+                        opacity: 0.3;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                & .next {
+                    display: inline-flex;
+                    order: 2;
+                    animation-name: Appearance2;
+                    animation-duration: 2s;
+                }
+
+                // управление последовательностью кадров
+                @keyframes Appearance2 {
+                    0% {
+                        opacity: 0.3;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                &__button-left {
+                    position: absolute;
+                    left: -6vw;
+                    width: 2.5vw;
+                    //border: 2px solid blue;
+
+                    & img {
+                        width: 100%;
+                    }
+
+                    //   @media screen and (max-width: 768px) {
+                    //     width: 7vw;
+                    //   }
+
+                    //   @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    //     width: 5.5vw;
+                    //   }
+                }
+
+                &__button-left:hover,
+                &__button-right:hover,
+                & .next:hover,
+                & .previous:hover {
+                    opacity: 0.7;
+                }
+
+                &__button-right {
+                    position: absolute;
+                    right: -6vw;
+                    transform: rotate(180deg);
+                    width: 2.5vw;
+
+                    & img {
+                        width: 100%;
+                    }
+
+                    //   @media screen and (max-width: 768px) {
+                    //     width: 7vw;
+                    //   }
+
+                    //   @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    //     width: 5.5vw;
+                    //   }
+                }
+            }
+        }
+    }
+}
