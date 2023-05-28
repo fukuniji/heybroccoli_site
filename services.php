@@ -25,7 +25,7 @@
             информацией.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
@@ -57,7 +57,7 @@
             фитнес-тренерами, шеф-поварами.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
@@ -88,7 +88,7 @@
             много про себя и свою еду.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
@@ -121,7 +121,7 @@
             пан, зафиксировать результаты и разобрать сложные моменты.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
