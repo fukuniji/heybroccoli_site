@@ -4,7 +4,7 @@
 
   <div class="main__about about" id="about">
     <div class="about__wrapper">
-      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
+      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo" >
       <div class="about__section section">
         <h3 class="section__slogan slogan">Привычки, а не диеты!</h3>
         <div class="section__img group-img">
