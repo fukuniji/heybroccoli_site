@@ -9,7 +9,7 @@
         <h3 class="section__slogan slogan">Привычки, а не диеты!</h3>
         <div class="section__img group-img">
           <img src="./assets/image/about/line.png" alt="" class="line">
-          <img src="./assets/image/about/broccoli.svg" alt="" class="group-img__img">
+          <img src="./assets/image/logo_green.svg" alt="" class="group-img__img">
         </div>
         <h2 class="section__title">Куликова Елена</h2>
         <div class="section__subtitle">Нутрициолог, коуч полезных привычек, change maker</div>

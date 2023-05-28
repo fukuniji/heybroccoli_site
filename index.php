@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style/style.css" type="text/css">
   <title>Куликова Елена Нутрициолог, коуч полезных привычек, change maker</title>
+  <!-- параметр важный для SEO -->
+  <meta name="description" content="Научу относиться себе и еде — с любовью. Вы сформируете привычки и увидите, как это работает, а приобретенные навыки останутся с вами всегда. Групповой и индивидуальный формат консультаций. ">
+  <!-- фавиконка -->
+  <link type="image/x-icon" href="./assets/image/favicon.ico" rel="shortcut icon">
+  <link type="Image/x-icon" href="./assets/image/favicon.ico" rel="icon">
 </head>
 
 <body>
