@@ -473,9 +473,11 @@ body {
     padding: 1.8vw 9vw;
   }
 }
-.services__title {
+.main__services {
   margin-top: 15vw;
-  margin-bottom: 5vw;
+}
+
+.services__title {
   text-align: center;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
@@ -585,6 +587,10 @@ body {
 .button-round .iconsocial {
   width: 1.5vw;
   height: 1.5vw;
+}
+
+.tel {
+  padding-right: 0.7vw;
 }
 
 .button-round_green {
