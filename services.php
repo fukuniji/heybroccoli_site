@@ -11,7 +11,7 @@
             <div class="card__title_green">1 час</div>
           </div>
           <div class="card__subtitle">2 000 ₽ / 25 €</div>
-          <img src="./assets/image/services/linecard.png" alt="" class="line">
+          <img src="./assets/image/line.svg" alt="" class="line">
           <div class="card__text">
             Если у вас есть конкретная задача или вопрос, это оптимальный способ
             начать двигаться в его разрешении. После записи вы заполните
@@ -40,7 +40,7 @@
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">400 ₽ / 5 €</div>
-          <img src="./assets/image/services/linecard.png" alt="" class="line">
+          <img src="./assets/image/line.svg" alt="" class="line">
           <div class="card__text">
             Одна голова хорошо, а две — лучше. С детства верю в это, а после
             многочисленных креативных- и бизнес-штурмов точно знаю. Закрытый чат
@@ -72,7 +72,7 @@
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">7 000 ₽ / 85 €</div>
-          <img src="./assets/image/services/linecard.png" alt="" class="line">
+          <img src="./assets/image/line.svg" alt="" class="line">
           <div class="card__text">
             Если вы хотите посвятить время своему здоровью и самочувствию и вам
             нужна поддержка специалиста, то для вас идеально подойдет формат
@@ -103,7 +103,7 @@
             <div class="card__title_green">3 месяца</div>
           </div>
           <div class="card__subtitle">18 000 ₽ / 210 €</div>
-          <img src="./assets/image/services/linecard.png" alt="" class="line">
+          <img src="./assets/image/line.svg" alt="" class="line">
           <div class="card__text">
             Если вы понимаете, что вам нужны большие изменения, если вы хотите
             разобраться во всех аспектах питания, избавиться от страхов,
