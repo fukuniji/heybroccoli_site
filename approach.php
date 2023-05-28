@@ -3,16 +3,18 @@
   <div class="container">
     <h2 class="approach__title title">Подход к работе </h2>
     <div class="approach__header header-aproach">
-      <h3 class="header-aproach__slogan slogan">
-        К себе и еде — с любовью
-      </h3>
-      <div class="header-aproach__img group-img">
-        <img src="./assets/image/line.svg" alt="line" class="group-img__line" />
-        <img src="./assets/image/logo_green.svg" alt="broccoli" class="group-img__img" />
+      <div class="header-aproach__column column">
+        <h3 class="column__slogan slogan">
+          К себе и еде — с любовью
+        </h3>
+        <div class="column__line"></div>
+        <p class="header-aproach__text">
+          Пожалуй, так я бы описала главный принцип, которым руководствуюсь в
+          работе.
+        </p>
       </div>
-      <div class="header-aproach__text">
-        Пожалуй, так я бы описала главный принцип, которым руководствуюсь в
-        работе.
+      <div class="header-aproach__img">
+        <img src="./assets/image/logo_green.svg" alt="broccoli" />
       </div>
     </div>
     <div class="approach__list list">

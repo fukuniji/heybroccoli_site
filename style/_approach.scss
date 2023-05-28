@@ -3,52 +3,50 @@
   &__title {
     margin-top: $gap;
     margin-bottom: $gap-undertitle;
-    //padding: 9.375rem 0 4.125rem;
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
     font-style: 500;
   }
 
   &__header {
+    display: flex;
+    align-items: flex-end;
     padding-bottom: 3.44rem;
- 
-
-    .header-aproach {
-      display: flex;
+    column-gap: 7px;
+     .header-aproach {
+    
+     &__column{
   
-
+          .column{
       &__slogan {
         font-family: $font-titles;
         font-size: $fontsize-desktop-h3;
         font-style: 500;
         color: $color-btn-text-blue;
         line-height: 100%;
+        max-width: 34.8vw;
       }
-
-      &__img {
-        display: flex;
-        flex-direction: row;
-        margin: -2.5vw 0;
-        gap: 1.5vw;
-
-        .group-img {
-          &__img {
-            max-width: 108px;
-            height: 115px;
-          }
-        }
+      &__line{
+        border-bottom: 2px solid #557DB0;
       }
-
       &__text {
-       
-        max-width: 564px;
         font-family: $font-texts;
         font-size: $fontsize-desktop-text;
         font-style: 400;
-        /* regular */
         line-height: 120%;
+     
+      width:  564px;
+        
       }
     }
+  } 
+  &__img{
+      height: 115px;
+      width: 108px;
+
+    } 
+    }
+   
   }
 
   &__list {
