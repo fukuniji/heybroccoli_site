@@ -454,44 +454,64 @@ body {
 .services__wrapper-cards {
   display: grid;
   grid-template-columns: 35vw 35vw;
-  grid-template-rows: 125vh 125vh;
+  grid-template-rows: 105vh 105vh;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 4vh;
   padding: 0 1.7vw;
-}
-.services__card-left {
-  border: 2px solid #245799;
-  border-radius: 50px;
-  width: 35vw;
-  height: 125vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 25% 25% 1fr;
   justify-content: center;
 }
-.services__card-right {
+.services__card-1 {
   border: 2px solid #245799;
   border-radius: 50px;
   width: 35vw;
-  height: 125vh;
+  height: 105vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15% 7% 3% 38% 28% 1fr;
+  grid-template-rows: 16% 7% 3% 21% 18% 1fr;
+  justify-content: center;
+}
+.services__card-2 {
+  border: 2px solid #245799;
+  border-radius: 50px;
+  width: 35vw;
+  height: 105vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16% 7% 3% 37% 15% 1fr;
+  justify-content: center;
+}
+.services__card-3 {
+  border: 2px solid #245799;
+  border-radius: 50px;
+  width: 35vw;
+  height: 105vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16% 7% 3% 26% 17% 1fr;
+  justify-content: center;
+}
+.services__card-4 {
+  border: 2px solid #245799;
+  border-radius: 50px;
+  width: 35vw;
+  height: 105vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 16% 7% 3% 34% 15% 1fr;
   justify-content: center;
 }
 
 .card__title {
   font-family: "Museo Sans Cyrillic";
-  font-size: 2.5vw;
+  font-size: larger;
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  line-height: 50%;
+  line-height: 100%;
   text-align: center;
   background-color: #245799;
   border-radius: 50px 50px 0 0;
-  padding-top: 2vh;
 }
 .card__title_green {
   text-align: center;
@@ -527,7 +547,8 @@ body {
 }
 
 .line {
-  padding-left: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .button-round {
@@ -599,7 +620,6 @@ body {
 }
 .services-business {
   position: relative;
-  height: 155vh;
 }
 .services-business__title {
   margin-top: 15vw;
@@ -618,6 +638,7 @@ body {
 .services-business__text-1 {
   width: 21vw;
   padding-top: 10vh;
+  padding-left: 3vw;
   font-family: "Montserrat";
   font-size: 1.18vw;
   font-style: 400;
@@ -633,9 +654,13 @@ body {
 }
 .services-business__img-2 {
   position: absolute;
-  padding-top: 35vh;
-  padding-left: 26vw;
-  max-width: 400vw;
+  padding-left: 30.4vw;
+  padding-top: 40vh;
+}
+
+.img-2 {
+  width: 56vw;
+  height: 82vh;
 }
 
 .bluetext {
@@ -1032,6 +1057,7 @@ html {
 
 .container {
   margin: 0 6vw;
+  border: 4px solid red;
 }
 
 .main__photo {

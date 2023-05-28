@@ -13,31 +13,54 @@
   &__wrapper-cards {
     display: grid;
     grid-template-columns: 35vw 35vw;
-    grid-template-rows: 125vh 125vh;
+    grid-template-rows: 105vh 105vh;
     column-gap: 2vw;
     row-gap: 4vh;
     padding: 0 1.7vw;
-  }
-
-  &__card-left {
-    border: 2px solid $color-btn-text-blue;
-    border-radius: 50px;
-    width: 35vw;
-    height: 125vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15% 7% 3% 25% 25% 1fr;
     justify-content: center;
   }
 
-  &__card-right {
+  &__card-1 {
     border: 2px solid $color-btn-text-blue;
     border-radius: 50px;
     width: 35vw;
-    height: 125vh;
+    height: 105vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 15% 7% 3% 38% 28% 1fr;
+    grid-template-rows: 16% 7% 3% 21% 18% 1fr;
+    justify-content: center;
+  }
+
+  &__card-2 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 50px;
+    width: 35vw;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 16% 7% 3% 37% 15% 1fr;
+    justify-content: center;
+  }
+
+  &__card-3 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 50px;
+    width: 35vw;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 16% 7% 3% 26% 17% 1fr;
+    justify-content: center;
+  }
+
+  &__card-4 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 50px;
+    width: 35vw;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 16% 7% 3% 34% 15% 1fr;
     justify-content: center;
   }
 }
@@ -49,15 +72,15 @@
 .card {
   &__title {
     font-family: $font-titles;
-    font-size: $fontsize-desktop-h3;
+    //font-size: $fontsize-desktop-undertitle;
+    font-size: larger;
     font-weight: normal;
     font-style: normal;
     color: $color-btn-text-white;
-    line-height: 50%;
+    line-height: 100%;
     text-align: center;
     background-color: $color-btn-text-blue;
     border-radius: 50px 50px 0 0;
-    padding-top: 2vh;
   }
 
   &__title_green {
@@ -97,8 +120,12 @@
   }
 }
 
+
+
+
 .line {
-  padding-left: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .button-round {

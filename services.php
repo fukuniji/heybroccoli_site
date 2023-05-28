@@ -5,7 +5,7 @@
       <h2 class="services__title title">Услуги </h2>
       <div class="services__wrapper-cards">
 
-        <div class="services__card-left card">
+        <div class="services__card-1 card">
           <div class="card__title">
             <h3>Консультация</h3>
             <div class="card__title_green">1 час</div>
@@ -34,7 +34,7 @@
           </div>
         </div>
 
-        <div class="services__card-right card">
+        <div class="services__card-2 card">
           <div class="card__title">
             <h3>Групповая работа</h3>
             <div class="card__title_green">1 месяц</div>
@@ -66,13 +66,13 @@
           </div>
         </div>
 
-        <div class="services__card-left card">
+        <div class="services__card-3 card">
           <div class="card__title">
             <h3>Индивидуальное сопровождение</h3>
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">7 000 ₽ / 85 €</div>
-          <img src="./assets/image/services/linecard.svg" alt="" class="line">
+          <img src="./assets/image/services/linecard.png" alt="" class="line">
           <div class="card__text">
             Если вы хотите посвятить время своему здоровью и самочувствию и вам
             нужна поддержка специалиста, то для вас идеально подойдет формат
@@ -97,7 +97,7 @@
           </div>
         </div>
 
-        <div class="services__card-right card">
+        <div class="services__card-4 card">
           <div class="card__title">
             <h3>Индивидуальное сопровождение</h3>
             <div class="card__title_green">3 месяца</div>
