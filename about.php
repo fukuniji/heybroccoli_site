@@ -8,7 +8,7 @@
       <div class="about__section section">
         <h3 class="section__slogan slogan">Привычки, а не диеты!</h3>
         <div class="section__img group-img">
-          <img src="./assets/image/about/line.png" alt="" class="line">
+          <img src="./assets/image/line.svg" alt="" class="line">
           <img src="./assets/image/logo_green.svg" alt="" class="group-img__img">
         </div>
         <h2 class="section__title">Куликова Елена</h2>
