@@ -1,7 +1,7 @@
   <!-- ---------------------FOOTER--------------------------->
   <footer class="footer">
     <div class="container">
-      <img class="footer__logo logo" src="./assets/image/footer/logo.svg" alt="логотип">
+      <img class="footer__logo logo" src="./assets/image/logo.svg" alt="логотип">
       <div class="footer__text">@nutrition2023</div>
       <nav class="footer__nav nav">
         <h6>Меню</h6>
