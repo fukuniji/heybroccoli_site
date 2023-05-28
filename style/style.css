@@ -849,11 +849,6 @@ body {
   }
 }
 
-.form__checkbox {
-  width: 1.7361vw;
-  height: 1.7361vw;
-}
-
 .mm-task__btn {
   display: flex;
   justify-content: space-between;
@@ -941,6 +936,34 @@ body {
 .message-me__img {
   width: 100%;
   max-width: 700px;
+}
+
+.form__label input {
+  display: none; /* Прячем исходный переключатель */
+}
+
+.form__label span {
+  position: relative; /* Относительное позиционирование */
+  display: inline-block; /* Строчно-блочный элемент */
+  width: 1.7361vw;
+  height: 1.7361vw;
+  background: #f9f7f1; /* цвет фона */
+  border: 2px solid #557db0;
+}
+
+.form__label input:checked + span {
+  background: #f9f7f1; /* цвет фона */
+}
+
+/* Добавляем галочку по центру */
+.form__label input:checked + span::before {
+  content: url(/assets/image/form/checkbox-tick.svg);
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  background: #f9f7f1;
+  width: 1.1806vw;
+  height: 0.9028vw;
 }
 
 .footer {
