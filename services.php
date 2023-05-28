@@ -26,10 +26,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
+              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
-              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
+              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -58,10 +58,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
+              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
-              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
+              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -89,10 +89,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
+              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
-              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
+              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>
@@ -122,10 +122,10 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round">
-              <img src="./assets/image/services/telegramm.svg" alt="" class="iconsocial">
+              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199';" class="button-round button-round_green">
-              <img src="./assets/image/services/watsapp.svg" alt="" class="iconsocial">
+              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
         </div>

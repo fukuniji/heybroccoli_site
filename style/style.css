@@ -390,7 +390,7 @@ body {
   background-color: #077840;
 }
 .task__btn .socialicon {
-  background-image: url(../assets/image/task/telegram.svg);
+  background-image: url(../assets/image/telegram-icon.svg);
   background-repeat: no-repeat;
   /*   background-size: cover; */
   width: 21px;
@@ -399,7 +399,7 @@ body {
   margin-left: 0.625vw;
 }
 .task__btn .socialicon_wa {
-  background-image: url(../assets/image/task/watsapp.svg);
+  background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
 /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
@@ -855,7 +855,7 @@ body {
 }
 
 .social-icon {
-  background-image: url(../assets/image/form/telegram-icon.svg);
+  background-image: url(../assets/image/telegram-icon.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 1.39vw;
@@ -865,7 +865,7 @@ body {
 }
 
 .social-icon_whatsapp {
-  background-image: url(../assets/image/form/whatsapp-icon.svg);
+  background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
 .message-me__img {
