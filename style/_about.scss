@@ -18,6 +18,7 @@
     &__wrapper {
         display: flex;
         justify-content: center;
+
         align-items: center;
         column-gap: 2vw;
 
@@ -87,4 +88,34 @@ h1 {
         line-height: 2.5vw;
         width: 30vw;
     }
+
+//     }
+
+//     &__photo {
+//         width: 60vw;
+
+//     }
+// }
+
+// .section {
+
+//     & #sloganweight {
+//         font-weight: 300;
+//     }
+
+//     &__subtitle {
+//         color: $color-btn-text-green;
+//         font-size: $font-size;
+//     }
+
+
+// }
+
+// .group-img {
+
+//     &__img {
+//         position: absolute;
+//     }
+
+
 }
