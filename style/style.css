@@ -1037,6 +1037,7 @@ body {
 .mm-task-btn__button-long {
   cursor: pointer;
   background-color: #245799;
+  transition: background-color 0.6s;
   border: none;
   border-radius: 2.083vw;
   color: #ffffff;
@@ -1065,9 +1066,18 @@ body {
     height: 7.8227vw;
   }
 }
+.mm-task-btn__button-long:hover {
+  background-color: #077840;
+  transition: background-color 0.8s;
+}
 
 .mm-task-btn__button-long_green {
   background-color: #077840;
+  transition: background-color 0.6s;
+}
+.mm-task-btn__button-long_green:hover {
+  background-color: #245799;
+  transition: background-color 0.8s;
 }
 
 .social-icon {
