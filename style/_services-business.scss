@@ -1,18 +1,16 @@
+.main__services-business {
+  margin-top: $gap;
+}
+
 .services-business {
   position: relative;
-  //height: 185vh;
-
-  //&__business {}
+  height: 65vw;
 
   &__title {
-    margin-top: $gap;
-    margin-bottom: $gap-undertitle;
-    //padding: 0 1.7vw;
     text-align: center;
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
     font-style: 500;
-    //height: 15vh;
   }
 
   &__info-wrapper {
@@ -45,14 +43,13 @@
 
   &__img-2 {
     position: absolute;
-    padding-left: 30.4vw;
-    padding-top: 40vh;
+    right: 6vw;
+    top: 28vw;
   }
 }
 
 .img-2 {
   width: 56vw;
-  height: 82vh;
 }
 
 //.title {}
