@@ -25,10 +25,10 @@
             информацией.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https: //t.me/ffemme';" class="button-round tel">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https: //wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20консультацию';" class="button-round button-round_green">
+            <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20консультацию';" class="button-round button-round_green">
               <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
@@ -57,10 +57,10 @@
             фитнес-тренерами, шеф-поварами.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https: //t.me/ffemme';" class="button-round tel">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https: //wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20групповую%20работу';" class="button-round button-round_green">
+            <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20групповую%20работу';" class="button-round button-round_green">
               <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
@@ -88,10 +88,10 @@
             много про себя и свою еду.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https: //t.me/ffemme';" class="button-round tel">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https: //wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20индивидуальную%20консультацию%201%20месяц';" class="button-round button-round_green">
+            <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20индивидуальную%20консультацию%201%20месяц';" class="button-round button-round_green">
               <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
@@ -121,10 +121,10 @@
             пан, зафиксировать результаты и разобрать сложные моменты.
           </div>
           <div class="card__btn">
-            <button onclick="window.location.href ='https: //t.me/ffemme';" class="button-round tel">
+            <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
               <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
             </button>
-            <button onclick="window.location.href ='https: //wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20индивидуальную%20консультацию%203%20месяца';" class="button-round button-round_green">
+            <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20 хочу%20записаться%20на%20индивидуальную%20консультацию%203%20месяца';" class="button-round button-round_green">
               <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
             </button>
           </div>
