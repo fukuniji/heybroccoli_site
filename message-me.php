@@ -21,12 +21,12 @@
           <button class="message-me__button-long_white">Отправить</button>
         </form>
         
-        <div class="message-me__task__btn mm-task__btn">
-          <button onclick="window.location.href ='https://t.me/ffemme';" class="mm-task__btn__button-long">
+        <div class="message-me__mm-task-btn mm-task-btn">
+          <button onclick="window.location.href ='https://t.me/ffemme';" class="mm-task-btn__button-long">
             Telegram <!-- <img src="./assets/image/form/telegram-icon.svg" alt=""> -->
             <i class="social-icon"></i>
           </button>
-          <button onclick="window.location.href ='https://wa.me/351912780199';" class="mm-task__btn__button-long mm-task__btn__button-long_green">
+          <button onclick="window.location.href ='https://wa.me/351912780199';" class="mm-task-btn__button-long mm-task-btn__button-long_green">
             WhatsApp <!-- <img src="./assets/image/form/whatsapp-icon.svg" alt=""> -->
             <i class="social-icon social-icon_whatsapp"></i>
           </button>
