@@ -680,6 +680,7 @@ h3 {
   height: 3vw;
   width: 3vw;
   background-color: #245799;
+  cursor: pointer;
 }
 .button-round .iconsocial {
   width: 1.5vw;
