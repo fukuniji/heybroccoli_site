@@ -1,151 +1,218 @@
 // block 9, certificates
-.reviews {
+.blok9 {
     margin-top: $gap;
 
-    &__title {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        margin-bottom: $gap-undertitle;
-        font-family: $font-titles;
-        font-size: $fontsize-desktop-h2;
-        font-style: 500;
-    }
+    .reviews {
+        margin-left: 6vw;
+        margin-right: 6vw;
 
-    .certificates_bg {
-        position: relative;
+        &__title {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-bottom: $gap-undertitle;
+            font-family: $font-titles;
+            font-size: $fontsize-desktop-h2;
+            font-style: 500;
 
-        .certificates {
-            margin-left: 6vw;
-            margin-right: 6vw;
+            @media screen and (max-width: 1023px) {
+                font-size: $fontsize-desktop-h2;
+            }
+
+            @media screen and (max-width: 767px) {
+                font-size: $fontsize-desktop-h2;
+            }
+        }
+
+        &__slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: max-content;
+
+
+            &__pictures {
+                width: 100%;
+                overflow: hidden;
+            }
 
             &__slider {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 position: relative;
-                height: max-content;
-                //width: 90vw;
-                //border: 1px solid orange;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 3%;
+            }
 
-                &__pictures {
+            &__slide {
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 48.5%;
+                padding: 0 2%;
+                border: $color-btn-text-blue 2px solid;
+                border-radius: 30px;
+
+                .reviewer {
                     width: 100%;
-                    overflow: hidden;
+                    text-align: center;
+                    font-family: $font-texts;
+                    font-size: $fontsize-desktop-smalltext;
+
+                    @media screen and (max-width: 1023px) {
+                        font-size: $fontsize-tablet-smalltext;
+                    }
+
+                    @media screen and (max-width: 767px) {
+                        font-size: $fontsize-mobile-smalltext;
+                    }
+
+                }
+            }
+
+            &__slide img {
+                width: auto;
+                height: 80%;
+                object-fit: cover;
+                object-position: 0;
+            }
+
+            // вызов функции js
+            & .previous {
+                display: inline-flex;
+                order: 1;
+                animation-name: Appearance1;
+                animation-duration: 2s;
+            }
+
+            // Этот кусок кода создает keyframe-анимацию с названием Appearance, 
+            // которая изменяет свойство opacity элемента от 0.3 до 1.0. 
+            // Таким образом, элемент начинает с непрозрачности 0.3 (30% непрозрачности) 
+            // и постепенно становится полностью непрозрачным (100% непрозрачности) в течение всей анимации.
+            @keyframes Appearance1 {
+                0% {
+                    opacity: 0.3;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            & .next {
+                display: inline-flex;
+                order: 2;
+                animation-name: Appearance2;
+                animation-duration: 2s;
+            }
+
+            // управление последовательностью кадров
+            @keyframes Appearance2 {
+                0% {
+                    opacity: 0.3;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            &__button-left {
+                position: absolute;
+                left: -6vw;
+                width: 2.5vw;
+                //border: 2px solid blue;
+
+                & img {
+                    width: 100%;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 5vw;
+                }
+
+                @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    width: 4vw;
+                }
+            }
+
+            &__button-left:hover,
+            &__button-right:hover,
+            & .next:hover,
+            & .previous:hover {
+                opacity: 0.7;
+            }
+
+            &__button-right {
+                position: absolute;
+                right: -6vw;
+                transform: rotate(180deg);
+                width: 2.5vw;
+
+                & img {
+                    width: 100%;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 5vw;
+                }
+
+                @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    width: 4vw;
+                }
+            }
+        }
+    }
+
+
+}
+
+// }
+
+// чтобы вместо двух картинок на экране было одна
+@media screen and (max-width: 960px) {
+    .blok9 {
+
+        // &__bg {
+        .reviews {
+            &__slider {
+                &__slide {
+                    height: 600px;
+                    padding: 20px;
+                    flex: 0 0 100%;
+                    //display: none;
+                    justify-content: center;
                 }
 
                 &__slider {
-                    position: relative;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    //gap: 1vw;
-                    //height: 600px;
-                    // width: 100%;
-                }
-
-                &__slide {
-                    width: 50%;
-                    height: 500px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex: 0 0 50%;
-                    padding: 0 2%;
-                    border: $color-btn-text-blue 2px solid;
-                    border-radius: 30px;
-                    //display: none;
-                }
-
-                &__slide img {
-                    //width: 100%;
-                    height: 100%;
-                    border: 2px solid rgb(183, 255, 0);
-                    object-fit: cover;
-                    object-position: 0;
-                }
-
-                // вызов функции js
-                & .previous {
-                    display: inline-flex;
-                    order: 1;
-                    animation-name: Appearance;
-                    animation-duration: 2s;
-                }
-
-                // управление последовательностью кадров
-                @keyframes Appearance {
-                    0% {
-                        opacity: 0.3;
+                    &__button-left {
+                        position: absolute;
                     }
 
-                    100% {
-                        opacity: 1;
-                    }
-                }
-
-                & .next {
-                    display: inline-flex;
-                    order: 2;
-                    animation-name: Appearance2;
-                    animation-duration: 2s;
-                }
-
-                // управление последовательностью кадров
-                @keyframes Appearance2 {
-                    0% {
-                        opacity: 0.3;
+                    &__button-right {
+                        position: absolute;
+                        transform: rotate(180deg);
                     }
 
-                    100% {
-                        opacity: 1;
-                    }
-                }
-
-                &__button-left {
-                    position: absolute;
-                    left: -6vw;
-                    width: 2.5vw;
-                    //border: 2px solid blue;
-
-                    & img {
-                        width: 100%;
+                    & .previous {
+                        display: inline-flex;
+                        order: 1;
+                        flex: 0 0 100%;
+                        //width: 100%;
+                        //height: auto;
+                        justify-content: center;
                     }
 
-                    //   @media screen and (max-width: 768px) {
-                    //     width: 7vw;
-                    //   }
-
-                    //   @media screen and (min-width: 769px) and (max-width: 1199px) {
-                    //     width: 5.5vw;
-                    //   }
-                }
-
-                &__button-left:hover,
-                &__button-right:hover,
-                & .next:hover,
-                & .previous:hover {
-                    opacity: 0.7;
-                }
-
-                &__button-right {
-                    position: absolute;
-                    right: -6vw;
-                    transform: rotate(180deg);
-                    width: 2.5vw;
-
-                    & img {
-                        width: 100%;
+                    & .next {
+                        display: none;
                     }
-
-                    //   @media screen and (max-width: 768px) {
-                    //     width: 7vw;
-                    //   }
-
-                    //   @media screen and (min-width: 769px) and (max-width: 1199px) {
-                    //     width: 5.5vw;
-                    //   }
                 }
             }
         }
     }
 }
+
+// }
