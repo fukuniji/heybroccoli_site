@@ -782,6 +782,37 @@ body {
     grid-row: 1/2;
   }
 }
+.main__sertificates .sertificates__block {
+  display: flex;
+  gap: 2.5vw;
+  justify-content: space-between;
+}
+.main__sertificates .sertificates__block .block__row-1 {
+  width: 43vw;
+}
+.main__sertificates .sertificates__block .block__row-1 .row-1__text {
+  font-family: "Montserrat";
+  font-size: 1.18vw;
+  font-style: 400;
+  line-height: 120%;
+  padding-bottom: 2vw;
+}
+.main__sertificates .sertificates__block .block__row-1 .row-1__photo {
+  border-radius: 30px 0 0 30px;
+}
+.main__sertificates .sertificates__block .block__row-1 > *:not(:last-child) {
+  margin-bottom: 2vw;
+}
+.main__sertificates .sertificates__block .block__row-2 {
+  width: 43vw;
+}
+.main__sertificates .sertificates__block .block__row-2 .row-2__photo {
+  border-radius: 0 30px 30px 0;
+}
+.main__sertificates .sertificates__block .block__row-2 > *:not(:last-child) {
+  margin-bottom: 2vw;
+}
+
 .main__message-me {
   margin-left: 9.72vw;
 }
