@@ -7,7 +7,7 @@
 
         <div class="services__card-1 card">
           <div class="card__title">
-            <h3 class="card__title position">Консультация</h3>
+            <h3 class="card__title_main position">Консультация</h3>
             <div class="card__title_green">1 час</div>
           </div>
           <div class="card__subtitle">2 000 ₽ / 25 €</div>
@@ -26,17 +26,19 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
-              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon"></i>
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20хочу%20записаться%20на%20консультацию';" class="button-round button-round_green">
-              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon social_icon_whatsapp"></i>
             </button>
           </div>
         </div>
 
         <div class="services__card-2 card">
           <div class="card__title">
-            <h3 class="card__title position">Групповая работа</h3>
+            <h3 class="card__title_main position">Групповая работа</h3>
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">400 ₽ / 5 €</div>
@@ -58,17 +60,19 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
-              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon"></i>
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20хочу%20записаться%20на%20групповую%20работу';" class="button-round button-round_green">
-              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon social_icon_whatsapp"></i>
             </button>
           </div>
         </div>
 
         <div class="services__card-3 card">
           <div class="card__title">
-            <h3 class="card__title line-height">Индивидуальное сопровождение</h3>
+            <h3 class="card__title_main line-height">Индивидуальное сопровождение</h3>
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">7 000 ₽ / 85 €</div>
@@ -89,17 +93,19 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
-              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon"></i>
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20хочу%20записаться%20на%20индивидуальную%20консультацию%201%20месяц';" class="button-round button-round_green">
-              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon social_icon_whatsapp"></i>
             </button>
           </div>
         </div>
 
         <div class="services__card-4 card">
           <div class="card__title">
-            <h3 class="card__title line-height">Индивидуальное сопровождение</h3>
+            <h3 class="card__title_main line-height">Индивидуальное сопровождение</h3>
             <div class="card__title_green">3 месяца</div>
           </div>
           <div class="card__subtitle">18 000 ₽ / 210 €</div>
@@ -122,10 +128,12 @@
           </div>
           <div class="card__btn">
             <button onclick="window.location.href ='https://t.me/ffemme';" class="button-round tel">
-              <img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/telegram-icon.svg" alt="" class="iconsocial">-->
+              <i class="social_icon"></i>
             </button>
             <button onclick="window.location.href ='https://wa.me/351912780199?text=Здравствуйте,%20хочу%20записаться%20на%20индивидуальную%20консультацию%203%20месяца';" class="button-round button-round_green">
-              <img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial">
+              <!--<img src="./assets/image/whatsapp-icon.svg" alt="" class="iconsocial"-->
+              <i class="social_icon social_icon_whatsapp"></i>
             </button>
           </div>
         </div>
