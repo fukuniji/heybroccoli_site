@@ -152,10 +152,19 @@
     }
 
     &__img-2 {
-      position: static;
-      grid-column: 1/3;
-      grid-row: 1/2;
-      width: 90vw;
+
+      position: absolute;
+      right: 5vw;
+      top: 2vw;
+      border: 1px solid blue;
+      // padding-top: 0;
+      // padding-left: 0;
+
+      //перемещаю картинку наверх и делаю ее на всю ширину//
+
+      // grid-column: 1/3;
+      // grid-row: 1/2;
+
     }
   }
 }
