@@ -9,3 +9,41 @@
         margin-top: 85px;
     }
 }
+
+.main {
+    background-color: $clr-bg-frame;
+}
+
+.about {
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__photo {
+        width: 60vw;
+
+    }
+}
+
+.section {
+
+    & #sloganweight {
+        font-weight: 300;
+    }
+
+    &__subtitle {
+        color: $color-btn-text-green;
+        font-size: $font-size;
+    }
+
+
+}
+
+.group-img {
+
+    &__img {
+        position: absolute;
+    }
+
+}

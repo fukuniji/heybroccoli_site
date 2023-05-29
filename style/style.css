@@ -162,6 +162,38 @@ body {
     margin-top: 85px;
   }
 }
+.hello {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw;
+}
+.hello__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30% 70%;
+  width: 90vw;
+  /*gap: 20vw;*/
+  line-height: 2.5vw;
+}
+@media screen and (max-width: 767px) {
+  .hello__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.hello__subtitle {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.hello__text {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+h3 {
+  color: #245799;
+}
+
 .approach {
   /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
   /*---------------screen  and (max-width:766px)------------ */
