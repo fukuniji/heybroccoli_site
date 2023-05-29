@@ -18,13 +18,19 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
   align-items: flex-start;
+  column-gap: 2.778vw; //40px
 
-  @media screen and (max-width: 767px) {
-    flex-wrap: wrap;
+  @media screen and (max-width:1023px) {
+    column-gap: 1.9551vw; //20px
   }
 
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: flex-end;
+    // justify-content: flex-start;
+    row-gap: 5.998vw; //46px
+  }
 }
 
 .message-me__wrapper {
@@ -39,8 +45,8 @@
 
   @media screen and (max-width: 767px) {
     max-width: 80.8344vw; //620px
+    align-self: self-start;
   }
-
 }
 
 .message-me__title {
@@ -117,7 +123,6 @@
   @media screen and (max-width: 767px) {
     margin-top: 4.6936vw; //36px
   }
-
 }
 
 .form {
@@ -245,7 +250,6 @@
       flex-wrap: nowrap;
       column-gap: 3.9113vw; //30px
     }
-
 }
 
 .mm-task-btn__button-long {

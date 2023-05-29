@@ -803,12 +803,21 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
   align-items: flex-start;
+  -moz-column-gap: 2.778vw;
+       column-gap: 2.778vw;
+}
+@media screen and (max-width: 1023px) {
+  .message-me {
+    -moz-column-gap: 1.9551vw;
+         column-gap: 1.9551vw;
+  }
 }
 @media screen and (max-width: 767px) {
   .message-me {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 5.998vw;
   }
 }
 
@@ -826,6 +835,7 @@ body {
 @media screen and (max-width: 767px) {
   .message-me__wrapper {
     max-width: 80.8344vw;
+    align-self: self-start;
   }
 }
 
