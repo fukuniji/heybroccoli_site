@@ -609,17 +609,79 @@ body {
   .services__title {
     font-size: 3.9vw;
   }
-  .card__title {
-    font-size: 2.9vw;
+  .services__wrapper-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 65vw 65vw;
+    -moz-column-gap: 2vw;
+         column-gap: 2vw;
+    row-gap: 4vh;
   }
-  .card__subtitle {
-    font-size: 2.9vw;
+  .services__card-1 {
+    border: 2px solid #245799;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 18% 18% 1fr;
+    justify-content: center;
   }
-  .card__text {
-    font-size: 1.5vw;
+  .services__card-2 {
+    border: 2px solid #245799;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+    justify-content: center;
+  }
+  .services__card-3 {
+    border: 2px solid #245799;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+    justify-content: center;
+  }
+  .services__card-4 {
+    border: 2px solid #245799;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 27% 19% 1fr;
+    justify-content: center;
+  }
+  .card .card__title {
+    font-size: 2.5vw;
+  }
+  .card .card__title_position {
+    padding-top: 2vw;
+  }
+  .card .card__title_line-height {
+    line-height: 110%;
+  }
+  .card .card__subtitle {
+    font-size: 2.9vw;
+    padding-top: 3vw;
+  }
+  .card .card__text {
+    font-size: 1.3vw;
+  }
+  .card .card__btn {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 3vh;
+    -moz-column-gap: 2vw;
+         column-gap: 2vw;
+  }
+  .card .card__text_blue {
+    color: #245799;
+  }
+  .card .tel {
+    padding-right: 1vw;
   }
 }
-@media screen and (max-width: 766px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) and (max-width: 766px) {
   .services__title {
     font-size: 6vw;
   }
@@ -1086,6 +1148,7 @@ html {
 
 .container {
   margin: 0 6vw;
+  border: 2px solid red;
 }
 
 .main__photo {
