@@ -727,53 +727,82 @@ h3 {
     grid-template-columns: 1fr;
     grid-template-rows: 23% 13% 5% 27% 19% 1fr;
   }
-  .card .card__title {
+  .card__title {
     font-size: 2.5vw;
   }
-  .card .card__subtitle {
+  .card__subtitle {
     font-size: 2.9vw;
     padding-top: 3vw;
   }
-  .card .card__text {
+  .card__text {
     font-size: 1.3vw;
   }
-  .card .position {
+  .position {
     font-size: 2.5vw;
     padding-top: 2vw;
     color: #ffffff;
   }
-  .card .line-height {
+  .line-height {
     font-size: 2.5vw;
     padding-top: 2vw;
   }
-  .card .tel {
+  .tel {
     padding-right: 1vw;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1023px) and (max-width: 766px) {
+@media screen and (max-width: 766px) {
   .services__title {
     font-size: 6vw;
   }
   .services__wrapper-cards {
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-rows: 65vw 65vw 65vw 65vw;
   }
-  .services__card-left {
-    max-width: 1fr;
-    height: 100vh;
+  .services__card-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 18% 18% 1fr;
   }
-  .services__card-right {
-    max-width: 1fr;
-    height: 100vh;
+  .services__card-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+  }
+  .services__card-3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+  }
+  .services__card-4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 23% 13% 5% 27% 19% 1fr;
   }
   .card__title {
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .card__subtitle {
     font-size: 4.5vw;
+    padding-top: 3vw;
   }
   .card__text {
-    font-size: 2.1vw;
+    font-size: 1.9vw;
+  }
+  .position {
+    font-size: 3vw;
+    padding-top: 2vw;
+    color: #ffffff;
+  }
+  .line-height {
+    font-size: 3vw;
+    padding-top: 2vw;
+  }
+  .button-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+    border-color: transparent;
+    height: 6vw;
+    width: 6vw;
+    cursor: pointer;
+    padding-right: 1.7vw;
   }
 }
 .main__services-business {

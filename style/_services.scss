@@ -185,75 +185,118 @@
   }
 
   .card {
-
-    .card {
-      &__title {
-        font-size: $fontsize-tablet-undertitle;
-      }
-
-      &__subtitle {
-        font-size: $fontsize-tablet-h3;
-        padding-top: 3vw;
-      }
-
-      &__text {
-        font-size: $fontsize-tablet-smalltext;
-      }
-    }
-
-    .position {
+    &__title {
       font-size: $fontsize-tablet-undertitle;
-      padding-top: 2vw;
-      color: $color-btn-text-white;
     }
 
-    .line-height {
-      font-size: $fontsize-tablet-undertitle;
-      padding-top: 2vw;
+    &__subtitle {
+      font-size: $fontsize-tablet-h3;
+      padding-top: 3vw;
     }
 
-    .tel {
-      padding-right: 1vw;
+    &__text {
+      font-size: $fontsize-tablet-smalltext;
     }
   }
 
+  .position {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
 
-  //-----------adaptive mobile---------//
+  .line-height {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+  }
 
-  @media screen and (max-width:766px) {
-    .services {
-      &__title {
-        font-size: $fontsize-mobile-h2;
-      }
+  .tel {
+    padding-right: 1vw;
+  }
+}
 
-      &__wrapper-cards {
-        grid-template-columns: 1fr;
-        grid-template-rows: 100vh 100vh 100vh 100vh;
-      }
 
-      &__card-left {
-        max-width: 1fr;
-        height: 100vh;
-      }
+//-----------adaptive mobile---------//
 
-      &__card-right {
-        max-width: 1fr;
-        height: 100vh;
-      }
+@media screen and (max-width:766px) {
+
+  .services {
+
+    &__title {
+      font-size: $fontsize-mobile-h2;
     }
 
-    .card {
-      &__title {
-        font-size: $fontsize-mobile-h3;
-      }
+    &__wrapper-cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: 65vw 65vw 65vw 65vw;
+    }
 
-      &__subtitle {
-        font-size: $fontsize-mobile-h3;
-      }
+    &__card-1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 18% 18% 1fr;
+    }
 
-      &__text {
-        font-size: $fontsize-mobile-text;
-      }
+    &__card-2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+    }
+
+    &__card-3 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+    }
+
+    &__card-4 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 19% 1fr;
     }
   }
+
+  .card {
+    &__title {
+      font-size: $fontsize-mobile-undertitle;
+    }
+
+    &__subtitle {
+      font-size: $fontsize-mobile-h3;
+      padding-top: 3vw;
+    }
+
+    &__text {
+      font-size: $fontsize-mobile-smalltext;
+    }
+  }
+
+  .position {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
+
+  .line-height {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+  }
+
+  .button-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+    border-color: transparent;
+    height: 6vw;
+    width: 6vw;
+    //background-color: $color-btn-text-blue;
+    cursor: pointer;
+    padding-right: 1.7vw;
+
+    //.iconsocial {
+    //width: 30vw;
+    //height: 30vw;
+    //}
+  }
+
+  //.tel {
+  //padding-right: 0.1vw;
+  //}
 }
