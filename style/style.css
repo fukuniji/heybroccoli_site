@@ -803,6 +803,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: flex-start;
   -moz-column-gap: 2.778vw;
        column-gap: 2.778vw;

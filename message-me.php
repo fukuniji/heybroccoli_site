@@ -39,7 +39,7 @@
     <picture>
       <!-- retina: -->
       <!-- <source media="(min-resolution: 2dppx)" srcset="./assets/image/form/elena-photo_11_desktop_x2.png"> -->
-      <!-- <source media="(min-width: 1441px)" srcset="./assets/image/form/elena-photo_11_desktop_x2.png"> -->
+      <source media="(min-width: 1441px)" srcset="./assets/image/form/elena-photo_11_desktop_x2.png">
       <!-- desktop: -->
       <source media="(min-width: 1024px)" srcset="./assets/image/form/elena-photo_11_desktop.png">
       <!-- tablet: -->
@@ -47,7 +47,10 @@
       <!-- mobile: -->
       <source media="(max-width: 767px)" srcset="./assets/image/form/elena-photo_11_mobile.png">
       <!-- если не поддерживается source -->
-      <img src="image/elena-photo_11_desktop.png" width="700" height="783" alt="Нутрициолог Куликова Елена">
+      <!-- <img src="image/elena-photo_11_desktop.png" width="700" height="783" alt="Нутрициолог Куликова Елена"> -->
+      <!-- <img src="./assets/image/form/elena.jpg" width="700" height="783" alt="Нутрициолог Куликова Елена"> -->
+      <img src="./assets/image/form/elena.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена">
+
       <!-- если не поддерживается source - доделать -->
     </picture>
   </div>
