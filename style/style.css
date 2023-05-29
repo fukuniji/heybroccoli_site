@@ -579,6 +579,7 @@ h3 {
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
   font-style: 500;
+  margin-bottom: 5vw;
 }
 .services__wrapper-cards {
   display: grid;
@@ -708,53 +709,26 @@ h3 {
     font-size: 3.9vw;
   }
   .services__wrapper-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 65vw 65vw;
-    -moz-column-gap: 2vw;
-         column-gap: 2vw;
-    row-gap: 4vh;
   }
   .services__card-1 {
-    border: 2px solid #245799;
-    border-radius: 35px;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 23% 13% 5% 18% 18% 1fr;
-    justify-content: center;
   }
   .services__card-2 {
-    border: 2px solid #245799;
-    border-radius: 35px;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 23% 13% 5% 27% 15% 1fr;
-    justify-content: center;
   }
   .services__card-3 {
-    border: 2px solid #245799;
-    border-radius: 35px;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 23% 13% 5% 22% 17% 1fr;
-    justify-content: center;
   }
   .services__card-4 {
-    border: 2px solid #245799;
-    border-radius: 35px;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 23% 13% 5% 27% 19% 1fr;
-    justify-content: center;
   }
   .card .card__title {
     font-size: 2.5vw;
-  }
-  .card .card__title_position {
-    padding-top: 2vw;
-  }
-  .card .card__title_line-height {
-    line-height: 110%;
   }
   .card .card__subtitle {
     font-size: 2.9vw;
@@ -763,17 +737,14 @@ h3 {
   .card .card__text {
     font-size: 1.3vw;
   }
-  .card .card__btn {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding-bottom: 3vh;
-    -moz-column-gap: 2vw;
-         column-gap: 2vw;
+  .card .position {
+    font-size: 2.5vw;
+    padding-top: 2vw;
+    color: #ffffff;
   }
-  .card .card__text_blue {
-    color: #245799;
+  .card .line-height {
+    font-size: 2.5vw;
+    padding-top: 2vw;
   }
   .card .tel {
     padding-right: 1vw;

@@ -7,7 +7,7 @@
 
         <div class="services__card-1 card">
           <div class="card__title">
-            <h3 class="card__title_position">Консультация</h3>
+            <h3 class="card__title position">Консультация</h3>
             <div class="card__title_green">1 час</div>
           </div>
           <div class="card__subtitle">2 000 ₽ / 25 €</div>
@@ -36,7 +36,7 @@
 
         <div class="services__card-2 card">
           <div class="card__title">
-            <h3 class="card__title_position">Групповая работа</h3>
+            <h3 class="card__title position">Групповая работа</h3>
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">400 ₽ / 5 €</div>
@@ -68,7 +68,7 @@
 
         <div class="services__card-3 card">
           <div class="card__title">
-            <h3 class="card__title_line-height">Индивидуальное сопровождение</h3>
+            <h3 class="card__title line-height">Индивидуальное сопровождение</h3>
             <div class="card__title_green">1 месяц</div>
           </div>
           <div class="card__subtitle">7 000 ₽ / 85 €</div>
@@ -99,7 +99,7 @@
 
         <div class="services__card-4 card">
           <div class="card__title">
-            <h3 class="card__title_line-height">Индивидуальное сопровождение</h3>
+            <h3 class="card__title line-height">Индивидуальное сопровождение</h3>
             <div class="card__title_green">3 месяца</div>
           </div>
           <div class="card__subtitle">18 000 ₽ / 210 €</div>

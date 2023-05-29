@@ -8,6 +8,7 @@
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
     font-style: 500;
+    margin-bottom: $gap-undertitle;
   }
 
   &__wrapper-cards {
@@ -103,7 +104,7 @@
     align-items: end;
     padding-bottom: 3vh;
     column-gap: 2vw;
-  
+
   }
 
   &__text_blue {
@@ -152,9 +153,6 @@
 //-----------adaptive tablet----------//
 
 @media(min-width:767px) and (max-width:1023px) {
-  //.main__services {
-  //height: 120vw;
-  //}
 
   .services {
     &__title {
@@ -162,47 +160,27 @@
     }
 
     &__wrapper-cards {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
       grid-template-rows: 65vw 65vw;
-      column-gap: 2vw;
-      row-gap: 4vh;
     }
 
     &__card-1 {
-      border: 2px solid $color-btn-text-blue;
-      border-radius: 35px;
-      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 23% 13% 5% 18% 18% 1fr;
-      justify-content: center;
     }
 
     &__card-2 {
-      border: 2px solid $color-btn-text-blue;
-      border-radius: 35px;
-      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 23% 13% 5% 27% 15% 1fr;
-      justify-content: center;
     }
 
     &__card-3 {
-      border: 2px solid $color-btn-text-blue;
-      border-radius: 35px;
-      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 23% 13% 5% 22% 17% 1fr;
-      justify-content: center;
     }
 
     &__card-4 {
-      border: 2px solid $color-btn-text-blue;
-      border-radius: 35px;
-      display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 23% 13% 5% 27% 19% 1fr;
-      justify-content: center;
     }
   }
 
@@ -213,18 +191,6 @@
         font-size: $fontsize-tablet-undertitle;
       }
 
-      &__title_position {
-        padding-top: 2vw;
-      }
-
-      &__title_line-height {
-        line-height: 110%;
-      }
-
-      //&__title_green {
-      //padding-bottom: 10vw;
-      //}
-
       &__subtitle {
         font-size: $fontsize-tablet-h3;
         padding-top: 3vw;
@@ -233,19 +199,17 @@
       &__text {
         font-size: $fontsize-tablet-smalltext;
       }
+    }
 
-      &__btn {
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        padding-bottom: 3vh;
-        column-gap: 2vw;
-      }
+    .position {
+      font-size: $fontsize-tablet-undertitle;
+      padding-top: 2vw;
+      color: $color-btn-text-white;
+    }
 
-      &__text_blue {
-        color: $color-btn-text-blue;
-      }
+    .line-height {
+      font-size: $fontsize-tablet-undertitle;
+      padding-top: 2vw;
     }
 
     .tel {
