@@ -8,6 +8,7 @@
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
     font-style: 500;
+    margin-bottom: $gap-undertitle;
   }
 
   &__wrapper-cards {
@@ -103,7 +104,7 @@
     align-items: end;
     padding-bottom: 3vh;
     column-gap: 2vw;
-  
+
   }
 
   &__text_blue {
@@ -124,7 +125,6 @@
   border-color: transparent;
   height: 3vw;
   width: 3vw;
-  //padding-right: 3vw;
   background-color: $color-btn-text-blue;
   cursor: pointer;
 
@@ -153,68 +153,150 @@
 //-----------adaptive tablet----------//
 
 @media(min-width:767px) and (max-width:1023px) {
+
   .services {
     &__title {
       font-size: $fontsize-tablet-h2;
     }
 
-    //&__wrapper-cards {}
+    &__wrapper-cards {
+      grid-template-rows: 65vw 65vw;
+    }
 
-    //&__card-left {}
+    &__card-1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 18% 18% 1fr;
+    }
 
-    //&__card-right {}
+    &__card-2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+    }
+
+    &__card-3 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+    }
+
+    &__card-4 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 19% 1fr;
+    }
   }
 
   .card {
     &__title {
-      font-size: $fontsize-tablet-h3;
+      font-size: $fontsize-tablet-undertitle;
     }
 
     &__subtitle {
       font-size: $fontsize-tablet-h3;
+      padding-top: 3vw;
     }
 
     &__text {
-      font-size: $fontsize-tablet-text;
+      font-size: $fontsize-tablet-smalltext;
     }
   }
+
+  .position {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
+
+  .line-height {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+  }
+
+  .tel {
+    padding-right: 1vw;
+  }
 }
+
 
 //-----------adaptive mobile---------//
 
 @media screen and (max-width:766px) {
+
   .services {
+
     &__title {
       font-size: $fontsize-mobile-h2;
     }
 
     &__wrapper-cards {
       grid-template-columns: 1fr;
-      grid-template-rows: 100vh 100vh 100vh 100vh;
+      grid-template-rows: 65vw 65vw 65vw 65vw;
     }
 
-    &__card-left {
-      max-width: 1fr;
-      height: 100vh;
+    &__card-1 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 18% 18% 1fr;
     }
 
-    &__card-right {
-      max-width: 1fr;
-      height: 100vh;
+    &__card-2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+    }
+
+    &__card-3 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+    }
+
+    &__card-4 {
+      grid-template-columns: 1fr;
+      grid-template-rows: 23% 13% 5% 27% 19% 1fr;
     }
   }
 
   .card {
     &__title {
-      font-size: $fontsize-mobile-h3;
+      font-size: $fontsize-mobile-undertitle;
     }
 
     &__subtitle {
       font-size: $fontsize-mobile-h3;
+      padding-top: 3vw;
     }
 
     &__text {
-      font-size: $fontsize-mobile-text;
+      font-size: $fontsize-mobile-smalltext;
     }
   }
+
+  .position {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
+
+  .line-height {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+  }
+
+  .button-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5vw;
+    border-color: transparent;
+    height: 6vw;
+    width: 6vw;
+    //background-color: $color-btn-text-blue;
+    cursor: pointer;
+    padding-right: 1.7vw;
+
+    //.iconsocial {
+    //width: 30vw;
+    //height: 30vw;
+    //}
+  }
+
+  //.tel {
+  //padding-right: 0.1vw;
+  //}
 }
