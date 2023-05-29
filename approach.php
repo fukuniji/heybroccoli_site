@@ -8,7 +8,7 @@
           К себе и еде — с любовью
         </h3>
         <div class="column__line"></div>
-        <p class="header-aproach__text">
+        <p class="column__text">
           Пожалуй, так я бы описала главный принцип, которым руководствуюсь в
           работе.
         </p>
