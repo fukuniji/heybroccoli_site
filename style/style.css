@@ -162,7 +162,6 @@ body {
     margin-top: 85px;
   }
 }
-
 .main {
   background-color: #f9f7f1;
 }
@@ -226,8 +225,9 @@ h1 {
   font-size: 2vw;
   line-height: 2.5vw;
   width: 30vw;
+}
 
-/* .hello {
+.hello {
   display: flex;
   justify-content: center;
   margin-top: 10vw;
@@ -256,8 +256,7 @@ h1 {
 }
 
 h3 {
-  color: #245799; */
-
+  color: #245799;
 }
 
 .approach {
@@ -1226,6 +1225,7 @@ img {
   font-style: 400;
   line-height: 122%;
   border-color: transparent;
+  cursor: pointer;
 }
 
 .button-long:hover {
