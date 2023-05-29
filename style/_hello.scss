@@ -1,0 +1,35 @@
+.hello {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 70%;
+        width: 90vw;
+        /*gap: 20vw;*/
+        line-height: 2.5vw;
+
+        @media screen and (max-width: 767px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__subtitle {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    &__text {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+}
+
+h3 {
+    color: $color-btn-text-blue;
+
+}
