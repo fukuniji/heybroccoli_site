@@ -103,6 +103,7 @@
     align-items: end;
     padding-bottom: 3vh;
     column-gap: 2vw;
+  
   }
 
   &__text_blue {
@@ -124,6 +125,7 @@
   height: 3vw;
   width: 3vw;
   background-color: $color-btn-text-blue;
+  cursor: pointer;
 
   .iconsocial {
     width: 1.5vw;
