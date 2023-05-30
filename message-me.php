@@ -15,7 +15,7 @@
           <input class="form__checkbox" id="policy_check" type="checkbox" value="1" checked>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
           <a class="form__link" href="#">Политикой конфиденциальности</a>
           </label> -->
-          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes"><span></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
+          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes"><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
           <a class="form__link" href="#">Политикой конфиденциальности</a></label>
           <!-- <label class="custom-checkbox"><input type="checkbox" name="ch"><span></span>Check</label></p> -->
           <button class="message-me__button-long_white">Отправить</button>

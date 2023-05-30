@@ -1124,32 +1124,68 @@ body {
   max-width: 700px;
 }
 
-.form__label input {
-  display: none; /* Прячем исходный переключатель */
+/* Remove outline on the forms and links */
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
 }
 
-.form__label span {
+button:focus {
+  border: 2px solid #9ec7b3;
+}
+
+.form__input:focus {
+  border: 2px solid #9ec7b3;
+}
+
+.form__link:focus {
+  border: 2px solid #9ec7b3;
+}
+
+.form__checkbox {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__checkbox:focus + .form__custom-checkbox {
+  box-shadow: 0px 0px 0px 2px #9ec7b3;
+}
+
+.form__custom-checkbox {
   position: relative; /* Относительное позиционирование */
-  display: inline-block; /* Строчно-блочный элемент */
-  /* Размеры */
+  display: inline-block;
   width: 25px;
   height: 25px;
-  background: #f9f7f1; /* цвет фона */
+  background: #f9f7f1;
   border: 2px solid #557db0;
+  vertical-align: sub;
+  margin-right: 24px;
 }
 
-.form__label input:checked + span {
-  background: #f9f7f1; /* цвет фона */
-}
-
-/* Добавляем галочку по центру */
-.form__label input:checked + span::before {
-  content: url(/assets/image/form/checkbox-tick.svg);
+.form__custom-checkbox::before {
+  content: "";
+  /* Рисуем галочку */
+  display: inline-block;
+  width: 22px;
+  height: 17px;
+  background-image: url("/assets/image/form/checkbox-tick.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* Выравниваем по центру */
   position: absolute;
-  left: 0px;
-  bottom: 5px;
-  width: 17px;
-  height: 13px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  margin-top: 1px;
+  transition: 0.2s ease-in;
+}
+
+/* Активируем декоративный чекбокс */
+.form__checkbox:checked + .form__custom-checkbox::before {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .footer {
