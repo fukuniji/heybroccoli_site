@@ -15,24 +15,24 @@ $color-lite-green: #59AA8A;
 $clr-bg-frame: #f9f7f1;
 
 //Переменные breakpoints
-//размеры шрифтов для десктопа
-$fontsize-desktop-h2: 3.5vw;
-$fontsize-desktop-h3: 2.5vw;
-$fontsize-desktop-undertitle: 2vw;
-$fontsize-desktop-text: 1.19vw;
-$fontsize-desktop-smalltext: 1.1vw;
-//размеры шрифтов для планшета (до 1023px)
-$fontsize-tablet-h2: 3.9vw;
-$fontsize-tablet-h3: 2.9vw;
-$fontsize-tablet-undertitle: 2.5vw;
-$fontsize-tablet-text: 2vw;
-$fontsize-tablet-smalltext: 1.8vw;
-//размеры шрифтов для телефона (до 767px)
-$fontsize-mobile-h2: 6vw;
-$fontsize-mobile-h3: 4.5vw;
-$fontsize-mobile-undertitle: 3vw;
-$fontsize-mobile-text: 2.3vw;
-$fontsize-mobile-smalltext: 2vw;
+// //размеры шрифтов для десктопа
+// $fontsize-desktop-h2: 3.5vw;
+// $fontsize-desktop-h3: 2.5vw;
+// $fontsize-desktop-undertitle: 2vw;
+// $fontsize-desktop-text: 1.19vw;
+// $fontsize-desktop-smalltext: 1.1vw;
+// //размеры шрифтов для планшета (до 1023px)
+// $fontsize-tablet-h2: 3.9vw;
+// $fontsize-tablet-h3: 2.9vw;
+// $fontsize-tablet-undertitle: 2.5vw;
+// $fontsize-tablet-text: 2vw;
+// $fontsize-tablet-smalltext: 1.8vw;
+// //размеры шрифтов для телефона (до 767px)
+// $fontsize-mobile-h2: 6vw;
+// $fontsize-mobile-h3: 4.5vw;
+// $fontsize-mobile-undertitle: 3vw;
+// $fontsize-mobile-text: 2.3vw;
+// $fontsize-mobile-smalltext: 2vw;
 
 //отступы между блоками и под заголовком
 // $gap: 15vw; -- В _footer.scss и в _style.scss изменено
@@ -53,24 +53,24 @@ $container-m-t-mobile: 10.43025vw; //80px
 $container-m-r-mobile: 9.648vw; //74px
 $container-m-l-mobile: 9.648vw; //74px
 
-// // Предварительно, будет округлено: 
-// //размеры шрифтов для десктопа
-// $fontsize-desktop-h2: 4.72222222222vw; // Заголовок h2,h1 68px
-// $fontsize-desktop-h3: 2.91666666667vw; // Заголовок h3 42px
-// $fontsize-desktop-undertitle: 2.22222222222vw; // Подзаголовок 32px
-// $fontsize-desktop-text: 1.39vw; // шрифт для обычного текста 20px
-// $fontsize-desktop-smalltext: 1.11111111vw; // мелкий шрифт описания для карточек 16px
+// Округлено: 
+//размеры шрифтов для десктопа
+$fontsize-desktop-h2: 4.723vw; // Заголовок h2,h1 68px
+$fontsize-desktop-h3: 2.9167vw; // Заголовок h3 42px
+$fontsize-desktop-undertitle: 2.223vw; // Подзаголовок 32px
+$fontsize-desktop-text: 1.39vw; // шрифт для обычного текста 20px
+$fontsize-desktop-smalltext: 1.112vw; // мелкий шрифт описания для карточек 16px
 
-// //размеры шрифтов для планшета (до 1023px) -- screen and (max-width: 1023px)
-// $fontsize-tablet-h2: 6.64711632454vw; // 68px
-// $fontsize-tablet-h3: 3.51906158358vw; // 36px
-// $fontsize-tablet-undertitle: 2.34604105572vw; // 24px
-// $fontsize-tablet-text: 1.75953079179vw; // 18px
-// $fontsize-tablet-smalltext: 1.56403vw; // 16px
+//размеры шрифтов для планшета (до 1023px) -- screen and (max-width: 1023px)
+$fontsize-tablet-h2: 5.4741vw; // 56px
+$fontsize-tablet-h3: 3.51907vw; // 36px
+$fontsize-tablet-undertitle: 2.34605vw; // 24px
+$fontsize-tablet-text: 1.75954vw; // 18px
+$fontsize-tablet-smalltext: 1.56403vw; // 16px
 
-// //размеры шрифтов для телефона (до 767px) -- screen and (max-width: 767px)
-// $fontsize-mobile-h2: 8.86571056063vw; // 68px
-// $fontsize-mobile-h3: 3.91134289439vw; // 30px
-// $fontsize-mobile-undertitle: 3.12907431552vw; // 24px
-// $fontsize-mobile-text: 2.21642764016vw; // 17px
-// $fontsize-mobile-smalltext: 2.08605vw; // 16px
+//размеры шрифтов для телефона (до 767px) -- screen and (max-width: 767px)
+$fontsize-mobile-h2: 6.25815vw; // 48px
+$fontsize-mobile-h3: 3.91135vw; // 30px
+$fontsize-mobile-undertitle: 3.12908vw; // 24px
+$fontsize-mobile-text: 2.21643vw; // 17px
+$fontsize-mobile-smalltext: 2.08605vw; // 16px
