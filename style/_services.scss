@@ -14,7 +14,7 @@
   &__wrapper-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 45vw 45vw;
+    grid-template-rows: 50vw 50vw;
     column-gap: 2vw;
     row-gap: 4vh;
   }
@@ -195,29 +195,25 @@
     }
 
     &__wrapper-cards {
-      grid-template-rows: 75vw 75vw;
-      grid-template-columns: 0.8fr 0.8fr;
+      grid-template-rows: 80vw 80vw;
+      grid-template-columns: 1fr 1fr;
     }
 
-    //&__card-1 {
-    //grid-template-columns: 0.8fr;
-    //grid-template-rows: 23% 13% 5% 16% 18% 1fr;
-    //}
+    &__card-1 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
 
-    //&__card-2 {
-    //grid-template-columns: 1fr;
-    //grid-template-rows: 23% 13% 5% 25% 15% 1fr;
-    //}
+    &__card-2 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
 
-    //&__card-3 {
-    //grid-template-columns: 1fr;
-    //grid-template-rows: 23% 13% 5% 20% 17% 1fr;
-    //}
+    &__card-3 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
 
-    //&__card-4 {
-    //grid-template-columns: 1fr;
-    //grid-template-rows: 23% 13% 5% 24% 19% 1fr;
-    //}
+    &__card-4 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
   }
 
   .card {
@@ -226,9 +222,7 @@
     }
 
     &__title_main {
-      width: 40vw;
       line-height: 2.3vw;
-      padding-left: 4vw;
     }
 
     &__subtitle {
@@ -240,6 +234,8 @@
 
     &__text {
       font-size: $fontsize-tablet-smalltext;
+      line-height: 1.5vw;
+      padding: 0 2vw 0 2vw;
     }
   }
 
@@ -258,37 +254,9 @@
     padding-right: 1vw;
   }
 
-  /* .button-round {
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
-    border-radius: 3vw;
-    //border-color: transparent;
-    height: 5.5vw;
-    width: 5.5vw;
-    //background-color: $color-btn-text-blue;
-    //cursor: pointer;
+  .button-round {
+    border-radius: 7vw;
   }
-
-  .button-round_green {
-    background-color: $color-btn-text-green;
-  }
-
-  .social_icon {
-    background-image: url(../assets/image/telegram-icon.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1.6vw;
-    height: 1.6vw;
-    display: inline-block;
-    //margin-left: 0.6944vw;
-
-    &_whatsapp {
-      background-image: url(../assets/image/whatsapp-icon.svg);
-      width: 2vw;
-      height: 2vw; 
-    }
-  }*/
 }
 
 

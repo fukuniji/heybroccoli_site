@@ -707,7 +707,7 @@ h3 {
 .services__wrapper-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 45vw 45vw;
+  grid-template-rows: 50vw 50vw;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 4vh;
@@ -858,16 +858,26 @@ h3 {
     font-size: 3.9vw;
   }
   .services__wrapper-cards {
-    grid-template-rows: 75vw 75vw;
-    grid-template-columns: 0.8fr 0.8fr;
+    grid-template-rows: 80vw 80vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .services__card-1 {
+    grid-template-rows: 20% 12% 5% 1fr 1fr;
+  }
+  .services__card-2 {
+    grid-template-rows: 20% 12% 5% 1fr 1fr;
+  }
+  .services__card-3 {
+    grid-template-rows: 20% 12% 5% 1fr 1fr;
+  }
+  .services__card-4 {
+    grid-template-rows: 20% 12% 5% 1fr 1fr;
   }
   .card__title {
     font-size: 2.5vw;
   }
   .card__title_main {
-    width: 40vw;
     line-height: 2.3vw;
-    padding-left: 4vw;
   }
   .card__subtitle {
     font-size: 2.9vw;
@@ -875,6 +885,8 @@ h3 {
   }
   .card__text {
     font-size: 1.8vw;
+    line-height: 1.5vw;
+    padding: 0 2vw 0 2vw;
   }
   .position {
     font-size: 2.5vw;
@@ -888,37 +900,9 @@ h3 {
   .tel {
     padding-right: 1vw;
   }
-  /* .button-round {
-    //display: flex;
-    //justify-content: center;
-    //align-items: center;
-    border-radius: 3vw;
-    //border-color: transparent;
-    height: 5.5vw;
-    width: 5.5vw;
-    //background-color: $color-btn-text-blue;
-    //cursor: pointer;
+  .button-round {
+    border-radius: 7vw;
   }
-
-  .button-round_green {
-    background-color: $color-btn-text-green;
-  }
-
-  .social_icon {
-    background-image: url(../assets/image/telegram-icon.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1.6vw;
-    height: 1.6vw;
-    display: inline-block;
-    //margin-left: 0.6944vw;
-
-    &_whatsapp {
-      background-image: url(../assets/image/whatsapp-icon.svg);
-      width: 2vw;
-      height: 2vw; 
-    }
-  }*/
 }
 @media screen and (max-width: 766px) {
   .services__title {
