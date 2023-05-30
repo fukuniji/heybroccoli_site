@@ -362,10 +362,31 @@ body {
   font-size: 2vw;
   line-height: 120%;
 }
+@media screen and (max-width: 1023px) {
+  .hello__subtitle {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hello__subtitle {
+    font-size: 3vw;
+  }
+}
 .hello__text {
   grid-column: 2/3;
   grid-row: 1/3;
   line-height: 120%;
+  font-size: 1.19vw;
+}
+@media screen and (max-width: 1023px) {
+  .hello__text {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hello__text {
+    font-size: 2.3vw;
+  }
 }
 
 .approach {
