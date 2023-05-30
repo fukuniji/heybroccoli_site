@@ -10,7 +10,7 @@
     text-align: center;
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
-    font-style: 500;
+    font-weight: 500;
     margin-bottom: $gap-undertitle;
   }
 
@@ -29,7 +29,7 @@
     padding-left: 3vw;
     font-family: $font-texts;
     font-size: $fontsize-desktop-text;
-    font-style: 400;
+    font-weight: 400;
     line-height: 120%;
   }
 
@@ -38,7 +38,7 @@
     padding-top: 10vh;
     font-family: $font-texts;
     font-size: $fontsize-desktop-text;
-    font-style: 400;
+    font-weight: 400;
     line-height: 120%;
   }
 
@@ -104,9 +104,10 @@
     &__img-2 {
       display: grid;
       position: static;
-     
+
       grid-column: 1/3;
       grid-row: 1/2;
+
       //width: 90vw;
       //grid-area: 1/1/2/4;
       //grid-template-areas: "img-2";
