@@ -7,7 +7,7 @@
     text-align: center;
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
-    font-style: 500;
+    font-weight: 500;
     margin-bottom: $gap-undertitle;
   }
 
@@ -71,7 +71,7 @@
   &__title_main {
     font-family: $font-titles;
     font-size: $fontsize-desktop-undertitle;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     color: $color-btn-text-white;
     line-height: 38.4%;
@@ -80,7 +80,7 @@
   &__title_green {
     font-family: $font-titles;
     font-size: $fontsize-desktop-undertitle;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
     color: $color-lite-green;
@@ -89,7 +89,7 @@
   &__subtitle {
     font-family: $font-titles;
     font-size: $fontsize-desktop-h3;
-    font-style: 500;
+    font-weight: 500;
     color: $color-btn-text-blue;
     line-height: 100%;
     text-align: center;
@@ -100,7 +100,7 @@
     padding: 0 5vw 0 5vw;
     font-family: $font-texts;
     font-size: $fontsize-desktop-smalltext;
-    font-style: 400;
+    font-weight: 400;
     text-align: justify;
     line-height: 1.3vw;
   }
@@ -132,9 +132,9 @@
   border-radius: 2vw;
   border-color: transparent;
   width: 40px;
-  height:40px;
+  height: 40px;
 
-/*   height: 3vw;
+  /*   height: 3vw;
   width: 3vw; */
   background-color: $color-btn-text-blue;
   cursor: pointer;
@@ -151,14 +151,14 @@
   background-size: cover;
   width: 20px;
   height: 17.45px;
- // width: 1.6vw;
+  // width: 1.6vw;
   //height: 1.6vw;
   display: inline-block;
 
   &_whatsapp {
     background-image: url(../assets/image/whatsapp-icon.svg);
     width: 21px;
-  height: 21px;
+    height: 21px;
   }
 }
 
@@ -357,11 +357,11 @@
     cursor: pointer;
     padding-right: 1.7vw; */
 
-    //.iconsocial {
-    //width: 30vw;
-    //height: 30vw;
-    //}
-/*   } */
+  //.iconsocial {
+  //width: 30vw;
+  //height: 30vw;
+  //}
+  /*   } */
 
   //.tel {
   //padding-right: 0.1vw;

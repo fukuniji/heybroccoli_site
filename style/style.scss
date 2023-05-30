@@ -18,22 +18,23 @@
 html {
   font-family: $font-texts;
   font-size: 1.25rem;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   color: $color-primary;
 }
 
 .container {
-margin: 0 6vw; 
+  margin: 0 6vw;
 }
 
 
-.photo{
+.photo {
   margin-top: $gap;
+
   .container>img {
-        border-radius: 30px;
-    }
+    border-radius: 30px;
   }
+}
 
 
 img {
@@ -46,7 +47,7 @@ img {
 .title {
   font-family: $font-titles;
   font-size: $fontsize-desktop-h2;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
   text-align: center;
   color: $color-primary;
@@ -55,7 +56,7 @@ img {
 .slogan {
   font-family: $font-titles;
   font-size: $fontsize-desktop-h3;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
   color: $color-btn-text-blue;
 }
@@ -69,7 +70,7 @@ img {
   border-radius: 15vw;
   font-family: $font-texts;
   font-size: $fontsize-desktop-text;
-  font-style: 400;
+  font-weight: 400;
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
