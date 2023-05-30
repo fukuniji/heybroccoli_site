@@ -104,12 +104,16 @@
     &__img-2 {
       display: grid;
       position: static;
+     
       grid-column: 1/3;
       grid-row: 1/2;
       //width: 90vw;
       //grid-area: 1/1/2/4;
       //grid-template-areas: "img-2";
       //object-fit: cover;
+      .img-2 {
+        width: 56vw;
+      }
     }
   }
 
