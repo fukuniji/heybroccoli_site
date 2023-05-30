@@ -931,13 +931,16 @@ h3 {
     grid-row: 2/3;
   }
   .services-business__img-2 {
+    display: grid;
     position: static;
     grid-column: 1/3;
     grid-row: 1/2;
-    width: 90vw;
   }
 }
 @media screen and (max-width: 766px) {
+  .main__services-business {
+    margin-bottom: 15vw;
+  }
   .services-business {
     position: static;
   }
