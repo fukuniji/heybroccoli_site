@@ -1,6 +1,7 @@
   <!-- ---------------------HELLO-2--------------------------->
 
     <div class="main__hello hello">
+    <div class="container">
       <div class="hello__wrapper">
 
         <div class="hello__subtitle">
@@ -23,7 +24,7 @@
         </p>
         </div>
       </div>
-
+      </div>
     </div>
 
   <!-- ---------------------HELLO-2 END--------------------------->

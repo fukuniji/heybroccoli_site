@@ -344,7 +344,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30% 70%;
-  width: 90vw;
   gap: 4vw;
   align-items: baseline;
 }
