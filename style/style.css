@@ -394,7 +394,6 @@ body {
   /*---------------screen  and (max-width:766px)------------ */
 }
 .approach__title {
-  margin-top: 15vw;
   margin-bottom: 5vw;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
@@ -571,9 +570,6 @@ body {
   }
 }
 
-.task {
-  margin-top: 15vw;
-}
 .task__title {
   margin-bottom: 5vw;
 }
@@ -581,8 +577,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   row-gap: 6vw;
-  -moz-column-gap: 8vw;
-       column-gap: 8vw;
+  -moz-column-gap: 6vw;
+       column-gap: 6vw;
   justify-content: center;
 }
 .task__row .row__text {
@@ -709,10 +705,6 @@ body {
     padding: 1.8vw 9vw;
   }
 }
-.main__services {
-  margin-top: 15vw;
-}
-
 .services__title {
   text-align: center;
   font-family: "Museo Sans Cyrillic";
@@ -1001,10 +993,6 @@ body {
     padding-right: 1.7vw; */
   /*   } */
 }
-.main__services-business {
-  margin-top: 15vw;
-}
-
 .services-business {
   position: relative;
   display: grid;
@@ -1099,9 +1087,6 @@ body {
   }
 }
 @media screen and (max-width: 766px) {
-  .main__services-business {
-    margin-bottom: 15vw;
-  }
   .services-business {
     position: static;
   }
@@ -1138,31 +1123,9 @@ body {
     border: 1px solid blue;
   }
 }
-.blok9 {
-  margin-top: 15vw;
-}
 .blok9 .reviews {
   margin-left: 6vw;
   margin-right: 6vw;
-}
-.blok9 .reviews__title {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 5vw;
-  font-family: "Museo Sans Cyrillic";
-  font-size: 3.5vw;
-  font-weight: 500;
-}
-@media screen and (max-width: 1023px) {
-  .blok9 .reviews__title {
-    font-size: 3.5vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .blok9 .reviews__title {
-    font-size: 3.5vw;
-  }
 }
 .blok9 .reviews__slider {
   display: flex;
@@ -1320,14 +1283,13 @@ body {
   }
 }
 .main__sertificates {
-  margin-top: 15vw;
   /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
   /*---------------screen  and (max-width:766px)------------ */
 }
 .main__sertificates .sertificates__block {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5% 1fr 5% 1fr 1fr;
+  grid-template-rows: 5% 1fr 5% 1fr max-content;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 2vh;
@@ -1401,7 +1363,7 @@ body {
   grid-row: 5/6;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-weight: 400;
+  font-style: 400;
   line-height: 100%;
   text-align: center;
   justify-self: center;
@@ -1420,7 +1382,7 @@ body {
   .main__sertificates .sertificates__block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 7% 1fr 5% 1fr 1fr;
+    grid-template-rows: 7% 1fr 5% 1fr max-content;
   }
   .main__sertificates .sertificates__block .block__text_1 {
     font-size: 2vw;
@@ -2147,6 +2109,6 @@ img {
   }
 }
 
-.container:first-of-type {
+.header .container {
   margin-top: 0;
 }/*# sourceMappingURL=style.css.map */

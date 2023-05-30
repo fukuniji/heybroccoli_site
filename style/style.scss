@@ -29,9 +29,8 @@ html {
 // }
 
 
-.photo {
-  margin-top: $gap;
-
+.photo{
+  margin-top: 15vw; // взято из $gap; -- заменить
   .container>img {
     border-radius: 30px;
   }
@@ -150,7 +149,6 @@ img {
 // ----- Общие свойства для контейнера -----
 .container {
   border: 1px solid red; // для проверки границ контейнера
-
   margin-top: $container-m-t-desktop; //150px
   margin-right: $container-m-r-desktop; //140px
   margin-bottom: 0;
@@ -172,7 +170,7 @@ img {
   }
 }
 
-.container:first-of-type {
+.header .container {
   margin-top: 0;
 }
 
