@@ -2349,6 +2349,13 @@ img {
   color: #ffffff;
 }
 
+#task::before, #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
+  display: block;
+  content: "";
+  height: 1px;
+  margin: -1px 0 0;
+}
+
 /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
 @media (min-width: 767px) and (max-width: 1023px) {
   html {
