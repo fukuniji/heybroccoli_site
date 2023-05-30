@@ -24,7 +24,7 @@
     border-radius: 35px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 18% 13% 5% 18% 18% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
     justify-content: center;
   }
 
@@ -33,7 +33,7 @@
     border-radius: 35px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 18% 13% 5% 27% 15% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
     justify-content: center;
   }
 
@@ -42,7 +42,7 @@
     border-radius: 35px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 18% 13% 5% 21% 17% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
     justify-content: center;
   }
 
@@ -51,7 +51,7 @@
     border-radius: 35px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 18% 13% 5% 27% 19% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
     justify-content: center;
   }
 }
@@ -94,6 +94,14 @@
     line-height: 100%;
     text-align: center;
     padding-top: 2vw;
+  }
+
+  &__all-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 1vw;
   }
 
   &__text {
