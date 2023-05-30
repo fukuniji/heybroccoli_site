@@ -1306,7 +1306,7 @@ body {
 .main__sertificates .sertificates__block {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5% 1fr 5% 1fr 1fr;
+  grid-template-rows: 5% 1fr 5% 1fr max-content;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 2vh;
