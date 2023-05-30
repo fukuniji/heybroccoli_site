@@ -18,14 +18,14 @@
 html {
   font-family: $font-texts;
   font-size: 1.25rem;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   color: $color-primary;
 }
 
-.container {
-margin: 0 6vw; 
-}
+// .container {
+// margin: 0 6vw; 
+// }
 
 
 .photo{
@@ -55,7 +55,7 @@ img {
 .slogan {
   font-family: $font-titles;
   font-size: $fontsize-desktop-h3;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
   color: $color-btn-text-blue;
 }
@@ -69,7 +69,7 @@ img {
   border-radius: 15vw;
   font-family: $font-texts;
   font-size: $fontsize-desktop-text;
-  font-style: 400;
+  font-weight: 400;
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
@@ -96,9 +96,9 @@ img {
     font-size: $fontsize-tablet-text;
   }
 
-  .container {
-    width: 90%;
-  }
+  // .container {
+  //   width: 90%;
+  // }
 
   .title {
     font-size: $fontsize-tablet-h2;
@@ -123,9 +123,9 @@ img {
     font-size: $fontsize-mobile-text;
   }
 
-  .container {
-    width: 90%;
-  }
+  // .container {
+  //   width: 90%;
+  // }
 
   .title {
     font-size: $fontsize-mobile-h2;
@@ -140,3 +140,38 @@ img {
     font-size: $fontsize-mobile-text;
   }
 }
+
+
+
+// Refactor
+
+// ----- Общие свойства для контейнера -----
+.container {
+  border: 1px solid red; // для проверки границ контейнера
+
+  margin-top: $container-m-t-desktop; //150px
+  margin-right: $container-m-r-desktop; //140px
+  margin-bottom: 0;
+  margin-left: $container-m-l-desktop; //140px
+  // margin-top: $gap;
+
+  @media screen and (max-width:1023px) {
+    margin-top: $container-m-t-tablet; //100px
+    margin-right: $container-m-r-tablet; //100px
+    margin-bottom: 0;
+    margin-left: $container-m-l-tablet; //100px
+  }
+
+  @media screen and (max-width: 767px) {
+    margin-top: $container-m-t-mobile; //80px
+    margin-right: $container-m-r-mobile; //74px
+    margin-bottom: 0;
+    margin-left: $container-m-l-mobile; //74px
+  }
+}
+
+.container:first-of-type {
+  margin-top: 0;
+}
+
+// ----- Общие свойства для контейнера -END- -----

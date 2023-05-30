@@ -2002,13 +2002,9 @@ button:focus {
 html {
   font-family: "Montserrat";
   font-size: 1.25rem;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   color: #1e2124;
-}
-
-.container {
-  margin: 0 6vw;
 }
 
 .photo {
@@ -2037,7 +2033,7 @@ img {
 .slogan {
   font-family: "Museo Sans Cyrillic";
   font-size: 2.5vw;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
   color: #245799;
 }
@@ -2051,7 +2047,7 @@ img {
   border-radius: 15vw;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
@@ -2072,9 +2068,6 @@ img {
   html {
     font-size: 2vw;
   }
-  .container {
-    width: 90%;
-  }
   .title {
     font-size: 3.9vw;
   }
@@ -2091,9 +2084,6 @@ img {
   html {
     font-size: 2.3vw;
   }
-  .container {
-    width: 90%;
-  }
   .title {
     font-size: 6vw;
   }
@@ -2103,4 +2093,31 @@ img {
   .button-long {
     font-size: 2.3vw;
   }
+}
+.container {
+  border: 1px solid red;
+  margin-top: 10.4167vw;
+  margin-right: 9.723vw;
+  margin-bottom: 0;
+  margin-left: 9.723vw;
+}
+@media screen and (max-width: 1023px) {
+  .container {
+    margin-top: 9.7752vw;
+    margin-right: 9.7752vw;
+    margin-bottom: 0;
+    margin-left: 9.7752vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 10.43025vw;
+    margin-right: 9.648vw;
+    margin-bottom: 0;
+    margin-left: 9.648vw;
+  }
+}
+
+.container:first-of-type {
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
