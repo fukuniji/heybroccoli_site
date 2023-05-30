@@ -29,9 +29,8 @@ html {
 // }
 
 
-.photo {
-  margin-top: $gap;
-
+.photo{
+  margin-top: 15vw; // взято из $gap; -- заменить
   .container>img {
     border-radius: 30px;
   }
@@ -171,7 +170,7 @@ img {
   }
 }
 
-.container:first-of-type {
+.header .container {
   margin-top: 0;
 }
 
