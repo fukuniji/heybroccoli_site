@@ -2,7 +2,7 @@
 
   <div class="main__photo photo">
     <div class="container">
-      <img class="picture" src="./assets/image/photo/food-4.png" alt="еда">
+      <img src="./assets/image/photo/food-4.jpg" alt="еда">
     </div>
   </div>
 

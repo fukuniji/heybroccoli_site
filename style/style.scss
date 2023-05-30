@@ -27,9 +27,14 @@ html {
   margin: 0 6vw;
 }
 
-.main__photo {
+
+.photo{
   margin-top: $gap;
-}
+  .container>img {
+        border-radius: 30px;
+    }
+  }
+
 
 img {
   max-width: 100%;

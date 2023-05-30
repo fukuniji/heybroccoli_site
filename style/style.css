@@ -799,8 +799,10 @@ h3 {
   align-items: center;
   border-radius: 2vw;
   border-color: transparent;
-  height: 3vw;
-  width: 3vw;
+  width: 40px;
+  height: 40px;
+  /*   height: 3vw;
+    width: 3vw; */
   background-color: #245799;
   cursor: pointer;
 }
@@ -809,12 +811,14 @@ h3 {
   background-image: url(../assets/image/telegram-icon.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1.6vw;
-  height: 1.6vw;
+  width: 20px;
+  height: 17.45px;
   display: inline-block;
 }
 .social_icon_whatsapp {
   background-image: url(../assets/image/whatsapp-icon.svg);
+  width: 21px;
+  height: 21px;
 }
 
 .tel {
@@ -883,14 +887,22 @@ h3 {
   .tel {
     padding-right: 1vw;
   }
-  .button-round {
+  /* .button-round {
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
     border-radius: 3vw;
+    //border-color: transparent;
     height: 5.5vw;
     width: 5.5vw;
+    //background-color: $color-btn-text-blue;
+    //cursor: pointer;
   }
+
   .button-round_green {
-    background-color: #077840;
+    background-color: $color-btn-text-green;
   }
+
   .social_icon {
     background-image: url(../assets/image/telegram-icon.svg);
     background-repeat: no-repeat;
@@ -898,12 +910,14 @@ h3 {
     width: 1.6vw;
     height: 1.6vw;
     display: inline-block;
-  }
-  .social_icon_whatsapp {
-    background-image: url(../assets/image/whatsapp-icon.svg);
-    width: 2vw;
-    height: 2vw;
-  }
+    //margin-left: 0.6944vw;
+
+    &_whatsapp {
+      background-image: url(../assets/image/whatsapp-icon.svg);
+      width: 2vw;
+      height: 2vw; 
+    }
+  }*/
 }
 @media screen and (max-width: 766px) {
   .services__title {
@@ -937,9 +951,8 @@ h3 {
     padding-top: 3vw;
   }
   .card__text {
-    font-size: 1.9vw;
+    font-size: 2vw;
     line-height: 2.3vw;
-
   }
   .position {
     font-size: 3vw;
@@ -950,7 +963,7 @@ h3 {
     font-size: 3vw;
     padding-top: 2vw;
   }
-  .button-round {
+  /* .button-round {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -958,9 +971,10 @@ h3 {
     border-color: transparent;
     height: 6vw;
     width: 6vw;
+    //background-color: $color-btn-text-blue;
     cursor: pointer;
-    padding-right: 1.7vw;
-  }
+    padding-right: 1.7vw; */
+  /*   } */
 }
 .main__services-business {
   margin-top: 15vw;
@@ -1972,8 +1986,11 @@ html {
   margin: 0 6vw;
 }
 
-.main__photo {
+.photo {
   margin-top: 15vw;
+}
+.photo .container > img {
+  border-radius: 30px;
 }
 
 img {
