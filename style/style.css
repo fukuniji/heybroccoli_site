@@ -359,6 +359,9 @@ h3 {
   margin-right: 0.75vw;
 }
 @media (min-width: 767px) and (max-width: 1023px) {
+  .approach .title {
+    text-align: left;
+  }
   .approach__title {
     font-size: 3.9vw;
   }
@@ -400,6 +403,9 @@ h3 {
   }
 }
 @media screen and (max-width: 766px) {
+  .approach .title {
+    text-align: left;
+  }
   .approach__title {
     font-size: 6vw;
   }

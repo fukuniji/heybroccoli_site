@@ -113,10 +113,12 @@
   /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
 
   @media(min-width:767px) and (max-width:1023px) {
-
+    .title{
+      text-align: left;
+     }
     &__title {
-      font-size: $fontsize-tablet-h2;
-    }
+       font-size: $fontsize-tablet-h2;
+          }
     &__header {
       .header-aproach {
         &__column{
@@ -182,7 +184,9 @@
   /*---------------screen  and (max-width:766px)------------ */
 
   @media screen and (max-width:766px) {
-
+    .title{
+      text-align: left;
+    }
     &__title {
       font-size: $fontsize-mobile-h2;
     }
