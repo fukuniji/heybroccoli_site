@@ -21,6 +21,7 @@ html {
   font-weight: 400;
   line-height: 100%;
   color: $color-primary;
+  background-color: $clr-bg-frame;
 }
 
 // .container {
@@ -148,7 +149,6 @@ img {
 // ----- Общие свойства для контейнера -----
 .container {
   border: 1px solid red; // для проверки границ контейнера
-
   margin-top: $container-m-t-desktop; //150px
   margin-right: $container-m-r-desktop; //140px
   margin-bottom: 0;
