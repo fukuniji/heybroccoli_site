@@ -984,12 +984,17 @@ body {
   font-size: 1.11111111vw;
   line-height: 1.39vw;
   margin-top: 1.25vw;
+  display: grid;
+  grid-template-columns: 49px 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 @media screen and (max-width: 1023px) {
   .form__label {
     font-size: 1.56403vw;
     line-height: 1.9551vw;
     margin-top: 3.0304vw;
+    grid-template-columns: 46px 1fr;
+    grid-template-rows: 3fr 1fr;
   }
 }
 @media screen and (max-width: 767px) {
@@ -997,10 +1002,13 @@ body {
     font-size: 2.08605vw;
     line-height: 2.60757vw;
     margin-top: -0.91265vw;
+    grid-template-columns: 49px 1fr 0.115fr;
+    grid-template-rows: 2fr 1fr;
   }
 }
 .form__link {
   color: #1e2124;
+  grid-column-start: 2;
 }
 
 .message-me__button-long_white {
@@ -1173,6 +1181,7 @@ button:focus {
   border: 2px solid #557db0;
   vertical-align: sub;
   margin-right: 24px;
+  align-self: center;
 }
 
 .form__custom-checkbox::before {

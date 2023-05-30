@@ -184,11 +184,20 @@
 
     margin-top: 1.25vw; //51px-33px gap
 
+    // выравнивание текста и чекбокса - ч. 1 из 3
+    display: grid;
+    grid-template-columns: 49px 1fr; // 49px
+    grid-template-rows: 2fr 1fr; // точно 60px
+
+
     @media screen and (max-width: 1023px) {
       font-size: 1.56403vw; //16px;
       line-height: 1.9551vw; //20px;
 
       margin-top: 3.0304vw; //40px-9px gap
+
+      grid-template-columns: 46px 1fr; // 46px
+      grid-template-rows: 3fr 1fr; // точно 80px
     }
   
     @media screen and (max-width: 767px) {
@@ -196,11 +205,17 @@
       line-height: 2.60757vw; //20px;
 
       margin-top: -0.91265vw; //26px-33px gap = -7px
+
+      grid-template-columns: 49px 1fr 0.115fr; // 49px
+      grid-template-rows: 2fr 1fr; // точно 60px
     }
   }
 
   &__link {
     color: $color-primary;
+
+    // выравнивание текста и чекбокса - ч. 2 из 3
+    grid-column-start: 2;
   }
 }
 
@@ -406,6 +421,10 @@ button:focus {
 
   vertical-align: sub;
   margin-right: 24px;
+
+  // выравнивание текста и чекбокса - ч. 3 из 3
+  align-self: center;
+
 }
 
 .form__custom-checkbox::before {
