@@ -1009,12 +1009,12 @@ body {
   grid-row: 1/2;
 }
 .services-business__img-1 {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 .services-business__text-1 {
   width: 21vw;
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-left: 3vw;
   font-family: "Montserrat";
   font-size: 1.19vw;
@@ -1031,13 +1031,13 @@ body {
 }
 .services-business__img-2 {
   position: absolute;
-  left: 24vw;
-  top: 24vw;
+  left: 31.5vw;
+  top: 31.5vw;
   width: 80%;
 }
 
 .img-2 {
-  width: 80%;
+  width: 76%;
   height: auto;
 }
 
@@ -1045,19 +1045,16 @@ body {
   color: #245799;
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .services-business {
-    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vw 68vw 25vw;
   }
   .services-business__title {
     font-size: 3.9vw;
-  }
-  .services-business__info-wrapper {
-    height: 70vh;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 47vw 15vw;
-    -moz-column-gap: 20vw;
-         column-gap: 20vw;
+    grid-column: 1/3;
+    grid-row: 1/2;
   }
   .services-business__img-1 {
     display: none;
@@ -1067,60 +1064,24 @@ body {
     width: 30vw;
     font-size: 2vw;
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
   }
   .services-business__text-2 {
     padding-top: 0;
     width: 35vw;
     font-size: 2vw;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
   }
   .services-business__img-2 {
     display: grid;
     position: static;
     grid-column: 1/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
+    width: 100%;
   }
   .services-business__img-2 .img-2 {
-    width: 56vw;
-  }
-}
-@media screen and (max-width: 766px) {
-  .services-business {
-    position: static;
-  }
-  .services-business__title {
-    font-size: 6vw;
-  }
-  .services-business__info-wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 47vw 25vw;
-    -moz-column-gap: 13vw;
-         column-gap: 13vw;
-  }
-  .services-business__img-1 {
-    display: none;
-  }
-  .services-business__text-1 {
-    padding-top: 0;
-    width: 40vw;
-    font-size: 2.3vw;
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  .services-business__text-2 {
-    padding-top: 0;
-    width: 37vw;
-    font-size: 2.3vw;
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .services-business__img-2 {
-    position: absolute;
-    right: 5vw;
-    top: 2vw;
-    border: 1px solid blue;
+    width: 100vw;
   }
 }
 .blok9 .reviews {
