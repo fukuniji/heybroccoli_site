@@ -858,23 +858,8 @@ h3 {
     font-size: 3.9vw;
   }
   .services__wrapper-cards {
-    grid-template-rows: 65vw 65vw;
-  }
-  .services__card-1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 16% 18% 1fr;
-  }
-  .services__card-2 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 25% 15% 1fr;
-  }
-  .services__card-3 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 20% 17% 1fr;
-  }
-  .services__card-4 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 24% 19% 1fr;
+    grid-template-rows: 75vw 75vw;
+    grid-template-columns: 0.8fr 0.8fr;
   }
   .card__title {
     font-size: 2.5vw;
@@ -941,23 +926,19 @@ h3 {
   }
   .services__wrapper-cards {
     grid-template-columns: 1fr;
-    grid-template-rows: 65vw 65vw 65vw 65vw;
+    grid-template-rows: 77vw 77vw 77vw 77vw;
   }
   .services__card-1 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 18% 18% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
   }
   .services__card-2 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
   }
   .services__card-3 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
   }
   .services__card-4 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 23% 13% 5% 27% 19% 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
   }
   .card__title {
     font-size: 3vw;
@@ -965,6 +946,9 @@ h3 {
   .card__subtitle {
     font-size: 4.5vw;
     padding-top: 3vw;
+  }
+  .card__all-text {
+    row-gap: 15px;
   }
   .card__text {
     font-size: 2vw;
@@ -979,18 +963,28 @@ h3 {
     font-size: 3vw;
     padding-top: 2vw;
   }
-  /* .button-round {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2.5vw;
-    border-color: transparent;
-    height: 6vw;
-    width: 6vw;
-    //background-color: $color-btn-text-blue;
-    cursor: pointer;
-    padding-right: 1.7vw; */
-  /*   } */
+  .social_icon {
+    width: 10px;
+    height: 10px;
+  }
+  .social_icon_whatsapp {
+    width: 11px;
+    height: 11px;
+    padding-left: 6px;
+  }
+  .button-round {
+    border-radius: 4vw;
+  }
+  .tel {
+    padding-right: 7px;
+    width: 25px;
+    height: 25px;
+  }
+  .button-round_green {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+  }
 }
 .main__services-business {
   margin-top: 15vw;
