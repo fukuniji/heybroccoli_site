@@ -364,28 +364,28 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .hello__subtitle {
-    font-size: 2.5vw;
+    font-size: 2.34605vw;
   }
 }
 @media screen and (max-width: 767px) {
   .hello__subtitle {
-    font-size: 3vw;
+    font-size: 3.12908vw;
   }
 }
 .hello__text {
   grid-column: 2/3;
   grid-row: 1/3;
   line-height: 120%;
-  font-size: 1.19vw;
+  font-size: 1.39vw;
 }
 @media screen and (max-width: 1023px) {
   .hello__text {
-    font-size: 2vw;
+    font-size: 1.75954vw;
   }
 }
 @media screen and (max-width: 767px) {
   .hello__text {
-    font-size: 2.3vw;
+    font-size: 2.21643vw;
   }
 }
 
@@ -668,8 +668,6 @@ body {
 @media (min-width: 767px) and (max-width: 1023px) {
   .task__row {
     justify-content: space-between;
-    -moz-column-gap: 14vw;
-         column-gap: 14vw;
   }
   .task__row .row__text {
     max-width: 19.5vw;
@@ -687,8 +685,6 @@ body {
 @media screen and (max-width: 766px) {
   .task__row {
     justify-content: space-between;
-    -moz-column-gap: 18vw;
-         column-gap: 18vw;
   }
   .task__row .row__text {
     font-size: 2.21643vw;
@@ -1127,7 +1123,6 @@ body {
   margin-left: 6vw;
   margin-right: 6vw;
 }
-
 .blok9 .reviews__slider {
   display: flex;
   justify-content: center;
