@@ -925,6 +925,11 @@ body {
     row-gap: 0.8798vw;
   }
 }
+@media screen and (max-width: 767px) {
+  .form {
+    row-gap: 4.3024771838vw;
+  }
+}
 .form__input {
   border: none;
   border-bottom: 2px solid #557DB0;
@@ -978,17 +983,20 @@ body {
   font-weight: 400;
   font-size: 1.11111111vw;
   line-height: 1.39vw;
+  margin-top: 1.25vw;
 }
 @media screen and (max-width: 1023px) {
   .form__label {
     font-size: 1.56403vw;
     line-height: 1.9551vw;
+    margin-top: 3.0304vw;
   }
 }
 @media screen and (max-width: 767px) {
   .form__label {
     font-size: 2.08605vw;
     line-height: 2.60757vw;
+    margin-top: -0.91265vw;
   }
 }
 .form__link {
@@ -1006,7 +1014,7 @@ body {
   font-size: 1.39vw;
   width: 38.9583vw;
   height: 4.17vw;
-  margin-top: 1.7361vw;
+  margin-top: 1.7362vw;
 }
 @media screen and (max-width: 1023px) {
   .message-me__button-long_white {
@@ -1014,6 +1022,7 @@ body {
     font-size: 1.7595vw;
     width: 39.1vw;
     height: 5.8651vw;
+    margin-top: 2.0528vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1022,6 +1031,7 @@ body {
     font-size: 2.6076vw;
     width: 80.8344vw;
     height: 7.8227vw;
+    margin-top: 1.8255vw;
   }
 }
 

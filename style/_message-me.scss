@@ -135,6 +135,10 @@
       row-gap: 0.8798vw; //9px
     }
 
+    @media screen and (max-width: 767px) {
+      row-gap: 4.30247718383vw; //33px
+    }
+
   &__input {
     border: none;
     border-bottom: 2px solid #557DB0;
@@ -178,14 +182,20 @@
     // font-size: $fontsize-desktop-smalltext;
     line-height: 1.39vw; //20px
 
+    margin-top: 1.25vw; //51px-33px gap
+
     @media screen and (max-width: 1023px) {
       font-size: 1.56403vw; //16px;
       line-height: 1.9551vw; //20px;
+
+      margin-top: 3.0304vw; //40px-9px gap
     }
   
     @media screen and (max-width: 767px) {
       font-size: 2.08605vw; //16px;
       line-height: 2.60757vw; //20px;
+
+      margin-top: -0.91265vw; //26px-33px gap = -7px
     }
   }
 
@@ -210,13 +220,15 @@
   width: 38.9583vw; //561px
   height: 4.17vw; //60px
 
-  margin-top: 1.7361vw; //58px - 33px gap = 25px
+  margin-top: 1.7362vw; //58px - 33px gap = 25px
 
   @media screen and (max-width:1023px) {
     border-radius: 2.9326vw; //30px
     font-size: 1.7595vw; //18px
     width: 39.1vw; //400px
     height: 5.8651vw; //60px
+
+    margin-top: 2.0528vw; //30px - 9px gap = 21px
   }
 
   @media screen and (max-width: 767px) {
@@ -224,6 +236,8 @@
     font-size: 2.6076vw; //20px
     width: 80.8344vw; //620px
     height: 7.8227vw; //60px
+
+    margin-top: 1.8255vw; //47px - 33px gap = 14px
   }
 }
 
