@@ -14,7 +14,7 @@
   &__wrapper-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 43vw 43vw;
+    grid-template-rows: 45vw 45vw;
     column-gap: 2vw;
     row-gap: 4vh;
   }
@@ -62,19 +62,26 @@
 
 .card {
   &__title {
-    font-family: $font-titles;
-    font-size: $fontsize-desktop-undertitle;
-    font-weight: normal;
-    font-style: normal;
-    color: $color-btn-text-white;
-    line-height: 38.4%;
     text-align: center;
     justify-content: center;
     background-color: $color-btn-text-blue;
     border-radius: 30px 30px 0 0;
   }
 
+  &__title_main {
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-undertitle;
+    font-weight: normal;
+    font-style: normal;
+    color: $color-btn-text-white;
+    line-height: 38.4%;
+  }
+
   &__title_green {
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-undertitle;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
     color: $color-lite-green;
   }
@@ -95,6 +102,7 @@
     font-size: $fontsize-desktop-smalltext;
     font-style: 400;
     text-align: justify;
+    line-height: 1.3vw;
   }
 
   &__btn {
@@ -128,9 +136,22 @@
   background-color: $color-btn-text-blue;
   cursor: pointer;
 
-  .iconsocial {
-    width: 1.5vw;
-    height: 1.5vw;
+  //.iconsocial {
+  //width: 1.5vw;
+  // height: 1.5vw;
+  //}
+}
+
+.social_icon {
+  background-image: url(../assets/image/telegram-icon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.6vw;
+  height: 1.6vw;
+  display: inline-block;
+
+  &_whatsapp {
+    background-image: url(../assets/image/whatsapp-icon.svg);
   }
 }
 
@@ -165,28 +186,34 @@
 
     &__card-1 {
       grid-template-columns: 1fr;
-      grid-template-rows: 23% 13% 5% 18% 18% 1fr;
+      grid-template-rows: 23% 13% 5% 16% 18% 1fr;
     }
 
     &__card-2 {
       grid-template-columns: 1fr;
-      grid-template-rows: 23% 13% 5% 27% 15% 1fr;
+      grid-template-rows: 23% 13% 5% 25% 15% 1fr;
     }
 
     &__card-3 {
       grid-template-columns: 1fr;
-      grid-template-rows: 23% 13% 5% 22% 17% 1fr;
+      grid-template-rows: 23% 13% 5% 20% 17% 1fr;
     }
 
     &__card-4 {
       grid-template-columns: 1fr;
-      grid-template-rows: 23% 13% 5% 27% 19% 1fr;
+      grid-template-rows: 23% 13% 5% 24% 19% 1fr;
     }
   }
 
   .card {
     &__title {
       font-size: $fontsize-tablet-undertitle;
+    }
+
+    &__title_main {
+      width: 40vw;
+      line-height: 2.3vw;
+      padding-left: 4vw;
     }
 
     &__subtitle {
@@ -212,6 +239,38 @@
 
   .tel {
     padding-right: 1vw;
+  }
+
+  .button-round {
+    //display: flex;
+    //justify-content: center;
+    //align-items: center;
+    border-radius: 3vw;
+    //border-color: transparent;
+    height: 5.5vw;
+    width: 5.5vw;
+    //background-color: $color-btn-text-blue;
+    //cursor: pointer;
+  }
+
+  .button-round_green {
+    background-color: $color-btn-text-green;
+  }
+
+  .social_icon {
+    background-image: url(../assets/image/telegram-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.6vw;
+    height: 1.6vw;
+    display: inline-block;
+    //margin-left: 0.6944vw;
+
+    &_whatsapp {
+      background-image: url(../assets/image/whatsapp-icon.svg);
+      width: 2vw;
+      height: 2vw;
+    }
   }
 }
 
@@ -264,6 +323,7 @@
 
     &__text {
       font-size: $fontsize-mobile-smalltext;
+      line-height: 2.3vw;
     }
   }
 
