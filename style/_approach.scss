@@ -11,21 +11,18 @@
   &__header {
     display: flex;
     align-items: center;
-/*     padding-bottom: 3.44rem; */
     column-gap: 1vw;
      .header-aproach {
     
      &__column{
-  
-          .column{
+            .column{
       &__slogan {
         font-family: $font-titles;
         font-size: $fontsize-desktop-h3;
         font-style: 500;
         color: $color-btn-text-blue;
         line-height: 100%;
-       /*  max-width: 34.8vw; */
-      }
+            }
       &__line{
         border-top: 2px solid #557DB0;
         margin-bottom: 1.5vw;
@@ -37,40 +34,31 @@
         font-style: 400;
         line-height: 120%;
         width:  33vw;
-        
-      }
+              }
     }
   } 
   &__img{
-      height: 115px;
-      width: 108px;
-
+      height: 98px;
+      width: 78px;
     } 
     }
-   
-  }
+     }
 
   &__list {
     display: flex;
     flex-direction: row;
     flex: 1;
- 
-  
-    .list {
+     .list {
       &__list-1 {
         flex: 1;
-       
-
-        .list-1 {
+           .list-1 {
           &__title {
             color: $color-btn-text-blue;
             font-family: $font-titles;
             font-size: $fontsize-desktop-undertitle;
             font-style: 500;
             line-height: 100%;
-         /*    padding-bottom: 1.31rem; */
-          }
-
+                 }
           &__item {
             font-family: $font-texts;
             font-size: $fontsize-desktop-text;
@@ -78,35 +66,28 @@
             line-height: 120%;
             display: flex;
             align-items: center;
-          
-
-            .krest {
+                      .krest {
               background-image: url(../assets/image/cross.svg);
               background-repeat: no-repeat;
-              background-size: cover;
-              width: 32.5px;
-              height: 32.5px;
+           background-size: cover; 
+              width: 30px;
+              height: 30px;
               display: inline-block;
               margin-right:0.75vw;
             }
           }
         }
       }
-
       &__list-2 {
         flex: 1;
-
         .list-2 {
-
           &__title {
             color: #077840;
             font-family: $font-titles;
             font-size: $fontsize-desktop-undertitle;
             font-style: 500;
             line-height: 100%;
-         /*    padding-bottom: 1.31rem; */
-          }
-
+                   }
           &__item {
             font-family: $font-texts;
             font-size: $fontsize-desktop-text;
@@ -114,13 +95,12 @@
             line-height: 120%;
             display: flex;
             align-items: center;
-
             .check {
               background-image: url(../assets/image/tick.svg);
               background-repeat: no-repeat;
-              background-size: cover;
-              width: 32.5px;
-              height: 32.5px;
+              background-size: cover; 
+              width: 30px;
+              height: 30px;
               display: inline-block;
               margin-right: 0.75vw;
             }
@@ -137,9 +117,7 @@
     &__title {
       font-size: $fontsize-tablet-h2;
     }
-
     &__header {
-     /*  padding-bottom: 3.44rem; */
       .header-aproach {
         &__column{
         .column{
@@ -174,6 +152,9 @@
               font-size: $fontsize-tablet-text;
               display: flex;
               align-items: center;
+              .krest {
+                    margin-right:1vw;
+              }
             }
           }
         }
@@ -188,6 +169,9 @@
               font-size: $fontsize-tablet-text;
               display: flex;
               align-items: center;
+              .check{
+                margin-right:1vw;
+              }
             }
           }
         }
@@ -204,12 +188,9 @@
     }
 
     &__header {
- /*      padding-bottom: 3.44rem; */
-
-      .header-aproach {
+       .header-aproach {
         &__column{
           .column{
-
         &__slogan {
           font-size: $fontsize-mobile-h3;
         }
@@ -219,20 +200,17 @@
         &___line{
           margin-top: -1.5vw;
         }
-      
-        &__text {
+              &__text {
           font-size: $fontsize-mobile-text;
-          width:  55vw;
+          width:  70vw;
         }
       }
     }
       }
     }
-
     &__list {
       display: flex;
       flex-direction: column-reverse;
-
       .list {
         &__list-1 {
           .list-1 {

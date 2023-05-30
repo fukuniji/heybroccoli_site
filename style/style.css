@@ -273,7 +273,6 @@ h3 {
 .approach__header {
   display: flex;
   align-items: center;
-  /*     padding-bottom: 3.44rem; */
   -moz-column-gap: 1vw;
        column-gap: 1vw;
 }
@@ -283,7 +282,6 @@ h3 {
   font-style: 500;
   color: #245799;
   line-height: 100%;
-  /*  max-width: 34.8vw; */
 }
 .approach__header .header-aproach__column .column__line {
   border-top: 2px solid #557DB0;
@@ -298,8 +296,8 @@ h3 {
   width: 33vw;
 }
 .approach__header .header-aproach__img {
-  height: 115px;
-  width: 108px;
+  height: 98px;
+  width: 78px;
 }
 .approach__list {
   display: flex;
@@ -315,7 +313,6 @@ h3 {
   font-size: 2vw;
   font-style: 500;
   line-height: 100%;
-  /*    padding-bottom: 1.31rem; */
 }
 .approach__list .list__list-1 .list-1__item {
   font-family: "Montserrat";
@@ -329,8 +326,8 @@ h3 {
   background-image: url(../assets/image/cross.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 32.5px;
-  height: 32.5px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   margin-right: 0.75vw;
 }
@@ -343,7 +340,6 @@ h3 {
   font-size: 2vw;
   font-style: 500;
   line-height: 100%;
-  /*    padding-bottom: 1.31rem; */
 }
 .approach__list .list__list-2 .list-2__item {
   font-family: "Montserrat";
@@ -357,17 +353,14 @@ h3 {
   background-image: url(../assets/image/tick.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 32.5px;
-  height: 32.5px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   margin-right: 0.75vw;
 }
 @media (min-width: 767px) and (max-width: 1023px) {
   .approach__title {
     font-size: 3.9vw;
-  }
-  .approach__header {
-    /*  padding-bottom: 3.44rem; */
   }
   .approach__header .header-aproach__column .column__slogan {
     font-size: 2.9vw;
@@ -391,6 +384,9 @@ h3 {
     display: flex;
     align-items: center;
   }
+  .approach__list .list__list-1 .list-1__item .krest {
+    margin-right: 1vw;
+  }
   .approach__list .list__list-2 .list-2__title {
     font-size: 2.5vw;
   }
@@ -399,13 +395,13 @@ h3 {
     display: flex;
     align-items: center;
   }
+  .approach__list .list__list-2 .list-2__item .check {
+    margin-right: 1vw;
+  }
 }
 @media screen and (max-width: 766px) {
   .approach__title {
     font-size: 6vw;
-  }
-  .approach__header {
-    /*      padding-bottom: 3.44rem; */
   }
   .approach__header .header-aproach__column .column__slogan {
     font-size: 4.5vw;
@@ -418,7 +414,7 @@ h3 {
   }
   .approach__header .header-aproach__column .column__text {
     font-size: 2.3vw;
-    width: 55vw;
+    width: 70vw;
   }
   .approach__list {
     display: flex;
