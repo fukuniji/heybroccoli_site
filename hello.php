@@ -3,10 +3,10 @@
     <div class="main__hello hello">
       <div class="hello__wrapper">
 
-        <h3 class="hello__subtitle">
+        <div class="hello__subtitle">
           Привет! Меня зовут Лена и я помогаю людям внедрять полезные пищевые
           привычки
-        </h3>
+        </div>
         <div class="hello__text text">
         <p class="text__text-1">
           Ведь все знают, что надо есть больше овощей, меньше сладкого, не
