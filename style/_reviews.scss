@@ -7,24 +7,6 @@
         margin-left: 6vw;
         margin-right: 6vw;
 
-        &__title {
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            margin-bottom: $gap-undertitle;
-            font-family: $font-titles;
-            font-size: $fontsize-desktop-h2;
-            font-weight: 500;
-
-            @media screen and (max-width: 1023px) {
-                font-size: $fontsize-desktop-h2;
-            }
-
-            @media screen and (max-width: 767px) {
-                font-size: $fontsize-desktop-h2;
-            }
-        }
-
         &__slider {
             display: flex;
             justify-content: center;

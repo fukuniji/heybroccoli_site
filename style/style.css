@@ -1124,25 +1124,6 @@ body {
   margin-left: 6vw;
   margin-right: 6vw;
 }
-.blok9 .reviews__title {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 5vw;
-  font-family: "Museo Sans Cyrillic";
-  font-size: 3.5vw;
-  font-weight: 500;
-}
-@media screen and (max-width: 1023px) {
-  .blok9 .reviews__title {
-    font-size: 3.5vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .blok9 .reviews__title {
-    font-size: 3.5vw;
-  }
-}
 .blok9 .reviews__slider {
   display: flex;
   justify-content: center;
