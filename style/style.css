@@ -1173,6 +1173,7 @@ h3 {
   padding: 0 2%;
   border: #245799 2px solid;
   border-radius: 30px;
+  display: none;
 }
 .blok9 .reviews__slider__slide .reviewer {
   width: 100%;
@@ -1190,9 +1191,15 @@ h3 {
     font-size: 2vw;
   }
 }
-.blok9 .reviews__slider__slide img {
+.blok9 .reviews__slider__slide .vertikal {
   width: auto;
   height: 80%;
+}
+.blok9 .reviews__slider__slide .gorozont {
+  width: 80%;
+  height: auto;
+}
+.blok9 .reviews__slider__slide img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 0;
@@ -1231,7 +1238,7 @@ h3 {
   left: -6vw;
   width: 2.5vw;
 }
-.blok9 .reviews__slider__button-left img {
+.blok9 .reviews__slider__button-left svg {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -1244,16 +1251,17 @@ h3 {
     width: 4vw;
   }
 }
-.blok9 .reviews__slider__button-left:hover, .blok9 .reviews__slider__button-right:hover, .blok9 .reviews__slider .next:hover, .blok9 .reviews__slider .previous:hover {
-  opacity: 0.7;
+.blok9 .reviews__slider__button-left:hover .arrow circle,
+.blok9 .reviews__slider__button-left:hover .arrow path, .blok9 .reviews__slider__button-right:hover .arrow circle,
+.blok9 .reviews__slider__button-right:hover .arrow path {
+  stroke: green;
 }
 .blok9 .reviews__slider__button-right {
   position: absolute;
   right: -6vw;
   transform: rotate(180deg);
-  width: 2.5vw;
 }
-.blok9 .reviews__slider__button-right img {
+.blok9 .reviews__slider__button-right svg {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -2005,6 +2013,7 @@ html {
   font-weight: 400;
   line-height: 100%;
   color: #1e2124;
+  background-color: #f9f7f1;
 }
 
 .photo {
