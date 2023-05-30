@@ -5,100 +5,112 @@
     margin-bottom: $gap-undertitle;
     font-family: $font-titles;
     font-size: $fontsize-desktop-h2;
-    font-style: 500;
+    font-weight: 500;
   }
 
   &__header {
     display: flex;
     align-items: center;
     column-gap: 1vw;
-     .header-aproach {
-    
-     &__column{
-            .column{
-      &__slogan {
-        font-family: $font-titles;
-        font-size: $fontsize-desktop-h3;
-        font-style: 500;
-        color: $color-btn-text-blue;
-        line-height: 100%;
-            }
-      &__line{
-        border-top: 2px solid #557DB0;
-        margin-bottom: 1.5vw;
-        margin-top: -1vw;
+
+    .header-aproach {
+
+      &__column {
+        .column {
+          &__slogan {
+            font-family: $font-titles;
+            font-size: $fontsize-desktop-h3;
+            font-weight: 500;
+            color: $color-btn-text-blue;
+            line-height: 100%;
+          }
+
+          &__line {
+            border-top: 2px solid #557DB0;
+            margin-bottom: 1.5vw;
+            margin-top: -1vw;
+          }
+
+          &__text {
+            font-family: $font-texts;
+            font-size: $fontsize-desktop-text;
+            font-weight: 400;
+            line-height: 120%;
+            width: 33vw;
+          }
+        }
       }
-      &__text {
-        font-family: $font-texts;
-        font-size: $fontsize-desktop-text;
-        font-style: 400;
-        line-height: 120%;
-        width:  33vw;
-              }
+
+      &__img {
+        height: 98px;
+        width: 78px;
+      }
     }
-  } 
-  &__img{
-      height: 98px;
-      width: 78px;
-    } 
-    }
-     }
+  }
 
   &__list {
     display: flex;
     flex-direction: row;
     flex: 1;
-     .list {
+
+    .list {
       &__list-1 {
         flex: 1;
-           .list-1 {
+
+        .list-1 {
           &__title {
             color: $color-btn-text-blue;
             font-family: $font-titles;
             font-size: $fontsize-desktop-undertitle;
-            font-style: 500;
+            font-weight: 500;
             line-height: 100%;
-                 }
+          }
+
           &__item {
             font-family: $font-texts;
             font-size: $fontsize-desktop-text;
-            font-style: 400;
+            font-weight: 400;
             line-height: 120%;
             display: flex;
             align-items: center;
-                      .krest {
+
+            .krest {
               background-image: url(../assets/image/cross.svg);
               background-repeat: no-repeat;
-           background-size: cover; 
+              background-size: cover;
               width: 30px;
               height: 30px;
               display: inline-block;
-              margin-right:0.75vw;
+              margin-right: 0.75vw;
             }
           }
         }
       }
+
       &__list-2 {
         flex: 1;
+
         .list-2 {
           &__title {
             color: #077840;
             font-family: $font-titles;
             font-size: $fontsize-desktop-undertitle;
-            font-style: 500;
+            font-weight: 500;
             line-height: 100%;
-                   }
+          }
+
           &__item {
             font-family: $font-texts;
             font-size: $fontsize-desktop-text;
-            font-style: 400;
+            font-weight: 400;
             line-height: 120%;
             display: flex;
             align-items: center;
+
             .check {
               background-image: url(../assets/image/tick.svg);
               background-repeat: no-repeat;
-              background-size: cover; 
+              background-size: cover;
               width: 30px;
               height: 30px;
               display: inline-block;
@@ -113,31 +125,35 @@
   /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
 
   @media(min-width:767px) and (max-width:1023px) {
-    .title{
+    .title {
       text-align: left;
-     }
+    }
+
     &__title {
-       font-size: $fontsize-tablet-h2;
-          }
+      font-size: $fontsize-tablet-h2;
+    }
+
     &__header {
       .header-aproach {
-        &__column{
-        .column{
+        &__column {
+          .column {
 
-        &__slogan {
-          font-size: $fontsize-tablet-h3;
-        }
-        &__text {
-          font-size: $fontsize-tablet-text;
-          width:  48vw;
+            &__slogan {
+              font-size: $fontsize-tablet-h3;
+            }
+
+            &__text {
+              font-size: $fontsize-tablet-text;
+              width: 48vw;
+            }
+          }
+
+          &__img {
+            margin: -3vw 0;
+          }
         }
       }
-      &__img {
-        margin: -3vw 0;
-}
     }
-  }
-}
 
     &__list {
       display: flex;
@@ -154,8 +170,9 @@
               font-size: $fontsize-tablet-text;
               display: flex;
               align-items: center;
+
               .krest {
-                    margin-right:1vw;
+                margin-right: 1vw;
               }
             }
           }
@@ -171,8 +188,9 @@
               font-size: $fontsize-tablet-text;
               display: flex;
               align-items: center;
-              .check{
-                margin-right:1vw;
+
+              .check {
+                margin-right: 1vw;
               }
             }
           }
@@ -184,37 +202,43 @@
   /*---------------screen  and (max-width:766px)------------ */
 
   @media screen and (max-width:766px) {
-    .title{
+    .title {
       text-align: left;
     }
+
     &__title {
       font-size: $fontsize-mobile-h2;
     }
 
     &__header {
-       .header-aproach {
-        &__column{
-          .column{
-        &__slogan {
-          font-size: $fontsize-mobile-h3;
-        }
-        &__img {
-          margin: -4.5vw 0;
-        }
-        &___line{
-          margin-top: -1.5vw;
-        }
-              &__text {
-          font-size: $fontsize-mobile-text;
-          width:  70vw;
+      .header-aproach {
+        &__column {
+          .column {
+            &__slogan {
+              font-size: $fontsize-mobile-h3;
+            }
+
+            &__img {
+              margin: -4.5vw 0;
+            }
+
+            &___line {
+              margin-top: -1.5vw;
+            }
+
+            &__text {
+              font-size: $fontsize-mobile-text;
+              width: 70vw;
+            }
+          }
         }
       }
     }
-      }
-    }
+
     &__list {
       display: flex;
       flex-direction: column-reverse;
+
       .list {
         &__list-1 {
           .list-1 {
@@ -233,7 +257,7 @@
           .list-2 {
             &__title {
               font-size: $fontsize-mobile-undertitle;
-              
+
             }
 
             &__item {

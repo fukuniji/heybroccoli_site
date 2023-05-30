@@ -253,7 +253,7 @@ body {
   grid-row: 1/2;
   font-family: "Museo Sans Cyrillic";
   font-size: 2.5vw;
-  font-style: 500;
+  font-weight: 500;
   color: #245799;
   max-width: 34.8vw;
 }
@@ -382,7 +382,7 @@ h3 {
   margin-bottom: 5vw;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
-  font-style: 500;
+  font-weight: 500;
 }
 .approach__header {
   display: flex;
@@ -393,7 +393,7 @@ h3 {
 .approach__header .header-aproach__column .column__slogan {
   font-family: "Museo Sans Cyrillic";
   font-size: 2.5vw;
-  font-style: 500;
+  font-weight: 500;
   color: #245799;
   line-height: 100%;
 }
@@ -405,7 +405,7 @@ h3 {
 .approach__header .header-aproach__column .column__text {
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
   width: 33vw;
 }
@@ -425,13 +425,13 @@ h3 {
   color: #245799;
   font-family: "Museo Sans Cyrillic";
   font-size: 2vw;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
 }
 .approach__list .list__list-1 .list-1__item {
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
   display: flex;
   align-items: center;
@@ -452,13 +452,13 @@ h3 {
   color: #077840;
   font-family: "Museo Sans Cyrillic";
   font-size: 2vw;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
 }
 .approach__list .list__list-2 .list-2__item {
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
   display: flex;
   align-items: center;
@@ -576,7 +576,7 @@ h3 {
   align-items: center;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   row-gap: 1.1vw;
   text-align: center;
@@ -622,8 +622,8 @@ h3 {
   margin-top: 6vw;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-weight: 600;
-  font-style: 500;
+  font-weight: 500;
+  font-style: normal;
   line-height: 120%;
 }
 .task__btn {
@@ -701,7 +701,7 @@ h3 {
   text-align: center;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
-  font-style: 500;
+  font-weight: 500;
   margin-bottom: 5vw;
 }
 .services__wrapper-cards {
@@ -754,7 +754,7 @@ h3 {
 .card__title_main {
   font-family: "Museo Sans Cyrillic";
   font-size: 2vw;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   color: #ffffff;
   line-height: 38.4%;
@@ -762,7 +762,7 @@ h3 {
 .card__title_green {
   font-family: "Museo Sans Cyrillic";
   font-size: 2vw;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
   color: #59AA8A;
@@ -770,7 +770,7 @@ h3 {
 .card__subtitle {
   font-family: "Museo Sans Cyrillic";
   font-size: 2.5vw;
-  font-style: 500;
+  font-weight: 500;
   color: #245799;
   line-height: 100%;
   text-align: center;
@@ -780,7 +780,7 @@ h3 {
   padding: 0 5vw 0 5vw;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   text-align: justify;
   line-height: 1.3vw;
 }
@@ -811,7 +811,7 @@ h3 {
   width: 40px;
   height: 40px;
   /*   height: 3vw;
-    width: 3vw; */
+  width: 3vw; */
   background-color: #245799;
   cursor: pointer;
 }
@@ -997,7 +997,7 @@ h3 {
   text-align: center;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
-  font-style: 500;
+  font-weight: 500;
   margin-bottom: 5vw;
 }
 .services-business__info-wrapper {
@@ -1012,7 +1012,7 @@ h3 {
   padding-left: 3vw;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
 }
 .services-business__text-2 {
@@ -1020,7 +1020,7 @@ h3 {
   padding-top: 10vh;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
 }
 .services-business__img-2 {
@@ -1132,7 +1132,7 @@ h3 {
   margin-bottom: 5vw;
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
-  font-style: 500;
+  font-weight: 500;
 }
 @media screen and (max-width: 1023px) {
   .blok9 .reviews__title {
@@ -1309,7 +1309,7 @@ h3 {
   grid-row: 1/2;
   font-family: "Montserrat";
   font-size: 1.19vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 120%;
   padding-bottom: 2vw;
 }
@@ -1318,7 +1318,7 @@ h3 {
   grid-row: 2/3;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   text-align: center;
 }
@@ -1330,7 +1330,7 @@ h3 {
   grid-row: 2/3;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   text-align: center;
 }
@@ -1349,7 +1349,7 @@ h3 {
   grid-row: 4/5;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   text-align: center;
 }
@@ -1361,7 +1361,7 @@ h3 {
   grid-row: 4/5;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   text-align: center;
 }
@@ -1373,7 +1373,7 @@ h3 {
   grid-row: 5/6;
   font-family: "Montserrat";
   font-size: 1.1vw;
-  font-style: 400;
+  font-weight: 400;
   line-height: 100%;
   text-align: center;
   justify-self: center;
@@ -2024,7 +2024,7 @@ img {
 .title {
   font-family: "Museo Sans Cyrillic";
   font-size: 3.5vw;
-  font-style: 500;
+  font-weight: 500;
   line-height: 100%;
   text-align: center;
   color: #1e2124;
