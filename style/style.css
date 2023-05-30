@@ -560,8 +560,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   row-gap: 6vw;
-  -moz-column-gap: 8vw;
-       column-gap: 8vw;
+  -moz-column-gap: 6vw;
+       column-gap: 6vw;
   justify-content: center;
 }
 .task__row .row__text {
