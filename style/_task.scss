@@ -1,5 +1,5 @@
-.task {
-  margin-top: $gap;
+.task { 
+  // margin-top: $gap;
 
   &__title {
     margin-bottom: 5vw;
@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 6vw;
-    column-gap: 8vw;
+    column-gap: 6vw;
     justify-content: center;
 
     .row {
@@ -124,8 +124,6 @@
   .task {
     &__row {
       justify-content: space-between;
-      column-gap: 14vw;
-
 
       .row {
         &__text {
@@ -151,9 +149,7 @@
   .task {
     &__row {
       justify-content: space-between;
-      column-gap: 18vw;
-
-      .row {
+        .row {
         &__text {
           font-size: $fontsize-mobile-text;
           max-width: 17.3vw;
