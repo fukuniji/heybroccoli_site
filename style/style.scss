@@ -102,7 +102,7 @@ img {
 
 /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
 
-@media(min-width:767px) and (max-width:1023px) {
+@media screen and (max-width:1023px) {
 
   html {
     font-size: $fontsize-tablet-text;
@@ -125,7 +125,7 @@ img {
 
 /*---------------screen  and (max-width:766px)------------ */
 
-@media screen and (max-width:766px) {
+@media screen and (max-width:767px) {
 
   html {
     font-size: $fontsize-mobile-text;

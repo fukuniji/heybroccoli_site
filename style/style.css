@@ -1417,8 +1417,8 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .message-me {
-    -moz-column-gap: 1.9551vw;
-         column-gap: 1.9551vw;
+    -moz-column-gap: 1.3685239492vw;
+         column-gap: 1.3685239492vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1444,6 +1444,7 @@ body {
   .message-me__wrapper {
     max-width: 80.8344vw;
     align-self: self-start;
+    width: 48.2399vw;
   }
 }
 
@@ -1460,6 +1461,9 @@ body {
   .message-me__title {
     font-size: 5.4741vw;
     line-height: 6.549365vw;
+    width: 39.8826979472vw;
+    margin-top: 0.5865102639vw;
+    margin-left: 0.1955034213vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1482,6 +1486,9 @@ body {
     margin-top: 0.48876vw;
     font-size: 1.75953vw;
     line-height: 2.15054vw;
+    width: 34.5063538612vw;
+    margin-top: 1.0752688172vw;
+    margin-left: 0.4887585533vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1548,6 +1555,7 @@ body {
   .form__input {
     width: 39.1vw;
     height: 5.3763vw;
+    padding-left: 1.1730205279vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -2036,7 +2044,7 @@ img {
 }
 
 /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
-@media (min-width: 767px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   html {
     font-size: 1.75954vw;
   }
@@ -2052,7 +2060,7 @@ img {
   }
 }
 /*---------------screen  and (max-width:766px)------------ */
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   html {
     font-size: 2.21643vw;
   }

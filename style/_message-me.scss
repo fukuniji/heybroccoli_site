@@ -27,7 +27,9 @@
   column-gap: 2.778vw; //40px
 
   @media screen and (max-width:1023px) {
-    column-gap: 1.9551vw; //20px
+    // column-gap: 1.9551vw; //20px
+    // column-gap: 1.662vw; //17px
+    column-gap: 1.36852394917vw; //14px
   }
 
   @media screen and (max-width: 767px) {
@@ -46,11 +48,13 @@
 
   @media screen and (max-width: 1023px) {
     max-width: 39.1vw; //420px-20px
+    // width: 39.11vw;
   }
 
   @media screen and (max-width: 767px) {
     max-width: 80.8344vw; //620px
     align-self: self-start;
+    width: 48.2399vw; //370px
   }
 }
 
@@ -67,6 +71,12 @@
   @media screen and (max-width:1023px) {
     font-size: 5.4741vw; //56px;
     line-height: 6.549365vw; //67px;
+
+
+    width: 39.8826979472vw; //408px;
+
+    margin-top: 0.58651026393vw; //6px;
+    margin-left: 0.19550342131vw; //2px;
   }
 
   @media screen and (max-width: 767px) {
@@ -90,6 +100,11 @@
 
     font-size: 1.75953vw; //18px;
     line-height: 2.15054vw; //22px;
+
+    width: 34.5063538612vw; //353px;
+
+    margin-top: 1.0752688172vw; //11px;
+    margin-left: 0.488758553275vw; //5px;
   }
 
   @media screen and (max-width: 767px) {
@@ -154,6 +169,8 @@
     @media screen and (max-width:1023px) {
       width: 39.1vw; //400px
       height: 5.3763vw; //55px
+
+      padding-left: 1.17302052786vw; //12px;
     }
   
     @media screen and (max-width: 767px) {
