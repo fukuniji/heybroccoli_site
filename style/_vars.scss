@@ -41,17 +41,20 @@ $gap-undertitle: 5vw;
 
 // Refactor
 // Отступы между блоками и по краям контейнера
-$container-m-t-desktop: 10.4167vw; //150px 
-$container-m-r-desktop: 9.723vw; //140px
-$container-m-l-desktop: 9.723vw; //140px
+// $container-m-t-desktop: 10.4167vw; //150px 
+// $container-m-r-desktop: 9.723vw; //140px
+// $container-m-l-desktop: 9.723vw; //140px
+$container-m-t-r-l-desktop: 9.723vw; //140px
 
-$container-m-t-tablet: 9.7752vw; //100px
-$container-m-r-tablet: 9.7752vw; //100px
-$container-m-l-tablet: 9.7752vw; //100px
+// $container-m-t-tablet: 9.7752vw; //100px
+// $container-m-r-tablet: 9.7752vw; //100px
+// $container-m-l-tablet: 9.7752vw; //100px
+$container-m-t-r-l-tablet: 9.7752vw; //100px
 
-$container-m-t-mobile: 10.43025vw; //80px
-$container-m-r-mobile: 9.648vw; //74px
-$container-m-l-mobile: 9.648vw; //74px
+// $container-m-t-mobile: 10.43025vw; //80px
+// $container-m-r-mobile: 9.648vw; //74px
+// $container-m-l-mobile: 9.648vw; //74px
+$container-m-t-r-l-mobile: 9.648vw; //74px
 
 // Округлено: 
 //размеры шрифтов для десктопа

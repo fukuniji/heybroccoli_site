@@ -1,16 +1,20 @@
 .main__message-me {
-  margin-left: 9.723vw; //140px
-  margin-top: 10.4167vw; //150px
-  // margin-top: $gap;
+  // Сокращенное свойство: сверху, справа, снизу, слева
+  margin: $container-m-t-r-l-desktop 0 0 $container-m-t-r-l-desktop;
+  // margin-left: 9.723vw; //140px
+  // margin-top: 10.4167vw; //150px
+  // // margin-top: $gap;
 
   @media screen and (max-width:1023px) {
-    margin-left: 9.7752vw; //100px
-    margin-top: 9.7752vw; //100px
+    margin: $container-m-t-r-l-tablet 0 0 $container-m-t-r-l-tablet;
+    // margin-left: 9.7752vw; //100px
+    // margin-top: 9.7752vw; //100px
   }
 
   @media screen and (max-width: 767px) {
-    margin-left: 9.648vw; //74px
-    margin-top: 10.43025vw; //80px
+    margin: $container-m-t-r-l-mobile 0 0 $container-m-t-r-l-mobile;
+    // margin-left: 9.648vw; //74px
+    // margin-top: 10.43025vw; //80px
   }
 }
 

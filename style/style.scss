@@ -92,8 +92,8 @@ img {
 #task::before,  #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
   display: block;
   content: "";
- height: 1px;
- margin: -1px 0 0;
+  height: 1px;
+  margin: -1px 0 0;
 }
 
 /* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
@@ -156,24 +156,31 @@ img {
 // ----- Общие свойства для контейнера -----
 .container {
   border: 1px solid red; // для проверки границ контейнера
-  margin-top: $container-m-t-desktop; //150px
-  margin-right: $container-m-r-desktop; //140px
-  margin-bottom: 0;
-  margin-left: $container-m-l-desktop; //140px
-  // margin-top: $gap;
+  // margin-top: $container-m-t-desktop; //150px
+  // margin-right: $container-m-r-desktop; //140px
+  // margin-bottom: 0;
+  // margin-left: $container-m-l-desktop; //140px
+  // // margin-top: $gap;
+
+  //Сокращенная запись - сверху, справа, снизу (слева = справа, не записано)
+  margin: $container-m-t-r-l-desktop $container-m-t-r-l-desktop 0; //140px
 
   @media screen and (max-width:1023px) {
-    margin-top: $container-m-t-tablet; //100px
-    margin-right: $container-m-r-tablet; //100px
-    margin-bottom: 0;
-    margin-left: $container-m-l-tablet; //100px
+    // margin-top: $container-m-t-tablet; //100px
+    // margin-right: $container-m-r-tablet; //100px
+    // margin-bottom: 0;
+    // margin-left: $container-m-l-tablet; //100px
+
+    margin: $container-m-t-r-l-tablet $container-m-t-r-l-tablet 0; //100px
   }
 
   @media screen and (max-width: 767px) {
-    margin-top: $container-m-t-mobile; //80px
-    margin-right: $container-m-r-mobile; //74px
-    margin-bottom: 0;
-    margin-left: $container-m-l-mobile; //74px
+    // margin-top: $container-m-t-mobile; //80px
+    // margin-right: $container-m-r-mobile; //74px
+    // margin-bottom: 0;
+    // margin-left: $container-m-l-mobile; //74px
+
+    margin: $container-m-t-r-l-mobile $container-m-t-r-l-mobile 0; //74px
   }
 }
 
