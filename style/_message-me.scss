@@ -59,7 +59,9 @@
 }
 
 .message-me__title {
-  margin: 0; //сброс стиля браузера
+  // margin: 0; //сброс стиля браузера
+  margin-top: 0.416666666667vw; //6px;
+  margin-bottom: 0;
 
   color: $color-primary;
   font-family: $font-titles;
@@ -67,6 +69,8 @@
   font-size: 4.723vw; //68px
   line-height: 5.694vw; //82px
   /* identical to box height */
+
+  margin-left: -0.347222222222vw; //-5px;
 
   @media screen and (max-width:1023px) {
     font-size: 5.4741vw; //56px;
@@ -82,12 +86,17 @@
   @media screen and (max-width: 767px) {
     font-size: 6.25815vw; //48px;
     line-height: 7.56193vw; //58px;
+
+    width: 48.2398956975vw; //370px;
+
+    margin-left: -1.9556714472vw; //-15px;
   }
 }
 
 
 .message-me__subtitle {
-  margin-top: 0;
+  margin-top: 0.486111111111vw; //7px;
+  padding-right: 3.125vw; //45px;
 
   color: $color-primary;
   font-family: $font-texts;
@@ -112,6 +121,11 @@
 
     font-size: 2.21643vw; //17px;
     line-height: 2.73794vw; //21px;
+
+    width: 48.2398956975vw; //370px;
+
+    margin-left: 0;
+    margin-top: 1.3037809648vw; //10px
   }
 }
 

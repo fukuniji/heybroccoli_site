@@ -1449,13 +1449,15 @@ body {
 }
 
 .message-me__title {
-  margin: 0;
+  margin-top: 0.4166666667vw;
+  margin-bottom: 0;
   color: #1e2124;
   font-family: "Museo Sans Cyrillic";
   font-weight: 400;
   font-size: 4.723vw;
   line-height: 5.694vw;
   /* identical to box height */
+  margin-left: -0.3472222222vw;
 }
 @media screen and (max-width: 1023px) {
   .message-me__title {
@@ -1470,11 +1472,14 @@ body {
   .message-me__title {
     font-size: 6.25815vw;
     line-height: 7.56193vw;
+    width: 48.2398956975vw;
+    margin-left: -1.9556714472vw;
   }
 }
 
 .message-me__subtitle {
-  margin-top: 0;
+  margin-top: 0.4861111111vw;
+  padding-right: 3.125vw;
   color: #1e2124;
   font-family: "Montserrat";
   font-weight: 400;
@@ -1496,6 +1501,9 @@ body {
     margin-top: 0.52151vw;
     font-size: 2.21643vw;
     line-height: 2.73794vw;
+    width: 48.2398956975vw;
+    margin-left: 0;
+    margin-top: 1.3037809648vw;
   }
 }
 
