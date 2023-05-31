@@ -157,26 +157,17 @@ body {
   margin-top: 100px;
 }
 
-@media screen and (max-width: 1023px) {
-  .main__about {
-    margin-top: 85px;
-  }
-}
 .main {
   background-color: #f9f7f1;
 }
 
 .about__wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-@media screen and (max-width: 767px) {
-  .about__wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
+  -moz-column-gap: 2.778vw;
+       column-gap: 2.778vw;
 }
 @media screen and (max-width: 1023px) {
   .about__wrapper {
@@ -186,152 +177,159 @@ body {
   }
 }
 .about__photo {
-  width: 60vw;
-  max-width: 45vw;
+  width: auto;
+  max-width: 50vw;
   border-radius: 0 30px 30px 0;
-}
-@media screen and (max-width: 767px) {
-  .about__photo {
-    max-width: 65vw;
-    margin-top: 5vw;
-  }
 }
 @media screen and (max-width: 1023px) {
   .about__photo {
-    max-width: 75vw;
-    margin-top: 5vw;
+    margin-top: 4vw;
+    max-width: 70vw;
   }
 }
-
-.grouplogo {
+@media screen and (max-width: 767px) {
+  .about__photo {
+    margin-top: 5vw;
+    max-width: 80vw;
+  }
+}
+.about .section {
+  margin-right: 9.723vw;
+}
+@media screen and (max-width: 1023px) {
+  .about .section {
+    margin-left: 9.7752vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .section {
+    margin-left: 9.648vw;
+  }
+}
+.about .section .grouplogo {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 7vw 1vw;
+  grid-template-rows: 7vw 4vw;
   align-items: start;
   justify-items: start;
   width: 48vw;
 }
-@media screen and (max-width: 767px) {
-  .grouplogo {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 7vw 1vw;
-    width: 70vw;
-    align-items: center;
-    justify-items: start;
-    margin-left: 3vw;
-  }
-}
 @media screen and (max-width: 1023px) {
-  .grouplogo {
+  .about .section .grouplogo {
     display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 7vw 1vw;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 7vw 4vw;
     width: 70vw;
     align-items: center;
     justify-items: start;
-    margin-left: 3vw;
   }
-}
-.grouplogo__logo {
-  height: auto;
-  width: 9vw;
-  grid-column: 2/3;
-  grid-row: 1/3;
-  align-self: center;
 }
 @media screen and (max-width: 767px) {
-  .grouplogo__logo {
-    height: auto;
-    width: 10vw;
+  .about .section .grouplogo {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 7vw 4vw;
   }
 }
-
-.slogdiv__slogan {
-  font-weight: 100;
+.about .section .grouplogo__slogdiv__slogan {
   grid-column: 1/2;
   grid-row: 1/2;
   font-family: "Museo Sans Cyrillic";
   font-size: 2.9167vw;
   font-weight: 500;
   color: #245799;
-  max-width: 34.8vw;
-}
-@media screen and (max-width: 767px) {
-  .slogdiv__slogan {
-    font-size: 3.91135vw;
-    margin: 2vw 0;
-    max-width: 100vw;
-  }
-}
-
-.slogan__divider {
-  width: 30vw;
-  border-bottom: 0.15vw solid #245799;
-  margin: 0;
-}
-@media screen and (max-width: 767px) {
-  .slogan__divider {
-    width: 60vw;
-  }
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 @media screen and (max-width: 1023px) {
-  .slogan__divider {
-    width: 50vw;
+  .about .section .grouplogo__slogdiv__slogan {
+    font-size: 3.51907vw;
   }
 }
-
-.section__subtitle {
+@media screen and (max-width: 767px) {
+  .about .section .grouplogo__slogdiv__slogan {
+    font-size: 3.91135vw;
+  }
+}
+.about .section .grouplogo__slogdiv__line {
+  border-bottom: 2px solid #557DB0;
+  margin-bottom: 1.5vw;
+  margin-top: -1vw;
+}
+@media screen and (max-width: 1023px) {
+  .about .section .grouplogo__slogdiv__line {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .section .grouplogo__slogdiv__line {
+    width: 40vw;
+  }
+}
+.about .section .grouplogo__logo {
+  height: 7vw;
+  width: 5vw;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  align-self: flex-end;
+}
+@media screen and (max-width: 1023px) {
+  .about .section .grouplogo__logo {
+    height: 8vw;
+    width: 10vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about .section .grouplogo__logo {
+    height: 10vw;
+    width: 13vw;
+  }
+}
+.about .section__subtitle {
   font-family: "Museo Sans Cyrillic";
   color: #077840;
   font-size: 2.223vw;
+  font-weight: 400;
   line-height: 120%;
   width: 35vw;
 }
 @media screen and (max-width: 1023px) {
-  .section__subtitle {
+  .about .section__subtitle {
     font-size: 2.34605vw;
-    width: 100vw;
+    width: 50vw;
     display: flex;
     justify-content: flex-start;
-    line-height: 120%;
-    margin-left: 3vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .section__subtitle {
+  .about .section__subtitle {
     font-size: 3.12908vw;
-    width: 60vw;
-    display: flex;
-    justify-content: flex-start;
-    line-height: 120%;
-    margin-left: 3vw;
   }
 }
-.section__title {
+.about .section__title {
   font-size: 4.723vw;
   color: #245799;
   font-family: "Museo Sans Cyrillic";
-  margin: 3vw 0;
+  font-weight: 400;
+  margin-top: 1vw;
 }
 @media screen and (max-width: 1023px) {
-  .section__title {
+  .about .section__title {
     font-family: "Museo Sans Cyrillic";
     font-size: 5.4741vw;
-    width: 100vw;
     display: flex;
     justify-content: flex-start;
-    margin-left: 3vw;
+    margin-top: 1.6vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .section__title {
+  .about .section__title {
     font-family: "Museo Sans Cyrillic";
     font-size: 5.4741vw;
     width: 60vw;
     display: flex;
     justify-content: flex-start;
-    margin-left: 3vw;
+    margin-top: 2vw;
   }
 }
 
@@ -425,8 +423,8 @@ body {
   width: 33vw;
 }
 .approach__header .header-aproach__img {
-  height: 98px;
-  width: 78px;
+  height: 7vw;
+  width: 5vw;
 }
 .approach__list {
   display: flex;
@@ -501,8 +499,10 @@ body {
     font-size: 1.75954vw;
     width: 48vw;
   }
-  .approach__header .header-aproach__column__img {
+  .approach__header .header-aproach__img {
     margin: -3vw 0;
+    height: 10vw;
+    width: 8vw;
   }
   .approach__list {
     display: flex;
@@ -541,15 +541,17 @@ body {
   .approach__header .header-aproach__column .column__slogan {
     font-size: 3.91135vw;
   }
-  .approach__header .header-aproach__column .column__img {
-    margin: -4.5vw 0;
-  }
   .approach__header .header-aproach__column .column___line {
     margin-top: -1.5vw;
   }
   .approach__header .header-aproach__column .column__text {
     font-size: 2.21643vw;
     width: 70vw;
+  }
+  .approach__header .header-aproach__img {
+    margin: -4.5vw 0;
+    height: 13vw;
+    width: 10vw;
   }
   .approach__list {
     display: flex;
@@ -1489,7 +1491,7 @@ body {
 @media screen and (max-width: 1023px) {
   .message-me__subtitle {
     margin-top: 0.48876vw;
-    font-size: 1.75953vw;
+    font-size: 1.75954vw;
     line-height: 2.15054vw;
     width: 34.5063538612vw;
     margin-top: 1.0752688172vw;
@@ -1769,7 +1771,9 @@ body {
 }
 
 /* Remove outline on the forms and links */
-:active, :hover, :focus {
+:active,
+:hover,
+:focus {
   outline: 0;
   outline-offset: 0;
 }
@@ -1799,7 +1803,8 @@ button:focus {
 }
 
 .form__custom-checkbox {
-  position: relative; /* Относительное позиционирование */
+  position: relative;
+  /* Относительное позиционирование */
   display: inline-block;
   width: 25px;
   height: 25px;

@@ -66,29 +66,23 @@
   color: $color-primary;
   font-family: $font-titles;
   font-weight: 400;
-  font-size: 4.723vw; //68px
+  font-size: $fontsize-desktop-h2; //68px
   line-height: 5.694vw; //82px
   /* identical to box height */
-
   margin-left: -0.347222222222vw; //-5px;
 
   @media screen and (max-width:1023px) {
-    font-size: 5.4741vw; //56px;
+    font-size: $fontsize-tablet-h2; //56px;
     line-height: 6.549365vw; //67px;
-
-
     width: 39.8826979472vw; //408px;
-
     margin-top: 0.58651026393vw; //6px;
     margin-left: 0.19550342131vw; //2px;
   }
 
   @media screen and (max-width: 767px) {
-    font-size: 6.25815vw; //48px;
+    font-size: $fontsize-mobile-h2; //48px;
     line-height: 7.56193vw; //58px;
-
     width: 48.2398956975vw; //370px;
-
     margin-left: -1.9556714472vw; //-15px;
   }
 }
@@ -101,29 +95,23 @@
   color: $color-primary;
   font-family: $font-texts;
   font-weight: 400;
-  font-size: 1.39vw; //20px
+  font-size: $fontsize-desktop-text; //20px
   line-height: 1.67vw; //24px
 
   @media screen and (max-width: 1023px) {
     margin-top: 0.48876vw; //5px
-
-    font-size: 1.75953vw; //18px;
+    font-size: $fontsize-tablet-text; //18px;
     line-height: 2.15054vw; //22px;
-
     width: 34.5063538612vw; //353px;
-
     margin-top: 1.0752688172vw; //11px;
     margin-left: 0.488758553275vw; //5px;
   }
 
   @media screen and (max-width: 767px) {
     margin-top: 0.52151vw; //4px
-
-    font-size: 2.21643vw; //17px;
+    font-size: $fontsize-mobile-text; //17px;
     line-height: 2.73794vw; //21px;
-
     width: 48.2398956975vw; //370px;
-
     margin-left: 0;
     margin-top: 1.3037809648vw; //10px
   }
@@ -164,13 +152,13 @@
   flex-direction: column;
   row-gap: 2.2917vw; //33px
 
-    @media screen and (max-width:1023px) {
-      row-gap: 0.8798vw; //9px
-    }
+  @media screen and (max-width:1023px) {
+    row-gap: 0.8798vw; //9px
+  }
 
-    @media screen and (max-width: 767px) {
-      row-gap: 4.30247718383vw; //33px
-    }
+  @media screen and (max-width: 767px) {
+    row-gap: 4.30247718383vw; //33px
+  }
 
   &__input {
     border: none;
@@ -192,7 +180,7 @@
 
       padding-left: 1.17302052786vw; //12px;
     }
-  
+
     @media screen and (max-width: 767px) {
       width: 80.704vw; //619px
       height: 7.1708vw; //55px
@@ -210,7 +198,7 @@
     @media screen and (max-width: 1023px) {
       font-size: 1.75953vw; //18px;
     }
-  
+
     @media screen and (max-width: 767px) {
       font-size: 2.21643vw; //17px;
     }
@@ -242,7 +230,7 @@
       grid-template-columns: 46px 1fr; // 46px
       grid-template-rows: 3fr 1fr; // точно 80px
     }
-  
+
     @media screen and (max-width: 767px) {
       font-size: 2.08605vw; //16px;
       line-height: 2.60757vw; //20px;
@@ -307,15 +295,15 @@
   flex-direction: row;
   flex-wrap: nowrap;
 
-    @media screen and (max-width:1023px) {
-      flex-wrap: wrap;
-      row-gap: 3.6168vw; //37px
+  @media screen and (max-width:1023px) {
+    flex-wrap: wrap;
+    row-gap: 3.6168vw; //37px
   }
 
-    @media screen and (max-width: 767px) {
-      flex-wrap: nowrap;
-      column-gap: 3.9113vw; //30px
-    }
+  @media screen and (max-width: 767px) {
+    flex-wrap: nowrap;
+    column-gap: 3.9113vw; //30px
+  }
 }
 
 .mm-task-btn__button-long {
@@ -416,9 +404,11 @@
 // в том числе select, button, a:
 
 /* Remove outline on the forms and links */
-:active, :hover, :focus {
-    outline: 0;
-    outline-offset: 0;
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
 }
 
 // Подсветка при фокусе; переключать фокус с одного поля на другое 
@@ -441,7 +431,7 @@ button:focus {
 // Стилизация checkbox - вариант 2
 
 .form__checkbox {
-//Скрываем, но работает по Tab, отмечается по нажатию Space (Пробел)
+  //Скрываем, но работает по Tab, отмечается по нажатию Space (Пробел)
   width: 0;
   height: 0;
   opacity: 0;
@@ -449,16 +439,17 @@ button:focus {
   z-index: -1;
 }
 
-.form__checkbox:focus + .form__custom-checkbox {
+.form__checkbox:focus+.form__custom-checkbox {
   box-shadow: 0px 0px 0px 2px #9ec7b3;
 }
 
 .form__custom-checkbox {
-  position: relative; /* Относительное позиционирование */
+  position: relative;
+  /* Относительное позиционирование */
   display: inline-block;
   width: 25px;
   height: 25px;
-  background: #f9f7f1;
+  background: $clr-bg-frame;
 
   border: 2px solid #557db0;
 
@@ -492,7 +483,7 @@ button:focus {
 }
 
 /* Активируем декоративный чекбокс */
-.form__checkbox:checked + .form__custom-checkbox::before {
+.form__checkbox:checked+.form__custom-checkbox::before {
   transform: translate(-50%, -50%) scale(1);
 }
 

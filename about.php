@@ -4,18 +4,14 @@
 
   <div class="main__about about" id="about">
     <div class="about__wrapper">
-
-
-      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo" >
+      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
       <div class="about__section section">
-        
-      <div class="section__group-divlogo grouplogo">
+        <div class="section__group-divlogo grouplogo">
 
           <div class="grouplogo__slogdiv">
-<h3 class="slogdiv__slogan slogan">Привычки, а не диеты!</h3>
-<div class="slogan__divider"></div>
+            <h3 class="grouplogo__slogdiv__slogan slogan">Привычки, а не диеты!</h3>
+            <div class="grouplogo__slogdiv__line"></div>
           </div>
-
           <img src="./assets/image/logo_green.svg" alt="" class="grouplogo__logo">
         </div>
 

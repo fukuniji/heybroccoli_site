@@ -42,8 +42,8 @@
       }
 
       &__img {
-        height: 98px;
-        width: 78px;
+        height: 7vw;
+        width: 5vw;
       }
     }
   }
@@ -147,10 +147,12 @@
               width: 48vw;
             }
           }
+        }
 
-          &__img {
-            margin: -3vw 0;
-          }
+        &__img {
+          margin: -3vw 0;
+          height: 10vw;
+          width: 8vw;
         }
       }
     }
@@ -218,10 +220,6 @@
               font-size: $fontsize-mobile-h3;
             }
 
-            &__img {
-              margin: -4.5vw 0;
-            }
-
             &___line {
               margin-top: -1.5vw;
             }
@@ -231,6 +229,12 @@
               width: 70vw;
             }
           }
+        }
+
+        &__img {
+          margin: -4.5vw 0;
+          height: 13vw;
+          width: 10vw;
         }
       }
     }
