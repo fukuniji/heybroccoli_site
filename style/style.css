@@ -9,12 +9,6 @@ body {
   padding: 0;
 }
 
-h1,
-h2 {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"), local("Montserrat-Regular"), url("../assets/fonts/Montserrat-Regular.woff") format("woff"), url("../assets/fonts/Montserrat-Regular.ttf") format("ttf");
