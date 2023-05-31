@@ -2,7 +2,7 @@
 
   <div class="task" id="task">
     <div class="container">
-      <h2 class="task__title title">С какими задачами я могу помочь </h2>
+      <h2 class="task__title title _anim_items _anim-no-hide">С какими задачами я могу помочь </h2>
       <div class="task__row row">
         <div class="row__text"><i class="icon icon-1"></i>надоело есть одно и то же</div>
         <div class="row__text"><i class="icon icon-2"></i>постоянно ем, но не наедаюсь</div>

@@ -32,6 +32,16 @@
         //height: 88vh;
         border-radius: 0 30px 30px 0;
 
+        //для анимации
+        transform: translate(-120%, 0);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+
+        &._active {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+
         //важно собилюдать последоватьность адаптаций, чтобы не повторять одни и теже свойства
         // адаптируем картинку под макет
         @media screen and (max-width: 1023px) {
@@ -154,6 +164,17 @@
             font-weight: 400;
             line-height: 120%;
             width: 35vw;
+            //для анимации 
+            transform: translate(0, 120%);
+            opacity: 0;
+            transition: all 0.8s ease 0s;
+
+            &._active {
+                transform: translate(0, 0px);
+                opacity: 1;
+                //задержка для подзаголовка, чтобы он появлялся позже
+                transition: all 0.8s ease 0.4s;
+            }
 
             @media screen and (max-width: 1023px) {
                 font-size: $fontsize-tablet-undertitle;
@@ -174,6 +195,7 @@
             font-family: $font-titles;
             font-weight: 400;
             margin-top: 1vw;
+            text-align: start;
 
             @media screen and (max-width: 1023px) {
                 font-family: $font-titles;

@@ -98,6 +98,19 @@
   font-size: $fontsize-desktop-text; //20px
   line-height: 1.67vw; //24px
 
+  //для анимации 
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+
+  &._active {
+    transform: translate(0, 0px);
+    opacity: 1;
+    //задержка для полдзаголовка, чтобы он появлялся позже
+    transition: all 0.8s ease 0.4s;
+  }
+
+
   @media screen and (max-width: 1023px) {
     margin-top: 0.48876vw; //5px
     font-size: $fontsize-tablet-text; //18px;
@@ -385,17 +398,15 @@
 }
 
 .message-me__img {
-  width: 100%;
-  max-width: 700px;
-  //   max-width: 48.61vw; //700px
+  //для анимации картинки
+  transform: translate(120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
 
-  //   @media screen and (max-width: 1023px) {
-  //     max-width: 49.07vw; //502px
-  //   }
-
-  //   @media screen and (max-width: 767px) {
-  //     max-width: 79.9218vw; //613px
-  //   }
+  &._active {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 
 }
 

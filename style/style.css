@@ -180,6 +180,13 @@ body {
   width: auto;
   max-width: 50vw;
   border-radius: 0 30px 30px 0;
+  transform: translate(-120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about__photo._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 @media screen and (max-width: 1023px) {
   .about__photo {
@@ -292,6 +299,14 @@ body {
   font-weight: 400;
   line-height: 120%;
   width: 35vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about .section__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .about .section__subtitle {
@@ -312,6 +327,7 @@ body {
   font-family: "Museo Sans Cyrillic";
   font-weight: 400;
   margin-top: 1vw;
+  text-align: start;
 }
 @media screen and (max-width: 1023px) {
   .about .section__title {
@@ -1487,6 +1503,14 @@ body {
   font-weight: 400;
   font-size: 1.39vw;
   line-height: 1.67vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .message-me__subtitle {
@@ -1766,8 +1790,13 @@ body {
 }
 
 .message-me__img {
-  width: 100%;
-  max-width: 700px;
+  transform: translate(120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me__img._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 /* Remove outline on the forms and links */
@@ -2017,6 +2046,14 @@ img {
   line-height: 100%;
   text-align: center;
   color: #1e2124;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.title._active {
+  transform: translate(0, 0px);
+  opacity: 1;
 }
 
 .slogan {
@@ -2054,7 +2091,12 @@ img {
   color: #ffffff;
 }
 
-#task::before, #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
+#task::before,
+#sertificates::before,
+#reviews::before,
+#services::before,
+#approach::before,
+#about::before {
   display: block;
   content: "";
   height: 1px;
