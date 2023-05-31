@@ -8,9 +8,9 @@
       
       <div class="message-me__form-part form-part">
         <form class="message-me__form form" action="#">
-          <input class="form__input" type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]{2}" required>
-          <input class="form__input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-          <input class="form__input" type="tel" placeholder="Телефон" pattern="(\+7[0-9]{10}|8[0-9]{10})" required>
+          <input class="form__input" type="text" placeholder="Имя" required>
+          <input class="form__input" type="email" placeholder="Email" required>
+          <input class="form__input" type="tel" placeholder="Телефон" required>
           <!-- <label class="form__label" for="policy_check">
           <input class="form__checkbox" id="policy_check" type="checkbox" value="1" checked>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
           <a class="form__link" href="#">Политикой конфиденциальности</a>
