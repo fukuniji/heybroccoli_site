@@ -387,10 +387,6 @@ body {
   }
 }
 
-.approach {
-  /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
-  /*---------------screen  and (max-width:766px)------------ */
-}
 .approach__title {
   margin-bottom: 5vw;
   font-family: "Museo Sans Cyrillic";
@@ -1260,10 +1256,6 @@ body {
   .blok9 .reviews__slider__slider .next {
     display: none;
   }
-}
-.main__sertificates {
-  /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
-  /*---------------screen  and (max-width:766px)------------ */
 }
 .main__sertificates .sertificates__block {
   display: grid;
