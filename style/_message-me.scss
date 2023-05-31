@@ -1,20 +1,13 @@
 .main__message-me {
   // Сокращенное свойство: сверху, справа, снизу, слева
   margin: $container-m-t-r-l-desktop 0 0 $container-m-t-r-l-desktop;
-  // margin-left: 9.723vw; //140px
-  // margin-top: 10.4167vw; //150px
-  // // margin-top: $gap;
 
   @media screen and (max-width:1023px) {
     margin: $container-m-t-r-l-tablet 0 0 $container-m-t-r-l-tablet;
-    // margin-left: 9.7752vw; //100px
-    // margin-top: 9.7752vw; //100px
   }
 
   @media screen and (max-width: 767px) {
     margin: $container-m-t-r-l-mobile 0 0 $container-m-t-r-l-mobile;
-    // margin-left: 9.648vw; //74px
-    // margin-top: 10.43025vw; //80px
   }
 }
 
@@ -27,65 +20,89 @@
   column-gap: 2.778vw; //40px
 
   @media screen and (max-width:1023px) {
-    // column-gap: 1.9551vw; //20px
-    // column-gap: 1.662vw; //17px
     column-gap: 1.36852394917vw; //14px
   }
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
     align-items: flex-end;
-    // justify-content: flex-start;
     row-gap: 5.998vw; //46px
   }
-}
 
-.message-me__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 38.89vw; //600px-40px
-
-  @media screen and (max-width: 1023px) {
-    max-width: 39.1vw; //420px-20px
-    // width: 39.11vw;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 38.89vw; //600px-40px
+  
+    @media screen and (max-width: 1023px) {
+      max-width: 39.1vw; //420px-20px
+    }
+  
+    @media screen and (max-width: 767px) {
+      max-width: 80.8344vw; //620px
+      align-self: self-start;
+      width: 48.2399vw; //370px
+    }
   }
 
-  @media screen and (max-width: 767px) {
-    max-width: 80.8344vw; //620px
-    align-self: self-start;
-    width: 48.2399vw; //370px
+  &__title {
+    // margin: 0; //сброс стиля браузера
+    margin-top: 0.416666666667vw; //6px;
+    margin-bottom: 0;
+  
+    color: $color-primary;
+    font-family: $font-titles;
+    font-weight: 400;
+    font-size: $fontsize-desktop-h2; //68px
+    line-height: 5.694vw; //82px
+  
+    margin-left: -0.347222222222vw; //-5px;
+  
+    @media screen and (max-width:1023px) {
+      font-size: $fontsize-tablet-h2; //56px;
+      line-height: 6.549365vw; //67px;
+      width: 39.8826979472vw; //408px;
+      margin-top: 0.58651026393vw; //6px;
+      margin-left: 0.19550342131vw; //2px;
+    }
+  
+    @media screen and (max-width: 767px) {
+      font-size: $fontsize-mobile-h2; //48px;
+      line-height: 7.56193vw; //58px;
+      width: 48.2398956975vw; //370px;
+      margin-left: -1.9556714472vw; //-15px;
+    }
   }
-}
 
-.message-me__title {
-  // margin: 0; //сброс стиля браузера
-  margin-top: 0.416666666667vw; //6px;
-  margin-bottom: 0;
-
-  color: $color-primary;
-  font-family: $font-titles;
-  font-weight: 400;
-  font-size: $fontsize-desktop-h2; //68px
-  line-height: 5.694vw; //82px
-  /* identical to box height */
-  margin-left: -0.347222222222vw; //-5px;
-
-  @media screen and (max-width:1023px) {
-    font-size: $fontsize-tablet-h2; //56px;
-    line-height: 6.549365vw; //67px;
-    width: 39.8826979472vw; //408px;
-    margin-top: 0.58651026393vw; //6px;
-    margin-left: 0.19550342131vw; //2px;
+  &__subtitle {
+    margin-top: 0.486111111111vw; //7px;
+    padding-right: 3.125vw; //45px;
+  
+    color: $color-primary;
+    font-family: $font-texts;
+    font-weight: 400;
+    font-size: $fontsize-desktop-text; //20px
+    line-height: 1.67vw; //24px
+  
+    @media screen and (max-width: 1023px) {
+      margin-top: 0.48876vw; //5px
+      font-size: $fontsize-tablet-text; //18px;
+      line-height: 2.15054vw; //22px;
+      width: 34.5063538612vw; //353px;
+      margin-top: 1.0752688172vw; //11px;
+      margin-left: 0.488758553275vw; //5px;
+    }
+  
+    @media screen and (max-width: 767px) {
+      margin-top: 0.52151vw; //4px
+      font-size: $fontsize-mobile-text; //17px;
+      line-height: 2.73794vw; //21px;
+      width: 48.2398956975vw; //370px;
+      margin-left: 0;
+      margin-top: 1.3037809648vw; //10px
+    }
   }
-
-  @media screen and (max-width: 767px) {
-    font-size: $fontsize-mobile-h2; //48px;
-    line-height: 7.56193vw; //58px;
-    width: 48.2398956975vw; //370px;
-    margin-left: -1.9556714472vw; //-15px;
-  }
-}
 
 
 .message-me__subtitle {
@@ -118,15 +135,54 @@
     width: 34.5063538612vw; //353px;
     margin-top: 1.0752688172vw; //11px;
     margin-left: 0.488758553275vw; //5px;
+
+  &__form {
+    margin-top: 3.2639vw; //47px
+  
+    @media screen and (max-width:1023px) {
+      margin-top: 0.8798vw; //9px
+    }
+  
+    @media screen and (max-width: 767px) {
+      margin-top: 4.6936vw; //36px
+    }
+
   }
 
-  @media screen and (max-width: 767px) {
-    margin-top: 0.52151vw; //4px
-    font-size: $fontsize-mobile-text; //17px;
-    line-height: 2.73794vw; //21px;
-    width: 48.2398956975vw; //370px;
-    margin-left: 0;
-    margin-top: 1.3037809648vw; //10px
+  &__button-long_white {
+    cursor: pointer;
+  
+    background-color: $clr-bg-frame;
+    border: 2px solid #557db0;
+    border-radius: 2.083vw; //30px
+  
+    color: $color-primary;
+    font-family: $font-texts;
+    font-weight: 400;
+    font-size: 1.39vw; //20px
+  
+    width: 38.9583vw; //561px
+    height: 4.17vw; //60px
+  
+    margin-top: 1.7362vw; //58px - 33px gap = 25px
+  
+    @media screen and (max-width:1023px) {
+      border-radius: 2.9326vw; //30px
+      font-size: 1.7595vw; //18px
+      width: 39.1vw; //400px
+      height: 5.8651vw; //60px
+  
+      margin-top: 2.0528vw; //30px - 9px gap = 21px
+    }
+  
+    @media screen and (max-width: 767px) {
+      border-radius: 3.9113vw; //30px
+      font-size: 2.6076vw; //20px
+      width: 80.8344vw; //620px
+      height: 7.8227vw; //60px
+  
+      margin-top: 1.8255vw; //47px - 33px gap = 14px
+    }
   }
 }
 
@@ -145,18 +201,6 @@
 
   @media screen and (max-width: 767px) {
     row-gap: 5.6063vw; //43px
-  }
-}
-
-.message-me__form {
-  margin-top: 3.2639vw; //47px
-
-  @media screen and (max-width:1023px) {
-    margin-top: 0.8798vw; //9px
-  }
-
-  @media screen and (max-width: 767px) {
-    margin-top: 4.6936vw; //36px
   }
 }
 
@@ -263,43 +307,8 @@
   }
 }
 
-.message-me__button-long_white {
-  cursor: pointer;
 
-  background-color: $clr-bg-frame;
-  border: 2px solid #557db0;
-  border-radius: 2.083vw; //30px
-
-  color: $color-primary;
-  font-family: $font-texts;
-  font-weight: 400;
-  font-size: 1.39vw; //20px
-  // text-align: center;
-
-  width: 38.9583vw; //561px
-  height: 4.17vw; //60px
-
-  margin-top: 1.7362vw; //58px - 33px gap = 25px
-
-  @media screen and (max-width:1023px) {
-    border-radius: 2.9326vw; //30px
-    font-size: 1.7595vw; //18px
-    width: 39.1vw; //400px
-    height: 5.8651vw; //60px
-
-    margin-top: 2.0528vw; //30px - 9px gap = 21px
-  }
-
-  @media screen and (max-width: 767px) {
-    border-radius: 3.9113vw; //30px
-    font-size: 2.6076vw; //20px
-    width: 80.8344vw; //620px
-    height: 7.8227vw; //60px
-
-    margin-top: 1.8255vw; //47px - 33px gap = 14px
-  }
-}
-
+// Стилизация кнопок соцсетей в блоке 11
 .mm-task-btn {
   display: flex;
   justify-content: space-between;
@@ -361,11 +370,9 @@
 
 .mm-task-btn__button-long_green {
   background-color: $color-btn-text-green;
-  // transition: background-color 0.6s;
 
   &:hover {
     background-color: $color-btn-text-blue;
-    // transition: background-color 0.8s;
   }
 }
 
@@ -397,6 +404,7 @@
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
+
 .message-me__img {
   //для анимации картинки
   transform: translate(120%, 0);
@@ -409,6 +417,9 @@
   }
 
 }
+
+// Стилизация кнопок соцсетей в блоке 11 -- END --
+
 
 // Универсальное решение, которое убирает подсветку во всех браузерах 
 // и не только на input, но и на других элементах, 
@@ -456,7 +467,7 @@ button:focus {
 
 .form__custom-checkbox {
   position: relative;
-  /* Относительное позиционирование */
+  // Относительное позиционирование
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -475,7 +486,7 @@ button:focus {
 .form__custom-checkbox::before {
   content: '';
 
-  /* Рисуем галочку */
+  // Рисуем галочку
   display: inline-block;
   width: 22px;
   height: 17px;
@@ -483,7 +494,7 @@ button:focus {
   background-size: contain;
   background-repeat: no-repeat;
 
-  /* Выравниваем по центру */
+  // Выравниваем по центру
   position: absolute;
   left: 50%;
   top: 50%;
@@ -493,7 +504,7 @@ button:focus {
   transition: 0.2s ease-in; // появляется при нажажтии
 }
 
-/* Активируем декоративный чекбокс */
+// Активируем декоративный чекбокс
 .form__checkbox:checked+.form__custom-checkbox::before {
   transform: translate(-50%, -50%) scale(1);
 }
