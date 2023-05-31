@@ -1,7 +1,7 @@
 .hello {
     display: flex;
     justify-content: center;
-    margin-top: 4vw;
+    margin-top: 7vw;
 
     &__wrapper {
         display: grid;
@@ -14,14 +14,13 @@
             display: flex;
             flex-wrap: wrap;
         }
-
-
     }
 
     &__subtitle {
         grid-column: 1/2;
         grid-row: 1/3;
         line-height: 2.5vw;
+
         font-family: $font-titles;
         color: $color-btn-text-blue;
         font-size: $fontsize-desktop-undertitle;
@@ -45,6 +44,7 @@
 
         @media screen and (max-width:1023px) {
             font-size: $fontsize-tablet-text;
+
         }
 
         @media screen and (max-width:767px) {

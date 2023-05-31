@@ -4,7 +4,7 @@
 
   <div class="main__about about" id="about">
     <div class="about__wrapper">
-      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo _anim_items _anim-no-hide">
+      <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена" class="about__photo">
       <div class="about__section section">
         <div class="section__group-divlogo grouplogo">
 
@@ -15,8 +15,8 @@
           <img src="./assets/image/logo_green.svg" alt="" class="grouplogo__logo">
         </div>
 
-        <h1 class="section__title title _anim_items _anim-no-hide">Куликова Елена</h1>
-        <h2 class="section__subtitle _anim_items _anim-no-hide">Нутрициолог, коуч полезных привычек, change maker</h2>
+        <h2 class="section__title">Куликова Елена</h2>
+        <div class="section__subtitle">Нутрициолог, коуч полезных привычек, change maker</div>
       </div>
     </div>
   </div>

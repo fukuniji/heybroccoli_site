@@ -1,7 +1,7 @@
 <!-- ---------------------APPROACH-3--------------------------->
 <div class="approach" id="approach">
   <div class="container">
-    <h2 class="approach__title title _anim_items _anim-no-hide">Подход к работе </h2>
+    <h2 class="approach__title title">Подход к работе </h2>
     <div class="approach__header header-aproach">
       <div class="header-aproach__column column">
         <h3 class="column__slogan slogan">
