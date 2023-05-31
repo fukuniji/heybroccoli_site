@@ -1430,7 +1430,6 @@ body {
     row-gap: 5.998vw;
   }
 }
-
 .message-me__wrapper {
   display: flex;
   flex-direction: column;
@@ -1449,7 +1448,6 @@ body {
     width: 48.2399vw;
   }
 }
-
 .message-me__title {
   margin-top: 0.4166666667vw;
   margin-bottom: 0;
@@ -1458,7 +1456,6 @@ body {
   font-weight: 400;
   font-size: 4.723vw;
   line-height: 5.694vw;
-  /* identical to box height */
   margin-left: -0.3472222222vw;
 }
 @media screen and (max-width: 1023px) {
@@ -1478,7 +1475,6 @@ body {
     margin-left: -1.9556714472vw;
   }
 }
-
 .message-me__subtitle {
   margin-top: 0.4861111111vw;
   padding-right: 3.125vw;
@@ -1508,6 +1504,50 @@ body {
     margin-top: 1.3037809648vw;
   }
 }
+.message-me__form {
+  margin-top: 3.2639vw;
+}
+@media screen and (max-width: 1023px) {
+  .message-me__form {
+    margin-top: 0.8798vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__form {
+    margin-top: 4.6936vw;
+  }
+}
+.message-me__button-long_white {
+  cursor: pointer;
+  background-color: #f9f7f1;
+  border: 2px solid #557db0;
+  border-radius: 2.083vw;
+  color: #1e2124;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.39vw;
+  width: 38.9583vw;
+  height: 4.17vw;
+  margin-top: 1.7362vw;
+}
+@media screen and (max-width: 1023px) {
+  .message-me__button-long_white {
+    border-radius: 2.9326vw;
+    font-size: 1.7595vw;
+    width: 39.1vw;
+    height: 5.8651vw;
+    margin-top: 2.0528vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .message-me__button-long_white {
+    border-radius: 3.9113vw;
+    font-size: 2.6076vw;
+    width: 80.8344vw;
+    height: 7.8227vw;
+    margin-top: 1.8255vw;
+  }
+}
 
 .form-part {
   display: flex;
@@ -1522,20 +1562,6 @@ body {
 @media screen and (max-width: 767px) {
   .form-part {
     row-gap: 5.6063vw;
-  }
-}
-
-.message-me__form {
-  margin-top: 3.2639vw;
-}
-@media screen and (max-width: 1023px) {
-  .message-me__form {
-    margin-top: 0.8798vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .message-me__form {
-    margin-top: 4.6936vw;
   }
 }
 
@@ -1641,38 +1667,6 @@ body {
   grid-column-start: 2;
 }
 
-.message-me__button-long_white {
-  cursor: pointer;
-  background-color: #f9f7f1;
-  border: 2px solid #557db0;
-  border-radius: 2.083vw;
-  color: #1e2124;
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1.39vw;
-  width: 38.9583vw;
-  height: 4.17vw;
-  margin-top: 1.7362vw;
-}
-@media screen and (max-width: 1023px) {
-  .message-me__button-long_white {
-    border-radius: 2.9326vw;
-    font-size: 1.7595vw;
-    width: 39.1vw;
-    height: 5.8651vw;
-    margin-top: 2.0528vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .message-me__button-long_white {
-    border-radius: 3.9113vw;
-    font-size: 2.6076vw;
-    width: 80.8344vw;
-    height: 7.8227vw;
-    margin-top: 1.8255vw;
-  }
-}
-
 .mm-task-btn {
   display: flex;
   justify-content: space-between;
@@ -1765,11 +1759,6 @@ body {
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
-.message-me__img {
-  width: 100%;
-  max-width: 700px;
-}
-
 /* Remove outline on the forms and links */
 :active,
 :hover,
@@ -1804,7 +1793,6 @@ button:focus {
 
 .form__custom-checkbox {
   position: relative;
-  /* Относительное позиционирование */
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -1817,14 +1805,12 @@ button:focus {
 
 .form__custom-checkbox::before {
   content: "";
-  /* Рисуем галочку */
   display: inline-block;
   width: 22px;
   height: 17px;
   background-image: url("/assets/image/form/checkbox-tick.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  /* Выравниваем по центру */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1833,7 +1819,6 @@ button:focus {
   transition: 0.2s ease-in;
 }
 
-/* Активируем декоративный чекбокс */
 .form__checkbox:checked + .form__custom-checkbox::before {
   transform: translate(-50%, -50%) scale(1);
 }
