@@ -317,7 +317,7 @@ body {
 @media screen and (max-width: 1023px) {
   .section__title {
     font-family: "Museo Sans Cyrillic";
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
     width: 100vw;
     display: flex;
     justify-content: flex-start;
@@ -327,7 +327,7 @@ body {
 @media screen and (max-width: 767px) {
   .section__title {
     font-family: "Museo Sans Cyrillic";
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
     width: 60vw;
     display: flex;
     justify-content: flex-start;
@@ -364,28 +364,28 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .hello__subtitle {
-    font-size: 2.5vw;
+    font-size: 2.34605vw;
   }
 }
 @media screen and (max-width: 767px) {
   .hello__subtitle {
-    font-size: 3vw;
+    font-size: 3.12908vw;
   }
 }
 .hello__text {
   grid-column: 2/3;
   grid-row: 1/3;
   line-height: 120%;
-  font-size: 1.19vw;
+  font-size: 1.39vw;
 }
 @media screen and (max-width: 1023px) {
   .hello__text {
-    font-size: 2vw;
+    font-size: 1.75954vw;
   }
 }
 @media screen and (max-width: 767px) {
   .hello__text {
-    font-size: 2.3vw;
+    font-size: 2.21643vw;
   }
 }
 
@@ -492,7 +492,7 @@ body {
     text-align: left;
   }
   .approach__title {
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
   }
   .approach__header .header-aproach__column .column__slogan {
     font-size: 3.51907vw;
@@ -536,7 +536,7 @@ body {
     text-align: left;
   }
   .approach__title {
-    font-size: 8.86572vw;
+    font-size: 6.25815vw;
   }
   .approach__header .header-aproach__column .column__slogan {
     font-size: 3.91135vw;
@@ -856,7 +856,7 @@ body {
 
 @media (min-width: 767px) and (max-width: 1023px) {
   .services__title {
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
   }
   .services__wrapper-cards {
     grid-template-rows: 65vw 65vw;
@@ -938,7 +938,7 @@ body {
 }
 @media screen and (max-width: 766px) {
   .services__title {
-    font-size: 8.86572vw;
+    font-size: 6.25815vw;
   }
   .services__wrapper-cards {
     grid-template-columns: 1fr;
@@ -1050,7 +1050,7 @@ body {
     position: static;
   }
   .services-business__title {
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
   }
   .services-business__info-wrapper {
     height: 70vh;
@@ -1091,7 +1091,7 @@ body {
     position: static;
   }
   .services-business__title {
-    font-size: 8.86572vw;
+    font-size: 6.25815vw;
   }
   .services-business__info-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -1127,7 +1127,6 @@ body {
   margin-left: 6vw;
   margin-right: 6vw;
 }
-
 .blok9 .reviews__slider {
   display: flex;
   justify-content: center;
@@ -1479,7 +1478,7 @@ body {
   color: #1e2124;
   font-family: "Museo Sans Cyrillic";
   font-weight: 400;
-  font-size: 4.72vw;
+  font-size: 4.723vw;
   line-height: 5.694vw;
   /* identical to box height */
 }
@@ -2061,7 +2060,7 @@ img {
     font-size: 1.75954vw;
   }
   .title {
-    font-size: 6.64712vw;
+    font-size: 5.4741vw;
   }
   .slogan {
     font-size: 3.51907vw;
@@ -2077,7 +2076,7 @@ img {
     font-size: 2.21643vw;
   }
   .title {
-    font-size: 8.86572vw;
+    font-size: 6.25815vw;
   }
   .slogan {
     font-size: 3.91135vw;
