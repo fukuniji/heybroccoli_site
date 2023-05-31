@@ -177,8 +177,7 @@ body {
   }
 }
 .about__photo {
-  width: auto;
-  max-width: 50vw;
+  max-width: 50%;
   border-radius: 0 30px 30px 0;
   transform: translate(-120%, 0);
   opacity: 0;
@@ -223,19 +222,10 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .about .section .grouplogo {
-    display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 7vw 4vw;
     width: 70vw;
     align-items: center;
     justify-items: start;
-  }
-}
-@media screen and (max-width: 767px) {
-  .about .section .grouplogo {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 7vw 4vw;
   }
 }
 .about .section .grouplogo__slogdiv__slogan {
@@ -264,11 +254,6 @@ body {
   margin-top: -1vw;
 }
 @media screen and (max-width: 1023px) {
-  .about .section .grouplogo__slogdiv__line {
-    width: 40vw;
-  }
-}
-@media screen and (max-width: 767px) {
   .about .section .grouplogo__slogdiv__line {
     width: 40vw;
   }
@@ -343,8 +328,6 @@ body {
     font-family: "Museo Sans Cyrillic";
     font-size: 5.4741vw;
     width: 60vw;
-    display: flex;
-    justify-content: flex-start;
     margin-top: 2vw;
   }
 }
@@ -352,7 +335,7 @@ body {
 .hello {
   display: flex;
   justify-content: center;
-  margin-top: 7vw;
+  margin-top: 4vw;
 }
 .hello__wrapper {
   display: grid;
@@ -2150,5 +2133,9 @@ img {
 }
 
 .header .container {
+  margin-top: 0;
+}
+
+.hello .container {
   margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
