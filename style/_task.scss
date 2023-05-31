@@ -124,8 +124,6 @@
   .task {
     &__row {
       justify-content: space-between;
-      column-gap: 14vw;
-
 
       .row {
         &__text {
@@ -151,9 +149,7 @@
   .task {
     &__row {
       justify-content: space-between;
-      column-gap: 18vw;
-
-      .row {
+        .row {
         &__text {
           font-size: $fontsize-mobile-text;
           max-width: 17.3vw;

@@ -668,8 +668,6 @@ body {
 @media (min-width: 767px) and (max-width: 1023px) {
   .task__row {
     justify-content: space-between;
-    -moz-column-gap: 14vw;
-         column-gap: 14vw;
   }
   .task__row .row__text {
     max-width: 19.5vw;
@@ -687,8 +685,6 @@ body {
 @media screen and (max-width: 766px) {
   .task__row {
     justify-content: space-between;
-    -moz-column-gap: 18vw;
-         column-gap: 18vw;
   }
   .task__row .row__text {
     font-size: 2.21643vw;
