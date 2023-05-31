@@ -29,9 +29,8 @@ html {
 // }
 
 
-.photo {
+.photo{
   margin-top: 15vw; // взято из $gap; -- заменить
-
   .container>img {
     border-radius: 30px;
   }
@@ -52,15 +51,6 @@ img {
   line-height: 100%;
   text-align: center;
   color: $color-primary;
-  //для анимации заголовков
-  transform: translate(0, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-}
-
-.title._active {
-  transform: translate(0, 0px);
-  opacity: 1;
 }
 
 .slogan {
@@ -103,12 +93,7 @@ img {
 
 
 // Якорные ссылки
-#task::before,
-#sertificates::before,
-#reviews::before,
-#services::before,
-#approach::before,
-#about::before {
+#task::before,  #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
   display: block;
   content: "";
   height: 1px;
@@ -181,10 +166,6 @@ img {
 }
 
 .header .container {
-  margin-top: 0;
-}
-
-.hello .container {
   margin-top: 0;
 }
 

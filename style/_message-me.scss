@@ -104,38 +104,6 @@
     }
   }
 
-
-.message-me__subtitle {
-  margin-top: 0.486111111111vw; //7px;
-  padding-right: 3.125vw; //45px;
-
-  color: $color-primary;
-  font-family: $font-texts;
-  font-weight: 400;
-  font-size: $fontsize-desktop-text; //20px
-  line-height: 1.67vw; //24px
-
-  //для анимации 
-  transform: translate(0, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-
-  &._active {
-    transform: translate(0, 0px);
-    opacity: 1;
-    //задержка для полдзаголовка, чтобы он появлялся позже
-    transition: all 0.8s ease 0.4s;
-  }
-
-
-  @media screen and (max-width: 1023px) {
-    margin-top: 0.48876vw; //5px
-    font-size: $fontsize-tablet-text; //18px;
-    line-height: 2.15054vw; //22px;
-    width: 34.5063538612vw; //353px;
-    margin-top: 1.0752688172vw; //11px;
-    margin-left: 0.488758553275vw; //5px;
-
   &__form {
     margin-top: 3.2639vw; //47px
   
@@ -146,7 +114,6 @@
     @media screen and (max-width: 767px) {
       margin-top: 4.6936vw; //36px
     }
-
   }
 
   &__button-long_white {
@@ -404,22 +371,7 @@
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
-
-.message-me__img {
-  //для анимации картинки
-  transform: translate(120%, 0);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-
-  &._active {
-    transform: translate(0, 0);
-    opacity: 1;
-  }
-
-}
-
 // Стилизация кнопок соцсетей в блоке 11 -- END --
-
 
 // Универсальное решение, которое убирает подсветку во всех браузерах 
 // и не только на input, но и на других элементах, 

@@ -3,7 +3,7 @@
   <section class="blok9" id="reviews">
     <div class="container">
       <div class="reviews">
-        <h2 class="reviews__title title _anim_items _anim-no-hide">Отзывы</h2>
+        <h2 class="reviews__title title">Отзывы</h2>
         <div class="reviews__slider">
           <div class="reviews__slider__button-left">
             <!-- <img src="./assets/image/reviews/arrow.svg" alt="arrow_previous" id="prev" /> -->

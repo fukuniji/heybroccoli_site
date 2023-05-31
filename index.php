@@ -40,8 +40,7 @@
     общий класс .group-img для линии с броколли
   -->
 
-  <!-- для подключения скриптов js -->
-  <script src="./scripts/animation.js"></script>
+
 </body>
 
 </html>

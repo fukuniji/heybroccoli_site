@@ -2,7 +2,7 @@
 
   <div class="main__sertificates sertificates" id="sertificates">
     <div class="container">
-      <h2 class="sertificates__title title _anim_items _anim-no-hide"> Мои сертификаты, обучение </h2>
+      <h2 class="sertificates__title title"> Мои сертификаты, обучение </h2>
       <div class="sertificates__block block ">
         <div class="block__text_1">
           <span class="bluetext ">Основа моего подхода</span> — знания и навыки, полученные в канадской Precision Nutrition. Главная особенность PN — сочетание научных знаний и индивидуального подхода. Этим нутрициолог отличается от диетолога: второй говорит, что нужно делать. Первый — что и как.
