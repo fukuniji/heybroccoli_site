@@ -162,12 +162,9 @@ body {
 }
 
 .about__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  -moz-column-gap: 2.778vw;
-       column-gap: 2.778vw;
+  display: grid;
+  grid-template-columns: 48vw 52vw;
+  grid-template-rows: max-content;
 }
 @media screen and (max-width: 1023px) {
   .about__wrapper {
@@ -177,8 +174,9 @@ body {
   }
 }
 .about__photo {
-  width: auto;
-  max-width: 50vw;
+  grid-area: 1/1/2/2;
+  width: 100%;
+  height: auto;
   border-radius: 0 30px 30px 0;
 }
 @media screen and (max-width: 1023px) {
@@ -194,7 +192,16 @@ body {
   }
 }
 .about .section {
-  margin-right: 9.723vw;
+  grid-area: 1/2/2/3;
+  padding-left: 2.778vw;
+  width: 100%;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding-right: 9.723vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 @media screen and (max-width: 1023px) {
   .about .section {

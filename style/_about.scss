@@ -9,14 +9,9 @@
 
 .about {
     &__wrapper {
-        display: flex;
-        flex-direction: row;
-        //flex: 1;
-        justify-content: space-between;
-        align-items: center;
-        //flex-wrap: nowrap;
-        column-gap: 2.778vw;
-
+        display: grid;
+        grid-template-columns: 48vw 52vw;
+        grid-template-rows: max-content;
 
         @media screen and (max-width: 1023px) {
             display: flex;
@@ -26,10 +21,10 @@
     }
 
     &__photo {
+        grid-area: 1 / 1/ 2 / 2;
+        width: 100%;
         //чтобы картинка занимала по высоте всю половину экрана и была шириной до середины, как другие блоки
-        width: auto;
-        max-width: 50vw;
-        //height: 88vh;
+        height: auto;
         border-radius: 0 30px 30px 0;
 
         //важно собилюдать последоватьность адаптаций, чтобы не повторять одни и теже свойства
@@ -47,8 +42,16 @@
     }
 
     .section {
+        grid-area: 1 / 2 / 2 / 3;
+        padding-left: 2.778vw;
+        width: 100%;
+        max-height: max-content;
         //width: calc(100%-$container-m-t-r-l-tablet);
-        margin-right: $container-m-t-r-l-desktop;
+        padding-right: $container-m-t-r-l-desktop;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
 
         // отступы для части с текстом по сетке
         @media screen and (max-width: 1023px) {
