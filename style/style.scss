@@ -74,12 +74,16 @@ img {
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
+
+  transition: background-color 0.6s;
 }
 
 
 .button-long:hover {
   background-color: $color-btn-text-green;
   color: $color-btn-text-white;
+
+  transition: background-color 0.8s;
 }
 
 .button-long_green:hover {
@@ -88,7 +92,7 @@ img {
 }
 
 
-
+// Якорные ссылки
 #task::before,  #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
   display: block;
   content: "";
@@ -103,10 +107,6 @@ img {
   html {
     font-size: $fontsize-tablet-text;
   }
-
-  // .container {
-  //   width: 90%;
-  // }
 
   .title {
     font-size: $fontsize-tablet-h2;
@@ -131,10 +131,6 @@ img {
     font-size: $fontsize-mobile-text;
   }
 
-  // .container {
-  //   width: 90%;
-  // }
-
   .title {
     font-size: $fontsize-mobile-h2;
 
@@ -156,30 +152,15 @@ img {
 // ----- Общие свойства для контейнера -----
 .container {
   border: 1px solid red; // для проверки границ контейнера
-  // margin-top: $container-m-t-desktop; //150px
-  // margin-right: $container-m-r-desktop; //140px
-  // margin-bottom: 0;
-  // margin-left: $container-m-l-desktop; //140px
-  // // margin-top: $gap;
 
   //Сокращенная запись - сверху, справа, снизу (слева = справа, не записано)
   margin: $container-m-t-r-l-desktop $container-m-t-r-l-desktop 0; //140px
 
   @media screen and (max-width:1023px) {
-    // margin-top: $container-m-t-tablet; //100px
-    // margin-right: $container-m-r-tablet; //100px
-    // margin-bottom: 0;
-    // margin-left: $container-m-l-tablet; //100px
-
     margin: $container-m-t-r-l-tablet $container-m-t-r-l-tablet 0; //100px
   }
 
   @media screen and (max-width: 767px) {
-    // margin-top: $container-m-t-mobile; //80px
-    // margin-right: $container-m-r-mobile; //74px
-    // margin-bottom: 0;
-    // margin-left: $container-m-l-mobile; //74px
-
     margin: $container-m-t-r-l-mobile $container-m-t-r-l-mobile 0; //74px
   }
 }

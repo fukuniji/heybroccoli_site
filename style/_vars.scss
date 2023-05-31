@@ -15,24 +15,7 @@ $color-lite-green: #59AA8A;
 $clr-bg-frame: #f9f7f1;
 
 //Переменные breakpoints
-// //размеры шрифтов для десктопа
-// $fontsize-desktop-h2: 3.5vw;
-// $fontsize-desktop-h3: 2.5vw;
-// $fontsize-desktop-undertitle: 2vw;
-// $fontsize-desktop-text: 1.19vw;
-// $fontsize-desktop-smalltext: 1.1vw;
-// //размеры шрифтов для планшета (до 1023px)
-// $fontsize-tablet-h2: 3.9vw;
-// $fontsize-tablet-h3: 2.9vw;
-// $fontsize-tablet-undertitle: 2.5vw;
-// $fontsize-tablet-text: 2vw;
-// $fontsize-tablet-smalltext: 1.8vw;
-// //размеры шрифтов для телефона (до 767px)
-// $fontsize-mobile-h2: 6vw;
-// $fontsize-mobile-h3: 4.5vw;
-// $fontsize-mobile-undertitle: 3vw;
-// $fontsize-mobile-text: 2.3vw;
-// $fontsize-mobile-smalltext: 2vw;
+
 
 //отступы между блоками и под заголовком
 // $gap: 15vw; -- В _footer.scss и в _style.scss изменено
@@ -41,19 +24,8 @@ $gap-undertitle: 5vw;
 
 // Refactor
 // Отступы между блоками и по краям контейнера
-// $container-m-t-desktop: 10.4167vw; //150px 
-// $container-m-r-desktop: 9.723vw; //140px
-// $container-m-l-desktop: 9.723vw; //140px
 $container-m-t-r-l-desktop: 9.723vw; //140px
-
-// $container-m-t-tablet: 9.7752vw; //100px
-// $container-m-r-tablet: 9.7752vw; //100px
-// $container-m-l-tablet: 9.7752vw; //100px
 $container-m-t-r-l-tablet: 9.7752vw; //100px
-
-// $container-m-t-mobile: 10.43025vw; //80px
-// $container-m-r-mobile: 9.648vw; //74px
-// $container-m-l-mobile: 9.648vw; //74px
 $container-m-t-r-l-mobile: 9.648vw; //74px
 
 // Округлено: 
