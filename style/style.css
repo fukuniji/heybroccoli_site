@@ -177,9 +177,15 @@ body {
   }
 }
 .about__photo {
-  width: auto;
-  max-width: 50vw;
+  max-width: 50%;
   border-radius: 0 30px 30px 0;
+  transform: translate(-120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about__photo._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 @media screen and (max-width: 1023px) {
   .about__photo {
@@ -216,19 +222,10 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .about .section .grouplogo {
-    display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 7vw 4vw;
     width: 70vw;
     align-items: center;
     justify-items: start;
-  }
-}
-@media screen and (max-width: 767px) {
-  .about .section .grouplogo {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 7vw 4vw;
   }
 }
 .about .section .grouplogo__slogdiv__slogan {
@@ -261,11 +258,6 @@ body {
     width: 40vw;
   }
 }
-@media screen and (max-width: 767px) {
-  .about .section .grouplogo__slogdiv__line {
-    width: 40vw;
-  }
-}
 .about .section .grouplogo__logo {
   height: 7vw;
   width: 5vw;
@@ -292,6 +284,14 @@ body {
   font-weight: 400;
   line-height: 120%;
   width: 35vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about .section__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .about .section__subtitle {
@@ -312,6 +312,7 @@ body {
   font-family: "Museo Sans Cyrillic";
   font-weight: 400;
   margin-top: 1vw;
+  text-align: start;
 }
 @media screen and (max-width: 1023px) {
   .about .section__title {
@@ -327,8 +328,6 @@ body {
     font-family: "Museo Sans Cyrillic";
     font-size: 5.4741vw;
     width: 60vw;
-    display: flex;
-    justify-content: flex-start;
     margin-top: 2vw;
   }
 }
@@ -336,7 +335,7 @@ body {
 .hello {
   display: flex;
   justify-content: center;
-  margin-top: 7vw;
+  margin-top: 4vw;
 }
 .hello__wrapper {
   display: grid;
@@ -1483,6 +1482,14 @@ body {
   font-weight: 400;
   font-size: 1.39vw;
   line-height: 1.67vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .message-me__subtitle {
@@ -1759,6 +1766,18 @@ body {
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
+
+.message-me__img {
+  transform: translate(120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me__img._active {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+
 /* Remove outline on the forms and links */
 :active,
 :hover,
@@ -2002,6 +2021,14 @@ img {
   line-height: 100%;
   text-align: center;
   color: #1e2124;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.title._active {
+  transform: translate(0, 0px);
+  opacity: 1;
 }
 
 .slogan {
@@ -2039,7 +2066,12 @@ img {
   color: #ffffff;
 }
 
-#task::before, #sertificates::before, #reviews::before, #services::before, #approach::before, #about::before {
+#task::before,
+#sertificates::before,
+#reviews::before,
+#services::before,
+#approach::before,
+#about::before {
   display: block;
   content: "";
   height: 1px;
@@ -2093,5 +2125,9 @@ img {
 }
 
 .header .container {
+  margin-top: 0;
+}
+
+.hello .container {
   margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
