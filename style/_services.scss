@@ -14,7 +14,7 @@
   &__wrapper-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50vw 50vw;
+    grid-template-rows: 50vw 60vw;
     column-gap: 2vw;
     row-gap: 4vh;
   }
@@ -61,6 +61,7 @@
 //.title {}
 
 .card {
+
   &__title {
     text-align: center;
     justify-content: center;
@@ -199,7 +200,7 @@
     }
 
     &__wrapper-cards {
-      grid-template-rows: 80vw 80vw;
+      grid-template-rows: 80vw 95vw;
       grid-template-columns: 1fr 1fr;
     }
 
@@ -276,7 +277,7 @@
 
     &__wrapper-cards {
       grid-template-columns: 1fr;
-      grid-template-rows: 77vw 77vw 77vw 77vw;
+      grid-template-rows: 77vw 77vw 77vw 90vw;
     }
 
     &__card-1 {

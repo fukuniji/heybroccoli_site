@@ -25,15 +25,16 @@ $gap-undertitle: 5vw;
 // Refactor
 // Отступы между блоками и по краям контейнера
 $container-m-t-r-l-desktop: 9.723vw; //140px
-$container-m-t-r-l-tablet: 9.7752vw; //100px
-$container-m-t-r-l-mobile: 9.648vw; //74px
+$container-m-t-r-l-tablet: 8vw; //100px
+// уменьшить ширину отступов по сторонам, чтобы текст был более компактным и читаемым
+$container-m-t-r-l-mobile: 6; //74px = 9.648vw
 
 // Округлено: 
 //размеры шрифтов для десктопа
 $fontsize-desktop-h2: 4.723vw; // Заголовок h2,h1 68px
 $fontsize-desktop-h3: 2.9167vw; // Заголовок h3 42px
-$fontsize-desktop-undertitle: 2.223vw; // Подзаголовок 32px
-$fontsize-desktop-text: 1.39vw; // шрифт для обычного текста 20px
+$fontsize-desktop-undertitle: 2.1vw; // Подзаголовок 32px
+$fontsize-desktop-text: 1.25vw; // шрифт для обычного текста 20px
 $fontsize-desktop-smalltext: 1.112vw; // мелкий шрифт описания для карточек 16px
 
 //размеры шрифтов для планшета (до 1023px) -- screen and (max-width: 1023px)
@@ -41,11 +42,11 @@ $fontsize-tablet-h2: 5.4741vw; // 56px
 $fontsize-tablet-h3: 3.51907vw; // 36px
 $fontsize-tablet-undertitle: 2.34605vw; // 24px
 $fontsize-tablet-text: 1.75954vw; // 18px
-$fontsize-tablet-smalltext: 1.56403vw; // 16px
+$fontsize-tablet-smalltext: 1.7vw; // 16px
 
 //размеры шрифтов для телефона (до 767px) -- screen and (max-width: 767px)
 $fontsize-mobile-h2: 6.25815vw; // 48px
 $fontsize-mobile-h3: 3.91135vw; // 30px
 $fontsize-mobile-undertitle: 3.12908vw; // 24px
-$fontsize-mobile-text: 2.21643vw; // 17px
+$fontsize-mobile-text: 2.7vw; // 17px
 $fontsize-mobile-smalltext: 2.08605vw; // 16px
