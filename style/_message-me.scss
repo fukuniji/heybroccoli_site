@@ -400,7 +400,7 @@
 // и не только на input, но и на других элементах, 
 // в том числе select, button, a:
 
-/* Remove outline on the forms and links */
+// Remove outline on the forms and links
 :active,
 :hover,
 :focus {
@@ -425,7 +425,7 @@ button:focus {
 }
 
 
-// Стилизация checkbox - вариант 2
+// Стилизация checkbox
 
 .form__checkbox {
   //Скрываем, но работает по Tab, отмечается по нажатию Space (Пробел)

@@ -9,7 +9,7 @@
           <input class="form__input" type="text" placeholder="Имя" required>
           <input class="form__input" type="email" placeholder="Email" required>
           <input class="form__input" type="tel" placeholder="Телефон" required>
-          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes"><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
+          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes" required><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
             <a class="form__link" href="#">Политикой конфиденциальности</a></label>
           <button class="message-me__button-long_white">Отправить</button>
         </form>
@@ -29,7 +29,7 @@
     <picture class="message-me__img _anim_items _anim-no-hide">
       <!-- large desktop: -->
       <source media="(min-width: 1441px)" srcset="./assets/image/form/elena-photo_11_desktop_x2.png">
-      <!-- desktop: -->i
+      <!-- desktop: -->
       <source media="(min-width: 1024px)" srcset="./assets/image/form/elena-photo_11_desktop.png">
       <!-- tablet: -->
       <source media="(min-width: 768px)" srcset="./assets/image/form/elena-photo_11_tablet.png">
