@@ -2,12 +2,12 @@
 
   <div class="main__services services" id="services">
     <div class="container">
-      <h2 class="services__title title">Услуги </h2>
+      <h2 class="services__title title _anim_items _anim-no-hide">Услуги </h2>
       <div class="services__wrapper-cards">
 
         <div class="services__card-1 card">
           <div class="card__title">
-            <h3 class="card__title_main position">Консультация</h3>
+            <h3 class="card__title_main position ">Консультация</h3>
             <div class="card__title_green">1 час</div>
           </div>
           <div class="card__subtitle">2 000 ₽ / 25 €</div>

@@ -75,7 +75,17 @@ img {
   line-height: 100%;
   text-align: center;
   color: $color-primary;
+  //для анимации заголовков
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
 }
+
+.title._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+}
+
 
 .slogan {
   font-family: $font-titles;
@@ -180,17 +190,17 @@ img {
 
 // ----- Общие свойства для контейнера -----
 .container {
-  border: 1px solid red; // для проверки границ контейнера
+  //border: 1px solid red; // для проверки границ контейнера
 
   //Сокращенная запись - сверху, справа, снизу (слева = справа, не записано)
-  margin: $container-m-t-r-l-desktop $container-m-t-r-l-desktop 0; //140px
+  margin: $gap $container-m-t-r-l-desktop 0; //140px
 
   @media screen and (max-width:1023px) {
-    margin: $container-m-t-r-l-tablet $container-m-t-r-l-tablet 0; //100px
+    margin: $gap $container-m-t-r-l-tablet 0; //100px
   }
 
   @media screen and (max-width: 767px) {
-    margin: $container-m-t-r-l-mobile $container-m-t-r-l-mobile 0; //74px
+    margin: $gap $container-m-t-r-l-mobile 0; //74px
   }
 }
 

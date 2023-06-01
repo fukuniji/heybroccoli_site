@@ -34,11 +34,11 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 38.89vw; //600px-40px
-  
+
     @media screen and (max-width: 1023px) {
       max-width: 39.1vw; //420px-20px
     }
-  
+
     @media screen and (max-width: 767px) {
       max-width: 80.8344vw; //620px
       align-self: self-start;
@@ -50,15 +50,13 @@
     // margin: 0; //сброс стиля браузера
     margin-top: 0.416666666667vw; //6px;
     margin-bottom: 0;
-  
     color: $color-primary;
     font-family: $font-titles;
     font-weight: 400;
     font-size: $fontsize-desktop-h2; //68px
     line-height: 5.694vw; //82px
-  
     margin-left: -0.347222222222vw; //-5px;
-  
+
     @media screen and (max-width:1023px) {
       font-size: $fontsize-tablet-h2; //56px;
       line-height: 6.549365vw; //67px;
@@ -66,7 +64,7 @@
       margin-top: 0.58651026393vw; //6px;
       margin-left: 0.19550342131vw; //2px;
     }
-  
+
     @media screen and (max-width: 767px) {
       font-size: $fontsize-mobile-h2; //48px;
       line-height: 7.56193vw; //58px;
@@ -78,13 +76,24 @@
   &__subtitle {
     margin-top: 0.486111111111vw; //7px;
     padding-right: 3.125vw; //45px;
-  
     color: $color-primary;
     font-family: $font-texts;
     font-weight: 400;
     font-size: $fontsize-desktop-text; //20px
     line-height: 1.67vw; //24px
-  
+
+    //для анимации 
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+    &._active {
+      transform: translate(0, 0px);
+      opacity: 1;
+      //задержка для подзаголовка, чтобы он появлялся позже
+      transition: all 0.8s ease 0.4s;
+    }
+
     @media screen and (max-width: 1023px) {
       margin-top: 0.48876vw; //5px
       font-size: $fontsize-tablet-text; //18px;
@@ -93,7 +102,7 @@
       margin-top: 1.0752688172vw; //11px;
       margin-left: 0.488758553275vw; //5px;
     }
-  
+
     @media screen and (max-width: 767px) {
       margin-top: 0.52151vw; //4px
       font-size: $fontsize-mobile-text; //17px;
@@ -106,11 +115,11 @@
 
   &__form {
     margin-top: 3.2639vw; //47px
-  
+
     @media screen and (max-width:1023px) {
       margin-top: 0.8798vw; //9px
     }
-  
+
     @media screen and (max-width: 767px) {
       margin-top: 4.6936vw; //36px
     }
@@ -118,39 +127,53 @@
 
   &__button-long_white {
     cursor: pointer;
-  
+
     background-color: $clr-bg-frame;
     border: 2px solid #557db0;
     border-radius: 2.083vw; //30px
-  
+
     color: $color-primary;
     font-family: $font-texts;
     font-weight: 400;
     font-size: 1.39vw; //20px
-  
+
     width: 38.9583vw; //561px
     height: 4.17vw; //60px
-  
+
     margin-top: 1.7362vw; //58px - 33px gap = 25px
-  
+
     @media screen and (max-width:1023px) {
       border-radius: 2.9326vw; //30px
       font-size: 1.7595vw; //18px
       width: 39.1vw; //400px
       height: 5.8651vw; //60px
-  
+
       margin-top: 2.0528vw; //30px - 9px gap = 21px
     }
-  
+
     @media screen and (max-width: 767px) {
       border-radius: 3.9113vw; //30px
       font-size: 2.6076vw; //20px
       width: 80.8344vw; //620px
       height: 7.8227vw; //60px
-  
+
       margin-top: 1.8255vw; //47px - 33px gap = 14px
     }
   }
+
+  .message-me__img {
+    //для анимации картинки
+    transform: translate(120%, 0);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+    &._active {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+
+  }
+
 }
 
 // .message-me__form-part {

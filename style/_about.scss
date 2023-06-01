@@ -26,6 +26,15 @@
         //чтобы картинка занимала по высоте всю половину экрана и была шириной до середины, как другие блоки
         height: auto;
         border-radius: 0 30px 30px 0;
+        //для анимации
+        transform: translate(-120%, 0);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+
+        &._active {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
 
         //важно собилюдать последоватьность адаптаций, чтобы не повторять одни и теже свойства
         // адаптируем картинку под макет
@@ -128,7 +137,6 @@
             }
 
             &__logo {
-                // border: 2px solid;
                 height: 7vw;
                 width: 5vw;
                 grid-column: 2/3;
@@ -157,17 +165,30 @@
             font-weight: 400;
             line-height: 120%;
             width: 35vw;
+            margin-top: 2vw;
+            //для анимации 
+            transform: translate(0, 120%);
+            opacity: 0;
+            transition: all 0.8s ease 0s;
+
+            &._active {
+                transform: translate(0, 0px);
+                opacity: 1;
+                //задержка для подзаголовка, чтобы он появлялся позже
+                transition: all 0.8s ease 0.4s;
+            }
 
             @media screen and (max-width: 1023px) {
                 font-size: $fontsize-tablet-undertitle;
                 width: 50vw;
                 display: flex;
                 justify-content: flex-start;
+                margin-top: 2vw;
             }
 
             @media screen and (max-width: 767px) {
                 font-size: $fontsize-mobile-undertitle;
-
+                margin-top: 3vw;
             }
         }
 
@@ -176,7 +197,7 @@
             color: $color-btn-text-blue;
             font-family: $font-titles;
             font-weight: 400;
-            margin-top: 1vw;
+            margin: 0;
 
             @media screen and (max-width: 1023px) {
                 font-family: $font-titles;
@@ -185,7 +206,7 @@
                 //width: 100vw;
                 display: flex;
                 justify-content: flex-start;
-                margin-top: 1.6vw;
+                //margin-top: 1.6vw;
             }
 
             @media screen and (max-width: 767px) {
@@ -194,7 +215,7 @@
                 width: 60vw;
                 display: flex;
                 justify-content: flex-start;
-                margin-top: 2vw;
+                //margin-top: 2vw;
             }
         }
     }

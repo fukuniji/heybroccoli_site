@@ -2,7 +2,7 @@
 
   <div class="main__services-business">
     <div class="container">
-      <h2 class="services-business__title title">Услуги для бизнеса </h2>
+      <h2 class="services-business__title title _anim_items _anim-no-hide">Услуги для бизнеса </h2>
       <div class="services-business">
         <picture class="services-business__img-1">
           <!-- large desktop: -->
