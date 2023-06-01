@@ -178,6 +178,13 @@ body {
   width: 100%;
   height: auto;
   border-radius: 0 30px 30px 0;
+  transform: translate(-120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about__photo._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 @media screen and (max-width: 1023px) {
   .about__photo {
@@ -299,6 +306,15 @@ body {
   font-weight: 400;
   line-height: 120%;
   width: 35vw;
+  margin-top: 2vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.about .section__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .about .section__subtitle {
@@ -306,11 +322,13 @@ body {
     width: 50vw;
     display: flex;
     justify-content: flex-start;
+    margin-top: 2vw;
   }
 }
 @media screen and (max-width: 767px) {
   .about .section__subtitle {
     font-size: 3.12908vw;
+    margin-top: 3vw;
   }
 }
 .about .section__title {
@@ -318,7 +336,7 @@ body {
   color: #245799;
   font-family: "Museo Sans Cyrillic";
   font-weight: 400;
-  margin-top: 1vw;
+  margin: 0;
 }
 @media screen and (max-width: 1023px) {
   .about .section__title {
@@ -326,7 +344,6 @@ body {
     font-size: 5.4741vw;
     display: flex;
     justify-content: flex-start;
-    margin-top: 1.6vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -336,7 +353,6 @@ body {
     width: 60vw;
     display: flex;
     justify-content: flex-start;
-    margin-top: 2vw;
   }
 }
 
@@ -1484,6 +1500,14 @@ body {
   font-weight: 400;
   font-size: 1.25vw;
   line-height: 1.67vw;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me__subtitle._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.4s;
 }
 @media screen and (max-width: 1023px) {
   .message-me__subtitle {
@@ -1548,6 +1572,15 @@ body {
     height: 7.8227vw;
     margin-top: 1.8255vw;
   }
+}
+.message-me .message-me__img {
+  transform: translate(120%, 0);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.message-me .message-me__img._active {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .form-part {
@@ -2031,6 +2064,14 @@ img {
   line-height: 100%;
   text-align: center;
   color: #1e2124;
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.title._active {
+  transform: translate(0, 0px);
+  opacity: 1;
 }
 
 .slogan {
@@ -2112,17 +2153,16 @@ img {
   }
 }
 .container {
-  border: 1px solid red;
-  margin: 9.723vw 9.723vw 0;
+  margin: 12vw 9.723vw 0;
 }
 @media screen and (max-width: 1023px) {
   .container {
-    margin: 8vw 8vw 0;
+    margin: 12vw 8vw 0;
   }
 }
 @media screen and (max-width: 767px) {
   .container {
-    margin: 6 6 0;
+    margin: 12vw 6 0;
   }
 }
 

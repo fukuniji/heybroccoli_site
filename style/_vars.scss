@@ -18,7 +18,8 @@ $clr-bg-frame: #f9f7f1;
 
 
 //отступы между блоками и под заголовком
-// $gap: 15vw; -- В _footer.scss и в _style.scss изменено
+$gap: 12vw;
+// В _footer.scss и в _style.scss изменено
 // на 15vw и добавлен комментарий "взято из $gap; -- заменить"
 $gap-undertitle: 5vw;
 
