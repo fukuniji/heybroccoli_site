@@ -10,7 +10,7 @@
           <input class="form__input" type="email" placeholder="Email" required>
           <input class="form__input" type="tel" placeholder="Телефон" required>
           <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes" required><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
-            <a class="form__link" href="./policy.html">Политикой конфиденциальности</a></label>
+            <a class="form__link" href="./policy.html" id="policy">Политикой конфиденциальности</a></label>
           <button class="message-me__button-long_white">Отправить</button>
         </form>
 
