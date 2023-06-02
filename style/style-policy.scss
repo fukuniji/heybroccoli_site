@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 6vw 0;
+  padding: 0;
+
+  @media screen and (max-width:1023px) {
+    margin: 0 6vw 0;
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: 0 6vw 0;
+  }
+}
+
+h1 {
+  color: #1e2124;
+}
+
+h3 {
+  color: #245799;
+}
+
+p {
+  color: #1e2124;
+}
