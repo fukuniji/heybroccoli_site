@@ -1793,7 +1793,6 @@ body {
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
-/* Remove outline on the forms and links */
 :active,
 :hover,
 :focus {
@@ -2013,6 +2012,7 @@ html {
   line-height: 100%;
   color: #1e2124;
   background-color: #f9f7f1;
+  overflow-x: hidden;
 }
 
 .photo {
