@@ -36,7 +36,7 @@
       <!-- mobile: -->
       <source media="(max-width: 767px)" srcset="./assets/image/form/elena-photo_11_mobile.png">
       <!-- если не поддерживается source -->
-      <img src="./assets/image/form/elena.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена">
+      <img src="./assets/image/form/elena-photo_11_desktop.png" width="auto" height="auto" alt="Нутрициолог Куликова Елена">
     </picture>
   </div>
 
