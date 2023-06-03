@@ -28,15 +28,15 @@
     </div>
     <picture class="message-me__img _anim_items _anim-no-hide">
       <!-- large desktop: -->
-      <source media="(min-width: 1441px)" srcset="./assets/image/form/elena-photo_11_desktop_x2.png">
+      <source media="(min-width: 1441px)" srcset="./assets/image/form/elena-photo_11_desktop_x2.jpg">
       <!-- desktop: -->
-      <source media="(min-width: 1024px)" srcset="./assets/image/form/elena-photo_11_desktop.png">
+      <source media="(min-width: 1024px)" srcset="./assets/image/form/elena-photo_11_desktop.jpg">
       <!-- tablet: -->
-      <source media="(min-width: 768px)" srcset="./assets/image/form/elena-photo_11_tablet.png">
+      <source media="(min-width: 768px)" srcset="./assets/image/form/elena-photo_11_tablet.jpg">
       <!-- mobile: -->
-      <source media="(max-width: 767px)" srcset="./assets/image/form/elena-photo_11_mobile.png">
+      <source media="(max-width: 767px)" srcset="./assets/image/form/elena-photo_11_mobile.jpg">
       <!-- если не поддерживается source -->
-      <img src="./assets/image/form/elena.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена">
+      <img src="./assets/image/form/elena-photo_11_desktop.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена">
     </picture>
   </div>
 

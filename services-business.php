@@ -6,25 +6,25 @@
       <div class="services-business">
         <picture class="services-business__img-1">
           <!-- large desktop: -->
-          <source media="(min-width: 1441px)" srcset="./assets/image/services-business/elena-photo_7-1_desktop_x2.png">
+          <source media="(min-width: 1441px)" srcset="./assets/image/services-business/elena-photo_7-1_desktop_x2.jpg">
           <!-- desktop: -->
-          <source media="(min-width: 1024px)" srcset="./assets/image/services-business/elena-photo_7-1_desktop.png">
+          <source media="(min-width: 1024px)" srcset="./assets/image/services-business/elena-photo_7-1_desktop.jpg">
           <!-- если не поддерживается source -->
-          <img src="./assets/image/services-business/elena-photo_7-1_desktop.png" width="auto" height="auto" alt="Нутрициолог Куликова Елена и коллега">
+          <img src="./assets/image/services-business/elena-photo_7-1_desktop.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена и коллега">
         </picture>
         <div class="services-business__text-1 text"> Если вы <span class="bluetext"> подрядчик</span>, который способен организовать вкусный и сбалансированный <span class="bluetext "> кейтеринг</span>, тоже напишите мне, найдем возможности для сотрудничества.</div>
         <div class="services-business__text-2 text">Если вы хотите придумать классные и полезные закуски на <span class="bluetext ">вечеринку, детский праздник, пресс-конференцию</span>, танцевальный <span class="bluetext ">фестиваль</span> или провести <span class="bluetext ">лекцию</span> для своих сотрудников по теме питания, подобрать меню для столовой или ретрита — я могу вам помочь.</div>
         <picture class="img-2">
           <!-- large desktop: -->
-          <source media="(min-width: 1441px)" srcset="./assets/image/services-business/elena-photo_7_desktop_x2.png">
+          <source media="(min-width: 1441px)" srcset="./assets/image/services-business/elena-photo_7_desktop_x2.jpg">
           <!-- desktop: -->
-          <source media="(min-width: 1024px)" srcset="./assets/image/services-business/elena-photo_7_desktop.png">
+          <source media="(min-width: 1024px)" srcset="./assets/image/services-business/elena-photo_7_desktop.jpg">
           <!-- tablet: -->
-          <source media="(min-width: 768px)" srcset="./assets/image/services-business/elena-photo_7_tablet.png">
+          <source media="(min-width: 768px)" srcset="./assets/image/services-business/elena-photo_7_tablet.jpg">
           <!-- mobile: -->
-          <source media="(max-width: 767px)" srcset="./assets/image/services-business/elena-photo_7_mobile.png">
+          <source media="(max-width: 767px)" srcset="./assets/image/services-business/elena-photo_7_mobile.jpg">
           <!-- если не поддерживается source -->
-          <img src="./assets/image/services-business/elena-photo_7_desktop.png" width="auto" height="auto" alt="Нутрициолог Куликова Елена и коллеги">
+          <img src="./assets/image/services-business/elena-photo_7_desktop.jpg" width="auto" height="auto" alt="Нутрициолог Куликова Елена и коллеги">
         </picture>
       </div>
     </div>

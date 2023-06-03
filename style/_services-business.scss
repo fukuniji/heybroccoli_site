@@ -58,6 +58,11 @@
   color: $color-btn-text-blue;
 }
 
+.services-business img {
+  // Скругление углов:
+  border-radius: 30px;
+}
+
 //------------adaptive tablet----------//
 
 @media screen and (max-width: 1023px) {
