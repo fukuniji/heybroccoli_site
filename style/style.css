@@ -2020,6 +2020,7 @@ html {
   line-height: 100%;
   color: #1e2124;
   background-color: #f9f7f1;
+  overflow-x: hidden;
 }
 
 .photo {
