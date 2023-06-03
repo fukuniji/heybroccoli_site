@@ -1055,6 +1055,10 @@ body {
   color: #245799;
 }
 
+.services-business img {
+  border-radius: 30px;
+}
+
 @media screen and (max-width: 1023px) {
   .services-business {
     grid-template-rows: 51.51516vw 15.05377vw;
@@ -1583,6 +1587,10 @@ body {
   opacity: 1;
 }
 
+.message-me img {
+  border-radius: 30px 0 0 30px;
+}
+
 .form-part {
   display: flex;
   flex-direction: column;
@@ -1793,7 +1801,6 @@ body {
   background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
-/* Remove outline on the forms and links */
 :active,
 :hover,
 :focus {
