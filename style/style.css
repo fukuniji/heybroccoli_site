@@ -1868,6 +1868,10 @@ button:focus {
   transform: translate(-50%, -50%) scale(1);
 }
 
+.form .error {
+  border: 2px solid #d14758;
+}
+
 .footer {
   margin-top: 15vw;
   background-color: #245799;

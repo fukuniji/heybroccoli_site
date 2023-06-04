@@ -423,13 +423,13 @@
 // Подсветка при фокусе; переключать фокус с одного поля на другое 
 // как по Tab так и по Shift+Tab в обратную сторону
 button:focus {
-  border: 2px solid #9ec7b3;
+  border: 2px solid $color-focus
 }
 
 .form__input:focus {
   // outline: 0;
   // outline-offset: 0;
-  border: 2px solid #9ec7b3;
+  border: 2px solid $color-focus
 }
 
 .form__link:focus {
@@ -496,6 +496,10 @@ button:focus {
   transform: translate(-50%, -50%) scale(1);
 }
 
+
+.form .error {
+  border: 2px solid $color-error;
+}
 // Tablet
 // @media screen and (max-width:1023px)
 
