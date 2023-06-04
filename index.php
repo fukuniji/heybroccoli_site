@@ -42,6 +42,7 @@
 
   <!-- для подключения скриптов js -->
   <script src="./scripts/animation.js"></script>
+  <script src="./mail/mail.js"></script>
 
 </body>
 
