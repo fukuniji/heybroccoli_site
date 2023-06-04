@@ -12,7 +12,7 @@
           <a href="#approach" class="nav__link">Подход к работе</a>
           <a href="#task" class="nav__link">Чем могу помочь</a>
           <a href="#services" class="nav__link">Услуги</a>
-          <a href="#rewiew" class="nav__link">Отзывы</a>
+          <a href="#reviews" class="nav__link">Отзывы</a>
         </nav>
         <div class="footer__socials">
           <h5>Подписывайтесь</h5>

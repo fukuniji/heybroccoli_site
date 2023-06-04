@@ -1,7 +1,7 @@
   <!-- ---------------------FORM-11------------------------ -->
 
   <div class="main__message-me message-me">
-    <div class="message-me__wrapper">
+    <div class="message-me__wrapper" id="policy">
       <h2 class="message-me__title title _anim_items _anim-no-hide"> Напишите мне </h2>
       <div class="message-me__subtitle _anim_items _anim-no-hide">для этого можете заполнить форму или написать в удобный мессенджер</div>
       <div class="message-me__form-part form-part">
@@ -10,7 +10,7 @@
           <input class="form__input" type="email" placeholder="Email" required>
           <input class="form__input" type="tel" placeholder="Телефон" required>
           <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes" required><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
-            <a class="form__link" href="#">Политикой конфиденциальности</a></label>
+            <a class="form__link" href="./policy.html" >Политикой конфиденциальности</a></label>
           <button class="message-me__button-long_white">Отправить</button>
         </form>
 
