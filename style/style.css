@@ -2013,6 +2013,63 @@ button:focus {
     align-items: end;
   }
 }
+.policy__wrapper {
+  margin: 6vw 9.723vw;
+}
+.policy__text {
+  line-height: 125%;
+}
+.policy__text span {
+  font-weight: 500;
+}
+.policy__btn button {
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: background-color 0.6s;
+  border: 2px solid #245799;
+  border-radius: 2vw;
+  color: #1e2124;
+  width: 9vw;
+  height: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1023px) {
+  .policy__btn button {
+    border-radius: 2vw;
+    font-size: 1vw;
+    width: 10vw;
+    height: 3vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .policy__btn button {
+    border-radius: 3vw;
+    font-size: 2vw;
+    width: 15vw;
+    height: 5vw;
+  }
+}
+.policy__btn button:hover {
+  background-color: #245799;
+  transition: background-color 0.8s;
+  color: #ffffff;
+}
+
+.policy-back__to-left {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  text-decoration: none;
+}
+.policy-back__text {
+  color: #557DB0;
+}
+
 html {
   font-family: "Montserrat";
   font-size: 1.25rem;
