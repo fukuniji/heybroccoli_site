@@ -6,10 +6,10 @@
       <div class="message-me__subtitle _anim_items _anim-no-hide">для этого можете заполнить форму или написать в удобный мессенджер</div>
       <div class="message-me__form-part form-part">
         <form class="message-me__form form" action="#">
-          <input class="form__input" type="text" placeholder="Имя" required>
-          <input class="form__input" type="email" placeholder="Email" required>
-          <input class="form__input" type="tel" placeholder="Телефон" required>
-          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check" value="yes" required><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
+          <input class="form__input" type="text" placeholder="Имя">
+          <input class="form__input" type="email" placeholder="Email">
+          <input class="form__input" type="tel" placeholder="Телефон">
+          <label class="form__label" for="policy_check"><input class="form__checkbox" id="policy_check" type="checkbox" name="check"><span class="form__custom-checkbox"></span>нажимая кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с
             <a class="form__link" href="./policy.html" >Политикой конфиденциальности</a></label>
           <button class="message-me__button-long_white">Отправить</button>
         </form>
