@@ -2,8 +2,15 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__part-logo">
-        <img class="footer__logo logo" src="./assets/image/logo.svg" alt="логотип">
-        <div class="footer__text">@nutrition2023</div>
+        <!-- ссылка на сайт- возврат на стартовыую позицию -->
+        <a href="/">
+          <img class="footer__logo logo" src="./assets/image/logo.svg" alt="логотип"></a>
+        <div class="footer__text text">
+          <div> &copy; 2023 nutrition.fm</div>
+          <div> Куликова Елена Юрьевна</div>
+          <div>ИНН РФ 644503849093</div>
+          <div> ИНН Португалии 317493850</div>
+        </div>
       </div>
       <div class="footer__part-nav">
         <nav class="footer__nav nav">
@@ -22,7 +29,12 @@
           <a href="https://t.me/roadinside_me" class="footer__link">Заметки об эмиграции и приключениях "Взяла и переехала"</a>
         </div>
       </div>
-      <div class="footer__text-mobile">@nutrition2023</div>
+      <div class="footer__text-mobile small-text">
+        <div> &copy; 2023 nutrition.fm</div>
+        <div> Куликова Елена Юрьевна</div>
+        <div>ИНН РФ 644503849093</div>
+        <div> ИНН Португалии 317493850</div>
+      </div>
     </div>
   </footer>
 
