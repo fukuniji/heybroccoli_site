@@ -1179,15 +1179,9 @@ body {
   }
 }
 .blok9 .reviews__slider__slide .vertikal {
-  width: auto;
-  min-width: 100px;
-  height: 80%;
-}
-@media screen and (max-width: 767px) {
-  .blok9 .reviews__slider__slide .vertikal {
-    max-width: 60vw;
-    height: auto;
-  }
+  width: 30vw;
+  height: auto;
+  max-height: 80%;
 }
 .blok9 .reviews__slider__slide .gorozont {
   width: 80%;
@@ -1271,10 +1265,16 @@ body {
 
 @media screen and (max-width: 960px) {
   .blok9 .reviews__slider__slide {
-    height: 450px;
-    padding: 0 20px;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 20px;
     flex: 0 0 100%;
     justify-content: center;
+  }
+  .blok9 .reviews__slider__slide .vertikal {
+    width: 50vw;
+    height: auto;
+    max-height: 80%;
   }
   .blok9 .reviews__slider__slider__button-left {
     position: absolute;
