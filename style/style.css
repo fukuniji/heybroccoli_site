@@ -677,6 +677,10 @@ body {
     max-width: 19.5vw;
     font-size: 1.75954vw;
   }
+  .task__row .row .icon {
+    width: 90px;
+    height: 90px;
+  }
   .task__subtitle {
     max-width: 43.5vw;
     font-size: 1.75954vw;
@@ -696,6 +700,10 @@ body {
   .task__row .row__text {
     font-size: 2.7vw;
     max-width: 23vw;
+  }
+  .task__row .row .icon {
+    width: 50px;
+    height: 50px;
   }
   .task__subtitle {
     font-size: 2.7vw;
@@ -953,7 +961,7 @@ body {
     height: 20px;
   }
   .card .tel {
-    padding-right: 1.8vw;
+    padding-right: 2vw;
   }
   .position {
     font-size: 3.12908vw;
