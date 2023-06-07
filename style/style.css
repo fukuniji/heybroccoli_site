@@ -898,15 +898,15 @@ body {
     padding: 0 2vw 0 2vw;
   }
   .card .button-round {
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
   }
   .card .button-round .socialicon {
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
   }
   .card .tel {
-    padding-right: 1vw;
+    padding-right: 1.2vw;
   }
   .position {
     font-size: 2.34605vw;
