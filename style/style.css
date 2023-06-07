@@ -657,20 +657,11 @@ body {
   background-color: #245799;
   padding: 1vw 5.1vw;
 }
+.task__btn .button-long .socialicon {
+  margin-left: 0.7vw;
+}
 .task__btn .button-long_green {
   background-color: #077840;
-}
-.task__btn .socialicon {
-  background-image: url(../assets/image/telegram-icon.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 21px;
-  height: 21px;
-  display: inline-block;
-  margin-left: 0.625vw;
-}
-.task__btn .socialicon_wa {
-  background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
 /* -------------- (min-width:767px) and (max-width:1023px) ---------------- */
@@ -693,6 +684,9 @@ body {
   .task .button-long {
     padding: 1.8vw 8.6vw;
   }
+  .task .button-long .socialicon {
+    margin-left: 1vw;
+  }
 }
 /* -------------- (max-width:767px)  ---------------- */
 @media screen and (max-width: 766px) {
@@ -712,6 +706,9 @@ body {
   }
   .task__btn .button-long {
     padding: 1.8vw 9vw;
+  }
+  .task__btn .button-long .socialicon {
+    margin-left: 1.2vw;
   }
 }
 .services__title {
@@ -809,13 +806,34 @@ body {
   line-height: 1.3vw;
 }
 .card__btn {
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: end;
   padding-bottom: 3vh;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
+}
+.card__btn .button-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border-color: transparent;
+  width: 3.3vw;
+  height: 3.3vw;
+  background-color: #245799;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+.card__btn .button-round .socialicon {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+.card__btn .tel {
+  padding-right: 0.65vw;
+}
+.card__btn .button-round_green {
+  background-color: #077840;
 }
 .card__text_blue {
   color: #245799;
@@ -826,43 +844,6 @@ body {
   padding-right: 2vw;
 }
 
-.button-round {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2vw;
-  border-color: transparent;
-  width: 40px;
-  height: 40px;
-  /*   height: 3vw;
-  width: 3vw; */
-  background-color: #245799;
-  cursor: pointer;
-  transition: background-color 0.6s;
-}
-
-.social_icon {
-  background-image: url(../assets/image/telegram-icon.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 20px;
-  height: 17.45px;
-  display: inline-block;
-}
-.social_icon_whatsapp {
-  background-image: url(../assets/image/whatsapp-icon.svg);
-  width: 21px;
-  height: 21px;
-}
-
-.tel {
-  padding-right: 0.7vw;
-}
-
-.button-round_green {
-  background-color: #077840;
-}
-
 .button-round:hover {
   background-color: #077840;
   transition: background-color 0.8s;
@@ -870,6 +851,7 @@ body {
 
 .button-round_green:hover {
   background-color: #245799;
+  transition: background-color 0.8s;
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
@@ -877,7 +859,7 @@ body {
     font-size: 5.4741vw;
   }
   .services__wrapper-cards {
-    grid-template-rows: 80vw 95vw;
+    grid-template-rows: 90vw 95vw;
     grid-template-columns: 1fr 1fr;
   }
   .services__card-1 {
@@ -907,6 +889,17 @@ body {
     line-height: 1.5vw;
     padding: 0 2vw 0 2vw;
   }
+  .card .button-round {
+    width: 4vw;
+    height: 4vw;
+  }
+  .card .button-round .socialicon {
+    width: 2vw;
+    height: 2vw;
+  }
+  .card .tel {
+    padding-right: 1vw;
+  }
   .position {
     font-size: 2.34605vw;
     padding-top: 2vw;
@@ -916,12 +909,6 @@ body {
     font-size: 2.34605vw;
     padding-top: 2vw;
   }
-  .tel {
-    padding-right: 1vw;
-  }
-  .button-round {
-    border-radius: 7vw;
-  }
 }
 @media screen and (max-width: 766px) {
   .services__title {
@@ -929,7 +916,7 @@ body {
   }
   .services__wrapper-cards {
     grid-template-columns: 1fr;
-    grid-template-rows: 77vw 77vw 77vw 90vw;
+    grid-template-rows: 80vw 90vw 90vw 100vw;
   }
   .services__card-1 {
     grid-template-rows: 18% 13% 5% 1fr 1fr;
@@ -957,6 +944,17 @@ body {
     font-size: 2.08605vw;
     line-height: 2.3vw;
   }
+  .card .button-round {
+    width: 7vw;
+    height: 7vw;
+  }
+  .card .button-round .socialicon {
+    width: 4vw;
+    height: 4vw;
+  }
+  .card .tel {
+    padding-right: 1.8vw;
+  }
   .position {
     font-size: 3.12908vw;
     padding-top: 2vw;
@@ -965,28 +963,6 @@ body {
   .line-height {
     font-size: 3.12908vw;
     padding-top: 2vw;
-  }
-  .social_icon {
-    width: 10px;
-    height: 10px;
-  }
-  .social_icon_whatsapp {
-    width: 11px;
-    height: 11px;
-    padding-left: 6px;
-  }
-  .button-round {
-    border-radius: 4vw;
-  }
-  .tel {
-    padding-right: 7px;
-    width: 25px;
-    height: 25px;
-  }
-  .button-round_green {
-    width: 25px;
-    height: 25px;
-    padding-right: 5px;
   }
 }
 .services-business {
@@ -2166,7 +2142,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.1vw 0.8vw;
   border-radius: 15vw;
   font-family: "Montserrat";
   font-size: 1.25vw;
@@ -2186,6 +2161,25 @@ img {
 .button-long_green:hover {
   background-color: #245799;
   color: #ffffff;
+}
+
+.socialicon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 1023px) {
+  .socialicon {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .socialicon {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 #task::before,
