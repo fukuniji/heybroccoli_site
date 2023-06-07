@@ -29,7 +29,7 @@
             }
 
             &__slide {
-                height: 500px;
+                height: 600px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -58,8 +58,10 @@
 
                 .vertikal {
                     //эти настройки подходят только для вертикальных картинок
-                    width: auto;
-                    height: 80%;
+                    width: 30vw;
+                    //min-width: 100px;
+                    height: auto;
+                    max-height: 80%;
                 }
 
                 .gorozont {
@@ -180,11 +182,19 @@
         .reviews {
             &__slider {
                 &__slide {
-                    height: 600px;
+                    height: max-content;
                     padding: 20px;
                     flex: 0 0 100%;
                     //display: none;
                     justify-content: center;
+
+                    .vertikal {
+                        //эти настройки подходят только для вертикальных картинок
+                        width: 50vw;
+                        height: auto;
+                        max-height: 80%;
+                    }
+
                 }
 
                 &__slider {
