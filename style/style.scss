@@ -108,7 +108,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.1vw 0.8vw;
+  //padding: 0.1vw 0.8vw;
   border-radius: 15vw;
   font-family: $font-texts;
   font-size: $fontsize-desktop-text;
@@ -131,6 +131,24 @@ img {
 .button-long_green:hover {
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
+}
+
+//общий класс для иконок в копках
+.socialicon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  @media screen and (max-width:1023px) {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media screen and (max-width:767px) {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 

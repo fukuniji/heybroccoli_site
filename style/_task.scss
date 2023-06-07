@@ -94,25 +94,15 @@
       background-color: $color-btn-text-blue;
       padding: 1.0vw 5.1vw;
 
+      .socialicon {
+        margin-left: 0.7vw;
+      }
     }
 
     .button-long_green {
       background-color: $color-btn-text-green;
     }
 
-    .socialicon {
-      background-image: url(../assets/image/telegram-icon.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 21px;
-      height: 21px;
-      display: inline-block;
-      margin-left: 0.625vw;
-    }
-
-    .socialicon_wa {
-      background-image: url(../assets/image/whatsapp-icon.svg);
-    }
   }
 }
 
@@ -141,6 +131,10 @@
 
     .button-long {
       padding: 1.8vw 8.6vw;
+
+      .socialicon {
+        margin-left: 1vw;
+      }
     }
   }
 }
@@ -169,6 +163,10 @@
 
       .button-long {
         padding: 1.8vw 9vw;
+
+        .socialicon {
+          margin-left: 1.2vw;
+        }
       }
     }
   }
