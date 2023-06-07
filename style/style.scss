@@ -25,6 +25,11 @@ html {
   color: $color-primary;
   background-color: $clr-bg-frame;
   overflow-x: hidden;
+
+  //от горизонтального скрола
+  body {
+    overflow-x: hidden;
+  }
 }
 
 // .container {
@@ -193,13 +198,13 @@ img {
 
 // ----- Общие свойства для контейнера -----
 .container {
-  //border: 1px solid red; // для проверки границ контейнера
+  // border: 1px solid red; // для проверки границ контейнера
 
   //Сокращенная запись - сверху, справа, снизу (слева = справа, не записано)
   margin: $gap $container-m-t-r-l-desktop 0; //140px
 
   @media screen and (max-width:1023px) {
-    margin: $gap $container-m-t-r-l-tablet 0; //100px
+    margin-top: $gap $container-m-t-r-l-tablet 0; //100px
   }
 
   @media screen and (max-width: 767px) {

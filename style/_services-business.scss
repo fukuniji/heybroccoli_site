@@ -1,4 +1,5 @@
 .services-business {
+
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -68,6 +69,7 @@
 @media screen and (max-width: 1023px) {
 
   .services-business {
+
     grid-template-rows: 51.51516vw 15.05377vw; // 527px 154px
     row-gap: 2.93256vw; //30px;
     column-gap: 1.95504vw; //20px;
