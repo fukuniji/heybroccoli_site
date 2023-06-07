@@ -136,7 +136,8 @@
     color: $color-primary;
     font-family: $font-texts;
     font-weight: 400;
-    font-size: 1.39vw; //20px
+    font-size: $fontsize-desktop-text; //20px
+    // font-size: 1.39vw; //20px
 
     width: 38.9583vw; //561px
     height: 4.17vw; //60px
@@ -145,7 +146,8 @@
 
     @media screen and (max-width:1023px) {
       border-radius: 2.9326vw; //30px
-      font-size: 1.7595vw; //18px
+      font-size: $fontsize-tablet-text; //18px
+      // font-size: 1.7595vw; //18px
       width: 39.1vw; //400px
       height: 5.8651vw; //60px
 
@@ -154,7 +156,8 @@
 
     @media screen and (max-width: 767px) {
       border-radius: 3.9113vw; //30px
-      font-size: 2.6076vw; //20px
+      font-size: $fontsize-mobile-text; //17px
+      // font-size: 2.6076vw; //20px
       width: 80.8344vw; //620px
       height: 7.8227vw; //60px
 
@@ -229,13 +232,14 @@
 
     font-family: $font-texts;
     font-weight: 400;
-    font-size: 1.39vw; //20px
+    font-size: $fontsize-desktop-text; //20px
+    // font-size: 1.39vw; //20px
 
     @media screen and (max-width:1023px) {
       width: 39.1vw; //400px
       height: 5.3763vw; //55px
 
-      font-size: 1.75953vw; //18px;
+      font-size: $fontsize-tablet-text; //18px;
 
       padding-left: 1.17302052786vw; //12px;
     }
@@ -244,7 +248,8 @@
       width: 80.704vw; //619px
       height: 7.1708vw; //55px
 
-      font-size: 2.21643vw; //17px;
+      font-size: $fontsize-mobile-text; //17px;
+      // font-size: 2.21643vw; //17px;
     }
   }
 
@@ -252,14 +257,16 @@
     color: #766F6F;
     font-family: $font-texts;
     font-weight: 400;
-    font-size: 1.39vw; //20px
+    font-size: $fontsize-desktop-text; //20px
+    // font-size: 1.39vw; //20px
 
     @media screen and (max-width: 1023px) {
-      font-size: 1.75953vw; //18px;
+      font-size: $fontsize-tablet-text; //18px;
     }
 
     @media screen and (max-width: 767px) {
-      font-size: 2.21643vw; //17px;
+      font-size: $fontsize-mobile-text; //17px;
+      // font-size: 2.21643vw; //17px;
     }
   }
 
@@ -267,9 +274,7 @@
     color: $color-primary;
     font-family: $font-texts;
     font-weight: 400;
-    // font-size: 1.1vw; //16px
-    font-size: 1.11111111vw; //16px
-    // font-size: $fontsize-desktop-smalltext;
+    font-size: $fontsize-desktop-smalltext; //16px
     line-height: 1.39vw; //20px
 
     margin-top: 1.25vw; //51px-33px gap
@@ -281,7 +286,8 @@
 
 
     @media screen and (max-width: 1023px) {
-      font-size: 1.56403vw; //16px;
+      font-size: $fontsize-tablet-smalltext; //16px;
+      // font-size: 1.56403vw; //16px;
       line-height: 1.9551vw; //20px;
 
       margin-top: 3.0304vw; //40px-9px gap
@@ -291,7 +297,7 @@
     }
 
     @media screen and (max-width: 767px) {
-      font-size: 2.08605vw; //16px;
+      font-size: $fontsize-mobile-smalltext; //16px;
       line-height: 2.60757vw; //20px;
 
       margin-top: -0.91265vw; //26px-33px gap = -7px
@@ -341,7 +347,8 @@
   color: $color-btn-text-white;
   font-family: $font-texts;
   font-weight: 400;
-  font-size: 1.39vw; //20px
+  font-size: $fontsize-desktop-text; //20px
+  // font-size: 1.39vw; //20px
 
   width: 18.4vw; //265px
   height: 4.17vw; //60px
@@ -352,14 +359,16 @@
 
   @media screen and (max-width:1023px) {
     border-radius: 2.9326vw; //30px
-    font-size: 1.7595vw; //18px
+    font-size: $fontsize-tablet-text; //18px
+    // font-size: 1.7595vw; //18px
     width: 39.1vw; //400px
     height: 5.8651vw; //60px
   }
 
   @media screen and (max-width: 767px) {
     border-radius: 3.9113vw; //30px
-    font-size: 2.2164vw; //17px
+    font-size: $fontsize-mobile-text; //17px
+    // font-size: 2.2164vw; //17px
     width: 38.4615vw; //295px
     height: 7.8227vw; //60px
   }

@@ -1555,7 +1555,7 @@ body {
   color: #1e2124;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.39vw;
+  font-size: 1.25vw;
   width: 38.9583vw;
   height: 4.17vw;
   margin-top: 1.7362vw;
@@ -1563,7 +1563,7 @@ body {
 @media screen and (max-width: 1023px) {
   .message-me__button-long_white {
     border-radius: 2.9326vw;
-    font-size: 1.7595vw;
+    font-size: 1.75954vw;
     width: 39.1vw;
     height: 5.8651vw;
     margin-top: 2.0528vw;
@@ -1572,7 +1572,7 @@ body {
 @media screen and (max-width: 767px) {
   .message-me__button-long_white {
     border-radius: 3.9113vw;
-    font-size: 2.6076vw;
+    font-size: 2.7vw;
     width: 80.8344vw;
     height: 7.8227vw;
     margin-top: 1.8255vw;
@@ -1636,13 +1636,13 @@ body {
   height: 3.8194vw;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.39vw;
+  font-size: 1.25vw;
 }
 @media screen and (max-width: 1023px) {
   .form__input {
     width: 39.1vw;
     height: 5.3763vw;
-    font-size: 1.75953vw;
+    font-size: 1.75954vw;
     padding-left: 1.1730205279vw;
   }
 }
@@ -1650,42 +1650,42 @@ body {
   .form__input {
     width: 80.704vw;
     height: 7.1708vw;
-    font-size: 2.21643vw;
+    font-size: 2.7vw;
   }
 }
 .form__input::-moz-placeholder {
   color: #766F6F;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.39vw;
+  font-size: 1.25vw;
 }
 .form__input::placeholder {
   color: #766F6F;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.39vw;
+  font-size: 1.25vw;
 }
 @media screen and (max-width: 1023px) {
   .form__input::-moz-placeholder {
-    font-size: 1.75953vw;
+    font-size: 1.75954vw;
   }
   .form__input::placeholder {
-    font-size: 1.75953vw;
+    font-size: 1.75954vw;
   }
 }
 @media screen and (max-width: 767px) {
   .form__input::-moz-placeholder {
-    font-size: 2.21643vw;
+    font-size: 2.7vw;
   }
   .form__input::placeholder {
-    font-size: 2.21643vw;
+    font-size: 2.7vw;
   }
 }
 .form__label {
   color: #1e2124;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.11111111vw;
+  font-size: 1.112vw;
   line-height: 1.39vw;
   margin-top: 1.25vw;
   display: grid;
@@ -1694,7 +1694,7 @@ body {
 }
 @media screen and (max-width: 1023px) {
   .form__label {
-    font-size: 1.56403vw;
+    font-size: 1.7vw;
     line-height: 1.9551vw;
     margin-top: 3.0304vw;
     grid-template-columns: 46px 1fr;
@@ -1744,7 +1744,7 @@ body {
   color: #ffffff;
   font-family: "Montserrat";
   font-weight: 400;
-  font-size: 1.39vw;
+  font-size: 1.25vw;
   width: 18.4vw;
   height: 4.17vw;
   display: flex;
@@ -1754,7 +1754,7 @@ body {
 @media screen and (max-width: 1023px) {
   .mm-task-btn__button-long {
     border-radius: 2.9326vw;
-    font-size: 1.7595vw;
+    font-size: 1.75954vw;
     width: 39.1vw;
     height: 5.8651vw;
   }
@@ -1762,7 +1762,7 @@ body {
 @media screen and (max-width: 767px) {
   .mm-task-btn__button-long {
     border-radius: 3.9113vw;
-    font-size: 2.2164vw;
+    font-size: 2.7vw;
     width: 38.4615vw;
     height: 7.8227vw;
   }
