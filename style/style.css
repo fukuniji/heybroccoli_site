@@ -1524,30 +1524,27 @@ body {
   background-color: #f9f7f1;
   transition: background-color 0.6s;
   border: 2px solid #557db0;
-  border-radius: 2.083vw;
+  border-radius: 30px;
   color: #1e2124;
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 1.25vw;
   width: 38.9583vw;
-  height: 4.17vw;
+  height: 60px;
   margin-top: 1.7362vw;
 }
 @media screen and (max-width: 1023px) {
   .message-me__button-long_white {
-    border-radius: 2.9326vw;
     font-size: 1.75954vw;
     width: 39.1vw;
-    height: 5.8651vw;
+    height: 50px;
     margin-top: 2.0528vw;
   }
 }
 @media screen and (max-width: 767px) {
   .message-me__button-long_white {
-    border-radius: 3.9113vw;
     font-size: 2.7vw;
     width: 80.8344vw;
-    height: 7.8227vw;
     margin-top: 1.8255vw;
   }
 }
@@ -1565,25 +1562,8 @@ body {
   transform: translate(0, 0);
   opacity: 1;
 }
-
-.message-me img {
+.message-me .message-me__img img {
   border-radius: 30px 0 0 30px;
-}
-
-.form-part {
-  display: flex;
-  flex-direction: column;
-  row-gap: 6.0417vw;
-}
-@media screen and (max-width: 1023px) {
-  .form-part {
-    row-gap: 2.6393vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .form-part {
-    row-gap: 5.6063vw;
-  }
 }
 
 .form {
@@ -1688,96 +1668,58 @@ body {
   grid-column-start: 2;
 }
 
-.mm-task-btn {
+.form-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.0417vw;
+}
+@media screen and (max-width: 1023px) {
+  .form-part {
+    row-gap: 2.6393vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-part {
+    row-gap: 5.6063vw;
+  }
+}
+.form-part__btn {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   flex-wrap: nowrap;
 }
 @media screen and (max-width: 1023px) {
-  .mm-task-btn {
+  .form-part__btn {
     flex-wrap: wrap;
     row-gap: 3.6168vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .mm-task-btn {
+  .form-part__btn {
     flex-wrap: nowrap;
     -moz-column-gap: 3.9113vw;
          column-gap: 3.9113vw;
   }
 }
-
-.mm-task-btn__button-long {
-  cursor: pointer;
+.form-part__btn .button-long {
   background-color: #245799;
-  transition: background-color 0.6s;
-  border: none;
-  border-radius: 2.083vw;
-  color: #ffffff;
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1.25vw;
-  width: 18.4vw;
-  height: 4.17vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 1vw 4.7vw;
+}
+.form-part__btn .button-long .socialicon {
+  margin-left: 0.7vw;
 }
 @media screen and (max-width: 1023px) {
-  .mm-task-btn__button-long {
-    border-radius: 2.9326vw;
-    font-size: 1.75954vw;
-    width: 39.1vw;
-    height: 5.8651vw;
+  .form-part__btn .button-long {
+    width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  .mm-task-btn__button-long {
-    border-radius: 3.9113vw;
-    font-size: 2.7vw;
-    width: 38.4615vw;
-    height: 7.8227vw;
+  .form-part__btn .button-long {
+    width: 47%;
   }
 }
-.mm-task-btn__button-long:hover {
+.form-part__btn .button-long_green {
   background-color: #077840;
-  transition: background-color 0.8s;
-}
-
-.mm-task-btn__button-long_green {
-  background-color: #077840;
-}
-.mm-task-btn__button-long_green:hover {
-  background-color: #245799;
-}
-
-.social-icon {
-  background-image: url(../assets/image/telegram-icon.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1.39vw;
-  height: 1.39vw;
-  display: inline-block;
-  margin-left: 0.6944vw;
-}
-@media (min-width: 767px) and (max-width: 1023px) {
-  .social-icon {
-    width: 1.955vw;
-    height: 1.955vw;
-    margin-left: 0.9775vw;
-  }
-}
-@media screen and (max-width: 767px) {
-  .social-icon {
-    width: 2.6076vw;
-    height: 2.6076vw;
-    margin-left: 1.3038vw;
-  }
-}
-
-.social-icon_whatsapp {
-  background-image: url(../assets/image/whatsapp-icon.svg);
 }
 
 :active,
@@ -2149,9 +2091,14 @@ img {
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
+  height: 60px;
   transition: background-color 0.6s;
 }
-
+@media screen and (max-width: 1023px) {
+  .button-long {
+    height: 50px;
+  }
+}
 .button-long:hover {
   background-color: #077840;
   color: #ffffff;

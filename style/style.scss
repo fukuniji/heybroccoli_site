@@ -116,22 +116,28 @@ img {
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
-
+  height: 60px;
   transition: background-color 0.6s;
+
+  @media screen and (max-width:1023px) {
+    height: 50px;
+  }
+
+
+  &:hover {
+    background-color: $color-btn-text-green;
+    color: $color-btn-text-white;
+
+    transition: background-color 0.8s;
+  }
 }
 
-
-.button-long:hover {
-  background-color: $color-btn-text-green;
-  color: $color-btn-text-white;
-
-  transition: background-color 0.8s;
-}
 
 .button-long_green:hover {
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
 }
+
 
 //общий класс для иконок в копках
 .socialicon {
