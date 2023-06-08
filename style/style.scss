@@ -103,6 +103,26 @@ img {
   color: $color-btn-text-blue;
 }
 
+
+// Универсальное решение, которое убирает подсветку во всех браузерах 
+// и не только на input, но и на других элементах, 
+// в том числе select, button, a:
+
+// Remove outline on the forms and links
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+// Подсветка при фокусе; переключать фокус с одного поля на другое 
+// как по Tab так и по Shift+Tab в обратную сторону
+button:focus {
+  border: 2px solid $color-focus
+}
+
+
 .button-long {
   color: $color-btn-text-white;
   display: flex;
