@@ -1141,6 +1141,16 @@ body {
   border-radius: 30px;
   display: none;
 }
+@media screen and (max-width: 1400px) {
+  .blok9 .reviews__slider__slide {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .blok9 .reviews__slider__slide {
+    height: 400px;
+  }
+}
 .blok9 .reviews__slider__slide .reviewer {
   width: 100%;
   text-align: center;
@@ -1158,9 +1168,14 @@ body {
   }
 }
 .blok9 .reviews__slider__slide .vertikal {
-  width: 30vw;
+  width: 15vw;
   height: auto;
   max-height: 80%;
+}
+@media screen and (max-width: 1440px) {
+  .blok9 .reviews__slider__slide .vertikal {
+    width: 20vw;
+  }
 }
 .blok9 .reviews__slider__slide .gorozont {
   width: 80%;
@@ -1208,7 +1223,7 @@ body {
 .blok9 .reviews__slider__button-left svg {
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
   .blok9 .reviews__slider__button-left {
     width: 5vw;
   }
