@@ -354,7 +354,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30% 70%;
   gap: 4vw;
-  align-items: baseline;
+  align-items: start;
 }
 @media screen and (max-width: 767px) {
   .hello__wrapper {
@@ -375,6 +375,9 @@ body {
 @media screen and (max-width: 1023px) {
   .hello__subtitle {
     font-size: 2.34605vw;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    width: 54.741vw;
   }
 }
 @media screen and (max-width: 767px) {
@@ -382,19 +385,17 @@ body {
     font-size: 3.12908vw;
   }
 }
-.hello__text {
-  grid-column: 2/3;
-  grid-row: 1/3;
+.hello__text-1, .hello__text-2 {
   line-height: 120%;
   font-size: 1.25vw;
 }
 @media screen and (max-width: 1023px) {
-  .hello__text {
+  .hello__text-1, .hello__text-2 {
     font-size: 1.75954vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .hello__text {
+  .hello__text-1, .hello__text-2 {
     font-size: 2.7vw;
   }
 }
