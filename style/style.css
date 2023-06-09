@@ -580,6 +580,11 @@ body {
   }
 }
 
+@media (max-width: 1023px) {
+  .main__photo {
+    display: none;
+  }
+}
 .task__title {
   margin-bottom: 5vw;
 }
