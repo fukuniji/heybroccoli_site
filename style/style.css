@@ -1287,7 +1287,7 @@ body {
 .main__sertificates .sertificates__block {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5% 1fr 5% 1fr max-content;
+  grid-template-rows: max-content 1fr 8% 1fr max-content;
   -moz-column-gap: 2vw;
        column-gap: 2vw;
   row-gap: 2vh;
@@ -1380,7 +1380,7 @@ body {
   .main__sertificates .sertificates__block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 7% 1fr 5% 1fr max-content;
+    grid-template-rows: max-content 1fr 9% 1fr max-content;
   }
   .main__sertificates .sertificates__block .block__text_1 {
     font-size: 1.75954vw;
