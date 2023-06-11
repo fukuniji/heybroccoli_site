@@ -5,14 +5,11 @@
 @import './about';
 @import './hello';
 @import './approach';
-@import './photo-4';
 @import './task';
 @import './services';
 @import './services-business';
-@import './photo-8';
 @import './reviews';
 @import './sertificates';
-@import './message-me';
 @import './footer';
 @import './policy';
 
@@ -43,8 +40,6 @@ html {
 
   .container>img {
     border-radius: 30px;
-
-   
   }
 }
 
@@ -86,17 +81,7 @@ img {
   line-height: 100%;
   text-align: center;
   color: $color-primary;
-  //для анимации заголовков
-  transform: translate(0, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
 }
-
-.title._active {
-  transform: translate(0, 0px);
-  opacity: 1;
-}
-
 
 .slogan {
   font-family: $font-titles;
