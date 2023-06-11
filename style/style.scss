@@ -5,14 +5,11 @@
 @import './about';
 @import './hello';
 @import './approach';
-@import './photo-4';
 @import './task';
 @import './services';
 @import './services-business';
-@import './photo-8';
 @import './reviews';
 @import './sertificates';
-@import './message-me';
 @import './footer';
 @import './policy';
 
@@ -39,6 +36,7 @@ html {
 
 .photo {
   margin-top: 15vw; // взято из $gap; -- заменить
+
 
   .container>img {
     border-radius: 30px;
@@ -83,17 +81,7 @@ img {
   line-height: 100%;
   text-align: center;
   color: $color-primary;
-  //для анимации заголовков
-  transform: translate(0, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
 }
-
-.title._active {
-  transform: translate(0, 0px);
-  opacity: 1;
-}
-
 
 .slogan {
   font-family: $font-titles;
@@ -103,12 +91,32 @@ img {
   color: $color-btn-text-blue;
 }
 
+
+// Универсальное решение, которое убирает подсветку во всех браузерах 
+// и не только на input, но и на других элементах, 
+// в том числе select, button, a:
+
+// Remove outline on the forms and links
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+// Подсветка при фокусе; переключать фокус с одного поля на другое 
+// как по Tab так и по Shift+Tab в обратную сторону
+button:focus {
+  border: 2px solid $color-focus
+}
+
+
 .button-long {
   color: $color-btn-text-white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.1vw 0.8vw;
+  //padding: 0.1vw 0.8vw;
   border-radius: 15vw;
   font-family: $font-texts;
   font-size: $fontsize-desktop-text;
@@ -116,21 +124,45 @@ img {
   line-height: 122%;
   border-color: transparent;
   cursor: pointer;
-
+  height: 60px;
   transition: background-color 0.6s;
+
+  @media screen and (max-width:1023px) {
+    height: 50px;
+  }
+
+
+  &:hover {
+    background-color: $color-btn-text-green;
+    color: $color-btn-text-white;
+
+    transition: background-color 0.8s;
+  }
 }
 
-
-.button-long:hover {
-  background-color: $color-btn-text-green;
-  color: $color-btn-text-white;
-
-  transition: background-color 0.8s;
-}
 
 .button-long_green:hover {
   background-color: $color-btn-text-blue;
   color: $color-btn-text-white;
+}
+
+
+//общий класс для иконок в копках
+.socialicon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  @media screen and (max-width:1023px) {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media screen and (max-width:767px) {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 

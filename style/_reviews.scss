@@ -41,6 +41,14 @@
                 //чтобы отображались только prev и next
                 display: none;
 
+                @media screen and (max-width: 1400px) {
+                    height: 500px;
+                }
+
+                @media screen and (max-width: 1023px) {
+                    height: 400px;
+                }
+
                 .reviewer {
                     width: 100%;
                     text-align: center;
@@ -58,10 +66,15 @@
 
                 .vertikal {
                     //эти настройки подходят только для вертикальных картинок
-                    width: 30vw;
+                    width: 15vw;
                     //min-width: 100px;
                     height: auto;
                     max-height: 80%;
+
+                    @media screen and (max-width: 1440px) {
+                        width: 20vw;
+                    }
+
                 }
 
                 .gorozont {
@@ -128,7 +141,7 @@
                     width: 100%;
                 }
 
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1440px) {
                     width: 5vw;
                 }
 

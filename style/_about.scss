@@ -27,17 +27,7 @@
         //чтобы картинка занимала по высоте всю половину экрана и была шириной до середины, как другие блоки
         height: auto;
         border-radius: 0 30px 30px 0;
-        //для анимации
-        transform: translate(-120%, 0);
-        opacity: 0;
-        transition: all 0.8s ease 0s;
 
-        &._active {
-            transform: translate(0, 0);
-            opacity: 1;
-        }
-
-        //важно собилюдать последоватьность адаптаций, чтобы не повторять одни и теже свойства
         // адаптируем картинку под макет
         @media screen and (max-width: 1023px) {
             margin-top: 4vw;
@@ -160,17 +150,6 @@
             line-height: 120%;
             width: 35vw;
             margin-top: 2vw;
-            //для анимации 
-            transform: translate(0, 120%);
-            opacity: 0;
-            transition: all 0.8s ease 0s;
-
-            &._active {
-                transform: translate(0, 0px);
-                opacity: 1;
-                //задержка для подзаголовка, чтобы он появлялся позже
-                transition: all 0.8s ease 0.4s;
-            }
 
             @media screen and (max-width: 1023px) {
                 font-size: $fontsize-tablet-undertitle;
