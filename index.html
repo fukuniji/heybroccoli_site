@@ -50,11 +50,21 @@
 
     <div class="main__about about" id="about">
       <div class="about__wrapper">
-        <img src="./assets/image/about/ElenaKulikova.jpg" alt="Куликова Елена"
-          class="about__photo _anim_items _anim-no-hide">
+        <picture class="about__photo _anim_items _anim-no-hide">
+          <!-- large desktop: -->
+          <source media="(min-width: 1441px)" srcset="./assets/image/about/elena-photo_1_desktop_x2.jpg">
+          <!-- desktop: -->
+          <source media="(min-width: 1024px)" srcset="./assets/image/about/elena-photo_1_desktop.jpg">
+          <!-- tablet: -->
+          <source media="(min-width: 768px)" srcset="./assets/image/about/elena-photo_1_tablet.jpg">
+          <!-- mobile: -->
+          <source media="(max-width: 767px)" srcset="./assets/image/about/elena-photo_1_mobile.jpg">
+          <!-- если не поддерживается source -->
+          <img src="./assets/image/about/elena-photo_1_desktop.jpg" width="auto" height="auto"
+            alt="Нутрициолог Куликова Елена">
+        </picture>
         <div class="about__section section">
           <div class="section__group-divlogo grouplogo">
-
             <div class="grouplogo__slogdiv">
               <h3 class="grouplogo__slogdiv__slogan slogan">Привычки, а не диеты!</h3>
               <div class="grouplogo__slogdiv__line"></div>
