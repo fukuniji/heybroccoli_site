@@ -154,7 +154,19 @@
 
     <div class="main__photo photo">
       <div class="container">
-        <img src="./assets/image/photo/food-4.jpg" alt="еда">
+        <picture>
+          <!-- large desktop: -->
+          <source media="(min-width: 1441px)" srcset="./assets/image/photo/food_4_desktop_x2.jpg">
+          <!-- desktop: -->
+          <source media="(min-width: 1024px)" srcset="./assets/image/photo/food_4_desktop.jpg">
+          <!-- tablet: -->
+          <source media="(min-width: 768px)" srcset="./assets/image/photo/food_4_tablet.jpg">
+          <!-- mobile: -->
+          <source media="(max-width: 767px)" srcset="./assets/image/photo/food_4_mobile.jpg">
+          <!-- если не поддерживается source -->
+          <img src="./assets/image/photo/food_4_desktop.jpg" width="auto" height="auto"
+            alt="еда: салат, выпечка, ягоды">
+        </picture>
       </div>
     </div>
 
@@ -403,7 +415,19 @@
 
     <div class="main__photo photo">
       <div class="container">
-        <img src="./assets/image/photo/food-8.jpg" alt="еда">
+        <picture>
+          <!-- large desktop: -->
+          <source media="(min-width: 1441px)" srcset="./assets/image/photo/food_8_desktop_x2.jpg">
+          <!-- desktop: -->
+          <source media="(min-width: 1024px)" srcset="./assets/image/photo/food_8_desktop.jpg">
+          <!-- tablet: -->
+          <source media="(min-width: 768px)" srcset="./assets/image/photo/food_8_tablet.jpg">
+          <!-- mobile: -->
+          <source media="(max-width: 767px)" srcset="./assets/image/photo/food_8_mobile.jpg">
+          <!-- если не поддерживается source -->
+          <img src="./assets/image/photo/food_8_desktop.jpg" width="auto" height="auto"
+            alt="еда: свежие овощи, фрукты и травы">
+        </picture>
       </div>
     </div>
 

@@ -2017,7 +2017,7 @@ html body {
 .photo {
   margin-top: 15vw;
 }
-.photo .container > img {
+.photo .container img {
   border-radius: 30px;
 }
 
