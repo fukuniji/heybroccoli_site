@@ -5,11 +5,9 @@
 @import './about';
 @import './hello';
 @import './approach';
-@import './photo-4';
 @import './task';
 @import './services';
 @import './services-business';
-@import './photo-8';
 @import './reviews';
 @import './sertificates';
 @import './message-me';
@@ -40,11 +38,8 @@ html {
 .photo {
   margin-top: 15vw; // взято из $gap; -- заменить
 
-
   .container>img {
     border-radius: 30px;
-
-   
   }
 }
 
