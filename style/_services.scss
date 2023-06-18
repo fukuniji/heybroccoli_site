@@ -1,0 +1,339 @@
+// .main__services {
+//   // margin-top: $gap;
+// }
+
+.services {
+  &__title {
+    text-align: center;
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-h2;
+    font-weight: 500;
+    margin-bottom: $gap-undertitle;
+  }
+
+  &__wrapper-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vw 60vw;
+    column-gap: 2vw;
+    row-gap: 4vh;
+  }
+
+  &__card-1 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
+    justify-content: center;
+  }
+
+  &__card-2 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
+    justify-content: center;
+  }
+
+  &__card-3 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
+    justify-content: center;
+  }
+
+  &__card-4 {
+    border: 2px solid $color-btn-text-blue;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 18% 13% 5% 1fr 1fr;
+    justify-content: center;
+  }
+}
+
+//.container {}
+
+//.title {}
+
+.card {
+
+  &__title {
+    text-align: center;
+    justify-content: center;
+    background-color: $color-btn-text-blue;
+    border-radius: 30px 30px 0 0;
+  }
+
+  &__title_main {
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-undertitle;
+    font-weight: 400;
+    font-style: normal;
+    color: $color-btn-text-white;
+    line-height: 38.4%;
+  }
+
+  &__title_green {
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-undertitle;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: $color-lite-green;
+  }
+
+  &__subtitle {
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-h3;
+    font-weight: 500;
+    color: $color-btn-text-blue;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 2vw;
+  }
+
+  &__all-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 1vw;
+  }
+
+  &__text {
+    padding: 0 5vw 0 5vw;
+    font-family: $font-texts;
+    font-size: $fontsize-desktop-smalltext;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.3vw;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 3vh;
+    column-gap: 2vw;
+
+    .button-round {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      border-color: transparent;
+      width: 3.3vw;
+      height: 3.3vw;
+      background-color: $color-btn-text-blue;
+      cursor: pointer;
+
+      transition: background-color 0.6s;
+
+      .socialicon {
+        width: 1.5vw;
+        height: 1.5vw;
+      }
+    }
+
+    .tel {
+      padding-right: 0.65vw;
+    }
+
+    .button-round_green {
+      background-color: $color-btn-text-green;
+    }
+  }
+
+  &__text_blue {
+    color: $color-btn-text-blue;
+  }
+}
+
+.line {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.button-round:hover {
+  background-color: $color-btn-text-green;
+
+  transition: background-color 0.8s;
+}
+
+.button-round_green:hover {
+  background-color: $color-btn-text-blue;
+  transition: background-color 0.8s;
+}
+
+//-----------adaptive tablet----------//
+
+@media(min-width:767px) and (max-width:1023px) {
+
+  .services {
+    &__title {
+      font-size: $fontsize-tablet-h2;
+    }
+
+    &__wrapper-cards {
+      grid-template-rows: 90vw 95vw;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &__card-1 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
+
+    &__card-2 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
+
+    &__card-3 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
+
+    &__card-4 {
+      grid-template-rows: 20% 12% 5% 1fr 1fr;
+    }
+  }
+
+  .card {
+    &__title {
+      font-size: $fontsize-tablet-undertitle;
+    }
+
+    &__title_main {
+      line-height: 2.3vw;
+    }
+
+    &__subtitle {
+      font-size: $fontsize-tablet-h3;
+      padding-top: 3vw;
+    }
+
+    //&__all-text{}
+
+    &__text {
+      font-size: $fontsize-tablet-smalltext;
+      line-height: 1.5vw;
+      padding: 0 2vw 0 2vw;
+    }
+
+    .button-round {
+      width: 5vw;
+      height: 5vw;
+
+      .socialicon {
+        width: 3vw;
+        height: 3vw;
+      }
+    }
+
+    .tel {
+      padding-right: 1.2vw;
+    }
+  }
+
+  .position {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
+
+  .line-height {
+    font-size: $fontsize-tablet-undertitle;
+    padding-top: 2vw;
+  }
+
+  // .tel {
+  //   padding-right: 1vw;
+  // }
+
+  // .button-round {
+  //   border-radius: 7vw;
+  // }
+}
+
+
+//-----------adaptive mobile---------//
+
+@media screen and (max-width:766px) {
+
+  .services {
+
+    &__title {
+      font-size: $fontsize-mobile-h2;
+    }
+
+    &__wrapper-cards {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80vw 90vw 90vw 100vw;
+    }
+
+    &__card-1 {
+      grid-template-rows: 18% 13% 5% 1fr 1fr;
+    }
+
+    &__card-2 {
+      grid-template-rows: 18% 13% 5% 1fr 1fr;
+    }
+
+    &__card-3 {
+      grid-template-rows: 18% 13% 5% 1fr 1fr;
+    }
+
+    &__card-4 {
+      grid-template-rows: 18% 13% 5% 1fr 1fr;
+    }
+  }
+
+  .card {
+    &__title {
+      font-size: $fontsize-mobile-undertitle;
+    }
+
+    &__subtitle {
+      font-size: $fontsize-mobile-h3;
+      padding-top: 3vw;
+    }
+
+    &__all-text {
+      row-gap: 15px;
+    }
+
+    &__text {
+      font-size: $fontsize-mobile-smalltext;
+      line-height: 2.3vw;
+    }
+
+    .button-round {
+      width: 40px;
+      height: 40px;
+
+      .socialicon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .tel {
+      padding-right: 10px;
+    }
+  }
+
+  .position {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+    color: $color-btn-text-white;
+  }
+
+  .line-height {
+    font-size: $fontsize-mobile-undertitle;
+    padding-top: 2vw;
+  }
+
+}

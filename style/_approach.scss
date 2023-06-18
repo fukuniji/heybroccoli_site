@@ -1,0 +1,275 @@
+.approach {
+
+  &__title {
+    margin-bottom: $gap-undertitle;
+    font-family: $font-titles;
+    font-size: $fontsize-desktop-h2;
+    font-weight: 500;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+
+    .header-aproach {
+
+      &__column {
+        .column {
+          &__slogan {
+            font-family: $font-titles;
+            font-size: $fontsize-desktop-h3;
+            font-weight: 500;
+            color: $color-btn-text-blue;
+            line-height: 100%;
+          }
+
+          &__line {
+            border-top: 2px solid #557DB0;
+            margin-bottom: 1.5vw;
+            margin-top: -1vw;
+          }
+
+          &__text {
+            font-family: $font-texts;
+            font-size: $fontsize-desktop-text;
+            font-weight: 400;
+            line-height: 120%;
+            width: 33vw;
+          }
+        }
+      }
+
+      &__img {
+        height: 7vw;
+        width: 5vw;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    .list {
+      &__list-1 {
+        flex: 1;
+
+        .list-1 {
+          &__title {
+            color: $color-btn-text-blue;
+            font-family: $font-titles;
+            font-size: $fontsize-desktop-undertitle;
+            font-weight: 500;
+            line-height: 100%;
+          }
+
+          &__item {
+            font-family: $font-texts;
+            font-size: $fontsize-desktop-text;
+            font-weight: 400;
+            line-height: 120%;
+            display: flex;
+            align-items: center;
+
+            .krest {
+              background-image: url(../assets/image/cross.svg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+              margin-right: 0.75vw;
+            }
+          }
+        }
+      }
+
+      &__list-2 {
+        flex: 1;
+
+        .list-2 {
+          &__title {
+            color: #077840;
+            font-family: $font-titles;
+            font-size: $fontsize-desktop-undertitle;
+            font-weight: 500;
+            line-height: 100%;
+          }
+
+          &__item {
+            font-family: $font-texts;
+            font-size: $fontsize-desktop-text;
+            font-weight: 400;
+            line-height: 120%;
+            display: flex;
+            align-items: center;
+
+            .check {
+              background-image: url(../assets/image/tick.svg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 30px;
+              height: 30px;
+              display: inline-block;
+              margin-right: 0.75vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // - -------------- (min-width:767px) and (max-width:1023px) ---------------- - 
+
+  @media(min-width:767px) and (max-width:1023px) {
+    .title {
+      text-align: left;
+    }
+
+    &__title {
+      font-size: $fontsize-tablet-h2;
+    }
+
+    &__header {
+      .header-aproach {
+        &__column {
+          .column {
+
+            &__slogan {
+              font-size: $fontsize-tablet-h3;
+            }
+
+            &__text {
+              font-size: $fontsize-tablet-text;
+              width: 48vw;
+            }
+          }
+        }
+
+        &__img {
+          margin: -3vw 0;
+          height: 10vw;
+          width: 8vw;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row-reverse;
+
+      .list {
+        &__list-1 {
+          .list-1 {
+            &__title {
+              font-size: $fontsize-tablet-undertitle;
+            }
+
+            &__item {
+              font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
+
+              .krest {
+                margin-right: 1vw;
+              }
+            }
+          }
+        }
+
+        &__list-2 {
+          .list-2 {
+            &__title {
+              font-size: $fontsize-tablet-undertitle;
+            }
+
+            &__item {
+              font-size: $fontsize-tablet-text;
+              display: flex;
+              align-items: center;
+
+              .check {
+                margin-right: 1vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // - ---------------screen  and (max-width:766px)------------ - 
+
+  @media screen and (max-width:766px) {
+    .title {
+      text-align: left;
+    }
+
+    &__title {
+      font-size: $fontsize-mobile-h2;
+    }
+
+    &__header {
+      .header-aproach {
+        &__column {
+          .column {
+            &__slogan {
+              font-size: $fontsize-mobile-h3;
+            }
+
+            &___line {
+              margin-top: -1.5vw;
+            }
+
+            &__text {
+              font-size: $fontsize-mobile-text;
+              width: 70vw;
+            }
+          }
+        }
+
+        &__img {
+          margin: -4.5vw 0;
+          height: 13vw;
+          width: 10vw;
+        }
+      }
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .list {
+        &__list-1 {
+          .list-1 {
+            &__title {
+              font-size: $fontsize-mobile-undertitle;
+              margin-top: 3.125vw;
+            }
+
+            &__item {
+              font-size: $fontsize-mobile-text;
+            }
+          }
+        }
+
+        &__list-2 {
+          .list-2 {
+            &__title {
+              font-size: $fontsize-mobile-undertitle;
+
+            }
+
+            &__item {
+              font-size: $fontsize-mobile-text;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

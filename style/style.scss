@@ -1,0 +1,265 @@
+@import './reset';
+@import './vars';
+@import './fonts';
+@import './header';
+@import './about';
+@import './hello';
+@import './approach';
+@import './task';
+@import './services';
+@import './services-business';
+@import './reviews';
+@import './sertificates';
+@import './message-me';
+@import './footer';
+@import './policy';
+
+
+html {
+  font-family: $font-texts;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: $color-primary;
+  background-color: $clr-bg-frame;
+  overflow-x: hidden;
+
+  //от горизонтального скрола
+  body {
+    overflow-x: hidden;
+  }
+}
+
+// .container {
+// margin: 0 6vw; 
+// }
+
+
+.photo {
+  margin-top: 15vw; // взято из $gap; -- заменить
+
+  .container img {
+    border-radius: 30px;
+  }
+}
+
+.text {
+  line-height: 1.8vw;
+
+  @media screen and (max-width:1023px) {
+    line-height: 2.5vw;
+  }
+
+  @media screen and (max-width:767px) {
+    line-height: 3.5vw;
+  }
+}
+
+.small-text {
+  line-height: 1.5vw;
+
+  @media screen and (max-width:1023px) {
+    line-height: 2vw;
+  }
+
+  @media screen and (max-width:767px) {
+    line-height: 2.7vw;
+  }
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  font-family: $font-titles;
+  font-size: $fontsize-desktop-h2;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+  color: $color-primary;
+  //для анимации заголовков
+  transform: translate(0, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+.title._active {
+  transform: translate(0, 0px);
+  opacity: 1;
+}
+
+
+.slogan {
+  font-family: $font-titles;
+  font-size: $fontsize-desktop-h3;
+  font-weight: 500;
+  line-height: 100%;
+  color: $color-btn-text-blue;
+}
+
+
+// Универсальное решение, которое убирает подсветку во всех браузерах 
+// и не только на input, но и на других элементах, 
+// в том числе select, button, a:
+
+// Remove outline on the forms and links
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+// Подсветка при фокусе; переключать фокус с одного поля на другое 
+// как по Tab так и по Shift+Tab в обратную сторону
+button:focus {
+  border: 2px solid $color-focus
+}
+
+
+.button-long {
+  color: $color-btn-text-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //padding: 0.1vw 0.8vw;
+  border-radius: 15vw;
+  font-family: $font-texts;
+  font-size: $fontsize-desktop-text;
+  font-weight: 400;
+  line-height: 122%;
+  border-color: transparent;
+  cursor: pointer;
+  height: 60px;
+  transition: background-color 0.6s;
+
+  @media screen and (max-width:1023px) {
+    height: 50px;
+  }
+
+
+  &:hover {
+    background-color: $color-btn-text-green;
+    color: $color-btn-text-white;
+
+    transition: background-color 0.8s;
+  }
+}
+
+
+.button-long_green:hover {
+  background-color: $color-btn-text-blue;
+  color: $color-btn-text-white;
+}
+
+
+//общий класс для иконок в копках
+.socialicon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  @media screen and (max-width:1023px) {
+    width: 18px;
+    height: 18px;
+  }
+
+  @media screen and (max-width:767px) {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+
+// Якорные ссылки
+#task::before,
+#sertificates::before,
+#reviews::before,
+#services::before,
+#approach::before,
+#about::before {
+  display: block;
+  content: "";
+  height: 1px;
+  margin: -1px 0 0;
+}
+
+/* --------------   (min-width:767px) and (max-width:1023px) ---------------- */
+
+@media screen and (max-width:1023px) {
+
+  html {
+    font-size: $fontsize-tablet-text;
+  }
+
+  .title {
+    font-size: $fontsize-tablet-h2;
+
+  }
+
+  .slogan {
+    font-size: $fontsize-tablet-h3;
+  }
+
+  .button-long {
+    font-size: $fontsize-tablet-text;
+    padding: 1.2rem 0.2rem;
+  }
+}
+
+/*---------------screen  and (max-width:766px)------------ */
+
+@media screen and (max-width:767px) {
+
+  html {
+    font-size: $fontsize-mobile-text;
+  }
+
+  .title {
+    font-size: $fontsize-mobile-h2;
+
+  }
+
+  .slogan {
+    font-size: $fontsize-mobile-h3;
+  }
+
+  .button-long {
+    font-size: $fontsize-mobile-text;
+  }
+}
+
+
+
+// Refactor
+
+// ----- Общие свойства для контейнера -----
+.container {
+  // border: 1px solid red; // для проверки границ контейнера
+
+  //Сокращенная запись - сверху, справа, снизу (слева = справа, не записано)
+  margin: $gap $container-m-t-r-l-desktop 0; //140px
+
+  @media screen and (max-width:1023px) {
+    margin-top: $gap $container-m-t-r-l-tablet 0; //100px
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: $gap $container-m-t-r-l-mobile 0; //74px
+  }
+}
+
+.header .container {
+  margin-top: 0;
+}
+
+.hello .container {
+  margin-top: 0;
+}
+
+// ----- Общие свойства для контейнера -END- -----

@@ -1,0 +1,241 @@
+// block 9, certificates
+.blok9 {
+    //position: relative;
+    // margin-top: $gap;
+
+    .reviews {
+        margin-left: 6vw;
+        margin-right: 6vw;
+
+        &__slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: max-content;
+
+
+            &__pictures {
+                width: 100%;
+                overflow: hidden;
+            }
+
+            &__slider {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 3%;
+            }
+
+            &__slide {
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 0 0 48.5%;
+                padding: 0 2%;
+                border: $color-btn-text-blue 2px solid;
+                border-radius: 30px;
+                //чтобы отображались только prev и next
+                display: none;
+
+                @media screen and (max-width: 1400px) {
+                    height: 500px;
+                }
+
+                @media screen and (max-width: 1023px) {
+                    height: 400px;
+                }
+
+                .reviewer {
+                    width: 100%;
+                    text-align: center;
+                    font-family: $font-texts;
+                    font-size: $fontsize-desktop-smalltext;
+
+                    @media screen and (max-width: 1023px) {
+                        font-size: $fontsize-tablet-smalltext;
+                    }
+
+                    @media screen and (max-width: 767px) {
+                        font-size: $fontsize-mobile-smalltext;
+                    }
+                }
+
+                .vertikal {
+                    //эти настройки подходят только для вертикальных картинок
+                    width: 15vw;
+                    //min-width: 100px;
+                    height: auto;
+                    max-height: 80%;
+
+                    @media screen and (max-width: 1440px) {
+                        width: 20vw;
+                    }
+
+                }
+
+                .gorozont {
+                    //эти настройки подходят только для uоризонтальных картинок картинок
+                    width: 80%;
+                    height: auto;
+                }
+            }
+
+            &__slide img {
+                object-fit: cover;
+                object-position: 0;
+            }
+
+
+
+            // вызов функции js
+            & .previous {
+                display: inline-flex;
+                order: 1;
+                animation-name: Appearance1;
+                animation-duration: 2s;
+            }
+
+            // Этот кусок кода создает keyframe-анимацию с названием Appearance, 
+            // которая изменяет свойство opacity элемента от 0.3 до 1.0. 
+            // Таким образом, элемент начинает с непрозрачности 0.3 (30% непрозрачности) 
+            // и постепенно становится полностью непрозрачным (100% непрозрачности) в течение всей анимации.
+            @keyframes Appearance1 {
+                0% {
+                    opacity: 0.3;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            & .next {
+                display: inline-flex;
+                order: 2;
+                animation-name: Appearance2;
+                animation-duration: 2s;
+            }
+
+            // управление последовательностью кадров
+            @keyframes Appearance2 {
+                0% {
+                    opacity: 0.3;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            &__button-left {
+                position: absolute;
+                left: -6vw;
+                width: 2.5vw;
+                //border: 2px solid blue;
+
+                & svg {
+                    width: 100%;
+                }
+
+                @media screen and (max-width: 1440px) {
+                    width: 5vw;
+                }
+
+                @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    width: 4vw;
+                }
+            }
+
+            &__button-left:hover,
+            &__button-right:hover {
+                .arrow {
+
+                    circle,
+                    path {
+                        stroke: green;
+                    }
+                }
+            }
+
+            &__button-right {
+                position: absolute;
+                right: -6vw;
+                transform: rotate(180deg);
+
+
+                & svg {
+                    width: 100%;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 5vw;
+                }
+
+                @media screen and (min-width: 769px) and (max-width: 1199px) {
+                    width: 4vw;
+                }
+            }
+        }
+    }
+
+
+}
+
+// }
+
+// чтобы вместо двух картинок на экране было одна
+@media screen and (max-width: 960px) {
+    .blok9 {
+
+        // &__bg {
+        .reviews {
+            &__slider {
+                &__slide {
+                    height: max-content;
+                    padding: 20px;
+                    flex: 0 0 100%;
+                    //display: none;
+                    justify-content: center;
+
+                    .vertikal {
+                        //эти настройки подходят только для вертикальных картинок
+                        width: 50vw;
+                        height: auto;
+                        max-height: 80%;
+                    }
+
+                }
+
+                &__slider {
+                    &__button-left {
+                        position: absolute;
+                    }
+
+                    &__button-right {
+                        position: absolute;
+                        transform: rotate(180deg);
+                    }
+
+                    & .previous {
+                        display: inline-flex;
+                        order: 1;
+                        flex: 0 0 100%;
+                        //width: 100%;
+                        //height: auto;
+                        justify-content: center;
+                    }
+
+                    & .next {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// }
